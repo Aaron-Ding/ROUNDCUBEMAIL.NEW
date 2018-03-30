@@ -317,7 +317,7 @@ class message_label extends rcube_plugin {
         }
 
         isset($id) ? $_SESSION['label_id'] = $id : $id = $_SESSION['label_id'];
-            var_dump('hahaha');
+            var_dump('hahhahahahahahalalal');
         $prefs = $this->rc->config->get('message_label', array());
 
         // get search string
