@@ -1,0 +1,133 @@
+<div id="hj_msg_dialog" title="Notice(s)">
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Message(s) IN</a></li>
+            <li><a href="#tabs-2">Message(s) OUT</a></li>
+
+        </ul>
+        <div id="tabs-1" class="tab_content">
+            <form name="message_in_query" id="message_in_query">
+            <table width="100%">
+                <tr>
+                    <td width="25%"><label for="startdatepicker">Start(<span style="color:red;">*</span>):<span class="showrequired" id="in_start_date_required" style="color:red;display:none;">Required</span></label>
+                        <input type="text" name="startdatepicker" id="startdatepicker">
+
+                    </td>
+                    <td width="25%">
+                        <label for="enddatepicker">End(<span style="color:red;">*</span>):<span class="showrequired"  id="in_end_date_required" style="color:red;display:none;">Required</span></label>
+                        <input type="text" name="enddatepicker" id="enddatepicker">
+                    </td>
+                    <td width="25%">
+                        <label for="message_readstatus">Read status</label>
+                        <select name="message_readstatus" id="message_readstatus">
+                            <option selected="selected" value="3">ALL</option>
+                            <option value="1" >Unread</option>
+                            <option value="2">Read</option>
+
+                        </select>
+                    </td>
+
+
+
+
+                    <td width="25%">
+                        <label for="query_in">&nbsp;</label>
+                        <button id="query_in" class="ui-button ui-widget ui-corner-all">Query</button>
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <label for="read_new_message_button">&nbsp;</label>
+                        <button id="read_new_message_button" class="ui-button ui-widget ui-corner-all">Get new messages</button>
+                    </td>
+                </tr>
+            </table>
+            </form>
+
+
+
+        </div>
+        <div id="tabs-2">
+            <form name="new_message_form" id="new_message_form">
+
+
+            <table width="100%" cellspacing="10px">
+                <tr>
+                    <td colspan="3">
+                        <label for="msg_content">Content(<span style="color:red">*</span>):<span class="showrequired" id="msg_content_required" style="color:red;display:none;">Required</span></label>
+                        <textarea name="msg_content" id="msg_content" rows="5" style="width:100%;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="30%">
+                        <label for="send_to_user_type">Send to:</label>
+                        <select name="send_to_user_type" id="send_to_user_type">
+                        <option value="USERS" selected="selected">Speical users</option>
+                    </select>
+                    </td>
+                    <td colspan="2">
+                        <div class="ui-widget">
+                        <span class="showrequired" id="msg_receiver_required" style="color:red;display:none;">Required</span>
+                        <textarea id="msg_receiver" name="msg_receiver" rows="2" style="width:100%;"></textarea>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="30%">
+                        <label>The receiver </label>
+                        <select name="confirm_type" id="confirm_type">
+                            <option value="1" selected="selected">must confirm the message</option>
+                            <option value="2">can read or ignore the message</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="out_expiredate">Expiredate</label>
+                        <input type="text" name="out_expiredate" id="out_expiredate">
+                    </td>
+                    <td>
+                        <label for="send_msg_button">&nbsp;</label>
+
+                        <button id="send_msg_button" class="ui-button ui-widget ui-corner-all">Sent the message</button>
+
+                    </td>
+                </tr>
+
+            </table>
+
+            </form>
+
+
+            <hr class="content_hr">
+            <h2>History messages</h2>
+            <form name="message_out_query" id="message_out_query">
+            <table width="100%">
+                <tr>
+                    <td width="25%">
+                        <label for="out_startdatepicker">Start(<span style="color:red;">*</span>):<span class="showrequired" id="out_start_date_required" style="color:red;display:none;">Required</span></label>
+                        <input type="text" name="startdatepicker" id="out_startdatepicker">
+
+                    </td>
+                    <td width="25%">
+                        <label for="out_enddatepicker">End(<span style="color:red;">*</span>):<span class="showrequired" id="out_end_date_required" style="color:red;display:none;">Required</span></label>
+                        <input type="text" name="enddatepicker" id="out_enddatepicker">
+                    </td>
+
+                    <td width="25%">
+                        <label for="message_out_query_button">&nbsp;</label>
+                        <button id="message_out_query_button" class="ui-button ui-widget ui-corner-all">Query</button>
+                    </td>
+                    <td width="25%">
+
+                    </td>
+                </tr>
+            </table>
+            </form>
+
+
+        </div>
+
+    </div>
+</div>
+

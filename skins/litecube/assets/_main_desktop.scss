@@ -1,0 +1,549 @@
+input.button.mainaction {
+    font-weight: bold;
+}
+
+.toolbarmenu.selectable li a.selected:before {
+    font-family: IconFont;
+    font-weight: normal;
+}
+
+.toolbarmenu.selectable li a.selected:before {
+    position: absolute;
+    left: 8px;
+    padding-top: 3px;
+}
+
+.toolbar a.button {
+    border: none;
+}
+
+.formbuttons input.button:active {
+    background-image: none !important;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="file"]::-webkit-file-upload-button,
+button {
+    color: #333;
+}
+
+/* layout */
+
+#topline,
+#topline, .minimal #topline,
+#topnav {
+    background: #fff;
+}
+
+#topnav,
+.minimal #topnav {
+    padding: 5px 0 0 0;
+    height: 34px;
+    margin: 0;
+    background: #fff;
+    border-bottom: 2px solid #ddd;
+    top: 0;
+}
+
+#topnav img {
+    position: absolute;
+    left: 8px;
+    top: -6px;
+}
+
+#taskbar {
+    float: none;
+    margin-left: 220px;
+
+}
+
+#taskbar a,
+.minimal #taskbar a {
+    display: inline-block;
+    height: 20px;
+    padding: 8px 8px 4px 0;
+    margin: 1px 5px 0 0;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    float: left;
+}
+
+#taskbar a.button-selected {
+    height: 22px;
+    background-color: #fff !important;
+    border: 2px solid #ddd;
+    border-bottom: none;
+    margin-top: 0;
+}
+
+#taskbar a:hover {
+    background-color: transparent;
+}
+
+#taskbar a span.button-inner {
+    font-size: 100%;
+    font-weight: bold;
+    text-shadow: none;
+    padding: 0 0 0 34px;
+    height: 19px;
+    color: #333;
+}
+
+#header {
+    min-height: 60px;
+}
+
+.minimal #taskbar a:hover .tooltip {
+    top: 32px;
+}
+
+select.deco {
+    font-size: 1em;
+}
+
+#mailboxlist li.mailbox .unreadcount,
+#mailboxlist li.mailbox.selected > a .unreadcount {
+    background: #fff;
+    border-radius: 5px !important;
+    color: #333;
+    font-weight: normal;
+}
+
+.boxfooter .listbutton {
+    padding: 0;
+    margin: 0;
+}
+
+#quotadisplay {
+    top: 8px;
+}
+
+.uibox .boxtitle,
+.uibox .listing thead td,
+.uibox .listing thead th {
+    color: #333 !important;
+}
+
+.iframebox {
+    border: none;
+}
+
+input.button,
+.formbuttons input.button,
+input.button.mainaction,
+#login-form input.button {
+    border: 1px solid #ddd;
+    color: #333;
+    background: #eee;
+}
+
+input[type=text],
+input[type=password],
+input[type=email]
+input[type=button],
+textarea {
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.contentbox .boxtitle,
+body.iframe .boxtitle,
+.contactfieldgroup legend {
+    background: #fff;
+}
+
+.records-table.fixedheader {
+    border-bottom: 1px solid #ddd;
+}
+
+.records-table thead td,
+.records-table thead th {
+    font-weight: normal;
+    color: #333;
+}
+
+.records-table tbody td {
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+
+.records-table tbody tr td:first-child {
+    border-left: none !important;
+}
+
+.records-table tbody tr td:last-child {
+    border-right: none !important;
+}
+
+.records-table thead td a,
+.records-table thead th a,
+.records-table thead td span,
+.records-table thead th span,
+.records-table thead td div,
+.records-table thead th div,
+.records-table thead tr td.sortedASC a,
+.records-table thead tr th.sortedASC a,
+.records-table thead tr td.sortedDESC a,
+.records-table thead tr th.sortedDESC a {
+    color: #333 !important;
+}
+
+.boxpagenav a.icon:before {
+    color: #333;
+}
+
+#listselectors {
+    margin-top: 2px;
+}
+
+#messageheader {
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.toolbar .spacer {
+    display: none;
+}
+
+#compose-attachments {
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+#messagelistfooter,
+.searchbox input,
+#quicksearchbar input {
+    background: transparent;
+}
+
+.messagelist tbody td a,
+.messagelist tbody td {
+    color: #525252;
+}
+
+.boxfooter .listbutton {
+    border: none;
+}
+
+#mailboxlist .mailbox a:before {
+    display: none !important;
+}
+
+#vertical-preview {
+    border: 1px solid #ddd;
+}
+
+
+/* plugins */
+
+#taskbar a.button-calendar span.button-inner,
+#taskbar a.button-calendar.button-selected span.button-inner {
+    background-color: transparent;
+}
+
+#todaybutton input {
+    color: #333 !important;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+ul#planner_controls li a {
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+#taskviewmenu .toolbarmenu a.icon span {
+    background-image: none;
+}
+
+.googie_list td span, ul.toolbarmenu li a.active {
+    color: #000;
+}
+
+.googie_list td {
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.googie_list td.googie_list_onhover {
+    background: #E9E9E9;
+}
+
+.googie_list form {
+    padding: 6px !important;
+}
+
+.googie_list form img {
+    background: #6b6b6b;
+    padding: 1px 3px 2px 3px;
+    float: right;
+}
+
+/* fix background images to point to ours */
+
+#taskbar a.button-mail:before,
+#taskbar a.button-addressbook:before,
+#taskbar a.button-help:before,
+#taskbar a.button-nabble:before,
+#taskbar a.button-jappix4roundcube:before,
+#taskbar a.button-calendar:before,
+#taskbar a.button-planner:before,
+#taskbar a.button-sticky_notes:before,
+#taskbar a.button-settings:before,
+#taskbar a.button-xresell:before,
+#taskbar a.button-apps:before,
+#taskbar a.button-logout:before,
+#topnav a.button-interface-options:before,
+.toolbar a.button.checkmail:before,
+.toolbar a.button.compose:before,
+.toolbar a.button.reply:before,
+.toolbar a.button.reply-all:before,
+.toolbar a.button.forward:before,
+.toolbar a.button.delete:before,
+.toolbar a.button.archive:before,
+.toolbar a.button.junk:before,
+.toolbar a.button.markasjunk2:before,
+.toolbar a.button.markmessage:before,
+.toolbar a.button.more:before,
+.toolbar a.button.back:before,
+.toolbar a.button.download:before,
+.toolbar a.button.move:before,
+.toolbar a.button.print:before,
+.toolbar a.button.send:before,
+.toolbar a.button.savedraft:before,
+.toolbar a.button.spellcheck:before,
+.toolbar a.button.attach:before,
+.toolbar a.button.close:before,
+.toolbar a.button.insertsig:before,
+.toolbar a.button.responses:before,
+.toolbar a.button.vcard_send:before,
+.toolbar a.button.import:before,
+.toolbar a.button.export:before,
+.toolbar a.button.search:before,
+.toolbar a.button.calneweventbut:before,
+.toolbar a.button.calswitchbut:before,
+.toolbar a.button.calexportbut:before,
+.toolbar a.button.calimportbut:before,
+.toolbar a.button.calprintprevbut:before,
+.toolbar a.button.enigma:before,
+.toolbar a.button.encrypt:before,
+.toolbar a.button.message-list-sort:before,
+.dropbutton .dropbuttontip:before,
+#mailboxlist div.expanded:before,
+#mailboxlist div.collapsed:before,
+#subscription-table div.expanded:before,
+#subscription-table div.collapsed:before,
+.boxfooter .listbutton:before,
+.toolbar a.button.scheduled_sending:before,
+#calendartoolbar .addevent:before,
+#calendartoolbar .refresh:before,
+#taskstoolbar .button.newtask:before,
+#taskstoolbar .button.refresh:before,
+#helptoolbar a.button.help:before,
+#helptoolbar a.button.about:before,
+#helptoolbar a.button.license:before,
+#carddavsyncbut:before,
+#calendar .fc-button-agendaDay .fc-button-inner:before,
+#calendar .fc-button-agendaWeek .fc-button-inner:before,
+#calendar .fc-button-month .fc-button-inner:before,
+#calendar .fc-button-table .fc-button-inner:before {
+    content: "" !important;
+    display: none !important;
+}
+
+#taskbar a span.button-inner,
+#messagetoolbar.toolbar a.button,
+#addressbooktoolbar.toolbar a.button,
+.dropbutton .dropbuttontip,
+#taskbar .minmodetoggle,
+.boxfooter .listbutton .inner,
+.pagenav a.button span.inner,
+#mailpreviewtoggle,
+.toolbar a.button,
+a.iconbutton {
+    background-image: url(../assets/images/buttons.png);
+}
+
+#mailboxlist li.mailbox a,
+ul.treelist li div.treetoggle,
+#sections-table tbody td.section,
+#settings-sections span.listitem a,
+#settings-sections li.listitem a,
+#settings-sections span.tablink a,
+#settings-sections li.tablink a,
+#compose-contacts li a,
+.folderlist li.mailbox a,
+/* .messagelist thead tr td.sortedASC a, */
+/* .messagelist thead tr td.sortedDESC a, */
+.messagelist tr td div.collapsed,
+.messagelist tr td div.expanded,
+.messagelist tr td.threads div.listmenu,
+.messagelist tr td.attachment span.attachment,
+.messagelist tr td.attachment span.report,
+.messagelist tr td.priority span.priority,
+.messagelist tr td.priority span.prio1,
+.messagelist tr td.priority span.prio2,
+.messagelist tr td.priority span.prio3,
+.messagelist tr td.priority span.prio4,
+.messagelist tr td.priority span.prio5,
+.messagelist tr td.flag span.flagged,
+.messagelist tr td.flag span.unflagged,
+.messagelist tr td.flag span.unflagged:hover,
+.messagelist tr td.status span.status,
+.messagelist tr td.status span.msgicon,
+.messagelist tr td.status span.deleted,
+.messagelist tr td.status span.unread,
+.messagelist tr td.status span.unreadchildren,
+.messagelist tr td.subject span.msgicon,
+.messagelist tr td.subject span.deleted,
+.messagelist tr td.subject span.unread,
+.messagelist tr td.subject span.replied,
+.messagelist tr td.subject span.forwarded,
+.messagelist tr td.subject span.unreadchildren,
+#folder-selector li a span,
+ul.toolbarmenu li span.icon,
+#directorylist li a,
+#contacts-table .contact td.name,
+#compose-contacts li a {
+    background-image: url(../assets/images/listicons.png);
+}
+
+a.menuselector .handle { background-image: url(../assets/images/selector.png); }
+/*.splitter { background-image: url(../assets/images/splitter.png); }*/
+
+/* buttons included in the roundcube button sprite */
+
+#taskbar a.button-mail span.button-inner { background-position: 0 2px !important; } /* we don't want to change images on hover, so !important */
+#taskbar a.button-addressbook span.button-inner { background-position: 0 -48px !important; }
+#taskbar a.button-settings span.button-inner { background-position: 0 -96px !important; }
+#taskbar a.button-calendar span.button-inner { background-position: 0 -144px !important; }
+
+#messagetoolbar a.markasjunk2,
+#messagetoolbar a.markasjunk2Sel {
+    background-position: center -770px;
+}
+
+#taskbar a.button-sticky_notes,
+#taskbar a.button-planner,
+#taskbar a.button-nabble {
+    background: transparent;
+}
+
+#taskbar a.button-interface-options {
+    width: 24px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#interface-options {
+    color: #333;
+}
+
+/* buttons added as separate png images */
+
+#topline a.button-logout { background: url(../assets/images/icon-logout-min.png) no-repeat !important; }
+#taskbar a.button-logout span.button-inner { background: url(../assets/images/icon-logout.png) 8px 0 no-repeat !important; }
+#taskbar a.button-help span.button-inner { background: url(../assets/images/icon-help.png) 8px 0 no-repeat !important; }
+#taskbar a.button-sticky_notes span.button-inner { background: url(../assets/images/icon-notes.png) 8px 0 no-repeat !important; }
+#taskbar a.button-tasklist span.button-inner { background: url(../assets/images/icon-tasks.png) 8px 0 no-repeat !important; }
+#taskbar a.button-planner span.button-inner { background: url(../assets/images/icon-planner.png) 8px 0 no-repeat !important; }
+#taskbar a.button-nabble span.button-inner { background: url(../assets/images/icon-nabble.png) 8px 0 no-repeat !important; }
+#taskbar a.button-jappix4roundcube span.button-inner { background: url(../assets/images/icon-jappix.png) 8px 0 no-repeat !important; }
+#taskbar a.button-interface-options { background-image: url(../assets/images/icon-interface.png) !important; }
+#taskbar a.button-xresell span.button-inner { background: url(../assets/images/icon-apps.png) 8px 0 no-repeat !important; }
+#taskbar a.button-apps span.button-inner { background: url(../assets/images/icon-apps.png) 8px 0 no-repeat !important; }
+
+#messagetoolbar a.vcard_send { background: url(../assets/images/toolbar-vcard.png) center 5px no-repeat !important; }
+#calneweventbut { background: url(../assets/images/toolbar-calendar-add.png) center 5px no-repeat !important; }
+#calswitchbut { background: url(../assets/images/toolbar-calendar-users.png) center 5px no-repeat !important; }
+#calexportbut { background: url(../assets/images/toolbar-calendar-export.png) center 5px no-repeat !important; }
+#calimportbut { background: url(../assets/images/toolbar-calendar-import.png) center 5px no-repeat !important; }
+#calprintprevbut { background: url(../assets/images/toolbar-calendar-print.png) center 5px no-repeat !important; }
+#message-list-sort { background: url(../assets/images/toolbar-sort.png) center 5px no-repeat !important; }
+
+.toolbar a.button.enigma,
+.toolbar a.button.encrypt { background: url(../assets/images/toolbar-enigma.png) 50% 4px  no-repeat !important; }
+
+#keystoolbar a.button.import { background: url(../assets/images/toolbar-key-import.png) 50% 4px  no-repeat !important; }
+#keystoolbar a.button.export { background: url(../assets/images/toolbar-key-export.png) 50% 4px  no-repeat !important; }
+
+/* settings links */
+
+#sections-table #rcmrowcalendarlink td.section {  background: url(../assets/images/settings-calendar.png) 10px center no-repeat; }
+#sections-table #rcmrowmh_preferences td.section {  background: url(../assets/images/settings-highlights.png) 10px center no-repeat !important; }
+#sections-table #rcmrownabblelink td.section {  background: url(../assets/images/settings-nabble.png) 10px center no-repeat; }
+#sections-table #rcmrowplugin_manager td.section {  background: url(../assets/images/settings-plugins.png) 10px center no-repeat; }
+#sections-table #rcmrowaccountlink td.section {  background: url(../assets/images/settings-admin.png) 10px center no-repeat; }
+#sections-table #rcmrowapps td.section {  background: url(../assets/images/settings-apps.png) 10px center no-repeat; }
+#sections-table #rcmrowenigma td.section {  background: url(../assets/images/toolbar-enigma.png) 10px center no-repeat !important; }
+#settings-sections .enigma.keys a {  background: url(../assets/images/settings-pgp.png) 10px center no-repeat !important; }
+
+/* xsidebar */
+
+#xsidebar-button {
+    border: none;
+}
+
+#sections-table #rcmrowxsidebar td.section,
+#sections-table #rcmrowxsidebar.selected td.section {
+    background-image: url(../assets/images/settings-sidebar.png);
+    background-position: 8px 5px;
+}
+
+/* xweather */
+
+#sections-table #rcmrowxweather td.section,
+#sections-table #rcmrowxweather.selected td.section{
+    background: url(../assets/images/settings-weather.png) 10px center no-repeat;
+}
+
+/* xcalendar */
+
+.xcalendar .ui-datepicker .ui-datepicker-header {
+    background: #ddd;
+}
+
+.xcalendar .ui-datepicker .ui-datepicker-month,
+.xcalendar .ui-datepicker .ui-datepicker-year,
+.xcalendar .ui-datepicker .ui-datepicker-prev,
+.xcalendar .ui-datepicker .ui-datepicker-next,
+.xcalendar .fc-state-default,
+.xcalendar .boxtitle button {
+    color: #333 !important;
+    text-shadow: none;
+}
+
+/* xrss */
+
+#sections-table #rcmrowxnews_feed td.section,
+#sections-table #rcmrowxnews_feed.selected td.section {
+    background-image: url(../assets/images/settings-rss.png);
+    background-position: 8px 5px;
+}
+
+
+/* xbackground */
+
+body.xskin.xbg {
+    .folderlist li.mailbox a {
+        background-repeat: no-repeat;
+    }
+
+    .uibox .boxtitle,
+    &.iframe h1.boxtitle,
+    .records-table thead th a {
+        background: transparent !important;
+    }
+
+    #taskbar a.button-selected {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,308 @@
+/**
+ * Roundcube Framework plugin.
+ *
+ * Copyright 2016, Tecorama LLC.
+ *
+ * @author Chris Kulbacki (http://chriskulbacki.com)
+ * @license Commercial. See the LICENSE file for details.
+ */
+.animate-fade {
+  opacity: 1;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out; }
+
+.animate-fade.ng-hide {
+  opacity: 0; }
+
+/* The fixed copy of the mail header list doesn't resize to be smaller than 560px and because it's fixed, it sticks out
+   of the box. Without the vertical preview and the sidebar it rarely happens because nobody has a screen that small,
+   but with both those added columns, it's easy for the mail list width to go under 560px.
+   We're changing the positioning from fixed to absolute so it gets cropped and doesn't stick out of the box. The
+   problem with this solution is that it's not fixed any more and scrolls out of the view along with the messages, but
+   this is the only workable solution we found. (see xframework.js)*/
+table.messagelist.fixedcopy {
+  position: absolute !important; }
+
+/*#fixed-mask {
+    position: fixed;
+    height: 29px;
+    z-index: 1;
+    visibility: hidden;
+}*/
+/* tabs */
+.xtabs.ui-tabs {
+  border: none;
+  background: transparent; }
+
+.xtabs.ui-tabs .ui-tabs-nav {
+  height: auto;
+  background: transparent;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px; }
+
+.xtabs.ui-tabs .ui-tabs-nav li {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  float: left;
+  border: none; }
+
+.xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  padding: 15px;
+  font-weight: normal;
+  background: transparent;
+  border: none;
+  color: #777; }
+
+.xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  position: relative;
+  display: block;
+  background: #fff;
+  color: #333;
+  background: #fff;
+  border-bottom: 3px solid #333;
+  padding-bottom: 12px;
+  font-weight: bold; }
+
+.xtabs.ui-tabs .ui-tabs-panel {
+  background: transparent; }
+
+/* sidebar */
+.xsidebar-visible #mailview-right {
+  width: auto !important; }
+.xsidebar-visible #xsidebar,
+.xsidebar-visible #xsidebar-splitter {
+  display: block; }
+
+#sidebar-splitter {
+  display: none; }
+
+#xsidebar {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: auto; }
+  #xsidebar div.ui-sortable-helper {
+    border: 1px solid #aaa;
+    -ms-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8); }
+  #xsidebar .placeholder {
+    height: 3px;
+    background: #990033; }
+
+#xsidebar h2.boxtitle {
+  position: relative;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 4px 8px;
+  line-height: 17px; }
+
+#xsidebar h2.boxtitle:first-child {
+  border-top: none; }
+
+#xsidebar h2.boxtitle:before {
+  position: absolute !important;
+  right: 8px;
+  content: "\25b2"; }
+
+#xsidebar .collapsed h2.boxtitle:before {
+  content: "\25bc"; }
+
+#xsidebar h2 span.sidebar-title-text {
+  display: block;
+  margin-right: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+#xsidebar .box-content {
+  position: relative;
+  padding: 8px; }
+
+#xsidebar .collapsed .box-content {
+  display: none; }
+
+.xsidebar-wrap #searchfilter {
+  right: 288px; }
+
+.xsidebar-wrap #quicksearchbar {
+  right: 34px; }
+
+#xsidebar-button {
+  display: block;
+  width: 16px;
+  margin: 0;
+  padding: 4px 3px 6px 3px;
+  margin-top: 2px;
+  text-align: center; }
+
+#xsidebar-button:before {
+  content: "\25c0"; }
+
+.xsidebar-visible #xsidebar-button:before {
+  content: "\25b6"; }
+
+#xsidebar .listbox.collapsed:before {
+  content: ""; }
+
+#xsidebar .bottom-links {
+  margin-top: 7px; }
+
+#xsidebar .bottom-links a {
+  margin-right: 5px; }
+
+body.dragging, body.dragging * {
+  cursor: move !important; }
+
+#xsidebar-order-table .placeholder {
+  background: #f5f5f5; }
+#xsidebar-order-table tr.ui-sortable-helper {
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  max-width: 300px !important; }
+#xsidebar-order-table td.title {
+  width: 30%; }
+  #xsidebar-order-table td.title label:before {
+    font-family: 'FontAwesome';
+    content: "\f0c9";
+    font-size: 0.9em !important;
+    padding-right: 15px; }
+
+#xsidebar-order-note {
+  padding: 20px 0; }
+  #xsidebar-order-note:before {
+    font-family: 'FontAwesome';
+    content: "\f05a";
+    padding-right: 10px; }
+
+/* settings */
+#sections-table #rcmrowxsidebar td.section {
+  background-image: url(../images/settings-sidebar.png);
+  background-position: 2px 0; }
+
+#sections-table #rcmrowxsidebar.selected td.section {
+  background-image: url(../images/settings-sidebar-hot.png); }
+
+/* xquote */
+.xquote-author {
+  padding-top: 5px;
+  text-align: right;
+  font-style: italic; }
+
+/* apps menu */
+#taskbar a.button-apps span.button-inner {
+  background-repeat: no-repeat;
+  background-position: 3px 2px;
+  background-image: url("../images/apps.png"); }
+
+#taskbar a.button-apps:hover span.button-inner {
+  background-position: 3px -25px; }
+
+#apps-menu a {
+  display: block;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #fff; }
+  #apps-menu a span {
+    display: none; }
+
+/* interface button / menu */
+#interface-options {
+  min-width: 120px;
+  max-width: 216px;
+  color: #eee;
+  padding: 12px 10px;
+  left: auto !important;
+  right: 4px; }
+  #interface-options a {
+    color: #eee; }
+    #interface-options a .tooltip {
+      display: none !important; }
+  #interface-options .section {
+    margin: 10px 0; }
+    #interface-options .section select,
+    #interface-options .section input.button {
+      width: 100%;
+      margin: 0; }
+    #interface-options .section div.section-title {
+      padding-bottom: 5px; }
+  #interface-options select,
+  #interface-options input.button {
+    width: 100%;
+    margin: 0; }
+
+#taskbar .button-logout {
+  padding-right: 0px !important; }
+#taskbar .button-interface-options {
+  background-repeat: no-repeat;
+  background-position: 10px 12px;
+  background-image: url(../images/larry-interface-options.png);
+  margin-right: 5px;
+  float: right;
+  width: 26px;
+  text-align: center; }
+  #taskbar .button-interface-options .button-inner {
+    display: none; }
+
+.minimal #taskbar .button-logout {
+  padding-left: 0; }
+.minimal #taskbar .button-interface-options {
+  padding: 10px 6px 0 6px;
+  background-position: 8px 10px; }
+
+#message-list-sort {
+  display: none; }
+
+.xmobile #interface-options {
+  min-width: 0;
+  max-width: 100%;
+  color: #333 !important;
+  left: auto !important;
+  right: auto; }
+.xmobile .section {
+  margin: 10px 0;
+  padding: 10px; }
+.xmobile #taskbar .button-interface-options {
+  margin-right: 5px;
+  float: none;
+  width: auto;
+  text-align: left; }
+  .xmobile #taskbar .button-interface-options .button-inner {
+    display: block; }
+
+span.xsetting-help {
+  position: relative;
+  display: inline-block;
+  margin-left: 5px; }
+  span.xsetting-help:before {
+    display: inline-block;
+    text-align: center;
+    color: #999999;
+    border: 1px solid #ddd;
+    padding: 1px;
+    border-radius: 50%;
+    background: #fff;
+    width: 12px;
+    height: 12px;
+    content: "?";
+    font-weight: bold;
+    font-size: 10px !important;
+    font-family: sans-serif;
+    line-height: 12px; }
+  span.xsetting-help span {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    display: none;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    background: #ffffcc;
+    min-width: 200px; }
+  span.xsetting-help:hover span {
+    display: block; }
+
+/*# sourceMappingURL=framework.css.map */

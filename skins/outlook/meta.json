@@ -1,0 +1,7 @@
+{
+    "name": "Outlook",
+    "author": "Roundcube Plus (http://roundcubeplus.com)",
+    "license": "Commercial",
+    "license-url": "",
+    "extends": "larry"
+}

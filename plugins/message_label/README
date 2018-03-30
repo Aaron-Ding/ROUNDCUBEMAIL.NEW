@@ -1,0 +1,30 @@
+Message label plugin for roundcube
+
+Attention! Latest version plugin use new roundcube class storage and don't work with version < 0.8.
+For version < 0.8 use version plugin (1.0)
+
+Install
+-------------------------------------------
+1. git clone https://umount@github.com/umount/message_label.git message_label
+2. move folder message_label in roundcube plugin folder
+3. add 'message_label' to $rcmail_config['plugins'] in your RoundCube config
+
+
+Introduction
+----------------------------------------
+This is plugin for roundcube to add labels like Google labels.
+
+* manually and filter way add labels
+* manually remove filter find labels
+* multilabels support
+* drag and drop to add label support
+* remove label on one click on label in subject
+* search all labels in all folder on one click (manual select folder search on filter search label) 
+* display label list on left panel under folder list
+
+
+Contact
+----------------------------------------
+Comments and suggestions are welcome.
+
+Email: dns.sobol@gmail.com

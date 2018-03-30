@@ -1,0 +1,3879 @@
+@font-face {
+  font-family: 'IconFont';
+  src: url("../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.eot");
+  src: url("../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.eot?#iefix") format("embedded-opentype"), url("../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+.xdesktop #taskbar a:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.5em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB83"; }
+.xdesktop #taskbar a.button-mail:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB54"; }
+.xdesktop #taskbar a.button-addressbook:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB55"; }
+.xdesktop #taskbar a.button-calendar:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB7C"; }
+.xdesktop #taskbar a.button-help:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB80"; }
+.xdesktop #taskbar a.button-xresell:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB43"; }
+.xdesktop #taskbar a.button-apps:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB43"; }
+.xdesktop #taskbar a.button-settings:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB56"; }
+.xdesktop #taskbar a.button-logout:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB58"; }
+.xdesktop #topnav a.button-interface-options:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB87"; }
+.xdesktop #taskbar .minmodetoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB3A"; }
+.xdesktop .toolbar a.button:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 2em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB83"; }
+.xdesktop .toolbar a.button.checkmail:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB59"; }
+.xdesktop .toolbar a.button.compose:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB69"; }
+.xdesktop .toolbar a.button.reply:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB5A"; }
+.xdesktop .toolbar a.button.reply-all:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB5B"; }
+.xdesktop .toolbar a.button.forward:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB5C"; }
+.xdesktop .toolbar a.button.delete:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB5E"; }
+.xdesktop .toolbar a.button.archive:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB5D"; }
+.xdesktop .toolbar a.button.junk:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB5F"; }
+.xdesktop .toolbar a.button.markmessage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB60"; }
+.xdesktop .toolbar a.button.more:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB61"; }
+.xdesktop .toolbar a.button.back:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB2C"; }
+.xdesktop .toolbar a.button.close:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB2C"; }
+.xdesktop .toolbar a.button.download:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB62"; }
+.xdesktop .toolbar a.button.move:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB63"; }
+.xdesktop .toolbar a.button.print:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB64"; }
+.xdesktop .toolbar a.button.send:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB65"; }
+.xdesktop .toolbar a.button.savedraft:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB66"; }
+.xdesktop .toolbar a.button.spellcheck:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB67"; }
+.xdesktop .toolbar a.button.attach:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB68"; }
+.xdesktop .toolbar a.button.insertsig:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB6B"; }
+.xdesktop .toolbar a.button.responses:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB6C"; }
+.xdesktop .toolbar a.button.vcard_send:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB6D"; }
+.xdesktop .toolbar a.button.import:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB4F"; }
+.xdesktop .toolbar a.button.export:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB50"; }
+.xdesktop .toolbar a.button.search:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB6E"; }
+.xdesktop .toolbar a.button.markasjunk2:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB5F"; }
+.xdesktop .toolbar a.button.markasnotjunk2:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB5F"; }
+.xdesktop .toolbar a.button.enigma:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB84"; }
+.xdesktop .toolbar a.button.encrypt:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB84"; }
+.xdesktop .toolbar a.button.message-list-sort:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB88"; }
+.xdesktop .toolbarmenu.selectable li a.selected:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB48"; }
+.xdesktop .dropbutton .dropbuttontip:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB3B"; }
+.xdesktop div.expanded:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB45"; }
+.xdesktop div.collapsed:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB42"; }
+.xdesktop a.menuselector:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB3B"; }
+.xdesktop .boxfooter .listbutton.groupactions:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB57"; }
+.xdesktop .boxfooter .listbutton.add:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB42"; }
+.xdesktop .boxfooter .listbutton.delete:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB40"; }
+.xdesktop .boxfooter .listbutton.removegroup:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB71"; }
+.xdesktop .boxpagenav a.icon.firstpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB3C"; }
+.xdesktop .boxpagenav a.icon.lastpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB3F"; }
+.xdesktop .boxpagenav a.icon.prevpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB3D"; }
+.xdesktop .boxpagenav a.icon.nextpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB3E"; }
+.xdesktop .compose-headers .iconbutton.cancel:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB40"; }
+.xdesktop .records-table tr td.threads div.listmenu:before,
+.xdesktop .records-table tr th.threads a.listmenu:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB57"; }
+.xdesktop .records-table thead tr .status span.status:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB72"; }
+.xdesktop .records-table thead tr .priority span.priority:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB4C"; }
+.xdesktop .messagelist tr:hover td.status span:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB72";
+  color: #bbb !important; }
+.xdesktop .messagelist tr:hover td.flag span:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB73";
+  color: #bbb; }
+.xdesktop .messagelist tr .status span.unread:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB72"; }
+.xdesktop .messagelist tr .flag span.flagged:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB73"; }
+.xdesktop .messagelist tr .attachment span.attachment:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB68"; }
+.xdesktop .messagelist tr .attachment span.report:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB75"; }
+.xdesktop .messagelist tr .priority span.prio1:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB2E"; }
+.xdesktop .messagelist tr .priority span.prio2:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB2E"; }
+.xdesktop .messagelist tr .priority span.prio4:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB2F"; }
+.xdesktop .messagelist tr .priority span.prio5:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB2F"; }
+.xdesktop .messagelist tr td.status span.deleted:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB40"; }
+.xdesktop .messagelist tr td.status span.unreadchildren:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB72"; }
+.xdesktop .messagelist tr td.subject span.deleted:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB40"; }
+.xdesktop .messagelist tr td.subject span.unread:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB72"; }
+.xdesktop .messagelist tr td.subject span.replied:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB5A"; }
+.xdesktop .messagelist tr td.subject span.forwarded:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB5C"; }
+.xdesktop .messagelist tr td.subject span.unreadchildren:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB72"; }
+.xdesktop .records-table thead tr .sortedASC a:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB88"; }
+.xdesktop .records-table thead tr .sortedDESC a:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB89"; }
+.xdesktop #messagestack div:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB4C"; }
+.xdesktop #messagestack div.error:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB40"; }
+.xdesktop #messagestack div.warning:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB4C"; }
+.xdesktop #messagestack div.confirmation:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB48"; }
+.xdesktop #searchmenulink:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB6E"; }
+.xdesktop #quicksearchbar #searchmenulink:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB6E" "\EB3B"; }
+.xdesktop #searchreset:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB40"; }
+.xdesktop #maillistmode:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB6F" "    "; }
+.xdesktop #mailthreadmode:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB77"; }
+.xdesktop .fullheight #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB2A"; }
+.xdesktop #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB2B"; }
+.xdesktop #custom-login-submit:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB2D"; }
+.xdesktop #xsidebar-button:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB39"; }
+.xdesktop #xsidebar-button.collapsed:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB38"; }
+.xdesktop #xsidebar h2.boxtitle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB3A"; }
+.xdesktop #xsidebar .collapsed h2.boxtitle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB3B"; }
+.xdesktop .button.calendar-today:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB7B"; }
+.xdesktop .button.calendar-prev:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB30"; }
+.xdesktop .button.calendar-next:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB31"; }
+.xdesktop #xcalendar-toolbar .button.calendar-day:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB7F"; }
+.xdesktop #xcalendar-toolbar .button.calendar-week:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB51"; }
+.xdesktop #xcalendar-toolbar .button.calendar-month:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB52"; }
+.xdesktop #xcalendar-toolbar .button.calendar-agenda:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB53"; }
+.xdesktop #xcalendar-toolbar .button.calendar-add-event:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB43"; }
+.xdesktop #calendar-list-container .new-calendar:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB44"; }
+.xdesktop #calendar-list-container .calendar-item .edit:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB6A"; }
+.xdesktop #helptoolbar a.button.help:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB80"; }
+.xdesktop #helptoolbar a.button.about:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB4D"; }
+.xdesktop #helptoolbar a.button.license:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB53"; }
+
+.xdesktop.minimal #taskbar .minmodetoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB3B"; }
+
+.xdesktop.xvertical-preview .fullheight #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB28"; }
+.xdesktop.xvertical-preview #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB29"; }
+
+body.skin-icloud #login-form .support-link:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB4D"; }
+body.skin-icloud #login-form .box-bottom #message div.warning:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB4C"; }
+body.skin-icloud #login-form .box-bottom #message div.error:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB4C"; }
+body.skin-icloud #login-form .box-bottom #message div.loading:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB4E"; }
+body.skin-icloud #login-form .box-bottom #message div.notice:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EB4E"; }
+
+.xmobile {
+  /* gestures */
+  /* plugins */
+  /* xcalendar */ }
+  .xmobile #main-menu a span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB83"; }
+  .xmobile #main-menu #button-taskbar span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB6F"; }
+  .xmobile #main-menu #button-mail-back span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB2C"; }
+  .xmobile #main-menu #button-compose-settings span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB57"; }
+  .xmobile #main-menu #button-send span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB65"; }
+  .xmobile #main-menu #button-reply span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB5A"; }
+  .xmobile #main-menu #button-toolbar span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB82"; }
+  .xmobile #main-menu #button-format span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB70"; }
+  .xmobile #main-menu #button-compose span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB69"; }
+  .xmobile #main-menu #button-users span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB55"; }
+  .xmobile #main-menu #button-folders span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB63"; }
+  .xmobile #main-menu #button-mail span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB82"; }
+  .xmobile #main-menu #button-funnel span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB57"; }
+  .xmobile .popup-close a:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB34"; }
+  .xmobile .toolbarmenu.selectable li a.selected:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB48"; }
+  .xmobile #mailboxlist li div.collapsed:before,
+  .xmobile #directorylist li.addressbook div.collapsed:before,
+  .xmobile div.collapsed:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB39"; }
+  .xmobile #mailboxlist li div.expanded:before,
+  .xmobile #directorylist li.addressbook div.expanded:before,
+  .xmobile div.expanded:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB3B"; }
+  .xmobile #messagelist td.subject:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB48"; }
+  .xmobile #messagelist td.flag span.flagged:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB73"; }
+  .xmobile #messagelist td.status span.unread:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB72"; }
+  .xmobile #messagelist td.attachment span.attachment:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB68"; }
+  .xmobile #messagelist td.attachment span.report:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB75"; }
+  .xmobile #messagelist td.subject span.msgicon.replied:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB5A"; }
+  .xmobile #messagelist td.subject span.msgicon.forwarded:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB5C"; }
+  .xmobile #messagelist td.subject span.msgicon.replied.forwarded:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB76"; }
+  .xmobile .moreheaderstoggle.remove .iconlink:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB32"; }
+  .xmobile .moreheaderstoggle .iconlink:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB33"; }
+  .xmobile #full-headers .more-headers.show-headers:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB37"; }
+  .xmobile #full-headers .more-headers.hide-headers:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB36"; }
+  .xmobile #attachment-list .delete:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB40"; }
+  .xmobile #attachment-list .drop:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB37"; }
+  .xmobile .rcmaddcontact:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB55"; }
+  .xmobile .settings-button:nth-child(3) span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB56"; }
+  .xmobile .settings-button:nth-child(4) span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB51"; }
+  .xmobile #messagestack div:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB4C"; }
+  .xmobile #messagestack div.error:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB40"; }
+  .xmobile #messagestack div.warning:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB4C"; }
+  .xmobile #messagestack div.confirmation:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB48"; }
+  .xmobile #messagestack div.loading:after {
+    content: ""; }
+  .xmobile a.firstpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB3C"; }
+  .xmobile a.prevpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB3D"; }
+  .xmobile a.nextpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB3E"; }
+  .xmobile a.lastpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB3F"; }
+  .xmobile #messageheader .pagenav a.prevpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB2A"; }
+  .xmobile #messageheader .pagenav a.nextpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB2B"; }
+  .xmobile #login-menu-button:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB6F"; }
+  .xmobile #custom-login-submit:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB2D"; }
+  .xmobile #groupoptionslink span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB57"; }
+  .xmobile #keyoptionslink span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB57"; }
+  .xmobile a.listbutton.add span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB42"; }
+  .xmobile a.listbutton.delete span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB45"; }
+  .xmobile a.listbutton.removegroup span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB71"; }
+  .xmobile .message-action-links a.mal-flag:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB74"; }
+  .xmobile .message-action-links a.mal-unflag:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB73"; }
+  .xmobile .message-action-links a.mal-more:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB6F"; }
+  .xmobile .message-action-links a.mal-delete:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB40"; }
+  .xmobile .message-action-read:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB85"; }
+  .xmobile .message-action-read.unread:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB86"; }
+  .xmobile #mainscreen.refresh:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB59"; }
+  .xmobile #mainscreen.progress:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB59"; }
+  .xmobile #mailview-right.gesture-pan.prev:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB28"; }
+  .xmobile #mailview-right.gesture-pan.next:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB29"; }
+  .xmobile #mailview-right.gesture-pan.disabled:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB78"; }
+  .xmobile #filtersetmenulink:before,
+  .xmobile #filtermenulink:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB57"; }
+  .xmobile #main-menu #xcalendar-main span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB7C"; }
+  .xmobile #main-menu #xcalendar-date span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB7D"; }
+  .xmobile #main-menu #xcalendar-list span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB7E"; }
+  .xmobile #main-menu #xcalendar-toolbar-button span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB82"; }
+  .xmobile a.tab-summary:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB56"; }
+  .xmobile a.tab-recurrence:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB81"; }
+  .xmobile a.tab-alarms:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB79"; }
+  .xmobile a.tab-attachments:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB68"; }
+  .xmobile a.tab-sharing:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB7A"; }
+  .xmobile #calendar-list-container .new-calendar:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB44"; }
+  .xmobile #calendar-list-container .calendar-item .edit:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB6A"; }
+  .xmobile #helptoolbar a.button.help:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB80"; }
+  .xmobile #helptoolbar a.button.about:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB4D"; }
+  .xmobile #helptoolbar a.button.license:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EB53"; }
+
+#taskbar a.button-apps:before {
+  top: 1px; }
+
+.color-007aff ul#planner_controls li a,
+.color-007aff #addButton,
+.color-007aff #reassembleButton,
+.color-007aff input.button,
+.color-007aff input[type='button'],
+.color-007aff .formbuttons input.button,
+.color-007aff input.button.mainaction,
+.color-007aff #login-form input.button,
+.color-007aff .username select.deco,
+.color-007aff .headers-table td a,
+.xmobile.color-007aff .sidebar-title-text,
+.xmobile.color-007aff .boxpagenav a.icon,
+.xmobile.color-007aff #countcontrols a.button,
+.xmobile.color-007aff #full-headers .more-headers,
+.xmobile.color-007aff #message-objects div a.button,
+.xmobile.color-007aff .headers-table td.header a,
+.xmobile.color-007aff .ui-dialog-content.popup span.adr a,
+.xmobile.color-007aff .boxfooter .listbutton span,
+.xmobile.color-007aff .boxfooter .listbutton,
+.xmobile.color-007aff #messagestack div,
+.xmobile.color-007aff.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #007aff; }
+
+.color-007aff #taskbar,
+.color-007aff #taskbar a,
+.color-007aff #taskbar a span,
+.color-007aff #taskbar a:before,
+.color-007aff #taskbar .minmodetoggle,
+.color-007aff .toolbar a.button,
+.color-007aff .toolbar .dropbutton span.dropbuttontip,
+.color-007aff #taskbar a.button-calendar span.button-inner,
+.color-007aff #taskbar a.button-calendar.button-selected span.button-inner,
+.color-007aff #calendar .fc-button,
+.xmobile.color-007aff #main-menu a,
+.xmobile.color-007aff .popup-close a,
+.xmobile.color-007aff .popup-box h5,
+.xmobile.color-007aff #quicksearchbar .popup-close a,
+.xmobile.color-007aff .popup-box #sections-table td,
+.xmobile.color-007aff #mailFoldersBox a,
+.xmobile.color-007aff #addressList a,
+.xmobile.color-007aff .contactfieldbutton.deletebutton,
+.xmobile.color-007aff .iframe a.disabled,
+.xmobile.color-007aff .iframe a.active,
+.xmobile.color-007aff #subscriptionTable td.name,
+.xmobile.color-007aff div.buttonBox a,
+.xmobile.color-007aff #mailboxlist li.mailbox a,
+.xmobile.color-007aff .googie_list td span,
+.xmobile.color-007aff ul.toolbarmenu li a,
+.xmobile.color-007aff #taskbar a,
+.xmobile.color-007aff #taskbar a.button-selected,
+.xmobile.color-007aff .minimal #taskbar a,
+.xmobile.color-007aff .popupmenu a,
+.xmobile.color-007aff #mailboxmenulink,
+.xmobile.color-007aff #quicksearchbar a.search-apply,
+.xmobile.color-007aff #quicksearchbar a.search-reset,
+.xmobile.color-007aff #composeheaders a.iconlink.edit,
+.xmobile.color-007aff #attachment-list .delete,
+.xmobile.color-007aff #attachment-list .drop {
+  color: #007aff !important; }
+
+.xmobile.color-007aff .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #007aff; }
+
+.color-007aff input.switchbox-input:checked + label.switchbox {
+  border-color: #007aff !important; }
+
+.color-007aff input.switchbox-input:checked + label.switchbox {
+  background-color: #007aff !important; }
+
+.color-007aff #taskbar a:hover:before,
+.color-007aff #taskbar a:hover span {
+  color: #0a70de !important; }
+
+.xdesktop.color-007aff .listbox,
+.xdesktop.color-007aff ul.listing li,
+.xmobile.color-007aff #main-menu a.active {
+  background-color: #dceefb; }
+
+.color-007aff .uibox .boxtitle,
+.color-007aff .uibox .listing thead td,
+.color-007aff .uibox .listing thead th,
+.color-007aff .popupmenu a:hover,
+.color-007aff.iframe h1.boxtitle,
+.color-007aff #sidebar-calendar .selected-range td a {
+  background-color: #dceefb !important; }
+
+.color-007aff .listbox .listitem.selected,
+.color-007aff .listbox .tablink.selected,
+.color-007aff .listbox .listitem.selected > a,
+.color-007aff .listbox .tablink.selected > a,
+.color-007aff .listing tbody tr.unfocused td,
+.color-007aff .listing tbody tr.selected td,
+.color-007aff .listing li.selected,
+.color-007aff .listing li.selected > a {
+  background-color: #cae8fb; }
+
+.color-007aff .listbox .listitem,
+.color-007aff .listbox .tablink,
+.color-007aff .listing tbody td,
+.color-007aff .listing li,
+.color-007aff #mailboxlist li.mailbox ul,
+.color-007aff .boxtitle,
+.color-007aff .uibox .listing thead td,
+.color-007aff .uibox .listing thead th,
+.color-007aff .listbox .boxfooter,
+.color-007aff #compose-contacts #directorylist,
+.color-007aff #compose-contacts .scroller,
+.color-007aff ul.listing li ul,
+.color-007aff .uibox.listbox,
+.color-007aff.iframe h1.boxtitle {
+  border-color: #cde3f1; }
+
+.color-007aff .boxfooter a:before,
+.color-007aff ul.listing li a,
+.color-007aff .boxfooter .countdisplay,
+.color-007aff #rss a
+.color-007aff .listbox .listitem a,
+.color-007aff .listbox .tablink a,
+.color-007aff .listing tbody td,
+.color-007aff .listing li a,
+.color-007aff .boxpagenav a.icon {
+  color: #4b6274; }
+
+.xmobile.color-007aff #messagestack div,
+.xmobile.color-007aff #messagestack div:after {
+  color: #4b6274 !important; }
+
+.color-007aff #quota-box {
+  border-color: #4b6274; }
+
+.color-007aff #quota-bar {
+  background-color: #4b6274; }
+
+.xmobile.color-007aff #messagestack div {
+  border-color: #a9c7de; }
+
+.color-007aff .records-table tr.selected td,
+.color-007aff .records-table tr.unfocused td,
+.xmobile.color-007aff #messagelist tr.selected,
+.xmobile.color-007aff #messagelist tr.unfocused,
+.xmobile.color-007aff #messagelist tr.selected td.date {
+  background-color: #2b91e3 !important; }
+
+.color-7200ff ul#planner_controls li a,
+.color-7200ff #addButton,
+.color-7200ff #reassembleButton,
+.color-7200ff input.button,
+.color-7200ff input[type='button'],
+.color-7200ff .formbuttons input.button,
+.color-7200ff input.button.mainaction,
+.color-7200ff #login-form input.button,
+.color-7200ff .username select.deco,
+.color-7200ff .headers-table td a,
+.xmobile.color-7200ff .sidebar-title-text,
+.xmobile.color-7200ff .boxpagenav a.icon,
+.xmobile.color-7200ff #countcontrols a.button,
+.xmobile.color-7200ff #full-headers .more-headers,
+.xmobile.color-7200ff #message-objects div a.button,
+.xmobile.color-7200ff .headers-table td.header a,
+.xmobile.color-7200ff .ui-dialog-content.popup span.adr a,
+.xmobile.color-7200ff .boxfooter .listbutton span,
+.xmobile.color-7200ff .boxfooter .listbutton,
+.xmobile.color-7200ff #messagestack div,
+.xmobile.color-7200ff.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #7200ff; }
+
+.color-7200ff #taskbar,
+.color-7200ff #taskbar a,
+.color-7200ff #taskbar a span,
+.color-7200ff #taskbar a:before,
+.color-7200ff #taskbar .minmodetoggle,
+.color-7200ff .toolbar a.button,
+.color-7200ff .toolbar .dropbutton span.dropbuttontip,
+.color-7200ff #taskbar a.button-calendar span.button-inner,
+.color-7200ff #taskbar a.button-calendar.button-selected span.button-inner,
+.color-7200ff #calendar .fc-button,
+.xmobile.color-7200ff #main-menu a,
+.xmobile.color-7200ff .popup-close a,
+.xmobile.color-7200ff .popup-box h5,
+.xmobile.color-7200ff #quicksearchbar .popup-close a,
+.xmobile.color-7200ff .popup-box #sections-table td,
+.xmobile.color-7200ff #mailFoldersBox a,
+.xmobile.color-7200ff #addressList a,
+.xmobile.color-7200ff .contactfieldbutton.deletebutton,
+.xmobile.color-7200ff .iframe a.disabled,
+.xmobile.color-7200ff .iframe a.active,
+.xmobile.color-7200ff #subscriptionTable td.name,
+.xmobile.color-7200ff div.buttonBox a,
+.xmobile.color-7200ff #mailboxlist li.mailbox a,
+.xmobile.color-7200ff .googie_list td span,
+.xmobile.color-7200ff ul.toolbarmenu li a,
+.xmobile.color-7200ff #taskbar a,
+.xmobile.color-7200ff #taskbar a.button-selected,
+.xmobile.color-7200ff .minimal #taskbar a,
+.xmobile.color-7200ff .popupmenu a,
+.xmobile.color-7200ff #mailboxmenulink,
+.xmobile.color-7200ff #quicksearchbar a.search-apply,
+.xmobile.color-7200ff #quicksearchbar a.search-reset,
+.xmobile.color-7200ff #composeheaders a.iconlink.edit,
+.xmobile.color-7200ff #attachment-list .delete,
+.xmobile.color-7200ff #attachment-list .drop {
+  color: #7200ff !important; }
+
+.xmobile.color-7200ff .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #7200ff; }
+
+.color-7200ff input.switchbox-input:checked + label.switchbox {
+  border-color: #7200ff !important; }
+
+.color-7200ff input.switchbox-input:checked + label.switchbox {
+  background-color: #7200ff !important; }
+
+.color-7200ff #taskbar a:hover:before,
+.color-7200ff #taskbar a:hover span {
+  color: #640ade !important; }
+
+.xdesktop.color-7200ff .listbox,
+.xdesktop.color-7200ff ul.listing li,
+.xmobile.color-7200ff #main-menu a.active {
+  background-color: #e8dcfb; }
+
+.color-7200ff .uibox .boxtitle,
+.color-7200ff .uibox .listing thead td,
+.color-7200ff .uibox .listing thead th,
+.color-7200ff .popupmenu a:hover,
+.color-7200ff.iframe h1.boxtitle,
+.color-7200ff #sidebar-calendar .selected-range td a {
+  background-color: #e8dcfb !important; }
+
+.color-7200ff .listbox .listitem.selected,
+.color-7200ff .listbox .tablink.selected,
+.color-7200ff .listbox .listitem.selected > a,
+.color-7200ff .listbox .tablink.selected > a,
+.color-7200ff .listing tbody tr.unfocused td,
+.color-7200ff .listing tbody tr.selected td,
+.color-7200ff .listing li.selected,
+.color-7200ff .listing li.selected > a {
+  background-color: #dccafb; }
+
+.color-7200ff .listbox .listitem,
+.color-7200ff .listbox .tablink,
+.color-7200ff .listing tbody td,
+.color-7200ff .listing li,
+.color-7200ff #mailboxlist li.mailbox ul,
+.color-7200ff .boxtitle,
+.color-7200ff .uibox .listing thead td,
+.color-7200ff .uibox .listing thead th,
+.color-7200ff .listbox .boxfooter,
+.color-7200ff #compose-contacts #directorylist,
+.color-7200ff #compose-contacts .scroller,
+.color-7200ff ul.listing li ul,
+.color-7200ff .uibox.listbox,
+.color-7200ff.iframe h1.boxtitle {
+  border-color: #cab1f9; }
+
+.color-7200ff .boxfooter a:before,
+.color-7200ff ul.listing li a,
+.color-7200ff .boxfooter .countdisplay,
+.color-7200ff #rss a
+.color-7200ff .listbox .listitem a,
+.color-7200ff .listbox .tablink a,
+.color-7200ff .listing tbody td,
+.color-7200ff .listing li a,
+.color-7200ff .boxpagenav a.icon {
+  color: #72319b; }
+
+.xmobile.color-7200ff #messagestack div,
+.xmobile.color-7200ff #messagestack div:after {
+  color: #72319b !important; }
+
+.color-7200ff #quota-box {
+  border-color: #72319b; }
+
+.color-7200ff #quota-bar {
+  background-color: #72319b; }
+
+.xmobile.color-7200ff #messagestack div {
+  border-color: #c7a9de; }
+
+.color-7200ff .records-table tr.selected td,
+.color-7200ff .records-table tr.unfocused td,
+.xmobile.color-7200ff #messagelist tr.selected,
+.xmobile.color-7200ff #messagelist tr.unfocused,
+.xmobile.color-7200ff #messagelist tr.selected td.date {
+  background-color: #b15ade !important; }
+
+.color-00afa1 ul#planner_controls li a,
+.color-00afa1 #addButton,
+.color-00afa1 #reassembleButton,
+.color-00afa1 input.button,
+.color-00afa1 input[type='button'],
+.color-00afa1 .formbuttons input.button,
+.color-00afa1 input.button.mainaction,
+.color-00afa1 #login-form input.button,
+.color-00afa1 .username select.deco,
+.color-00afa1 .headers-table td a,
+.xmobile.color-00afa1 .sidebar-title-text,
+.xmobile.color-00afa1 .boxpagenav a.icon,
+.xmobile.color-00afa1 #countcontrols a.button,
+.xmobile.color-00afa1 #full-headers .more-headers,
+.xmobile.color-00afa1 #message-objects div a.button,
+.xmobile.color-00afa1 .headers-table td.header a,
+.xmobile.color-00afa1 .ui-dialog-content.popup span.adr a,
+.xmobile.color-00afa1 .boxfooter .listbutton span,
+.xmobile.color-00afa1 .boxfooter .listbutton,
+.xmobile.color-00afa1 #messagestack div,
+.xmobile.color-00afa1.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #00afa1; }
+
+.color-00afa1 #taskbar,
+.color-00afa1 #taskbar a,
+.color-00afa1 #taskbar a span,
+.color-00afa1 #taskbar a:before,
+.color-00afa1 #taskbar .minmodetoggle,
+.color-00afa1 .toolbar a.button,
+.color-00afa1 .toolbar .dropbutton span.dropbuttontip,
+.color-00afa1 #taskbar a.button-calendar span.button-inner,
+.color-00afa1 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-00afa1 #calendar .fc-button,
+.xmobile.color-00afa1 #main-menu a,
+.xmobile.color-00afa1 .popup-close a,
+.xmobile.color-00afa1 .popup-box h5,
+.xmobile.color-00afa1 #quicksearchbar .popup-close a,
+.xmobile.color-00afa1 .popup-box #sections-table td,
+.xmobile.color-00afa1 #mailFoldersBox a,
+.xmobile.color-00afa1 #addressList a,
+.xmobile.color-00afa1 .contactfieldbutton.deletebutton,
+.xmobile.color-00afa1 .iframe a.disabled,
+.xmobile.color-00afa1 .iframe a.active,
+.xmobile.color-00afa1 #subscriptionTable td.name,
+.xmobile.color-00afa1 div.buttonBox a,
+.xmobile.color-00afa1 #mailboxlist li.mailbox a,
+.xmobile.color-00afa1 .googie_list td span,
+.xmobile.color-00afa1 ul.toolbarmenu li a,
+.xmobile.color-00afa1 #taskbar a,
+.xmobile.color-00afa1 #taskbar a.button-selected,
+.xmobile.color-00afa1 .minimal #taskbar a,
+.xmobile.color-00afa1 .popupmenu a,
+.xmobile.color-00afa1 #mailboxmenulink,
+.xmobile.color-00afa1 #quicksearchbar a.search-apply,
+.xmobile.color-00afa1 #quicksearchbar a.search-reset,
+.xmobile.color-00afa1 #composeheaders a.iconlink.edit,
+.xmobile.color-00afa1 #attachment-list .delete,
+.xmobile.color-00afa1 #attachment-list .drop {
+  color: #00afa1 !important; }
+
+.xmobile.color-00afa1 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #00afa1; }
+
+.color-00afa1 input.switchbox-input:checked + label.switchbox {
+  border-color: #00afa1 !important; }
+
+.color-00afa1 input.switchbox-input:checked + label.switchbox {
+  background-color: #00afa1 !important; }
+
+.color-00afa1 #taskbar a:hover:before,
+.color-00afa1 #taskbar a:hover span {
+  color: #009a8d !important; }
+
+.xdesktop.color-00afa1 .listbox,
+.xdesktop.color-00afa1 ul.listing li,
+.xmobile.color-00afa1 #main-menu a.active {
+  background-color: #e2f8f6; }
+
+.color-00afa1 .uibox .boxtitle,
+.color-00afa1 .uibox .listing thead td,
+.color-00afa1 .uibox .listing thead th,
+.color-00afa1 .popupmenu a:hover,
+.color-00afa1.iframe h1.boxtitle,
+.color-00afa1 #sidebar-calendar .selected-range td a {
+  background-color: #e2f8f6 !important; }
+
+.color-00afa1 .listbox .listitem.selected,
+.color-00afa1 .listbox .tablink.selected,
+.color-00afa1 .listbox .listitem.selected > a,
+.color-00afa1 .listbox .tablink.selected > a,
+.color-00afa1 .listing tbody tr.unfocused td,
+.color-00afa1 .listing tbody tr.selected td,
+.color-00afa1 .listing li.selected,
+.color-00afa1 .listing li.selected > a {
+  background-color: #c5ece9; }
+
+.color-00afa1 .listbox .listitem,
+.color-00afa1 .listbox .tablink,
+.color-00afa1 .listing tbody td,
+.color-00afa1 .listing li,
+.color-00afa1 #mailboxlist li.mailbox ul,
+.color-00afa1 .boxtitle,
+.color-00afa1 .uibox .listing thead td,
+.color-00afa1 .uibox .listing thead th,
+.color-00afa1 .listbox .boxfooter,
+.color-00afa1 #compose-contacts #directorylist,
+.color-00afa1 #compose-contacts .scroller,
+.color-00afa1 ul.listing li ul,
+.color-00afa1 .uibox.listbox,
+.color-00afa1.iframe h1.boxtitle {
+  border-color: #b7e2de; }
+
+.color-00afa1 .boxfooter a:before,
+.color-00afa1 ul.listing li a,
+.color-00afa1 .boxfooter .countdisplay,
+.color-00afa1 #rss a
+.color-00afa1 .listbox .listitem a,
+.color-00afa1 .listbox .tablink a,
+.color-00afa1 .listing tbody td,
+.color-00afa1 .listing li a,
+.color-00afa1 .boxpagenav a.icon {
+  color: #276b66; }
+
+.xmobile.color-00afa1 #messagestack div,
+.xmobile.color-00afa1 #messagestack div:after {
+  color: #276b66 !important; }
+
+.color-00afa1 #quota-box {
+  border-color: #276b66; }
+
+.color-00afa1 #quota-bar {
+  background-color: #276b66; }
+
+.xmobile.color-00afa1 #messagestack div {
+  border-color: #5dbeb6; }
+
+.color-00afa1 .records-table tr.selected td,
+.color-00afa1 .records-table tr.unfocused td,
+.xmobile.color-00afa1 #messagelist tr.selected,
+.xmobile.color-00afa1 #messagelist tr.unfocused,
+.xmobile.color-00afa1 #messagelist tr.selected td.date {
+  background-color: #1a8279 !important; }
+
+.color-009e13 ul#planner_controls li a,
+.color-009e13 #addButton,
+.color-009e13 #reassembleButton,
+.color-009e13 input.button,
+.color-009e13 input[type='button'],
+.color-009e13 .formbuttons input.button,
+.color-009e13 input.button.mainaction,
+.color-009e13 #login-form input.button,
+.color-009e13 .username select.deco,
+.color-009e13 .headers-table td a,
+.xmobile.color-009e13 .sidebar-title-text,
+.xmobile.color-009e13 .boxpagenav a.icon,
+.xmobile.color-009e13 #countcontrols a.button,
+.xmobile.color-009e13 #full-headers .more-headers,
+.xmobile.color-009e13 #message-objects div a.button,
+.xmobile.color-009e13 .headers-table td.header a,
+.xmobile.color-009e13 .ui-dialog-content.popup span.adr a,
+.xmobile.color-009e13 .boxfooter .listbutton span,
+.xmobile.color-009e13 .boxfooter .listbutton,
+.xmobile.color-009e13 #messagestack div,
+.xmobile.color-009e13.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #009e13; }
+
+.color-009e13 #taskbar,
+.color-009e13 #taskbar a,
+.color-009e13 #taskbar a span,
+.color-009e13 #taskbar a:before,
+.color-009e13 #taskbar .minmodetoggle,
+.color-009e13 .toolbar a.button,
+.color-009e13 .toolbar .dropbutton span.dropbuttontip,
+.color-009e13 #taskbar a.button-calendar span.button-inner,
+.color-009e13 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-009e13 #calendar .fc-button,
+.xmobile.color-009e13 #main-menu a,
+.xmobile.color-009e13 .popup-close a,
+.xmobile.color-009e13 .popup-box h5,
+.xmobile.color-009e13 #quicksearchbar .popup-close a,
+.xmobile.color-009e13 .popup-box #sections-table td,
+.xmobile.color-009e13 #mailFoldersBox a,
+.xmobile.color-009e13 #addressList a,
+.xmobile.color-009e13 .contactfieldbutton.deletebutton,
+.xmobile.color-009e13 .iframe a.disabled,
+.xmobile.color-009e13 .iframe a.active,
+.xmobile.color-009e13 #subscriptionTable td.name,
+.xmobile.color-009e13 div.buttonBox a,
+.xmobile.color-009e13 #mailboxlist li.mailbox a,
+.xmobile.color-009e13 .googie_list td span,
+.xmobile.color-009e13 ul.toolbarmenu li a,
+.xmobile.color-009e13 #taskbar a,
+.xmobile.color-009e13 #taskbar a.button-selected,
+.xmobile.color-009e13 .minimal #taskbar a,
+.xmobile.color-009e13 .popupmenu a,
+.xmobile.color-009e13 #mailboxmenulink,
+.xmobile.color-009e13 #quicksearchbar a.search-apply,
+.xmobile.color-009e13 #quicksearchbar a.search-reset,
+.xmobile.color-009e13 #composeheaders a.iconlink.edit,
+.xmobile.color-009e13 #attachment-list .delete,
+.xmobile.color-009e13 #attachment-list .drop {
+  color: #009e13 !important; }
+
+.xmobile.color-009e13 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #009e13; }
+
+.color-009e13 input.switchbox-input:checked + label.switchbox {
+  border-color: #009e13 !important; }
+
+.color-009e13 input.switchbox-input:checked + label.switchbox {
+  background-color: #009e13 !important; }
+
+.color-009e13 #taskbar a:hover:before,
+.color-009e13 #taskbar a:hover span {
+  color: #008910 !important; }
+
+.xdesktop.color-009e13 .listbox,
+.xdesktop.color-009e13 ul.listing li,
+.xmobile.color-009e13 #main-menu a.active {
+  background-color: #ebfced; }
+
+.color-009e13 .uibox .boxtitle,
+.color-009e13 .uibox .listing thead td,
+.color-009e13 .uibox .listing thead th,
+.color-009e13 .popupmenu a:hover,
+.color-009e13.iframe h1.boxtitle,
+.color-009e13 #sidebar-calendar .selected-range td a {
+  background-color: #ebfced !important; }
+
+.color-009e13 .listbox .listitem.selected,
+.color-009e13 .listbox .tablink.selected,
+.color-009e13 .listbox .listitem.selected > a,
+.color-009e13 .listbox .tablink.selected > a,
+.color-009e13 .listing tbody tr.unfocused td,
+.color-009e13 .listing tbody tr.selected td,
+.color-009e13 .listing li.selected,
+.color-009e13 .listing li.selected > a {
+  background-color: #caefce; }
+
+.color-009e13 .listbox .listitem,
+.color-009e13 .listbox .tablink,
+.color-009e13 .listing tbody td,
+.color-009e13 .listing li,
+.color-009e13 #mailboxlist li.mailbox ul,
+.color-009e13 .boxtitle,
+.color-009e13 .uibox .listing thead td,
+.color-009e13 .uibox .listing thead th,
+.color-009e13 .listbox .boxfooter,
+.color-009e13 #compose-contacts #directorylist,
+.color-009e13 #compose-contacts .scroller,
+.color-009e13 ul.listing li ul,
+.color-009e13 .uibox.listbox,
+.color-009e13.iframe h1.boxtitle {
+  border-color: #b0dfb5; }
+
+.color-009e13 .boxfooter a:before,
+.color-009e13 ul.listing li a,
+.color-009e13 .boxfooter .countdisplay,
+.color-009e13 #rss a
+.color-009e13 .listbox .listitem a,
+.color-009e13 .listbox .tablink a,
+.color-009e13 .listing tbody td,
+.color-009e13 .listing li a,
+.color-009e13 .boxpagenav a.icon {
+  color: #307738; }
+
+.xmobile.color-009e13 #messagestack div,
+.xmobile.color-009e13 #messagestack div:after {
+  color: #307738 !important; }
+
+.color-009e13 #quota-box {
+  border-color: #307738; }
+
+.color-009e13 #quota-bar {
+  background-color: #307738; }
+
+.xmobile.color-009e13 #messagestack div {
+  border-color: #67be71; }
+
+.color-009e13 .records-table tr.selected td,
+.color-009e13 .records-table tr.unfocused td,
+.xmobile.color-009e13 #messagelist tr.selected,
+.xmobile.color-009e13 #messagelist tr.unfocused,
+.xmobile.color-009e13 #messagelist tr.selected td.date {
+  background-color: #1b9229 !important; }
+
+.color-518901 ul#planner_controls li a,
+.color-518901 #addButton,
+.color-518901 #reassembleButton,
+.color-518901 input.button,
+.color-518901 input[type='button'],
+.color-518901 .formbuttons input.button,
+.color-518901 input.button.mainaction,
+.color-518901 #login-form input.button,
+.color-518901 .username select.deco,
+.color-518901 .headers-table td a,
+.xmobile.color-518901 .sidebar-title-text,
+.xmobile.color-518901 .boxpagenav a.icon,
+.xmobile.color-518901 #countcontrols a.button,
+.xmobile.color-518901 #full-headers .more-headers,
+.xmobile.color-518901 #message-objects div a.button,
+.xmobile.color-518901 .headers-table td.header a,
+.xmobile.color-518901 .ui-dialog-content.popup span.adr a,
+.xmobile.color-518901 .boxfooter .listbutton span,
+.xmobile.color-518901 .boxfooter .listbutton,
+.xmobile.color-518901 #messagestack div,
+.xmobile.color-518901.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #518901; }
+
+.color-518901 #taskbar,
+.color-518901 #taskbar a,
+.color-518901 #taskbar a span,
+.color-518901 #taskbar a:before,
+.color-518901 #taskbar .minmodetoggle,
+.color-518901 .toolbar a.button,
+.color-518901 .toolbar .dropbutton span.dropbuttontip,
+.color-518901 #taskbar a.button-calendar span.button-inner,
+.color-518901 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-518901 #calendar .fc-button,
+.xmobile.color-518901 #main-menu a,
+.xmobile.color-518901 .popup-close a,
+.xmobile.color-518901 .popup-box h5,
+.xmobile.color-518901 #quicksearchbar .popup-close a,
+.xmobile.color-518901 .popup-box #sections-table td,
+.xmobile.color-518901 #mailFoldersBox a,
+.xmobile.color-518901 #addressList a,
+.xmobile.color-518901 .contactfieldbutton.deletebutton,
+.xmobile.color-518901 .iframe a.disabled,
+.xmobile.color-518901 .iframe a.active,
+.xmobile.color-518901 #subscriptionTable td.name,
+.xmobile.color-518901 div.buttonBox a,
+.xmobile.color-518901 #mailboxlist li.mailbox a,
+.xmobile.color-518901 .googie_list td span,
+.xmobile.color-518901 ul.toolbarmenu li a,
+.xmobile.color-518901 #taskbar a,
+.xmobile.color-518901 #taskbar a.button-selected,
+.xmobile.color-518901 .minimal #taskbar a,
+.xmobile.color-518901 .popupmenu a,
+.xmobile.color-518901 #mailboxmenulink,
+.xmobile.color-518901 #quicksearchbar a.search-apply,
+.xmobile.color-518901 #quicksearchbar a.search-reset,
+.xmobile.color-518901 #composeheaders a.iconlink.edit,
+.xmobile.color-518901 #attachment-list .delete,
+.xmobile.color-518901 #attachment-list .drop {
+  color: #518901 !important; }
+
+.xmobile.color-518901 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #518901; }
+
+.color-518901 input.switchbox-input:checked + label.switchbox {
+  border-color: #518901 !important; }
+
+.color-518901 input.switchbox-input:checked + label.switchbox {
+  background-color: #518901 !important; }
+
+.color-518901 #taskbar a:hover:before,
+.color-518901 #taskbar a:hover span {
+  color: #437200 !important; }
+
+.xdesktop.color-518901 .listbox,
+.xdesktop.color-518901 ul.listing li,
+.xmobile.color-518901 #main-menu a.active {
+  background-color: #e8f7d1; }
+
+.color-518901 .uibox .boxtitle,
+.color-518901 .uibox .listing thead td,
+.color-518901 .uibox .listing thead th,
+.color-518901 .popupmenu a:hover,
+.color-518901.iframe h1.boxtitle,
+.color-518901 #sidebar-calendar .selected-range td a {
+  background-color: #e8f7d1 !important; }
+
+.color-518901 .listbox .listitem.selected,
+.color-518901 .listbox .tablink.selected,
+.color-518901 .listbox .listitem.selected > a,
+.color-518901 .listbox .tablink.selected > a,
+.color-518901 .listing tbody tr.unfocused td,
+.color-518901 .listing tbody tr.selected td,
+.color-518901 .listing li.selected,
+.color-518901 .listing li.selected > a {
+  background-color: #d3e8b1; }
+
+.color-518901 .listbox .listitem,
+.color-518901 .listbox .tablink,
+.color-518901 .listing tbody td,
+.color-518901 .listing li,
+.color-518901 #mailboxlist li.mailbox ul,
+.color-518901 .boxtitle,
+.color-518901 .uibox .listing thead td,
+.color-518901 .uibox .listing thead th,
+.color-518901 .listbox .boxfooter,
+.color-518901 #compose-contacts #directorylist,
+.color-518901 #compose-contacts .scroller,
+.color-518901 ul.listing li ul,
+.color-518901 .uibox.listbox,
+.color-518901.iframe h1.boxtitle {
+  border-color: #c9e1a2; }
+
+.color-518901 .boxfooter a:before,
+.color-518901 ul.listing li a,
+.color-518901 .boxfooter .countdisplay,
+.color-518901 #rss a
+.color-518901 .listbox .listitem a,
+.color-518901 .listbox .tablink a,
+.color-518901 .listing tbody td,
+.color-518901 .listing li a,
+.color-518901 .boxpagenav a.icon {
+  color: #5a861c; }
+
+.xmobile.color-518901 #messagestack div,
+.xmobile.color-518901 #messagestack div:after {
+  color: #5a861c !important; }
+
+.color-518901 #quota-box {
+  border-color: #5a861c; }
+
+.color-518901 #quota-bar {
+  background-color: #5a861c; }
+
+.xmobile.color-518901 #messagestack div {
+  border-color: #a7cb73; }
+
+.color-518901 .records-table tr.selected td,
+.color-518901 .records-table tr.unfocused td,
+.xmobile.color-518901 #messagelist tr.selected,
+.xmobile.color-518901 #messagelist tr.unfocused,
+.xmobile.color-518901 #messagelist tr.selected td.date {
+  background-color: #628b27 !important; }
+
+.color-878901 ul#planner_controls li a,
+.color-878901 #addButton,
+.color-878901 #reassembleButton,
+.color-878901 input.button,
+.color-878901 input[type='button'],
+.color-878901 .formbuttons input.button,
+.color-878901 input.button.mainaction,
+.color-878901 #login-form input.button,
+.color-878901 .username select.deco,
+.color-878901 .headers-table td a,
+.xmobile.color-878901 .sidebar-title-text,
+.xmobile.color-878901 .boxpagenav a.icon,
+.xmobile.color-878901 #countcontrols a.button,
+.xmobile.color-878901 #full-headers .more-headers,
+.xmobile.color-878901 #message-objects div a.button,
+.xmobile.color-878901 .headers-table td.header a,
+.xmobile.color-878901 .ui-dialog-content.popup span.adr a,
+.xmobile.color-878901 .boxfooter .listbutton span,
+.xmobile.color-878901 .boxfooter .listbutton,
+.xmobile.color-878901 #messagestack div,
+.xmobile.color-878901.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #878901; }
+
+.color-878901 #taskbar,
+.color-878901 #taskbar a,
+.color-878901 #taskbar a span,
+.color-878901 #taskbar a:before,
+.color-878901 #taskbar .minmodetoggle,
+.color-878901 .toolbar a.button,
+.color-878901 .toolbar .dropbutton span.dropbuttontip,
+.color-878901 #taskbar a.button-calendar span.button-inner,
+.color-878901 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-878901 #calendar .fc-button,
+.xmobile.color-878901 #main-menu a,
+.xmobile.color-878901 .popup-close a,
+.xmobile.color-878901 .popup-box h5,
+.xmobile.color-878901 #quicksearchbar .popup-close a,
+.xmobile.color-878901 .popup-box #sections-table td,
+.xmobile.color-878901 #mailFoldersBox a,
+.xmobile.color-878901 #addressList a,
+.xmobile.color-878901 .contactfieldbutton.deletebutton,
+.xmobile.color-878901 .iframe a.disabled,
+.xmobile.color-878901 .iframe a.active,
+.xmobile.color-878901 #subscriptionTable td.name,
+.xmobile.color-878901 div.buttonBox a,
+.xmobile.color-878901 #mailboxlist li.mailbox a,
+.xmobile.color-878901 .googie_list td span,
+.xmobile.color-878901 ul.toolbarmenu li a,
+.xmobile.color-878901 #taskbar a,
+.xmobile.color-878901 #taskbar a.button-selected,
+.xmobile.color-878901 .minimal #taskbar a,
+.xmobile.color-878901 .popupmenu a,
+.xmobile.color-878901 #mailboxmenulink,
+.xmobile.color-878901 #quicksearchbar a.search-apply,
+.xmobile.color-878901 #quicksearchbar a.search-reset,
+.xmobile.color-878901 #composeheaders a.iconlink.edit,
+.xmobile.color-878901 #attachment-list .delete,
+.xmobile.color-878901 #attachment-list .drop {
+  color: #878901 !important; }
+
+.xmobile.color-878901 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #878901; }
+
+.color-878901 input.switchbox-input:checked + label.switchbox {
+  border-color: #878901 !important; }
+
+.color-878901 input.switchbox-input:checked + label.switchbox {
+  background-color: #878901 !important; }
+
+.color-878901 #taskbar a:hover:before,
+.color-878901 #taskbar a:hover span {
+  color: #6e6f00 !important; }
+
+.xdesktop.color-878901 .listbox,
+.xdesktop.color-878901 ul.listing li,
+.xmobile.color-878901 #main-menu a.active {
+  background-color: #fefeef; }
+
+.color-878901 .uibox .boxtitle,
+.color-878901 .uibox .listing thead td,
+.color-878901 .uibox .listing thead th,
+.color-878901 .popupmenu a:hover,
+.color-878901.iframe h1.boxtitle,
+.color-878901 #sidebar-calendar .selected-range td a {
+  background-color: #fefeef !important; }
+
+.color-878901 .listbox .listitem.selected,
+.color-878901 .listbox .tablink.selected,
+.color-878901 .listbox .listitem.selected > a,
+.color-878901 .listbox .tablink.selected > a,
+.color-878901 .listing tbody tr.unfocused td,
+.color-878901 .listing tbody tr.selected td,
+.color-878901 .listing li.selected,
+.color-878901 .listing li.selected > a {
+  background-color: #efefcc; }
+
+.color-878901 .listbox .listitem,
+.color-878901 .listbox .tablink,
+.color-878901 .listing tbody td,
+.color-878901 .listing li,
+.color-878901 #mailboxlist li.mailbox ul,
+.color-878901 .boxtitle,
+.color-878901 .uibox .listing thead td,
+.color-878901 .uibox .listing thead th,
+.color-878901 .listbox .boxfooter,
+.color-878901 #compose-contacts #directorylist,
+.color-878901 #compose-contacts .scroller,
+.color-878901 ul.listing li ul,
+.color-878901 .uibox.listbox,
+.color-878901.iframe h1.boxtitle {
+  border-color: #e7e8b8; }
+
+.color-878901 .boxfooter a:before,
+.color-878901 ul.listing li a,
+.color-878901 .boxfooter .countdisplay,
+.color-878901 #rss a
+.color-878901 .listbox .listitem a,
+.color-878901 .listbox .tablink a,
+.color-878901 .listing tbody td,
+.color-878901 .listing li a,
+.color-878901 .boxpagenav a.icon {
+  color: #858634; }
+
+.xmobile.color-878901 #messagestack div,
+.xmobile.color-878901 #messagestack div:after {
+  color: #858634 !important; }
+
+.color-878901 #quota-box {
+  border-color: #858634; }
+
+.color-878901 #quota-bar {
+  background-color: #858634; }
+
+.xmobile.color-878901 #messagestack div {
+  border-color: #c0c16e; }
+
+.color-878901 .records-table tr.selected td,
+.color-878901 .records-table tr.unfocused td,
+.xmobile.color-878901 #messagelist tr.selected,
+.xmobile.color-878901 #messagelist tr.unfocused,
+.xmobile.color-878901 #messagelist tr.selected td.date {
+  background-color: #959620 !important; }
+
+.color-f92d30 ul#planner_controls li a,
+.color-f92d30 #addButton,
+.color-f92d30 #reassembleButton,
+.color-f92d30 input.button,
+.color-f92d30 input[type='button'],
+.color-f92d30 .formbuttons input.button,
+.color-f92d30 input.button.mainaction,
+.color-f92d30 #login-form input.button,
+.color-f92d30 .username select.deco,
+.color-f92d30 .headers-table td a,
+.xmobile.color-f92d30 .sidebar-title-text,
+.xmobile.color-f92d30 .boxpagenav a.icon,
+.xmobile.color-f92d30 #countcontrols a.button,
+.xmobile.color-f92d30 #full-headers .more-headers,
+.xmobile.color-f92d30 #message-objects div a.button,
+.xmobile.color-f92d30 .headers-table td.header a,
+.xmobile.color-f92d30 .ui-dialog-content.popup span.adr a,
+.xmobile.color-f92d30 .boxfooter .listbutton span,
+.xmobile.color-f92d30 .boxfooter .listbutton,
+.xmobile.color-f92d30 #messagestack div,
+.xmobile.color-f92d30.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #f92d30; }
+
+.color-f92d30 #taskbar,
+.color-f92d30 #taskbar a,
+.color-f92d30 #taskbar a span,
+.color-f92d30 #taskbar a:before,
+.color-f92d30 #taskbar .minmodetoggle,
+.color-f92d30 .toolbar a.button,
+.color-f92d30 .toolbar .dropbutton span.dropbuttontip,
+.color-f92d30 #taskbar a.button-calendar span.button-inner,
+.color-f92d30 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-f92d30 #calendar .fc-button,
+.xmobile.color-f92d30 #main-menu a,
+.xmobile.color-f92d30 .popup-close a,
+.xmobile.color-f92d30 .popup-box h5,
+.xmobile.color-f92d30 #quicksearchbar .popup-close a,
+.xmobile.color-f92d30 .popup-box #sections-table td,
+.xmobile.color-f92d30 #mailFoldersBox a,
+.xmobile.color-f92d30 #addressList a,
+.xmobile.color-f92d30 .contactfieldbutton.deletebutton,
+.xmobile.color-f92d30 .iframe a.disabled,
+.xmobile.color-f92d30 .iframe a.active,
+.xmobile.color-f92d30 #subscriptionTable td.name,
+.xmobile.color-f92d30 div.buttonBox a,
+.xmobile.color-f92d30 #mailboxlist li.mailbox a,
+.xmobile.color-f92d30 .googie_list td span,
+.xmobile.color-f92d30 ul.toolbarmenu li a,
+.xmobile.color-f92d30 #taskbar a,
+.xmobile.color-f92d30 #taskbar a.button-selected,
+.xmobile.color-f92d30 .minimal #taskbar a,
+.xmobile.color-f92d30 .popupmenu a,
+.xmobile.color-f92d30 #mailboxmenulink,
+.xmobile.color-f92d30 #quicksearchbar a.search-apply,
+.xmobile.color-f92d30 #quicksearchbar a.search-reset,
+.xmobile.color-f92d30 #composeheaders a.iconlink.edit,
+.xmobile.color-f92d30 #attachment-list .delete,
+.xmobile.color-f92d30 #attachment-list .drop {
+  color: #f92d30 !important; }
+
+.xmobile.color-f92d30 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #f92d30; }
+
+.color-f92d30 input.switchbox-input:checked + label.switchbox {
+  border-color: #f92d30 !important; }
+
+.color-f92d30 input.switchbox-input:checked + label.switchbox {
+  background-color: #f92d30 !important; }
+
+.color-f92d30 #taskbar a:hover:before,
+.color-f92d30 #taskbar a:hover span {
+  color: #cc2f27 !important; }
+
+.xdesktop.color-f92d30 .listbox,
+.xdesktop.color-f92d30 ul.listing li,
+.xmobile.color-f92d30 #main-menu a.active {
+  background-color: #ffdfdf; }
+
+.color-f92d30 .uibox .boxtitle,
+.color-f92d30 .uibox .listing thead td,
+.color-f92d30 .uibox .listing thead th,
+.color-f92d30 .popupmenu a:hover,
+.color-f92d30.iframe h1.boxtitle,
+.color-f92d30 #sidebar-calendar .selected-range td a {
+  background-color: #ffdfdf !important; }
+
+.color-f92d30 .listbox .listitem.selected,
+.color-f92d30 .listbox .tablink.selected,
+.color-f92d30 .listbox .listitem.selected > a,
+.color-f92d30 .listbox .tablink.selected > a,
+.color-f92d30 .listing tbody tr.unfocused td,
+.color-f92d30 .listing tbody tr.selected td,
+.color-f92d30 .listing li.selected,
+.color-f92d30 .listing li.selected > a {
+  background-color: #ffbebe; }
+
+.color-f92d30 .listbox .listitem,
+.color-f92d30 .listbox .tablink,
+.color-f92d30 .listing tbody td,
+.color-f92d30 .listing li,
+.color-f92d30 #mailboxlist li.mailbox ul,
+.color-f92d30 .boxtitle,
+.color-f92d30 .uibox .listing thead td,
+.color-f92d30 .uibox .listing thead th,
+.color-f92d30 .listbox .boxfooter,
+.color-f92d30 #compose-contacts #directorylist,
+.color-f92d30 #compose-contacts .scroller,
+.color-f92d30 ul.listing li ul,
+.color-f92d30 .uibox.listbox,
+.color-f92d30.iframe h1.boxtitle {
+  border-color: #f9b1b1; }
+
+.color-f92d30 .boxfooter a:before,
+.color-f92d30 ul.listing li a,
+.color-f92d30 .boxfooter .countdisplay,
+.color-f92d30 #rss a
+.color-f92d30 .listbox .listitem a,
+.color-f92d30 .listbox .tablink a,
+.color-f92d30 .listing tbody td,
+.color-f92d30 .listing li a,
+.color-f92d30 .boxpagenav a.icon {
+  color: #7f5858; }
+
+.xmobile.color-f92d30 #messagestack div,
+.xmobile.color-f92d30 #messagestack div:after {
+  color: #7f5858 !important; }
+
+.color-f92d30 #quota-box {
+  border-color: #7f5858; }
+
+.color-f92d30 #quota-bar {
+  background-color: #7f5858; }
+
+.xmobile.color-f92d30 #messagestack div {
+  border-color: #e5aca9; }
+
+.color-f92d30 .records-table tr.selected td,
+.color-f92d30 .records-table tr.unfocused td,
+.xmobile.color-f92d30 #messagelist tr.selected,
+.xmobile.color-f92d30 #messagelist tr.unfocused,
+.xmobile.color-f92d30 #messagelist tr.selected td.date {
+  background-color: #ff3b30 !important; }
+
+.color-ef0087 ul#planner_controls li a,
+.color-ef0087 #addButton,
+.color-ef0087 #reassembleButton,
+.color-ef0087 input.button,
+.color-ef0087 input[type='button'],
+.color-ef0087 .formbuttons input.button,
+.color-ef0087 input.button.mainaction,
+.color-ef0087 #login-form input.button,
+.color-ef0087 .username select.deco,
+.color-ef0087 .headers-table td a,
+.xmobile.color-ef0087 .sidebar-title-text,
+.xmobile.color-ef0087 .boxpagenav a.icon,
+.xmobile.color-ef0087 #countcontrols a.button,
+.xmobile.color-ef0087 #full-headers .more-headers,
+.xmobile.color-ef0087 #message-objects div a.button,
+.xmobile.color-ef0087 .headers-table td.header a,
+.xmobile.color-ef0087 .ui-dialog-content.popup span.adr a,
+.xmobile.color-ef0087 .boxfooter .listbutton span,
+.xmobile.color-ef0087 .boxfooter .listbutton,
+.xmobile.color-ef0087 #messagestack div,
+.xmobile.color-ef0087.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #ef0087; }
+
+.color-ef0087 #taskbar,
+.color-ef0087 #taskbar a,
+.color-ef0087 #taskbar a span,
+.color-ef0087 #taskbar a:before,
+.color-ef0087 #taskbar .minmodetoggle,
+.color-ef0087 .toolbar a.button,
+.color-ef0087 .toolbar .dropbutton span.dropbuttontip,
+.color-ef0087 #taskbar a.button-calendar span.button-inner,
+.color-ef0087 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-ef0087 #calendar .fc-button,
+.xmobile.color-ef0087 #main-menu a,
+.xmobile.color-ef0087 .popup-close a,
+.xmobile.color-ef0087 .popup-box h5,
+.xmobile.color-ef0087 #quicksearchbar .popup-close a,
+.xmobile.color-ef0087 .popup-box #sections-table td,
+.xmobile.color-ef0087 #mailFoldersBox a,
+.xmobile.color-ef0087 #addressList a,
+.xmobile.color-ef0087 .contactfieldbutton.deletebutton,
+.xmobile.color-ef0087 .iframe a.disabled,
+.xmobile.color-ef0087 .iframe a.active,
+.xmobile.color-ef0087 #subscriptionTable td.name,
+.xmobile.color-ef0087 div.buttonBox a,
+.xmobile.color-ef0087 #mailboxlist li.mailbox a,
+.xmobile.color-ef0087 .googie_list td span,
+.xmobile.color-ef0087 ul.toolbarmenu li a,
+.xmobile.color-ef0087 #taskbar a,
+.xmobile.color-ef0087 #taskbar a.button-selected,
+.xmobile.color-ef0087 .minimal #taskbar a,
+.xmobile.color-ef0087 .popupmenu a,
+.xmobile.color-ef0087 #mailboxmenulink,
+.xmobile.color-ef0087 #quicksearchbar a.search-apply,
+.xmobile.color-ef0087 #quicksearchbar a.search-reset,
+.xmobile.color-ef0087 #composeheaders a.iconlink.edit,
+.xmobile.color-ef0087 #attachment-list .delete,
+.xmobile.color-ef0087 #attachment-list .drop {
+  color: #ef0087 !important; }
+
+.xmobile.color-ef0087 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #ef0087; }
+
+.color-ef0087 input.switchbox-input:checked + label.switchbox {
+  border-color: #ef0087 !important; }
+
+.color-ef0087 input.switchbox-input:checked + label.switchbox {
+  background-color: #ef0087 !important; }
+
+.color-ef0087 #taskbar a:hover:before,
+.color-ef0087 #taskbar a:hover span {
+  color: #c90072 !important; }
+
+.xdesktop.color-ef0087 .listbox,
+.xdesktop.color-ef0087 ul.listing li,
+.xmobile.color-ef0087 #main-menu a.active {
+  background-color: #fbdcef; }
+
+.color-ef0087 .uibox .boxtitle,
+.color-ef0087 .uibox .listing thead td,
+.color-ef0087 .uibox .listing thead th,
+.color-ef0087 .popupmenu a:hover,
+.color-ef0087.iframe h1.boxtitle,
+.color-ef0087 #sidebar-calendar .selected-range td a {
+  background-color: #fbdcef !important; }
+
+.color-ef0087 .listbox .listitem.selected,
+.color-ef0087 .listbox .tablink.selected,
+.color-ef0087 .listbox .listitem.selected > a,
+.color-ef0087 .listbox .tablink.selected > a,
+.color-ef0087 .listing tbody tr.unfocused td,
+.color-ef0087 .listing tbody tr.selected td,
+.color-ef0087 .listing li.selected,
+.color-ef0087 .listing li.selected > a {
+  background-color: #fbcae9; }
+
+.color-ef0087 .listbox .listitem,
+.color-ef0087 .listbox .tablink,
+.color-ef0087 .listing tbody td,
+.color-ef0087 .listing li,
+.color-ef0087 #mailboxlist li.mailbox ul,
+.color-ef0087 .boxtitle,
+.color-ef0087 .uibox .listing thead td,
+.color-ef0087 .uibox .listing thead th,
+.color-ef0087 .listbox .boxfooter,
+.color-ef0087 #compose-contacts #directorylist,
+.color-ef0087 #compose-contacts .scroller,
+.color-ef0087 ul.listing li ul,
+.color-ef0087 .uibox.listbox,
+.color-ef0087.iframe h1.boxtitle {
+  border-color: #f9b1e0; }
+
+.color-ef0087 .boxfooter a:before,
+.color-ef0087 ul.listing li a,
+.color-ef0087 .boxfooter .countdisplay,
+.color-ef0087 #rss a
+.color-ef0087 .listbox .listitem a,
+.color-ef0087 .listbox .tablink a,
+.color-ef0087 .listing tbody td,
+.color-ef0087 .listing li a,
+.color-ef0087 .boxpagenav a.icon {
+  color: #730c6f; }
+
+.xmobile.color-ef0087 #messagestack div,
+.xmobile.color-ef0087 #messagestack div:after {
+  color: #730c6f !important; }
+
+.color-ef0087 #quota-box {
+  border-color: #730c6f; }
+
+.color-ef0087 #quota-bar {
+  background-color: #730c6f; }
+
+.xmobile.color-ef0087 #messagestack div {
+  border-color: #b42b8c; }
+
+.color-ef0087 .records-table tr.selected td,
+.color-ef0087 .records-table tr.unfocused td,
+.xmobile.color-ef0087 #messagelist tr.selected,
+.xmobile.color-ef0087 #messagelist tr.unfocused,
+.xmobile.color-ef0087 #messagelist tr.selected td.date {
+  background-color: #e32ba9 !important; }
+
+.color-ff8400 ul#planner_controls li a,
+.color-ff8400 #addButton,
+.color-ff8400 #reassembleButton,
+.color-ff8400 input.button,
+.color-ff8400 input[type='button'],
+.color-ff8400 .formbuttons input.button,
+.color-ff8400 input.button.mainaction,
+.color-ff8400 #login-form input.button,
+.color-ff8400 .username select.deco,
+.color-ff8400 .headers-table td a,
+.xmobile.color-ff8400 .sidebar-title-text,
+.xmobile.color-ff8400 .boxpagenav a.icon,
+.xmobile.color-ff8400 #countcontrols a.button,
+.xmobile.color-ff8400 #full-headers .more-headers,
+.xmobile.color-ff8400 #message-objects div a.button,
+.xmobile.color-ff8400 .headers-table td.header a,
+.xmobile.color-ff8400 .ui-dialog-content.popup span.adr a,
+.xmobile.color-ff8400 .boxfooter .listbutton span,
+.xmobile.color-ff8400 .boxfooter .listbutton,
+.xmobile.color-ff8400 #messagestack div,
+.xmobile.color-ff8400.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #ff8400; }
+
+.color-ff8400 #taskbar,
+.color-ff8400 #taskbar a,
+.color-ff8400 #taskbar a span,
+.color-ff8400 #taskbar a:before,
+.color-ff8400 #taskbar .minmodetoggle,
+.color-ff8400 .toolbar a.button,
+.color-ff8400 .toolbar .dropbutton span.dropbuttontip,
+.color-ff8400 #taskbar a.button-calendar span.button-inner,
+.color-ff8400 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-ff8400 #calendar .fc-button,
+.xmobile.color-ff8400 #main-menu a,
+.xmobile.color-ff8400 .popup-close a,
+.xmobile.color-ff8400 .popup-box h5,
+.xmobile.color-ff8400 #quicksearchbar .popup-close a,
+.xmobile.color-ff8400 .popup-box #sections-table td,
+.xmobile.color-ff8400 #mailFoldersBox a,
+.xmobile.color-ff8400 #addressList a,
+.xmobile.color-ff8400 .contactfieldbutton.deletebutton,
+.xmobile.color-ff8400 .iframe a.disabled,
+.xmobile.color-ff8400 .iframe a.active,
+.xmobile.color-ff8400 #subscriptionTable td.name,
+.xmobile.color-ff8400 div.buttonBox a,
+.xmobile.color-ff8400 #mailboxlist li.mailbox a,
+.xmobile.color-ff8400 .googie_list td span,
+.xmobile.color-ff8400 ul.toolbarmenu li a,
+.xmobile.color-ff8400 #taskbar a,
+.xmobile.color-ff8400 #taskbar a.button-selected,
+.xmobile.color-ff8400 .minimal #taskbar a,
+.xmobile.color-ff8400 .popupmenu a,
+.xmobile.color-ff8400 #mailboxmenulink,
+.xmobile.color-ff8400 #quicksearchbar a.search-apply,
+.xmobile.color-ff8400 #quicksearchbar a.search-reset,
+.xmobile.color-ff8400 #composeheaders a.iconlink.edit,
+.xmobile.color-ff8400 #attachment-list .delete,
+.xmobile.color-ff8400 #attachment-list .drop {
+  color: #ff8400 !important; }
+
+.xmobile.color-ff8400 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #ff8400; }
+
+.color-ff8400 input.switchbox-input:checked + label.switchbox {
+  border-color: #ff8400 !important; }
+
+.color-ff8400 input.switchbox-input:checked + label.switchbox {
+  background-color: #ff8400 !important; }
+
+.color-ff8400 #taskbar a:hover:before,
+.color-ff8400 #taskbar a:hover span {
+  color: #de7d0a !important; }
+
+.xdesktop.color-ff8400 .listbox,
+.xdesktop.color-ff8400 ul.listing li,
+.xmobile.color-ff8400 #main-menu a.active {
+  background-color: #fbeddc; }
+
+.color-ff8400 .uibox .boxtitle,
+.color-ff8400 .uibox .listing thead td,
+.color-ff8400 .uibox .listing thead th,
+.color-ff8400 .popupmenu a:hover,
+.color-ff8400.iframe h1.boxtitle,
+.color-ff8400 #sidebar-calendar .selected-range td a {
+  background-color: #fbeddc !important; }
+
+.color-ff8400 .listbox .listitem.selected,
+.color-ff8400 .listbox .tablink.selected,
+.color-ff8400 .listbox .listitem.selected > a,
+.color-ff8400 .listbox .tablink.selected > a,
+.color-ff8400 .listing tbody tr.unfocused td,
+.color-ff8400 .listing tbody tr.selected td,
+.color-ff8400 .listing li.selected,
+.color-ff8400 .listing li.selected > a {
+  background-color: #fbe3ca; }
+
+.color-ff8400 .listbox .listitem,
+.color-ff8400 .listbox .tablink,
+.color-ff8400 .listing tbody td,
+.color-ff8400 .listing li,
+.color-ff8400 #mailboxlist li.mailbox ul,
+.color-ff8400 .boxtitle,
+.color-ff8400 .uibox .listing thead td,
+.color-ff8400 .uibox .listing thead th,
+.color-ff8400 .listbox .boxfooter,
+.color-ff8400 #compose-contacts #directorylist,
+.color-ff8400 #compose-contacts .scroller,
+.color-ff8400 ul.listing li ul,
+.color-ff8400 .uibox.listbox,
+.color-ff8400.iframe h1.boxtitle {
+  border-color: #f9d3b1; }
+
+.color-ff8400 .boxfooter a:before,
+.color-ff8400 ul.listing li a,
+.color-ff8400 .boxfooter .countdisplay,
+.color-ff8400 #rss a
+.color-ff8400 .listbox .listitem a,
+.color-ff8400 .listbox .tablink a,
+.color-ff8400 .listing tbody td,
+.color-ff8400 .listing li a,
+.color-ff8400 .boxpagenav a.icon {
+  color: #7c4c27; }
+
+.xmobile.color-ff8400 #messagestack div,
+.xmobile.color-ff8400 #messagestack div:after {
+  color: #7c4c27 !important; }
+
+.color-ff8400 #quota-box {
+  border-color: #7c4c27; }
+
+.color-ff8400 #quota-bar {
+  background-color: #7c4c27; }
+
+.xmobile.color-ff8400 #messagestack div {
+  border-color: #debfa9; }
+
+.color-ff8400 .records-table tr.selected td,
+.color-ff8400 .records-table tr.unfocused td,
+.xmobile.color-ff8400 #messagelist tr.selected,
+.xmobile.color-ff8400 #messagelist tr.unfocused,
+.xmobile.color-ff8400 #messagelist tr.selected td.date {
+  background-color: #e38a2b !important; }
+
+.color-d66f00 ul#planner_controls li a,
+.color-d66f00 #addButton,
+.color-d66f00 #reassembleButton,
+.color-d66f00 input.button,
+.color-d66f00 input[type='button'],
+.color-d66f00 .formbuttons input.button,
+.color-d66f00 input.button.mainaction,
+.color-d66f00 #login-form input.button,
+.color-d66f00 .username select.deco,
+.color-d66f00 .headers-table td a,
+.xmobile.color-d66f00 .sidebar-title-text,
+.xmobile.color-d66f00 .boxpagenav a.icon,
+.xmobile.color-d66f00 #countcontrols a.button,
+.xmobile.color-d66f00 #full-headers .more-headers,
+.xmobile.color-d66f00 #message-objects div a.button,
+.xmobile.color-d66f00 .headers-table td.header a,
+.xmobile.color-d66f00 .ui-dialog-content.popup span.adr a,
+.xmobile.color-d66f00 .boxfooter .listbutton span,
+.xmobile.color-d66f00 .boxfooter .listbutton,
+.xmobile.color-d66f00 #messagestack div,
+.xmobile.color-d66f00.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #d66f00; }
+
+.color-d66f00 #taskbar,
+.color-d66f00 #taskbar a,
+.color-d66f00 #taskbar a span,
+.color-d66f00 #taskbar a:before,
+.color-d66f00 #taskbar .minmodetoggle,
+.color-d66f00 .toolbar a.button,
+.color-d66f00 .toolbar .dropbutton span.dropbuttontip,
+.color-d66f00 #taskbar a.button-calendar span.button-inner,
+.color-d66f00 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-d66f00 #calendar .fc-button,
+.xmobile.color-d66f00 #main-menu a,
+.xmobile.color-d66f00 .popup-close a,
+.xmobile.color-d66f00 .popup-box h5,
+.xmobile.color-d66f00 #quicksearchbar .popup-close a,
+.xmobile.color-d66f00 .popup-box #sections-table td,
+.xmobile.color-d66f00 #mailFoldersBox a,
+.xmobile.color-d66f00 #addressList a,
+.xmobile.color-d66f00 .contactfieldbutton.deletebutton,
+.xmobile.color-d66f00 .iframe a.disabled,
+.xmobile.color-d66f00 .iframe a.active,
+.xmobile.color-d66f00 #subscriptionTable td.name,
+.xmobile.color-d66f00 div.buttonBox a,
+.xmobile.color-d66f00 #mailboxlist li.mailbox a,
+.xmobile.color-d66f00 .googie_list td span,
+.xmobile.color-d66f00 ul.toolbarmenu li a,
+.xmobile.color-d66f00 #taskbar a,
+.xmobile.color-d66f00 #taskbar a.button-selected,
+.xmobile.color-d66f00 .minimal #taskbar a,
+.xmobile.color-d66f00 .popupmenu a,
+.xmobile.color-d66f00 #mailboxmenulink,
+.xmobile.color-d66f00 #quicksearchbar a.search-apply,
+.xmobile.color-d66f00 #quicksearchbar a.search-reset,
+.xmobile.color-d66f00 #composeheaders a.iconlink.edit,
+.xmobile.color-d66f00 #attachment-list .delete,
+.xmobile.color-d66f00 #attachment-list .drop {
+  color: #d66f00 !important; }
+
+.xmobile.color-d66f00 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #d66f00; }
+
+.color-d66f00 input.switchbox-input:checked + label.switchbox {
+  border-color: #d66f00 !important; }
+
+.color-d66f00 input.switchbox-input:checked + label.switchbox {
+  background-color: #d66f00 !important; }
+
+.color-d66f00 #taskbar a:hover:before,
+.color-d66f00 #taskbar a:hover span {
+  color: #c06300 !important; }
+
+.xdesktop.color-d66f00 .listbox,
+.xdesktop.color-d66f00 ul.listing li,
+.xmobile.color-d66f00 #main-menu a.active {
+  background-color: #fadace; }
+
+.color-d66f00 .uibox .boxtitle,
+.color-d66f00 .uibox .listing thead td,
+.color-d66f00 .uibox .listing thead th,
+.color-d66f00 .popupmenu a:hover,
+.color-d66f00.iframe h1.boxtitle,
+.color-d66f00 #sidebar-calendar .selected-range td a {
+  background-color: #fadace !important; }
+
+.color-d66f00 .listbox .listitem.selected,
+.color-d66f00 .listbox .tablink.selected,
+.color-d66f00 .listbox .listitem.selected > a,
+.color-d66f00 .listbox .tablink.selected > a,
+.color-d66f00 .listing tbody tr.unfocused td,
+.color-d66f00 .listing tbody tr.selected td,
+.color-d66f00 .listing li.selected,
+.color-d66f00 .listing li.selected > a {
+  background-color: #f0c4b3; }
+
+.color-d66f00 .listbox .listitem,
+.color-d66f00 .listbox .tablink,
+.color-d66f00 .listing tbody td,
+.color-d66f00 .listing li,
+.color-d66f00 #mailboxlist li.mailbox ul,
+.color-d66f00 .boxtitle,
+.color-d66f00 .uibox .listing thead td,
+.color-d66f00 .uibox .listing thead th,
+.color-d66f00 .listbox .boxfooter,
+.color-d66f00 #compose-contacts #directorylist,
+.color-d66f00 #compose-contacts .scroller,
+.color-d66f00 ul.listing li ul,
+.color-d66f00 .uibox.listbox,
+.color-d66f00.iframe h1.boxtitle {
+  border-color: #dca894; }
+
+.color-d66f00 .boxfooter a:before,
+.color-d66f00 ul.listing li a,
+.color-d66f00 .boxfooter .countdisplay,
+.color-d66f00 #rss a
+.color-d66f00 .listbox .listitem a,
+.color-d66f00 .listbox .tablink a,
+.color-d66f00 .listing tbody td,
+.color-d66f00 .listing li a,
+.color-d66f00 .boxpagenav a.icon {
+  color: #9c3d17; }
+
+.xmobile.color-d66f00 #messagestack div,
+.xmobile.color-d66f00 #messagestack div:after {
+  color: #9c3d17 !important; }
+
+.color-d66f00 #quota-box {
+  border-color: #9c3d17; }
+
+.color-d66f00 #quota-bar {
+  background-color: #9c3d17; }
+
+.xmobile.color-d66f00 #messagestack div {
+  border-color: #ebb9a6; }
+
+.color-d66f00 .records-table tr.selected td,
+.color-d66f00 .records-table tr.unfocused td,
+.xmobile.color-d66f00 #messagelist tr.selected,
+.xmobile.color-d66f00 #messagelist tr.unfocused,
+.xmobile.color-d66f00 #messagelist tr.selected td.date {
+  background-color: #b8552d !important; }
+
+.color-895401 ul#planner_controls li a,
+.color-895401 #addButton,
+.color-895401 #reassembleButton,
+.color-895401 input.button,
+.color-895401 input[type='button'],
+.color-895401 .formbuttons input.button,
+.color-895401 input.button.mainaction,
+.color-895401 #login-form input.button,
+.color-895401 .username select.deco,
+.color-895401 .headers-table td a,
+.xmobile.color-895401 .sidebar-title-text,
+.xmobile.color-895401 .boxpagenav a.icon,
+.xmobile.color-895401 #countcontrols a.button,
+.xmobile.color-895401 #full-headers .more-headers,
+.xmobile.color-895401 #message-objects div a.button,
+.xmobile.color-895401 .headers-table td.header a,
+.xmobile.color-895401 .ui-dialog-content.popup span.adr a,
+.xmobile.color-895401 .boxfooter .listbutton span,
+.xmobile.color-895401 .boxfooter .listbutton,
+.xmobile.color-895401 #messagestack div,
+.xmobile.color-895401.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #895401; }
+
+.color-895401 #taskbar,
+.color-895401 #taskbar a,
+.color-895401 #taskbar a span,
+.color-895401 #taskbar a:before,
+.color-895401 #taskbar .minmodetoggle,
+.color-895401 .toolbar a.button,
+.color-895401 .toolbar .dropbutton span.dropbuttontip,
+.color-895401 #taskbar a.button-calendar span.button-inner,
+.color-895401 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-895401 #calendar .fc-button,
+.xmobile.color-895401 #main-menu a,
+.xmobile.color-895401 .popup-close a,
+.xmobile.color-895401 .popup-box h5,
+.xmobile.color-895401 #quicksearchbar .popup-close a,
+.xmobile.color-895401 .popup-box #sections-table td,
+.xmobile.color-895401 #mailFoldersBox a,
+.xmobile.color-895401 #addressList a,
+.xmobile.color-895401 .contactfieldbutton.deletebutton,
+.xmobile.color-895401 .iframe a.disabled,
+.xmobile.color-895401 .iframe a.active,
+.xmobile.color-895401 #subscriptionTable td.name,
+.xmobile.color-895401 div.buttonBox a,
+.xmobile.color-895401 #mailboxlist li.mailbox a,
+.xmobile.color-895401 .googie_list td span,
+.xmobile.color-895401 ul.toolbarmenu li a,
+.xmobile.color-895401 #taskbar a,
+.xmobile.color-895401 #taskbar a.button-selected,
+.xmobile.color-895401 .minimal #taskbar a,
+.xmobile.color-895401 .popupmenu a,
+.xmobile.color-895401 #mailboxmenulink,
+.xmobile.color-895401 #quicksearchbar a.search-apply,
+.xmobile.color-895401 #quicksearchbar a.search-reset,
+.xmobile.color-895401 #composeheaders a.iconlink.edit,
+.xmobile.color-895401 #attachment-list .delete,
+.xmobile.color-895401 #attachment-list .drop {
+  color: #895401 !important; }
+
+.xmobile.color-895401 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #895401; }
+
+.color-895401 input.switchbox-input:checked + label.switchbox {
+  border-color: #895401 !important; }
+
+.color-895401 input.switchbox-input:checked + label.switchbox {
+  background-color: #895401 !important; }
+
+.color-895401 #taskbar a:hover:before,
+.color-895401 #taskbar a:hover span {
+  color: #6b4100 !important; }
+
+.xdesktop.color-895401 .listbox,
+.xdesktop.color-895401 ul.listing li,
+.xmobile.color-895401 #main-menu a.active {
+  background-color: #fff7eb; }
+
+.color-895401 .uibox .boxtitle,
+.color-895401 .uibox .listing thead td,
+.color-895401 .uibox .listing thead th,
+.color-895401 .popupmenu a:hover,
+.color-895401.iframe h1.boxtitle,
+.color-895401 #sidebar-calendar .selected-range td a {
+  background-color: #fff7eb !important; }
+
+.color-895401 .listbox .listitem.selected,
+.color-895401 .listbox .tablink.selected,
+.color-895401 .listbox .listitem.selected > a,
+.color-895401 .listbox .tablink.selected > a,
+.color-895401 .listing tbody tr.unfocused td,
+.color-895401 .listing tbody tr.selected td,
+.color-895401 .listing li.selected,
+.color-895401 .listing li.selected > a {
+  background-color: #e4d2b5; }
+
+.color-895401 .listbox .listitem,
+.color-895401 .listbox .tablink,
+.color-895401 .listing tbody td,
+.color-895401 .listing li,
+.color-895401 #mailboxlist li.mailbox ul,
+.color-895401 .boxtitle,
+.color-895401 .uibox .listing thead td,
+.color-895401 .uibox .listing thead th,
+.color-895401 .listbox .boxfooter,
+.color-895401 #compose-contacts #directorylist,
+.color-895401 #compose-contacts .scroller,
+.color-895401 ul.listing li ul,
+.color-895401 .uibox.listbox,
+.color-895401.iframe h1.boxtitle {
+  border-color: #d5c09e; }
+
+.color-895401 .boxfooter a:before,
+.color-895401 ul.listing li a,
+.color-895401 .boxfooter .countdisplay,
+.color-895401 #rss a
+.color-895401 .listbox .listitem a,
+.color-895401 .listbox .tablink a,
+.color-895401 .listing tbody td,
+.color-895401 .listing li a,
+.color-895401 .boxpagenav a.icon {
+  color: #795722; }
+
+.xmobile.color-895401 #messagestack div,
+.xmobile.color-895401 #messagestack div:after {
+  color: #795722 !important; }
+
+.color-895401 #quota-box {
+  border-color: #795722; }
+
+.color-895401 #quota-bar {
+  background-color: #795722; }
+
+.xmobile.color-895401 #messagestack div {
+  border-color: #ddc194; }
+
+.color-895401 .records-table tr.selected td,
+.color-895401 .records-table tr.unfocused td,
+.xmobile.color-895401 #messagelist tr.selected,
+.xmobile.color-895401 #messagelist tr.unfocused,
+.xmobile.color-895401 #messagelist tr.selected td.date {
+  background-color: #a0783a !important; }
+
+.color-000000 ul#planner_controls li a,
+.color-000000 #addButton,
+.color-000000 #reassembleButton,
+.color-000000 input.button,
+.color-000000 input[type='button'],
+.color-000000 .formbuttons input.button,
+.color-000000 input.button.mainaction,
+.color-000000 #login-form input.button,
+.color-000000 .username select.deco,
+.color-000000 .headers-table td a,
+.xmobile.color-000000 .sidebar-title-text,
+.xmobile.color-000000 .boxpagenav a.icon,
+.xmobile.color-000000 #countcontrols a.button,
+.xmobile.color-000000 #full-headers .more-headers,
+.xmobile.color-000000 #message-objects div a.button,
+.xmobile.color-000000 .headers-table td.header a,
+.xmobile.color-000000 .ui-dialog-content.popup span.adr a,
+.xmobile.color-000000 .boxfooter .listbutton span,
+.xmobile.color-000000 .boxfooter .listbutton,
+.xmobile.color-000000 #messagestack div,
+.xmobile.color-000000.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  color: #000000; }
+
+.color-000000 #taskbar,
+.color-000000 #taskbar a,
+.color-000000 #taskbar a span,
+.color-000000 #taskbar a:before,
+.color-000000 #taskbar .minmodetoggle,
+.color-000000 .toolbar a.button,
+.color-000000 .toolbar .dropbutton span.dropbuttontip,
+.color-000000 #taskbar a.button-calendar span.button-inner,
+.color-000000 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-000000 #calendar .fc-button,
+.xmobile.color-000000 #main-menu a,
+.xmobile.color-000000 .popup-close a,
+.xmobile.color-000000 .popup-box h5,
+.xmobile.color-000000 #quicksearchbar .popup-close a,
+.xmobile.color-000000 .popup-box #sections-table td,
+.xmobile.color-000000 #mailFoldersBox a,
+.xmobile.color-000000 #addressList a,
+.xmobile.color-000000 .contactfieldbutton.deletebutton,
+.xmobile.color-000000 .iframe a.disabled,
+.xmobile.color-000000 .iframe a.active,
+.xmobile.color-000000 #subscriptionTable td.name,
+.xmobile.color-000000 div.buttonBox a,
+.xmobile.color-000000 #mailboxlist li.mailbox a,
+.xmobile.color-000000 .googie_list td span,
+.xmobile.color-000000 ul.toolbarmenu li a,
+.xmobile.color-000000 #taskbar a,
+.xmobile.color-000000 #taskbar a.button-selected,
+.xmobile.color-000000 .minimal #taskbar a,
+.xmobile.color-000000 .popupmenu a,
+.xmobile.color-000000 #mailboxmenulink,
+.xmobile.color-000000 #quicksearchbar a.search-apply,
+.xmobile.color-000000 #quicksearchbar a.search-reset,
+.xmobile.color-000000 #composeheaders a.iconlink.edit,
+.xmobile.color-000000 #attachment-list .delete,
+.xmobile.color-000000 #attachment-list .drop {
+  color: #000000 !important; }
+
+.xmobile.color-000000 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-color: #000000; }
+
+.color-000000 input.switchbox-input:checked + label.switchbox {
+  border-color: #000000 !important; }
+
+.color-000000 input.switchbox-input:checked + label.switchbox {
+  background-color: #000000 !important; }
+
+.color-000000 #taskbar a:hover:before,
+.color-000000 #taskbar a:hover span {
+  color: #4d4d4d !important; }
+
+.xdesktop.color-000000 .listbox,
+.xdesktop.color-000000 ul.listing li,
+.xmobile.color-000000 #main-menu a.active {
+  background-color: #efefef; }
+
+.color-000000 .uibox .boxtitle,
+.color-000000 .uibox .listing thead td,
+.color-000000 .uibox .listing thead th,
+.color-000000 .popupmenu a:hover,
+.color-000000.iframe h1.boxtitle,
+.color-000000 #sidebar-calendar .selected-range td a {
+  background-color: #efefef !important; }
+
+.color-000000 .listbox .listitem.selected,
+.color-000000 .listbox .tablink.selected,
+.color-000000 .listbox .listitem.selected > a,
+.color-000000 .listbox .tablink.selected > a,
+.color-000000 .listing tbody tr.unfocused td,
+.color-000000 .listing tbody tr.selected td,
+.color-000000 .listing li.selected,
+.color-000000 .listing li.selected > a {
+  background-color: #d4d4d4; }
+
+.color-000000 .listbox .listitem,
+.color-000000 .listbox .tablink,
+.color-000000 .listing tbody td,
+.color-000000 .listing li,
+.color-000000 #mailboxlist li.mailbox ul,
+.color-000000 .boxtitle,
+.color-000000 .uibox .listing thead td,
+.color-000000 .uibox .listing thead th,
+.color-000000 .listbox .boxfooter,
+.color-000000 #compose-contacts #directorylist,
+.color-000000 #compose-contacts .scroller,
+.color-000000 ul.listing li ul,
+.color-000000 .uibox.listbox,
+.color-000000.iframe h1.boxtitle {
+  border-color: #cacaca; }
+
+.color-000000 .boxfooter a:before,
+.color-000000 ul.listing li a,
+.color-000000 .boxfooter .countdisplay,
+.color-000000 #rss a
+.color-000000 .listbox .listitem a,
+.color-000000 .listbox .tablink a,
+.color-000000 .listing tbody td,
+.color-000000 .listing li a,
+.color-000000 .boxpagenav a.icon {
+  color: #626262; }
+
+.xmobile.color-000000 #messagestack div,
+.xmobile.color-000000 #messagestack div:after {
+  color: #626262 !important; }
+
+.color-000000 #quota-box {
+  border-color: #626262; }
+
+.color-000000 #quota-bar {
+  background-color: #626262; }
+
+.xmobile.color-000000 #messagestack div {
+  border-color: #b1b1b1; }
+
+.color-000000 .records-table tr.selected td,
+.color-000000 .records-table tr.unfocused td,
+.xmobile.color-000000 #messagelist tr.selected,
+.xmobile.color-000000 #messagelist tr.unfocused,
+.xmobile.color-000000 #messagelist tr.selected td.date {
+  background-color: #626262 !important; }
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("fonts/sanfranciscodisplay-regular-webfont.woff2"); }
+* {
+  border-radius: 0 !important; }
+
+/* in chrome input and select don't inherit from body (?) so the font is not applied */
+body,
+select,
+input,
+textarea,
+.ui-widget,
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+  font: 15px "San Francisco", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333; }
+
+.uibox {
+  border: 1px solid #dbdbdb;
+  border-bottom: none; }
+
+a:focus {
+  background-color: transparent !important; }
+
+/* icon fixes */
+#xsidebar h2.boxtitle:before,
+#xsidebar-button:before,
+#quicksearchbar #searchmenulink:before,
+#taskbar .minmodetoggle:before,
+.dropbutton .dropbuttontip:before,
+a.menuselector:after {
+  font-size: 17px; }
+
+a.menuselector:after {
+  position: relative;
+  top: 5px; }
+
+#rcmthreads :before {
+  position: relative;
+  top: 2px !important;
+  left: 2px; }
+
+.treetoggle {
+  padding-top: 5px; }
+
+.button-interface-options:before {
+  top: 2px; }
+
+#interface-options {
+  color: #333; }
+
+/* other */
+li {
+  padding-top: 2px;
+  padding-bottom: 2px; }
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+select,
+.menuselector {
+  border: none !important;
+  border-bottom: 1px solid #ddd !important; }
+
+/*.propform input[type='text'],
+.propform input[type='password'],
+.propform input[type='email'],
+.propform textarea,
+.propform select {
+    width: 100%;
+}*/
+/*.propform {
+    .propform input[type='text'],
+    .propform input[type='password'],
+    .propform input[type='email'],
+    .propform textarea,
+    .propform select {
+        width: 90%;
+    }
+
+}*/
+#messagelistfooter a {
+  color: #333; }
+
+#mainscreen {
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+#topline,
+body.xbackground.xbackground-none #topline,
+.minimal #topline,
+body.minimal.xbackground.xbackground-none #topline,
+#topnav,
+body.xbackground.xbackground-none #topnav,
+.defaultSkin table.mceLayout tr.mceFirst td {
+  background: #f1f1f1;
+  color: #666; }
+
+#topline a {
+  color: #666 !important; }
+
+#topline a:hover {
+  color: #000 !important; }
+
+#topnav {
+  width: 100%; }
+
+#messagelistfooter,
+#composeheaders {
+  background: transparent; }
+
+.records-table thead td,
+.records-table thead th,
+.moreheaderstoggle {
+  background: #f3f3f3;
+  font-size: 1em; }
+
+#topnav {
+  border-bottom: 1px solid #ddd;
+  overflow: hidden; }
+
+.minimal #topnav {
+  overflow: visible; }
+
+#taskbar {
+  padding-right: 25px; }
+
+#taskbar a span.button-inner {
+  font-size: 17px; }
+
+#taskbar a:before {
+  font-size: 24px !important; }
+
+#taskbar a span.button-inner {
+  padding-top: 0;
+  position: relative;
+  top: -2px; }
+
+#taskbar a.button-selected,
+#taskbar a:hover {
+  background: transparent; }
+
+#taskbar .minmodetoggle {
+  margin-top: 8px;
+  margin-right: 6px; }
+
+#topline {
+  font-size: 12px; }
+
+#topline a.button-logout {
+  background: none; }
+
+.popupmenu,
+#rcmKSearchpane,
+.tooltip,
+#messagestack div {
+  border: 1px solid #dcdcdc !important;
+  color: #333;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.4) !important;
+  -moz-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.4) !important;
+  box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.4) !important; }
+
+ul.toolbarmenu li a span {
+  padding: 0 !important; }
+
+.dropbutton .dropbuttontip {
+  padding-top: 16px; }
+
+.dropbutton .dropbuttontip:before {
+  font-size: 13px; }
+
+.minimal #taskbar a:hover .tooltip {
+  font-size: 1em;
+  color: #333 !important; }
+
+#messageheader {
+  border-top: none;
+  border-left: none; }
+
+.popupmenu li,
+.popupmenu label,
+.popupmenu a {
+  color: #0e0e0e !important;
+  padding: 5px; }
+
+#searchmenulink,
+#searchreset,
+.menuselector:after,
+.menuselector span {
+  color: #666; }
+
+#searchmenulink:before {
+  position: relative;
+  top: -3px; }
+
+.toolbar {
+  padding-left: 6px; }
+
+.toolbar a.button {
+  font-size: 12px; }
+
+.toolbar a.button:before {
+  font-size: 22px !important; }
+
+/*#messagetoolbar.toolbar a.button,
+#addressbooktoolbar.toolbar a.button,
+#mailtoolbar.toolbar a.button {
+    font-size: 0;
+}
+
+#messagetoolbar.toolbar a.button:before,
+#addressbooktoolbar.toolbar a.button:before,
+#mailtoolbar.toolbar a.button:before {
+    font-size: 26px !important;
+    padding-top: 7px;
+}*/
+/*#messagetoolbar a.button {
+    min-width: 40px;
+}
+
+#messagetoolbar span.dropbutton {
+    min-width: 55px;
+}*/
+.treelist li {
+  border: none !important; }
+
+.treelist ul {
+  border: none !important; }
+
+.listbox .listitem a,
+.listbox .tablink a,
+.listing tbody td,
+.listing li a,
+.boxtitle,
+.uibox .listing thead td,
+.uibox .listing thead th {
+  height: auto; }
+
+#quicksearchbar {
+  right: 10px; }
+
+#mailview-top,
+#mailview-bottom {
+  border-right-style: none; }
+
+#mailview-bottom {
+  border-bottom: none; }
+
+.records-table thead td,
+.records-table thead th {
+  color: #333;
+  border-bottom: 1px solid #ddd; }
+
+.records-table tbody td {
+  border-left: none;
+  border-right: none; }
+
+.records-table thead td a,
+.records-table thead th a,
+.records-table thead td span,
+.records-table thead th span,
+.records-table thead tr td.sortedASC a,
+.records-table thead tr th.sortedASC a,
+.records-table thead tr td.sortedDESC a,
+.records-table thead tr th.sortedDESC a {
+  color: #333 !important;
+  font-weight: normal; }
+
+.records-table tr.selected td,
+.records-table tr.unfocused td,
+.records-table tr.selected td a,
+.records-table tr.selected td span,
+.records-table tr.unfocused td a,
+.records-table tr.unfocused td span {
+  color: #fff !important; }
+
+ul#planner_controls li a {
+  background: transparent;
+  color: #333; }
+
+#addButton,
+#reassembleButton {
+  background: none !important;
+  border: none; }
+
+.settings-page .formbuttons {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  text-align: right; }
+
+.settings-page .formbuttons.floating {
+  border-top: none; }
+
+input.button,
+input[type='button'],
+.formbuttons input.button,
+input.button.mainaction,
+#login-form input.button {
+  background: none !important;
+  color: #333; }
+
+a.button:hover,
+input.button.mainaction,
+input.button:hover,
+input.button:focus,
+input.button:active,
+input.button.mainaction:hover,
+input.button.mainaction:focus,
+input.button.mainaction:active,
+#login-form input.button:hover,
+#login-form input.button:focus,
+#login-form input.button:active {
+  color: #333;
+  background-color: transparent !important; }
+
+#preferences-details .propform {
+  font-size: 1em; }
+
+.iframebox {
+  border: none; }
+
+.footerleft.formbuttons.floating {
+  padding-left: 0; }
+
+#taskbar .minmodetoggle {
+  padding-right: 5px; }
+
+#topline a.button-logout {
+  padding-left: 10px; }
+
+ul#planner_controls li a:hover {
+  background: transparent; }
+
+.uibox .boxtitle,
+.uibox .listing thead td,
+.uibox .listing thead th {
+  background: #ddd;
+  color: #333 !important; }
+
+#mailview-right .messagelist td,
+#mailview-right .messagelist th {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 1em; }
+
+#mailview-right .messagelist thead td,
+#mailview-right .messagelist thead th {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+#mailview-right .messagelist div:before,
+#mailview-right .messagelist span:before {
+  font-weight: normal !important; }
+
+#mailview-right .messagelist td.status span {
+  top: -1px; }
+
+.records-table tbody tr.selected.focused > td:first-child {
+  border-left: none; }
+
+.listbox .listitem a,
+.listbox .tablink a,
+.listing tbody td,
+.listing li a,
+.uibox .boxtitle,
+.uibox .listing thead td,
+.uibox .listing thead th,
+.boxtitle {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 1em; }
+
+.listbox .boxtitle + .scroller {
+  top: 47px; }
+
+#summarytable {
+  width: 100%; }
+
+#summarytable td:last-child {
+  width: 50%; }
+
+#summary ul#mailboxlist li {
+  background: transparent !important; }
+
+#summary ul#mailboxlist li.mailbox a {
+  font-size: 1em; }
+
+.boxtitle {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 13px !important; }
+
+#mailboxlist .selected a {
+  font-weight: bold; }
+
+#mailboxlist a:focused {
+  background: transparent !important; }
+
+#mailboxlist .selected li a,
+#mailboxlist li.unread,
+#mailboxlist li.mailbox .unreadcount {
+  font-weight: normal; }
+
+#mailboxlist li.mailbox .unreadcount {
+  color: #888 !important;
+  font-size: 13px; }
+
+#mailboxlist .mailbox a:before {
+  float: left;
+  padding-right: 15px; }
+
+#mailboxlist li.mailbox .unreadcount {
+  top: 10px;
+  color: #aaa; }
+
+div.expanded,
+div.collapsed {
+  top: 15px !important;
+  left: 2px !important; }
+
+#quotadisplay {
+  top: 14px;
+  padding-top: 4px; }
+
+#quota-box {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 13px;
+  border: 1px solid #aaa;
+  top: 2px;
+  margin-right: 5px; }
+
+#quota-bar {
+  display: inline-block;
+  height: 13px;
+  background-color: #aaa; }
+
+.boxpagenav {
+  top: 6px; }
+
+.boxpagenav a.icon {
+  height: 15px; }
+
+#calendar-header .boxtitle {
+  border: none; }
+
+#folder-selector li a span {
+  background-image: none;
+  padding-left: 16px; }
+
+.calendar-page .listbox .listitem a,
+.calendar-page .listbox .tablink a,
+.calendar-page .listing tbody td,
+.calendar-page .listing li a,
+.calendar-page .uibox .boxtitle,
+.calendar-page .uibox .listing thead td,
+.calendar-page .uibox .listing thead th,
+.calendar-page .boxtitle {
+  font-size: 1em; }
+
+#upcoming-content,
+#calendaroverlay {
+  left: 0;
+  bottom: 44px;
+  font-size: 13px !important; }
+
+#upcoming-content .boxtitle {
+  height: 25px !important; }
+
+#upcoming-content a,
+#upcoming-content span,
+#upcoming-content label {
+  font-size: 13px !important; }
+
+#upcoming-container {
+  top: 28px; }
+
+#password-form .boxcontent {
+  border: none; }
+
+.googie_list td span, ul.toolbarmenu li a.active {
+  color: #000; }
+
+.googie_list td {
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #ddd; }
+
+.googie_list td.googie_list_onhover {
+  background: #E9E9E9; }
+
+.googie_list form {
+  padding: 6px !important; }
+
+.googie_list form img {
+  background: #6b6b6b;
+  padding: 1px 3px 2px 3px;
+  float: right; }
+
+.toolbar a.button.spellcheck.selected,
+.toolbar a.button.spellcheck.selected:before {
+  color: #333; }
+
+#searchfilter a.menuselector span {
+  height: auto !important; }
+
+/* xcalendar */
+#sidebar-calendar .ui-datepicker-header a,
+#sidebar-calendar .ui-datepicker-header select,
+.xcalendar .boxtitle button {
+  color: #333 !important; }
+
+#sidebar-calendar .ui-datepicker-header select {
+  font-size: 13px;
+  font-weight: normal; }
+
+#sidebar-calendar .ui-datepicker .ui-datepicker-title {
+  line-height: 1em; }
+
+#sidebar-calendar .ui-datepicker .ui-datepicker-prev,
+#sidebar-calendar .ui-datepicker .ui-datepicker-next {
+  height: 1em;
+  top: 12px !important; }
+
+#sidebar-calendar .ui-datepicker-header.boxtitle {
+  padding: 3px 0; }
+
+.xtabs.ui-tabs .ui-tabs-nav {
+  margin-top: 5px; }
+
+.xcalendar .calendar-list a.edit {
+  margin-top: 6px; }
+
+.xcalendar #sidebar-calendar .ui-datepicker-header,
+.xcalendar #calendar-grid .fc-toolbar,
+#xsidebar h2.boxtitle {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.xcalendar #calendar-grid button {
+  position: relative;
+  top: -2px; }
+
+.xcalendar #calendar-grid .fc-icon-today {
+  top: -1px; }
+
+.xcalendar .calendar-list .new-calendar {
+  top: 4px; }
+
+#xcalendar-toolbar {
+  margin-left: 10px; }
+
+.ui-datepicker {
+  min-width: 0; }
+
+button.new-calendar {
+  padding-right: 0; }
+
+#calendar-grid .fc-toolbar .fc-right {
+  padding-top: 5px; }
+
+.ui-tabs-anchor span {
+  font-size: 13px; }
+
+#xsidebar,
+#xsidebar div.box-wrap {
+  background: #fff;
+  border-color: #ddd !important; }
+
+#xsidebar h2.boxtitle {
+  background: #F3F3F3 !important;
+  border-color: #ddd !important; }
+
+#attachment-list {
+  font-size: 13px; }
+
+#attachment-list a {
+  padding-top: 1px;
+  padding-bottom: 1px; }
+
+.message-headers,
+.boxfooter .countdisplay,
+#countcontrols .countdisplay {
+  font-size: 13px; }
+
+.boxfooter .countdisplay {
+  padding-top: 8px;
+  padding-right: 10px;
+  float: right; }
+
+.boxpagenav a.icon {
+  padding-top: 0; }
+
+.headers-table td,
+.headers-table td span {
+  color: #333 !important;
+  font-weight: normal !important; }
+
+#messagebody {
+  line-height: 1.3em; }
+
+.popupmenu ul.toolbarmenu li label {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+/* xmessage_list */
+.compact-message-list-preview #messagelist td,
+.compact-message-list-always #messagelist td {
+  background: transparent !important; }
+.compact-message-list-preview .records-table tr.selected td span,
+.compact-message-list-preview .records-table tr.selected td,
+.compact-message-list-always .records-table tr.selected td span,
+.compact-message-list-always .records-table tr.selected td {
+  color: #333 !important; }
+.compact-message-list-preview #mailview-top,
+.compact-message-list-preview #mailview-bottom,
+.compact-message-list-always #mailview-top,
+.compact-message-list-always #mailview-bottom {
+  border-right-style: solid; }
+
+/* xbackground */
+body.xskin.xbg #topnav,
+body.xskin.xbg #topline {
+  /*background: transparent;*/
+  /*border: none;*/ }
+body.xskin.xbg #xsidebar,
+body.xskin.xbg #xsidebar h2.boxtitle,
+body.xskin.xbg .uibox .boxtitle, body.xskin.xbg.iframe h1.boxtitle {
+  background: transparent !important; }
+
+body.login-page {
+  height: 100%;
+  background: #082b4f url(images/bg.png);
+  background-attachment: fixed;
+  background-size: contain; }
+
+.login-page #header #topnav #taskbar {
+  background: transparent; }
+
+.login-page #header #topnav #taskbar a:hover {
+  background: transparent !important; }
+
+#login-form {
+  margin-top: 100px;
+  width: 1000px !important;
+  min-height: 500px;
+  padding: 0;
+  background: url(images/login_bg.png) no-repeat;
+  color: #fff; }
+
+#login-form #logo,
+#login-form h1 {
+  display: none; }
+#login-form .box-inner {
+  width: 340px;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+  color: #5C7883;
+  background: transparent !important; }
+#login-form #company-name {
+  color: #fff;
+  font-size: 2.2em;
+  text-align: center;
+  background: url(images/login.png) no-repeat center top;
+  padding: 110px 0 20px 0; }
+#login-form form table {
+  width: 100%; }
+#login-form form table td,
+#login-form form table td.title,
+#login-form form table td.input {
+  padding: 8px 0 0 0;
+  vertical-align: top; }
+#login-form form table td.title {
+  color: #fff; }
+#login-form form > table:first-of-type {
+  border-collapse: collapse; }
+#login-form form > table:first-of-type > tbody > tr > td.title,
+#login-form form > table:first-of-type > tbody > tr > td.input {
+  position: relative;
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  text-align: left; }
+#login-form form > table:first-of-type > tbody > tr:nth-child(1) td.title,
+#login-form form > table:first-of-type > tbody > tr:nth-child(2) td.title {
+  display: none !important; }
+#login-form form > table:first-of-type > tbody > tr:nth-child(1) td.input,
+#login-form form > table:first-of-type > tbody > tr:nth-child(2) td.input {
+  padding: 0; }
+#login-form td.input input[type=text],
+#login-form td.input input[type=password],
+#login-form td.input select {
+  padding: 10px 18px;
+  border: 1px solid #aaa !important;
+  font-size: 19px;
+  border-radius: 6px !important; }
+#login-form #rcmloginuser {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important; }
+#login-form #rcmloginpwd {
+  border-top: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important; }
+#login-form #custom-login-submit {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  font-size: 28px;
+  background: transparent;
+  border: none;
+  color: #111;
+  cursor: pointer; }
+#login-form #rcmloginsubmit {
+  display: none; }
+#login-form input[type=checkbox] {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #aaa; }
+#login-form p,
+#login-form p.formbuttons,
+#login-form div {
+  text-align: center; }
+#login-form p.formbuttons {
+  margin: 0;
+  padding: 0;
+  border: none; }
+#login-form #bottomline {
+  top: 10px;
+  bottom: auto;
+  left: 10px;
+  right: 10px;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  color: #fff;
+  font-size: 17px; }
+#login-form #bottomline a {
+  float: right;
+  color: #ddd; }
+#login-form #bottomline a:hover {
+  color: #fff;
+  text-decoration: none; }
+#login-form .support-link:after {
+  position: relative;
+  top: 3px;
+  padding-left: 10px; }
+#login-form .box-bottom {
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+  width: 340px; }
+#login-form .box-bottom #message {
+  padding: 0; }
+#login-form .box-bottom #message div {
+  padding: 20px;
+  width: 300px;
+  min-height: 60px;
+  background: transparent url(images/login_msg.png) no-repeat;
+  font-size: 15px;
+  color: #fff !important;
+  white-space: normal; }
+#login-form .box-bottom #message div:before {
+  position: relative;
+  top: 2px;
+  padding-right: 10px; }
+#login-form #ifplcontainer {
+  padding-top: 10px; }
+#login-form #ifplcontainer label {
+  color: #fff;
+  font-size: 15px; }
+#login-form #recaptcha_widget_div #recaptcha_area {
+  padding: 0; }
+
+/*# sourceMappingURL=desktop.css.map */

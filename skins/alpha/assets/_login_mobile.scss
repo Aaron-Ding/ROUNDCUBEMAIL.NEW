@@ -1,0 +1,37 @@
+body.login-page {
+    background: #000 url(images/body.png);
+    color: #fff;
+}
+
+.login-page #login-form {
+
+    table td,
+    table td.title,
+    table td.input,
+    #company-name,
+    #ifplcontainer label {
+        color: #fff;
+    }
+
+    form {
+        background: transparent;
+    }
+
+    input.button {
+        background: #0075c8;
+        border: none;
+    }
+
+    #login-menu-button {
+        color: #fff;
+    }
+
+    .boxtitle {
+        border-color: #fff;
+        color: #fff;
+    }
+
+    legend {
+        color: #fff !important;
+    }
+}

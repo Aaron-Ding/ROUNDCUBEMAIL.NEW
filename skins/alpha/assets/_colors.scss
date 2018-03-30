@@ -1,0 +1,107 @@
+$map: (
+    ("0dbb6f", (#0dbb6f, #05693d, #b4f7da, #eafff6)),
+    ("26bb0d", (#26bb0d, #146a05, #caf4c2, #eaffe6)),
+    ("6bbb0d", (#6bbb0d, #498206, #d7f5b4, #f3ffe4)),
+    ("a0bb0d", (#a0bb0d, #687908, #dae4a0, #fbffe5)),
+    ("bbb90d", (#bbb90d, #7f7e09, #e0dfaa, #ffffe3)),
+    ("bb9c0d", (#bb9c0d, #756209, #dbd09d, #fff9df)),
+    ("bb7c0d", (#bb7c0d, #66450b, #e0c39e, #fff3e4)),
+    ("bb4f0d", (#bb4f0d, #723008, #d5a98f, #ffede2)),
+    ("bb0d0d", (#bb0d0d, #760707, #dc9c9c, #ffeaea)),
+    ("bb0d53", (#bb0d53, #780a36, #ecbed0, #ffe6f0)),
+    ("bb0d90", (#bb0d90, #820a64, #edbce1, #ffeafa)),
+    ("bb0db9", (#bb0db9, #780977, #e8bbe7, #ffedff)),
+    ("9d40cd", (#9d40cd, #622283, #e3caf0, #faefff)),
+    ("7a50e4", (#7a50e4, #51339e, #d3c8ef, #f2edff)),
+    ("274f9f", (#274f9f, #183570, #d1ddf6, #f0f5ff)),
+    ("0d73bb", (#0d73bb, #064d87, #adcbdd, #edf6fb)),
+    ("0da4bb", (#0da4bb, #066f7e, #9df0cc, #e6fcff)),
+    ("666666", (#666666, #404040, #e7e7e7, #f9f9f9))
+);
+
+@each $row in $map {
+    $key: nth($row, 1);
+    $colors: nth($row, 2);
+
+    /* normal */
+    .color-#{$key} #toolbar-bg,
+    .color-#{$key}.calendar-page #messagetoolbar,
+    .color-#{$key} input.button,
+    .color-#{$key} .formbuttons input.button,
+    .color-#{$key} input.button.mainaction,
+    .color-#{$key} ul#planner_controls li a,
+    .xmobile.color-#{$key} #main-menu a,
+    .xmobile.color-#{$key} .boxfooter .listbutton,
+    .xmobile.color-#{$key} input[type='button'],
+    .xmobile.color-#{$key} #mailFoldersBox a,
+    .xmobile.color-#{$key} #addressList a,
+    .xmobile.color-#{$key} .contactfieldbutton.deletebutton,
+    .xmobile.color-#{$key} .iframe a.active,
+    .xmobile.color-#{$key} #subscriptionTable td.name,
+    .xmobile.color-#{$key} div.buttonBox a,
+    .xmobile.color-#{$key} #message-objects div a.button,
+    .xmobile.color-#{$key} input.button.mainaction,
+    .xmobile.color-#{$key} #countcontrols a.button {
+        background-color: #{nth($colors, 1)};
+    }
+
+    .color-#{$key} .popupmenu a:hover,
+    .color-#{$key} .googie_list td.googie_list_onhover,
+    .color-#{$key} ul.toolbarmenu li a.active:hover,
+    .color-#{$key} ul.toolbarmenu li a.active:focus,
+    .color-#{$key} #rcmKSearchpane ul li.selected,
+    .color-#{$key} select.decorated option:hover,
+    .color-#{$key} select.decorated option[selected='selected'],
+    .xmobile.color-#{$key} .popup-box .popup-close a,
+    .color-#{$key} input.switchbox-input:checked + label.switchbox {
+        background-color: #{nth($colors, 1)} !important;
+    }
+
+    .xmobile.color-#{$key} .folderlist li.mailbox div.treetoggle:before {
+        color: #{nth($colors, 1)};
+    }
+
+    .color-#{$key} input.switchbox-input:checked + label.switchbox {
+        border-color: #{nth($colors, 1)} !important;
+    }
+
+    /* dark */
+    .color-#{$key} .toolbar a.button,
+    .color-#{$key} input.button:hover,
+    .color-#{$key} input.button:focus,
+    .color-#{$key} input.button:active,
+    .color-#{$key} input.button.mainaction:hover,
+    .color-#{$key} input.button.mainaction:focus,
+    .color-#{$key} input.button.mainaction:active,
+    .xmobile.color-#{$key} #main-menu a.active {
+        background-color: #{nth($colors, 2)} !important;
+    }
+
+    .color-#{$key} #messagelist .subject span {
+        color: #{nth($colors, 2)};
+    }
+
+    /* light */
+    .color-#{$key} .records-table thead td,
+    .color-#{$key} .records-table thead th,
+    .color-#{$key} .boxtitle,
+    .color-#{$key} .uibox .listing thead td,
+    .color-#{$key} .uibox .listing thead th,
+    .color-#{$key}.iframe h1.boxtitle {
+        border-color: #{nth($colors, 3)};
+    }
+
+    /* lighter */
+    .color-#{$key} .records-table thead td,
+    .color-#{$key} .records-table thead th,
+    .color-#{$key} #messageheader,
+    .color-#{$key} .uibox .boxtitle,
+    .color-#{$key} .uibox .listing thead td,
+    .color-#{$key} .uibox .listing thead th,
+    .color-#{$key} #composeheaders,
+    .color-#{$key}.iframe h1.boxtitle,
+    .color-#{$key}.xcalendar .ui-datepicker .ui-datepicker-header {
+        background-color: #{nth($colors, 4)};
+    }
+
+}

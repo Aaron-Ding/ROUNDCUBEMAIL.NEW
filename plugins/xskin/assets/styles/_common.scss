@@ -1,0 +1,373 @@
+* {
+    text-shadow: none !important;
+    box-shadow: none !important;
+    -o-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+}
+
+*:focus { /* remove chrome border around active fields */
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #fff;
+}
+
+body,
+#login-form .box-inner,
+#login-form .box-bottom {
+    background-image: none;
+}
+
+a {
+    outline: none;
+}
+
+#mainscreen a[aria-disabled=true],
+#mainscreen a[aria-disabled=true] span,
+.popupmenu a[aria-disabled=true] {
+  //  color: #333 !important;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"],
+input[type=text],
+input[type=password],
+textarea {
+    margin-bottom: 0px;
+    padding: 5px;
+    border: 1px solid #ccc !important;
+    background: #fff;
+    border-radius: 0;
+}
+
+textarea:focus,
+textarea:hover,
+input[type=text]:focus,
+input[type=text]:hover,
+input[type=password]:focus,
+input[type=password]:hover,
+select:focus,
+select:hover {
+    border-color: #8f8f8f;
+}
+
+select {
+    /*margin-bottom: 8px;*/
+    margin-right: 4px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: #fff;
+    border-radius: 0 !important;
+    color: #333;
+    height: auto;
+}
+
+select.decorated option {
+    background: #fff;
+    color: #333;
+}
+
+.propform input[type=button] {
+    margin-bottom: 8px;
+}
+
+fieldset {
+    border-radius: 0 !important;
+    border: 1px solid #ddd;
+}
+
+legend {
+    font-weight: normal !important;
+    font-style: normal !important;
+    color: #333;
+}
+
+.messagelist tr>.flag span,
+.messagelist tr>.status span,
+.messagelist tr>.attachment span,
+.messagelist tr>.priority span {
+    text-indent: 0;
+}
+
+#interface-options span.tooltip {
+    display: none;
+}
+
+#messagestack div:after {
+    position: absolute !important;
+}
+
+.formbuttons {
+    text-align: right;
+    padding-right: 10px;
+}
+
+body.iframe .footerleft.floating,
+#composeview-bottom .formbuttons.floating {
+    right: 0;
+    width: auto;
+}
+
+body.print-message,
+#printmessageframe {
+    background: #fff !important;
+}
+
+/* iehacks */
+
+input.button,
+.formbuttons input.button,
+.formbuttons input.button:active,
+input.button.mainaction,
+input.button.mainaction:active,
+a.button,
+a.button.pressed,
+a.button:active,
+input.button:active,
+.pagenav.dark a.button,
+.pagenav.dark a.button.pressed,
+#message.statusbar,
+.ui-dialog.popupmessage .ui-dialog-titlebar,
+.ui-dialog.popupmessage .ui-widget-content,
+#topnav,
+.records-table tr.selected td,
+.contentbox .boxtitle,
+body.iframe .boxtitle,
+#login-form input.button,
+#login-form input.button:active,
+.toolbar a.button,
+a.menuselector,
+a.menuselector:active,
+.googie_list td.googie_list_onhover,
+ul.toolbarmenu li a.active:hover,
+#rcmKSearchpane ul li.selected,
+.tabsbar .tablink,
+.tabsbar .selected a,
+.contactfieldgroup,
+.contactfieldgroup legend,
+#messagelistfooter,
+#mailboxlist li.mailbox .unreadcount,
+#mailboxlist li.mailbox.selected > a .unreadcount,
+#messageheader, #partheader, #composeheaders,
+#previewheaderstoggle {
+    filter: none;
+}
+
+/* login */
+
+#login-form td.title {
+    color: #333;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+#ifplcontainer div label {
+    color: #333;
+}
+
+/* switch checkboxes */
+
+input.switchbox-input {
+    opacity: 0 !important;
+    position: absolute !important;
+}
+
+label.switchbox {
+    font-size: 1em;
+    background: transparent !important;
+    position: relative;
+    display: inline-block !important;
+    padding: 0 !important;
+    width: 2em !important;
+    height: 1.1em !important;
+    background: #f2f2f2 !important;
+    border: 1px solid #ddd !important;
+    border-radius: 1em !important;
+    vertical-align: -0.15em !important;
+    transition: all 0.5s cubic-bezier(.17,.67,.43,.98);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+}
+
+label.switchbox:hover  {
+    background: #ddd !important;
+}
+
+label.switchbox:after {
+    position: absolute !important;
+    display: block !important;
+    content: '' !important;
+    top: 1px !important;
+    left: 1px !important;
+    bottom: 1px !important;
+    width: 1em !important;
+    border-radius: 50% !important;
+    background: #fff !important;
+    box-shadow: 0 0 0.1em 0 #aaa !important;
+}
+
+input.switchbox-input:checked + label.switchbox {
+    background: #4cd964 !important;
+    border-color: #4cd964 !important;
+}
+
+input.switchbox-input:checked + label.switchbox:hover {
+    background: #41c658 !important;
+}
+
+input.switchbox-input:checked + label.switchbox:after {
+    left: auto !important;
+    right: 1px !important;
+    box-shadow: 0 0 0.1em 0 #aaa !important;
+}
+
+body.xskin input.switchbox-input:disabled + label.switchbox,
+body.xskin input.switchbox-input:checked:disabled + label.switchbox {
+    background: #ddd !important;
+    border-color: #ddd !important;
+    cursor:not-allowed;
+}
+
+input.switchbox-input:disabled + label.switchbox:after,
+input.switchbox-input:checked:disabled + label.switchbox:after {
+    background: #eee !important;
+}
+
+// fix positioning
+#subscription-table label.switchbox,
+#subscription-table label.material.checkbox {
+    left: auto !important;
+}
+
+/* compose */
+
+.mce-btn,
+.mce-btn button,
+button.mce-close {
+    background: transparent !important;
+    border: none !important;
+    margin-right: 2px !important;
+}
+
+.mce-btn .mce-txt,
+.mce-btn button {
+    color: #333 !important;
+}
+
+.mce-colorbutton:hover .mce-open {
+    border-color: transparent !important;
+}
+
+i.mce-i-backcolor {
+    background-color: transparent !important;
+}
+
+.mce-widget button {
+    text-transform: none;
+}
+
+#composeoptions {
+    border: none;
+}
+
+#composeheaders .moreheaderstoggle {
+    border: none !important;
+    background: transparent !important;
+}
+
+.moreheaderstoggle .iconlink {
+    top: auto;
+    bottom: 2px;
+}
+
+.moreheaderstoggle.remove .iconlink {
+    bottom: 2px;
+}
+
+#composebodycontainer .mce-tinymce {
+    margin-top: 0;
+}
+
+#compose-attachments {
+    top: 0;
+    border: 0;
+    border-left: 1px solid #DFDFDF;
+}
+
+#composebodycontainer .mce-edit-area {
+    border-top: 1px solid #DFDFDF !important;
+}
+
+/* plugin: treecol */
+
+#mailview-tc-mid,
+#mailview-tc-right {
+    top: 0;
+}
+
+/* plugin: xcalendar */
+
+.xcalendar .fc-state-default, .xcalendar .boxtitle button {
+    color: #333;
+}
+
+/* plugin: help */
+
+#helptoolbar a.button.help {
+    display: none; // this button doesn't do anything
+}
+
+/* plugin: rcguard */
+
+#recaptcha_area {
+    padding: 0 !important;
+}
+
+/* plugin managesieve */
+
+#filter-form {
+    select,
+    input,
+    textarea {
+        font-size: 1em;
+        padding: 4px;
+    }
+
+    .rulerow .listarea {
+        padding: 0;
+        border: 1px solid #ddd;
+        background: transparent;
+
+        .listelement {
+            height: auto;
+
+            .reset {
+                margin-top: 3px;
+                background-color: transparent;
+            }
+
+            input {
+                padding: 4px !important;
+                background: transparent;
+                border: none !important;
+                line-height: auto;
+                margin-left: 5px;
+                font-size: 1.2em;
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+$map: (
+    ("df5aad", (#df5aad, #ed6fbd, #c34292, #c34292)),
+    ("b0263b", (#b0263b, #be364b, #9e172b, #9e172b)),
+    ("d74c1b", (#d74c1b, #e35b2b, #c33c0d, #c33c0d)),
+    ("ff9022", (#ff9022, #fe9834, #ea7a09, #c0650b)),
+    ("83b600", (#83b600, #92c709, #75a201, #648b00)),
+    ("00860e", (#00860e, #089817, #00760d, #00760d)),
+    ("00b2b3", (#00b2b3, #03c3c4, #019fa0, #008081)),
+    ("00829a", (#00829a, #0790a9, #00748a, #00748a)),
+    ("47b4ff", (#47b4ff, #5bbcff, #269ae9, #0076c6)),
+    ("0075c8", (#0075c8, #138be1, #005797, #005797)),
+    ("3c2cb6", (#3c2cb6, #4f40c4, #2c1da4, #2c1da4)),
+    ("8d2297", (#8d2297, #ac3cb6, #791482, #791482)),
+    ("004e8d", (#004e8d, #0c60a4, #00447a, #00447a)),
+    ("001b41", (#001b41, #00265b, #093572, #093572)),
+    ("5a0600", (#5a0600, #78130c, #3f0400, #3f0400)),
+    ("3a0300", (#3a0300, #67100c, #67100c, #67100c)),
+    ("585858", (#585858, #767676, #3f3f3f, #3f3f3f)),
+    ("000000", (#000000, #3f3f3f, #3f3f3f, #3f3f3f))
+);
+
+@each $row in $map {
+    $key: nth($row, 1);
+    $colors: nth($row, 2);
+
+    .color-#{$key} .uibox .boxtitle,
+    .color-#{$key} input[type=button],
+    .color-#{$key} input[type=button]:active,
+    .color-#{$key} input.button,
+    .color-#{$key} .formbuttons input.button,
+    .color-#{$key} input.button.mainaction,
+    .color-#{$key} .uibox .listing thead td,
+    .color-#{$key} .uibox .listing thead th,
+    .color-#{$key} .records-table thead td,
+    .color-#{$key} .records-table thead th,
+    .color-#{$key} #topnav,
+    .color-#{$key} #topline,
+    .color-#{$key}.minimal #topline,
+    .color-#{$key} input.button.mainaction:active,
+    .color-#{$key} ul#planner_controls li a,
+    .color-#{$key} #quickaddbox #quickaddform input.button.mainaction,
+    .color-#{$key} .googie_list form img,
+    .color-#{$key}.iframe h1.boxtitle,
+    .color-#{$key}.xcalendar .ui-datepicker .ui-datepicker-header,
+    .xmobile.color-#{$key} #main-menu,
+    .xmobile.color-#{$key} .popup-close,
+    .xmobile.color-#{$key} #mailboxlist li.mailbox a .unreadcount,
+    .xmobile.color-#{$key} #messagelistcontainer .boxpagenav a.icon,
+    .xmobile.color-#{$key} #messagelistcontainer .pagenav a.button,
+    .xmobile.color-#{$key} #messagestack div,
+    .xmobile.color-#{$key} #message-objects div a.button,
+    .xmobile.color-#{$key} .boxfooter .listbutton,
+    .xmobile.color-#{$key} .popup-box .popup-close,
+    .xmobile.color-#{$key} #contactphoto .formlinks a {
+        background-color: #{nth($colors, 1)};
+    }
+
+    .color-#{$key} input.switchbox-input:checked + label.switchbox {
+        background-color: #{nth($colors, 1)} !important;
+    }
+
+    .color-#{$key} input.switchbox-input:checked + label.switchbox {
+        border-color: #{nth($colors, 1)} !important;
+    }
+
+    .color-#{$key} .popupmenu,
+    .color-#{$key} #messagestack div,
+    .color-#{$key} #rcmKSearchpane,
+    .color-#{$key} .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+        border-color: #{nth($colors, 1)};
+    }
+
+    .color-#{$key} input[type=button]:hover,
+    .color-#{$key} a.rowLink:hover,
+    .color-#{$key} #remote-objects-message a:hover {
+        background-color: #{nth($colors, 2)} !important;
+    }
+
+    .color-#{$key} #topnav a.button-selected,
+    .color-#{$key} #topnav a:hover,
+    .color-#{$key} #topnav a:focus,
+    .color-#{$key} body.mailbox #inboxButton a {
+        background-color: #{nth($colors, 3)};
+    }
+
+    .color-#{$key} .toolbar a.button:before,
+    .color-#{$key} a.iconbutton,
+    .xdesktop.color-#{$key} .dropbutton .dropbuttontip,
+    .xmobile.color-#{$key} #mailboxlist li.mailbox div.treetoggle,
+    .xmobile.color-#{$key} #directorylist li.addressbook div.collapsed,
+    .xmobile.color-#{$key} #directorylist li.addressbook div.expanded,
+    .xmobile.color-#{$key} .folderlist li.mailbox div.treetoggle:before {
+        color: #{nth($colors, 1)};
+    }
+
+    .color-#{$key} #helptoolbar a.button,
+    .color-#{$key} #main-menu a.active,
+    .color-#{$key} #xsidebar-button {
+        color: #{nth($colors, 3)};
+    };
+}

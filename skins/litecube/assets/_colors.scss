@@ -1,0 +1,260 @@
+$map: (
+    //          dark     darker   darkest  light    lighter  lightest
+    ("6da1d3", (#6da1d3, #1F75CC, #166ac0, #BFD9F2, #D3E8FF, #E9F4FF)),
+    ("6dcfd3", (#6dcfd3, #1fbecc, #16aac0, #bfeef2, #d3f9ff, #e9fcff)),
+    ("6dd374", (#6dd374, #1fcc2b, #2fae50, #bff2c3, #d3ffd5, #e9ffec)),
+    ("b76dd3", (#b76dd3, #a51fcc, #9900cc, #e4bff2, #edd3ff, #fae9ff)),
+    ("d3bc6d", (#d3bc6d, #cca51f, #c09616, #f2e4bf, #fff5d3, #fffae9)),
+    ("ce7070", (#ce7070, #970000, #cc1f1f, #f8d7d7, #ffd3d3, #feefef))
+);
+
+@each $row in $map {
+    $key: nth($row, 1);
+    $colors: nth($row, 2);
+
+    /* color 1 - dark */
+
+    .xmobile.color-#{$key} .popup-close,
+    .xmobile.color-#{$key} #mailboxlist li.mailbox a .unreadcount,
+    .xmobile.color-#{$key} #messagelistcontainer .boxpagenav a.icon,
+    .xmobile.color-#{$key} #messagelistcontainer .pagenav a.button,
+    .xmobile.color-#{$key} #messagestack div,
+    .xmobile.color-#{$key} #message-objects div a.button,
+    .xmobile.color-#{$key} .boxfooter .listbutton {
+        background-color: #{nth($colors, 1)};
+    }
+
+    .color-#{$key} input.switchbox-input:checked + label.switchbox {
+        background-color: #{nth($colors, 1)} !important;
+    }
+
+    .color-#{$key} .records-table td span:before,
+    .color-#{$key} .records-table th span:before,
+    .color-#{$key} .records-table th a:before,
+    .color-#{$key} .records-table thead td div:before,
+    .color-#{$key} .records-table thead th div:before,
+    .color-#{$key} .records-table thead td a:after,
+    .color-#{$key} .records-table thead th a:after,
+    .color-#{$key} .records-table div.expanded,
+    .color-#{$key} .records-table div.collapsed,
+    .color-#{$key} .boxfooter .listbutton.groupactions:before,
+    .color-#{$key} #rss a,
+    .color-#{$key} a.iconbutton:before,
+    .color-#{$key} .minmodetoggle:before,
+    .color-#{$key} #mailpreviewtoggle,
+    .color-#{$key} .toolbar a.button:before,
+    .color-#{$key} .boxfooter .listbutton.groupactions,
+    .color-#{$key} .boxfooter .listbutton.add,
+    .color-#{$key} .boxfooter .listbutton.delete,
+    .color-#{$key} .boxfooter .listbutton.removegroup,
+    .color-#{$key} .boxfooter .listbutton.addto .inner,
+    .color-#{$key} .boxfooter .listbutton.addcc .inner,
+    .color-#{$key} .boxfooter .listbutton.addbcc .inner,
+    .color-#{$key} .boxfooter .countdisplay,
+    .xmobile.color-#{$key} #mailboxlist li.mailbox div.treetoggle,
+    .xmobile.color-#{$key} #directorylist li.addressbook div.collapsed,
+    .xmobile.color-#{$key} #directorylist li.addressbook div.expanded,
+    .xmobile.color-#{$key} #main-menu a,
+    .xmobile.color-#{$key} #full-headers .more-headers,
+    .xmobile.color-#{$key} #attachment-list .delete,
+    .xmobile.color-#{$key} #attachment-list .drop,
+    .xmobile.color-#{$key} #messageheader .pagenav a.button,
+    .xmobile.color-#{$key} #messagelist td.subject:before,
+    .xmobile.color-#{$key} #messagelist tr.selected td.subject:before,
+    .xmobile.color-#{$key} #messagelist tr.unfocused td.subject:before,
+    .xmobile.color-#{$key} .folderlist li.mailbox div.treetoggle:before {
+        color: #{nth($colors, 1)};
+    }
+
+    .xmobile.color-#{$key} .popup-close a,
+    .xmobile.color-#{$key} .popup-box h5,
+    .xmobile.color-#{$key} #quicksearchbar .popup-close a {
+        color: #{nth($colors, 1)} !important;
+    }
+
+    .color-#{$key} input[type=button],
+    .color-#{$key} input[type=button]:hover,
+    .color-#{$key} fieldset,
+    .color-#{$key} a.menuselector,
+    .color-#{$key} #topnav,
+    .color-#{$key}.minimal #topnav,
+    .color-#{$key} #taskbar a.button-selected,
+    .color-#{$key} .popupmenu,
+    .color-#{$key} #messagestack div,
+    .color-#{$key} #maillistmode.selected,
+    .color-#{$key} #mailthreadmode.selected,
+    .color-#{$key} #rcmKSearchpane,
+    .color-#{$key} .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+    .xdesktop.color-#{$key} select,
+    .xmobile.color-#{$key} #main-menu,
+    .xmobile.color-#{$key} .popup-close,
+    .xmobile.color-#{$key} #all-headers {
+        border-color: #{nth($colors, 1)};
+    }
+
+    .xdesktop.color-#{$key} input[type=text],
+    .xdesktop.color-#{$key} input[type=password],
+    .xdesktop.color-#{$key} input[type=email],
+    .xdesktop.color-#{$key} textarea,
+    .color-#{$key} input.button,
+    .xmobile.color-#{$key} #settings-right div.uibox,
+    .xmobile.color-#{$key} #main-menu a,
+    .xmobile.color-#{$key} #addressview-left div.uibox,
+    .xmobile.color-#{$key} #addressview-right div.uibox,
+    .xmobile.color-#{$key} #settings-right div.uibox,
+    .color-#{$key} input.switchbox-input:checked + label.switchbox {
+        border-color: #{nth($colors, 1)} !important;
+    }
+
+    /* color 2 - darker */
+
+    .color-#{$key} body.mailbox #inboxButton a {
+        background-color: #{nth($colors, 2)};
+    }
+
+    .color-#{$key} .uibox .boxtitle,
+    .color-#{$key}.xcalendar .ui-datepicker .ui-datepicker-header select,
+    .color-#{$key}.xcalendar .ui-datepicker .ui-datepicker-header a,
+    .color-#{$key}.xcalendar .ui-datepicker .ui-datepicker-header span,
+    .color-#{$key} .records-table thead tr .status span.status,
+    .color-#{$key} .records-table thead tr .flag span.flagged,
+    .color-#{$key} .records-table thead tr .attachment span.attachment,
+    .color-#{$key} .records-table thead tr .priority span.priority,
+    .color-#{$key} .records-table thead td a,
+    .color-#{$key} .records-table thead th a {
+        color: #{nth($colors, 2)} !important;
+    }
+
+    /* color 3 - darkest */
+
+    .xdesktop.color-#{$key} a,
+    .color-#{$key} input.button,
+    .color-#{$key} .formbuttons input.button,
+    .color-#{$key} input.button.mainaction,
+    .color-#{$key} #login-form input.button,
+    .color-#{$key} #topline .topleft a,
+    .color-#{$key} #topline .topright a,
+    .color-#{$key} #topline .topright span,
+    .color-#{$key} .username select.deco,
+    .color-#{$key} #taskbar a span.button-inner,
+    .color-#{$key} .toolbar a.button,
+    .color-#{$key} #topline,
+    .color-#{$key} .minimal #topline,
+    .color-#{$key} #main-menu a.active,
+    .color-#{$key} #taskbar a.button-calendar span.button-inner,
+    .color-#{$key} #taskbar a.button-calendar.button-selected span.button-inner,
+    .color-#{$key} ul#planner_controls li a {
+        color: #{nth($colors, 3)};
+    }
+
+    /* color 4 - light */
+
+    .color-#{$key} .uibox,
+    .color-#{$key} #compose-content,
+    .color-#{$key} #mailview-top,
+    .color-#{$key} #mailview-bottom,
+    .color-#{$key} #messagebody p.image-attachment,
+    .color-#{$key} .records-table.fixedheader,
+    .color-#{$key} #messagelistfooter,
+    .color-#{$key} .moreheaderstoggle,
+    .color-#{$key} #messageheader,
+    .color-#{$key} #composeheaders,
+    .color-#{$key} #composeoptions,
+    .color-#{$key} #compose-attachments,
+    .color-#{$key} #compose-contacts #directorylist,
+    .color-#{$key} .listbox .boxfooter,
+    .color-#{$key} #taskbar a,
+    .color-#{$key} .minimal #taskbar a,
+    .color-#{$key} ul#planner_controls li a,
+    .color-#{$key} .boxtitle, .uibox .listing thead td,
+    .color-#{$key} .boxtitle, .uibox .listing thead th,
+    .color-#{$key}.iframe h1.boxtitle,
+    .color-#{$key} #vertical-preview {
+        border-color: #{nth($colors, 4)};
+    }
+
+    .xmobile.color-#{$key} #messageheader .pagenav a.button.disabled {
+        color: #{nth($colors, 4)};
+    }
+
+    /* color 5 - lighter */
+
+    .color-#{$key} .listbox .listitem.selected,
+    .color-#{$key} .listbox .tablink.selected,
+    .color-#{$key} .listbox .listitem.selected > a,
+    .color-#{$key} .listbox .tablink.selected > a,
+    .color-#{$key} .listing tbody tr.unfocused td,
+    .color-#{$key} .listing tbody tr.selected td,
+    .color-#{$key} .listing li.selected,
+    .color-#{$key} .listing li.selected > a,
+    .color-#{$key} #mailboxlist li.mailbox .unreadcount,
+    .xdesktop.color-#{$key} #composeoptionstoggle,
+    .xmobile.color-#{$key}  #main-menu a.active {
+        background-color: #{nth($colors, 5)};
+    }
+
+    .color-#{$key} input.button:hover,
+    .color-#{$key} input[type=button]:hover,
+    .color-#{$key} .records-table tr.selected,
+    .color-#{$key} .records-table tr.unfocused,
+    .color-#{$key} .records-table tr.selected td,
+    .color-#{$key} .records-table tr.unfocused td,
+    .color-#{$key} a.rowLink:hover,
+    .color-#{$key} #xsidebar .boxtitle,
+    .color-#{$key} #remote-objects-message a:hover,
+    .color-#{$key}.compact-message-list-always #mailview-top tr:hover,
+    .color-#{$key}.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+    .xmobile.color-#{$key}  #messagelist tr.selected,
+    .xmobile.color-#{$key}  #messagelist tr.unfocused,
+    .xmobile.color-#{$key}  #messagelist tr.selected td.date {
+        background-color: #{nth($colors, 5)} !important;
+    }
+
+
+    .color-#{$key} #mailboxlist li.mailbox ul,
+    .color-#{$key} .listbox .listitem,
+    .color-#{$key} .listbox .tablink,
+    .color-#{$key} .listing tbody td,
+    .color-#{$key} .listing li {
+        border-color: #{nth($colors, 5)};
+    }
+
+    .color-#{$key}.compact-message-list-always #mailview-top tr,
+    .color-#{$key}.compact-message-list-preview #mailview-top.preview-visible tr {
+        border-color: #{nth($colors, 5)} !important;
+    }
+
+    /* color 6 - lightest */
+
+    .color-#{$key} input.button,
+    .color-#{$key} input[type=button] {
+        background-color: #{nth($colors, 6)} !important;
+    }
+
+    .color-#{$key} #composeheaders,
+    .color-#{$key} #taskbar a,
+    .color-#{$key} .minimal #taskbar a,
+    .color-#{$key} .moreheaderstoggle,
+    .color-#{$key} #messageheader,
+    .color-#{$key} .records-table thead td,
+    .color-#{$key} .records-table thead th,
+    .color-#{$key} input[type=button],
+    .color-#{$key} .uibox .listing thead td,
+    .color-#{$key} .uibox .listing thead th,
+    .color-#{$key} .uibox .boxtitle,
+    .color-#{$key}.xcalendar .ui-datepicker .ui-datepicker-header,
+    .color-#{$key} .listbox,
+    .color-#{$key} ul.listing li,
+    .color-#{$key} ul#planner_controls li a,
+    .color-#{$key} #messagelistfooter,
+    .color-#{$key} #mailpreviewtoggle,
+    .color-#{$key}.iframe h1.boxtitle,
+    .xmobile.color-#{$key} #main-menu a {
+        background-color: #{nth($colors, 6)};
+    }
+
+    .color-#{$key} .popupmenu a:hover {
+        background-color: #{nth($colors, 6)} !important;
+    }
+
+}

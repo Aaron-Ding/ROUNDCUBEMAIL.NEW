@@ -1,0 +1,52 @@
+
+// Load the icon font.
+@font-face {
+    font-family: 'IconFont';
+    src: url('../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.eot');
+    src: url('../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.eot?#iefix') format('embedded-opentype'),
+        url('../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin style($char, $size: false) {
+    font-family: IconFont;
+    font-weight: normal;
+    @if $size {
+        font-size: #{$size}em;
+    }
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: $char;
+}
+
+// This function converts the decimal icon position in the font as specified in icon_map to the actual unicode character
+// based on the $range variable specified in the font inclusion file (icons_ios, icons_awesome).
+// The icons in the font file are located in the private character area starting at index 60,000. The icon batches
+// start every 200 characters, so the first batch ($range: 0) will map to 60,000 + (0 * 200) = 60,000, the second batch
+// ($range: 1) will map to 60,200, etc.
+@function icon($int) {
+    $int: $int + 60000 + ($range * 200);
+    $hexVals: "A" "B" "C" "D" "E" "F";
+    $base: 16;
+    $quotient: $int;
+    $result: "";
+    @if $int == 0 {
+        $result: "00";
+    }
+    @while $quotient != 0 {
+        $mod: $quotient % $base;
+        $quotient: floor($quotient / $base);
+        @if $mod > 9 {
+            $mod: nth($hexVals, $mod - 9);
+        }
+        @if $int < $base {
+            $result: "0" + $mod;
+        } @else {
+            $result: $mod + $result;
+        }
+    }
+    @return #{"\"\\"}#{$result + "\""};
+}
+

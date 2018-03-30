@@ -1,0 +1,3313 @@
+@font-face {
+  font-family: 'IconFont';
+  src: url("../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.eot");
+  src: url("../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.eot?#iefix") format("embedded-opentype"), url("../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+.xdesktop #taskbar a:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.5em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EABB"; }
+.xdesktop #taskbar a.button-mail:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA8C"; }
+.xdesktop #taskbar a.button-addressbook:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA8D"; }
+.xdesktop #taskbar a.button-calendar:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAB4"; }
+.xdesktop #taskbar a.button-help:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAB8"; }
+.xdesktop #taskbar a.button-xresell:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA7B"; }
+.xdesktop #taskbar a.button-apps:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA7B"; }
+.xdesktop #taskbar a.button-settings:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA8E"; }
+.xdesktop #taskbar a.button-logout:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA90"; }
+.xdesktop #topnav a.button-interface-options:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EABF"; }
+.xdesktop #taskbar .minmodetoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA72"; }
+.xdesktop .toolbar a.button:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 2em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EABB"; }
+.xdesktop .toolbar a.button.checkmail:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA91"; }
+.xdesktop .toolbar a.button.compose:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA1"; }
+.xdesktop .toolbar a.button.reply:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA92"; }
+.xdesktop .toolbar a.button.reply-all:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA93"; }
+.xdesktop .toolbar a.button.forward:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA94"; }
+.xdesktop .toolbar a.button.delete:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA96"; }
+.xdesktop .toolbar a.button.archive:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA95"; }
+.xdesktop .toolbar a.button.junk:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA97"; }
+.xdesktop .toolbar a.button.markmessage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA98"; }
+.xdesktop .toolbar a.button.more:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA99"; }
+.xdesktop .toolbar a.button.back:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA64"; }
+.xdesktop .toolbar a.button.close:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA64"; }
+.xdesktop .toolbar a.button.download:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA9A"; }
+.xdesktop .toolbar a.button.move:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA9B"; }
+.xdesktop .toolbar a.button.print:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA9C"; }
+.xdesktop .toolbar a.button.send:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA9D"; }
+.xdesktop .toolbar a.button.savedraft:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA9E"; }
+.xdesktop .toolbar a.button.spellcheck:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA9F"; }
+.xdesktop .toolbar a.button.attach:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA0"; }
+.xdesktop .toolbar a.button.insertsig:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA3"; }
+.xdesktop .toolbar a.button.responses:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA4"; }
+.xdesktop .toolbar a.button.vcard_send:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA5"; }
+.xdesktop .toolbar a.button.import:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA87"; }
+.xdesktop .toolbar a.button.export:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA88"; }
+.xdesktop .toolbar a.button.search:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA6"; }
+.xdesktop .toolbar a.button.markasjunk2:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA97"; }
+.xdesktop .toolbar a.button.markasnotjunk2:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA97"; }
+.xdesktop .toolbar a.button.enigma:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EABC"; }
+.xdesktop .toolbar a.button.encrypt:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EABC"; }
+.xdesktop .toolbar a.button.message-list-sort:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAC0"; }
+.xdesktop .toolbarmenu.selectable li a.selected:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA80"; }
+.xdesktop .dropbutton .dropbuttontip:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA73"; }
+.xdesktop div.expanded:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA7D"; }
+.xdesktop div.collapsed:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA7A"; }
+.xdesktop a.menuselector:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA73"; }
+.xdesktop .boxfooter .listbutton.groupactions:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA8F"; }
+.xdesktop .boxfooter .listbutton.add:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA7A"; }
+.xdesktop .boxfooter .listbutton.delete:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA78"; }
+.xdesktop .boxfooter .listbutton.removegroup:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA9"; }
+.xdesktop .boxpagenav a.icon.firstpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA74"; }
+.xdesktop .boxpagenav a.icon.lastpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA77"; }
+.xdesktop .boxpagenav a.icon.prevpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA75"; }
+.xdesktop .boxpagenav a.icon.nextpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA76"; }
+.xdesktop .compose-headers .iconbutton.cancel:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA78"; }
+.xdesktop .records-table tr td.threads div.listmenu:before,
+.xdesktop .records-table tr th.threads a.listmenu:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA8F"; }
+.xdesktop .records-table thead tr .status span.status:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAAA"; }
+.xdesktop .records-table thead tr .priority span.priority:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA84"; }
+.xdesktop .messagelist tr:hover td.status span:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAAA";
+  color: #bbb !important; }
+.xdesktop .messagelist tr:hover td.flag span:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAAB";
+  color: #bbb; }
+.xdesktop .messagelist tr .status span.unread:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAAA"; }
+.xdesktop .messagelist tr .flag span.flagged:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAAB"; }
+.xdesktop .messagelist tr .attachment span.attachment:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA0"; }
+.xdesktop .messagelist tr .attachment span.report:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAAD"; }
+.xdesktop .messagelist tr .priority span.prio1:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA66"; }
+.xdesktop .messagelist tr .priority span.prio2:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA66"; }
+.xdesktop .messagelist tr .priority span.prio4:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA67"; }
+.xdesktop .messagelist tr .priority span.prio5:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA67"; }
+.xdesktop .messagelist tr td.status span.deleted:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA78"; }
+.xdesktop .messagelist tr td.status span.unreadchildren:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAAA"; }
+.xdesktop .messagelist tr td.subject span.deleted:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA78"; }
+.xdesktop .messagelist tr td.subject span.unread:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAAA"; }
+.xdesktop .messagelist tr td.subject span.replied:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA92"; }
+.xdesktop .messagelist tr td.subject span.forwarded:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA94"; }
+.xdesktop .messagelist tr td.subject span.unreadchildren:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAAA"; }
+.xdesktop .records-table thead tr .sortedASC a:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAC0"; }
+.xdesktop .records-table thead tr .sortedDESC a:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAC1"; }
+.xdesktop #messagestack div:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA84"; }
+.xdesktop #messagestack div.error:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA78"; }
+.xdesktop #messagestack div.warning:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA84"; }
+.xdesktop #messagestack div.confirmation:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA80"; }
+.xdesktop #searchmenulink:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA6"; }
+.xdesktop #quicksearchbar #searchmenulink:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA6" "\EA73"; }
+.xdesktop #searchreset:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA78"; }
+.xdesktop #maillistmode:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA7" "    "; }
+.xdesktop #mailthreadmode:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAAF"; }
+.xdesktop .fullheight #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA62"; }
+.xdesktop #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA63"; }
+.xdesktop #custom-login-submit:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA65"; }
+.xdesktop #xsidebar-button:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA71"; }
+.xdesktop #xsidebar-button.collapsed:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA70"; }
+.xdesktop #xsidebar h2.boxtitle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA72"; }
+.xdesktop #xsidebar .collapsed h2.boxtitle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA73"; }
+.xdesktop .button.calendar-today:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAB3"; }
+.xdesktop .button.calendar-prev:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA68"; }
+.xdesktop .button.calendar-next:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA69"; }
+.xdesktop #xcalendar-toolbar .button.calendar-day:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAB7"; }
+.xdesktop #xcalendar-toolbar .button.calendar-week:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA89"; }
+.xdesktop #xcalendar-toolbar .button.calendar-month:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA8A"; }
+.xdesktop #xcalendar-toolbar .button.calendar-agenda:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA8B"; }
+.xdesktop #xcalendar-toolbar .button.calendar-add-event:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA7B"; }
+.xdesktop #calendar-list-container .new-calendar:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA7C"; }
+.xdesktop #calendar-list-container .calendar-item .edit:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAA2"; }
+.xdesktop #helptoolbar a.button.help:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EAB8"; }
+.xdesktop #helptoolbar a.button.about:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA85"; }
+.xdesktop #helptoolbar a.button.license:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA8B"; }
+
+.xdesktop.minimal #taskbar .minmodetoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA73"; }
+
+.xdesktop.xvertical-preview .fullheight #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA60"; }
+.xdesktop.xvertical-preview #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA61"; }
+
+body.skin-icloud #login-form .support-link:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA85"; }
+body.skin-icloud #login-form .box-bottom #message div.warning:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA84"; }
+body.skin-icloud #login-form .box-bottom #message div.error:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA84"; }
+body.skin-icloud #login-form .box-bottom #message div.loading:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA86"; }
+body.skin-icloud #login-form .box-bottom #message div.notice:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EA86"; }
+
+.xmobile {
+  /* gestures */
+  /* plugins */
+  /* xcalendar */ }
+  .xmobile #main-menu a span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EABB"; }
+  .xmobile #main-menu #button-taskbar span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAA7"; }
+  .xmobile #main-menu #button-mail-back span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA64"; }
+  .xmobile #main-menu #button-compose-settings span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA8F"; }
+  .xmobile #main-menu #button-send span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA9D"; }
+  .xmobile #main-menu #button-reply span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA92"; }
+  .xmobile #main-menu #button-toolbar span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EABA"; }
+  .xmobile #main-menu #button-format span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAA8"; }
+  .xmobile #main-menu #button-compose span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAA1"; }
+  .xmobile #main-menu #button-users span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA8D"; }
+  .xmobile #main-menu #button-folders span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA9B"; }
+  .xmobile #main-menu #button-mail span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EABA"; }
+  .xmobile #main-menu #button-funnel span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA8F"; }
+  .xmobile .popup-close a:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA6C"; }
+  .xmobile .toolbarmenu.selectable li a.selected:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA80"; }
+  .xmobile #mailboxlist li div.collapsed:before,
+  .xmobile #directorylist li.addressbook div.collapsed:before,
+  .xmobile div.collapsed:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA71"; }
+  .xmobile #mailboxlist li div.expanded:before,
+  .xmobile #directorylist li.addressbook div.expanded:before,
+  .xmobile div.expanded:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA73"; }
+  .xmobile #messagelist td.subject:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA80"; }
+  .xmobile #messagelist td.flag span.flagged:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAAB"; }
+  .xmobile #messagelist td.status span.unread:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAAA"; }
+  .xmobile #messagelist td.attachment span.attachment:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAA0"; }
+  .xmobile #messagelist td.attachment span.report:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAAD"; }
+  .xmobile #messagelist td.subject span.msgicon.replied:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA92"; }
+  .xmobile #messagelist td.subject span.msgicon.forwarded:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA94"; }
+  .xmobile #messagelist td.subject span.msgicon.replied.forwarded:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAAE"; }
+  .xmobile .moreheaderstoggle.remove .iconlink:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA6A"; }
+  .xmobile .moreheaderstoggle .iconlink:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA6B"; }
+  .xmobile #full-headers .more-headers.show-headers:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA6F"; }
+  .xmobile #full-headers .more-headers.hide-headers:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA6E"; }
+  .xmobile #attachment-list .delete:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA78"; }
+  .xmobile #attachment-list .drop:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA6F"; }
+  .xmobile .rcmaddcontact:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA8D"; }
+  .xmobile .settings-button:nth-child(3) span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA8E"; }
+  .xmobile .settings-button:nth-child(4) span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA89"; }
+  .xmobile #messagestack div:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA84"; }
+  .xmobile #messagestack div.error:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA78"; }
+  .xmobile #messagestack div.warning:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA84"; }
+  .xmobile #messagestack div.confirmation:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA80"; }
+  .xmobile #messagestack div.loading:after {
+    content: ""; }
+  .xmobile a.firstpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA74"; }
+  .xmobile a.prevpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA75"; }
+  .xmobile a.nextpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA76"; }
+  .xmobile a.lastpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA77"; }
+  .xmobile #messageheader .pagenav a.prevpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA62"; }
+  .xmobile #messageheader .pagenav a.nextpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA63"; }
+  .xmobile #login-menu-button:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAA7"; }
+  .xmobile #custom-login-submit:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA65"; }
+  .xmobile #groupoptionslink span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA8F"; }
+  .xmobile #keyoptionslink span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA8F"; }
+  .xmobile a.listbutton.add span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA7A"; }
+  .xmobile a.listbutton.delete span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA7D"; }
+  .xmobile a.listbutton.removegroup span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAA9"; }
+  .xmobile .message-action-links a.mal-flag:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAAC"; }
+  .xmobile .message-action-links a.mal-unflag:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAAB"; }
+  .xmobile .message-action-links a.mal-more:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAA7"; }
+  .xmobile .message-action-links a.mal-delete:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA78"; }
+  .xmobile .message-action-read:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EABD"; }
+  .xmobile .message-action-read.unread:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EABE"; }
+  .xmobile #mainscreen.refresh:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA91"; }
+  .xmobile #mainscreen.progress:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA91"; }
+  .xmobile #mailview-right.gesture-pan.prev:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA60"; }
+  .xmobile #mailview-right.gesture-pan.next:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA61"; }
+  .xmobile #mailview-right.gesture-pan.disabled:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAB0"; }
+  .xmobile #filtersetmenulink:before,
+  .xmobile #filtermenulink:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA8F"; }
+  .xmobile #main-menu #xcalendar-main span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAB4"; }
+  .xmobile #main-menu #xcalendar-date span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAB5"; }
+  .xmobile #main-menu #xcalendar-list span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAB6"; }
+  .xmobile #main-menu #xcalendar-toolbar-button span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EABA"; }
+  .xmobile a.tab-summary:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA8E"; }
+  .xmobile a.tab-recurrence:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAB9"; }
+  .xmobile a.tab-alarms:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAB1"; }
+  .xmobile a.tab-attachments:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAA0"; }
+  .xmobile a.tab-sharing:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAB2"; }
+  .xmobile #calendar-list-container .new-calendar:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA7C"; }
+  .xmobile #calendar-list-container .calendar-item .edit:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAA2"; }
+  .xmobile #helptoolbar a.button.help:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EAB8"; }
+  .xmobile #helptoolbar a.button.about:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA85"; }
+  .xmobile #helptoolbar a.button.license:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EA8B"; }
+
+#taskbar a.button-apps:before {
+  top: 1px; }
+
+/* color 1 - dark */
+.xmobile.color-6da1d3 .popup-close,
+.xmobile.color-6da1d3 #mailboxlist li.mailbox a .unreadcount,
+.xmobile.color-6da1d3 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-6da1d3 #messagelistcontainer .pagenav a.button,
+.xmobile.color-6da1d3 #messagestack div,
+.xmobile.color-6da1d3 #message-objects div a.button,
+.xmobile.color-6da1d3 .boxfooter .listbutton {
+  background-color: #6da1d3; }
+
+.color-6da1d3 input.switchbox-input:checked + label.switchbox {
+  background-color: #6da1d3 !important; }
+
+.color-6da1d3 .records-table td span:before,
+.color-6da1d3 .records-table th span:before,
+.color-6da1d3 .records-table th a:before,
+.color-6da1d3 .records-table thead td div:before,
+.color-6da1d3 .records-table thead th div:before,
+.color-6da1d3 .records-table thead td a:after,
+.color-6da1d3 .records-table thead th a:after,
+.color-6da1d3 .records-table div.expanded,
+.color-6da1d3 .records-table div.collapsed,
+.color-6da1d3 .boxfooter .listbutton.groupactions:before,
+.color-6da1d3 #rss a,
+.color-6da1d3 a.iconbutton:before,
+.color-6da1d3 .minmodetoggle:before,
+.color-6da1d3 #mailpreviewtoggle,
+.color-6da1d3 .toolbar a.button:before,
+.color-6da1d3 .boxfooter .listbutton.groupactions,
+.color-6da1d3 .boxfooter .listbutton.add,
+.color-6da1d3 .boxfooter .listbutton.delete,
+.color-6da1d3 .boxfooter .listbutton.removegroup,
+.color-6da1d3 .boxfooter .listbutton.addto .inner,
+.color-6da1d3 .boxfooter .listbutton.addcc .inner,
+.color-6da1d3 .boxfooter .listbutton.addbcc .inner,
+.color-6da1d3 .boxfooter .countdisplay,
+.xmobile.color-6da1d3 #mailboxlist li.mailbox div.treetoggle,
+.xmobile.color-6da1d3 #directorylist li.addressbook div.collapsed,
+.xmobile.color-6da1d3 #directorylist li.addressbook div.expanded,
+.xmobile.color-6da1d3 #main-menu a,
+.xmobile.color-6da1d3 #full-headers .more-headers,
+.xmobile.color-6da1d3 #attachment-list .delete,
+.xmobile.color-6da1d3 #attachment-list .drop,
+.xmobile.color-6da1d3 #messageheader .pagenav a.button,
+.xmobile.color-6da1d3 #messagelist td.subject:before,
+.xmobile.color-6da1d3 #messagelist tr.selected td.subject:before,
+.xmobile.color-6da1d3 #messagelist tr.unfocused td.subject:before,
+.xmobile.color-6da1d3 .folderlist li.mailbox div.treetoggle:before {
+  color: #6da1d3; }
+
+.xmobile.color-6da1d3 .popup-close a,
+.xmobile.color-6da1d3 .popup-box h5,
+.xmobile.color-6da1d3 #quicksearchbar .popup-close a {
+  color: #6da1d3 !important; }
+
+.color-6da1d3 input[type=button],
+.color-6da1d3 input[type=button]:hover,
+.color-6da1d3 fieldset,
+.color-6da1d3 a.menuselector,
+.color-6da1d3 #topnav,
+.color-6da1d3.minimal #topnav,
+.color-6da1d3 #taskbar a.button-selected,
+.color-6da1d3 .popupmenu,
+.color-6da1d3 #messagestack div,
+.color-6da1d3 #maillistmode.selected,
+.color-6da1d3 #mailthreadmode.selected,
+.color-6da1d3 #rcmKSearchpane,
+.color-6da1d3 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.xdesktop.color-6da1d3 select,
+.xmobile.color-6da1d3 #main-menu,
+.xmobile.color-6da1d3 .popup-close,
+.xmobile.color-6da1d3 #all-headers {
+  border-color: #6da1d3; }
+
+.xdesktop.color-6da1d3 input[type=text],
+.xdesktop.color-6da1d3 input[type=password],
+.xdesktop.color-6da1d3 input[type=email],
+.xdesktop.color-6da1d3 textarea,
+.color-6da1d3 input.button,
+.xmobile.color-6da1d3 #settings-right div.uibox,
+.xmobile.color-6da1d3 #main-menu a,
+.xmobile.color-6da1d3 #addressview-left div.uibox,
+.xmobile.color-6da1d3 #addressview-right div.uibox,
+.xmobile.color-6da1d3 #settings-right div.uibox,
+.color-6da1d3 input.switchbox-input:checked + label.switchbox {
+  border-color: #6da1d3 !important; }
+
+/* color 2 - darker */
+.color-6da1d3 body.mailbox #inboxButton a {
+  background-color: #1F75CC; }
+
+.color-6da1d3 .uibox .boxtitle,
+.color-6da1d3.xcalendar .ui-datepicker .ui-datepicker-header select,
+.color-6da1d3.xcalendar .ui-datepicker .ui-datepicker-header a,
+.color-6da1d3.xcalendar .ui-datepicker .ui-datepicker-header span,
+.color-6da1d3 .records-table thead tr .status span.status,
+.color-6da1d3 .records-table thead tr .flag span.flagged,
+.color-6da1d3 .records-table thead tr .attachment span.attachment,
+.color-6da1d3 .records-table thead tr .priority span.priority,
+.color-6da1d3 .records-table thead td a,
+.color-6da1d3 .records-table thead th a {
+  color: #1F75CC !important; }
+
+/* color 3 - darkest */
+.xdesktop.color-6da1d3 a,
+.color-6da1d3 input.button,
+.color-6da1d3 .formbuttons input.button,
+.color-6da1d3 input.button.mainaction,
+.color-6da1d3 #login-form input.button,
+.color-6da1d3 #topline .topleft a,
+.color-6da1d3 #topline .topright a,
+.color-6da1d3 #topline .topright span,
+.color-6da1d3 .username select.deco,
+.color-6da1d3 #taskbar a span.button-inner,
+.color-6da1d3 .toolbar a.button,
+.color-6da1d3 #topline,
+.color-6da1d3 .minimal #topline,
+.color-6da1d3 #main-menu a.active,
+.color-6da1d3 #taskbar a.button-calendar span.button-inner,
+.color-6da1d3 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-6da1d3 ul#planner_controls li a {
+  color: #166ac0; }
+
+/* color 4 - light */
+.color-6da1d3 .uibox,
+.color-6da1d3 #compose-content,
+.color-6da1d3 #mailview-top,
+.color-6da1d3 #mailview-bottom,
+.color-6da1d3 #messagebody p.image-attachment,
+.color-6da1d3 .records-table.fixedheader,
+.color-6da1d3 #messagelistfooter,
+.color-6da1d3 .moreheaderstoggle,
+.color-6da1d3 #messageheader,
+.color-6da1d3 #composeheaders,
+.color-6da1d3 #composeoptions,
+.color-6da1d3 #compose-attachments,
+.color-6da1d3 #compose-contacts #directorylist,
+.color-6da1d3 .listbox .boxfooter,
+.color-6da1d3 #taskbar a,
+.color-6da1d3 .minimal #taskbar a,
+.color-6da1d3 ul#planner_controls li a,
+.color-6da1d3 .boxtitle, .uibox .listing thead td,
+.color-6da1d3 .boxtitle, .uibox .listing thead th,
+.color-6da1d3.iframe h1.boxtitle,
+.color-6da1d3 #vertical-preview {
+  border-color: #BFD9F2; }
+
+.xmobile.color-6da1d3 #messageheader .pagenav a.button.disabled {
+  color: #BFD9F2; }
+
+/* color 5 - lighter */
+.color-6da1d3 .listbox .listitem.selected,
+.color-6da1d3 .listbox .tablink.selected,
+.color-6da1d3 .listbox .listitem.selected > a,
+.color-6da1d3 .listbox .tablink.selected > a,
+.color-6da1d3 .listing tbody tr.unfocused td,
+.color-6da1d3 .listing tbody tr.selected td,
+.color-6da1d3 .listing li.selected,
+.color-6da1d3 .listing li.selected > a,
+.color-6da1d3 #mailboxlist li.mailbox .unreadcount,
+.xdesktop.color-6da1d3 #composeoptionstoggle,
+.xmobile.color-6da1d3 #main-menu a.active {
+  background-color: #D3E8FF; }
+
+.color-6da1d3 input.button:hover,
+.color-6da1d3 input[type=button]:hover,
+.color-6da1d3 .records-table tr.selected,
+.color-6da1d3 .records-table tr.unfocused,
+.color-6da1d3 .records-table tr.selected td,
+.color-6da1d3 .records-table tr.unfocused td,
+.color-6da1d3 a.rowLink:hover,
+.color-6da1d3 #xsidebar .boxtitle,
+.color-6da1d3 #remote-objects-message a:hover,
+.color-6da1d3.compact-message-list-always #mailview-top tr:hover,
+.color-6da1d3.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+.xmobile.color-6da1d3 #messagelist tr.selected,
+.xmobile.color-6da1d3 #messagelist tr.unfocused,
+.xmobile.color-6da1d3 #messagelist tr.selected td.date {
+  background-color: #D3E8FF !important; }
+
+.color-6da1d3 #mailboxlist li.mailbox ul,
+.color-6da1d3 .listbox .listitem,
+.color-6da1d3 .listbox .tablink,
+.color-6da1d3 .listing tbody td,
+.color-6da1d3 .listing li {
+  border-color: #D3E8FF; }
+
+.color-6da1d3.compact-message-list-always #mailview-top tr,
+.color-6da1d3.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #D3E8FF !important; }
+
+/* color 6 - lightest */
+.color-6da1d3 input.button,
+.color-6da1d3 input[type=button] {
+  background-color: #E9F4FF !important; }
+
+.color-6da1d3 #composeheaders,
+.color-6da1d3 #taskbar a,
+.color-6da1d3 .minimal #taskbar a,
+.color-6da1d3 .moreheaderstoggle,
+.color-6da1d3 #messageheader,
+.color-6da1d3 .records-table thead td,
+.color-6da1d3 .records-table thead th,
+.color-6da1d3 input[type=button],
+.color-6da1d3 .uibox .listing thead td,
+.color-6da1d3 .uibox .listing thead th,
+.color-6da1d3 .uibox .boxtitle,
+.color-6da1d3.xcalendar .ui-datepicker .ui-datepicker-header,
+.color-6da1d3 .listbox,
+.color-6da1d3 ul.listing li,
+.color-6da1d3 ul#planner_controls li a,
+.color-6da1d3 #messagelistfooter,
+.color-6da1d3 #mailpreviewtoggle,
+.color-6da1d3.iframe h1.boxtitle,
+.xmobile.color-6da1d3 #main-menu a {
+  background-color: #E9F4FF; }
+
+.color-6da1d3 .popupmenu a:hover {
+  background-color: #E9F4FF !important; }
+
+/* color 1 - dark */
+.xmobile.color-6dcfd3 .popup-close,
+.xmobile.color-6dcfd3 #mailboxlist li.mailbox a .unreadcount,
+.xmobile.color-6dcfd3 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-6dcfd3 #messagelistcontainer .pagenav a.button,
+.xmobile.color-6dcfd3 #messagestack div,
+.xmobile.color-6dcfd3 #message-objects div a.button,
+.xmobile.color-6dcfd3 .boxfooter .listbutton {
+  background-color: #6dcfd3; }
+
+.color-6dcfd3 input.switchbox-input:checked + label.switchbox {
+  background-color: #6dcfd3 !important; }
+
+.color-6dcfd3 .records-table td span:before,
+.color-6dcfd3 .records-table th span:before,
+.color-6dcfd3 .records-table th a:before,
+.color-6dcfd3 .records-table thead td div:before,
+.color-6dcfd3 .records-table thead th div:before,
+.color-6dcfd3 .records-table thead td a:after,
+.color-6dcfd3 .records-table thead th a:after,
+.color-6dcfd3 .records-table div.expanded,
+.color-6dcfd3 .records-table div.collapsed,
+.color-6dcfd3 .boxfooter .listbutton.groupactions:before,
+.color-6dcfd3 #rss a,
+.color-6dcfd3 a.iconbutton:before,
+.color-6dcfd3 .minmodetoggle:before,
+.color-6dcfd3 #mailpreviewtoggle,
+.color-6dcfd3 .toolbar a.button:before,
+.color-6dcfd3 .boxfooter .listbutton.groupactions,
+.color-6dcfd3 .boxfooter .listbutton.add,
+.color-6dcfd3 .boxfooter .listbutton.delete,
+.color-6dcfd3 .boxfooter .listbutton.removegroup,
+.color-6dcfd3 .boxfooter .listbutton.addto .inner,
+.color-6dcfd3 .boxfooter .listbutton.addcc .inner,
+.color-6dcfd3 .boxfooter .listbutton.addbcc .inner,
+.color-6dcfd3 .boxfooter .countdisplay,
+.xmobile.color-6dcfd3 #mailboxlist li.mailbox div.treetoggle,
+.xmobile.color-6dcfd3 #directorylist li.addressbook div.collapsed,
+.xmobile.color-6dcfd3 #directorylist li.addressbook div.expanded,
+.xmobile.color-6dcfd3 #main-menu a,
+.xmobile.color-6dcfd3 #full-headers .more-headers,
+.xmobile.color-6dcfd3 #attachment-list .delete,
+.xmobile.color-6dcfd3 #attachment-list .drop,
+.xmobile.color-6dcfd3 #messageheader .pagenav a.button,
+.xmobile.color-6dcfd3 #messagelist td.subject:before,
+.xmobile.color-6dcfd3 #messagelist tr.selected td.subject:before,
+.xmobile.color-6dcfd3 #messagelist tr.unfocused td.subject:before,
+.xmobile.color-6dcfd3 .folderlist li.mailbox div.treetoggle:before {
+  color: #6dcfd3; }
+
+.xmobile.color-6dcfd3 .popup-close a,
+.xmobile.color-6dcfd3 .popup-box h5,
+.xmobile.color-6dcfd3 #quicksearchbar .popup-close a {
+  color: #6dcfd3 !important; }
+
+.color-6dcfd3 input[type=button],
+.color-6dcfd3 input[type=button]:hover,
+.color-6dcfd3 fieldset,
+.color-6dcfd3 a.menuselector,
+.color-6dcfd3 #topnav,
+.color-6dcfd3.minimal #topnav,
+.color-6dcfd3 #taskbar a.button-selected,
+.color-6dcfd3 .popupmenu,
+.color-6dcfd3 #messagestack div,
+.color-6dcfd3 #maillistmode.selected,
+.color-6dcfd3 #mailthreadmode.selected,
+.color-6dcfd3 #rcmKSearchpane,
+.color-6dcfd3 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.xdesktop.color-6dcfd3 select,
+.xmobile.color-6dcfd3 #main-menu,
+.xmobile.color-6dcfd3 .popup-close,
+.xmobile.color-6dcfd3 #all-headers {
+  border-color: #6dcfd3; }
+
+.xdesktop.color-6dcfd3 input[type=text],
+.xdesktop.color-6dcfd3 input[type=password],
+.xdesktop.color-6dcfd3 input[type=email],
+.xdesktop.color-6dcfd3 textarea,
+.color-6dcfd3 input.button,
+.xmobile.color-6dcfd3 #settings-right div.uibox,
+.xmobile.color-6dcfd3 #main-menu a,
+.xmobile.color-6dcfd3 #addressview-left div.uibox,
+.xmobile.color-6dcfd3 #addressview-right div.uibox,
+.xmobile.color-6dcfd3 #settings-right div.uibox,
+.color-6dcfd3 input.switchbox-input:checked + label.switchbox {
+  border-color: #6dcfd3 !important; }
+
+/* color 2 - darker */
+.color-6dcfd3 body.mailbox #inboxButton a {
+  background-color: #1fbecc; }
+
+.color-6dcfd3 .uibox .boxtitle,
+.color-6dcfd3.xcalendar .ui-datepicker .ui-datepicker-header select,
+.color-6dcfd3.xcalendar .ui-datepicker .ui-datepicker-header a,
+.color-6dcfd3.xcalendar .ui-datepicker .ui-datepicker-header span,
+.color-6dcfd3 .records-table thead tr .status span.status,
+.color-6dcfd3 .records-table thead tr .flag span.flagged,
+.color-6dcfd3 .records-table thead tr .attachment span.attachment,
+.color-6dcfd3 .records-table thead tr .priority span.priority,
+.color-6dcfd3 .records-table thead td a,
+.color-6dcfd3 .records-table thead th a {
+  color: #1fbecc !important; }
+
+/* color 3 - darkest */
+.xdesktop.color-6dcfd3 a,
+.color-6dcfd3 input.button,
+.color-6dcfd3 .formbuttons input.button,
+.color-6dcfd3 input.button.mainaction,
+.color-6dcfd3 #login-form input.button,
+.color-6dcfd3 #topline .topleft a,
+.color-6dcfd3 #topline .topright a,
+.color-6dcfd3 #topline .topright span,
+.color-6dcfd3 .username select.deco,
+.color-6dcfd3 #taskbar a span.button-inner,
+.color-6dcfd3 .toolbar a.button,
+.color-6dcfd3 #topline,
+.color-6dcfd3 .minimal #topline,
+.color-6dcfd3 #main-menu a.active,
+.color-6dcfd3 #taskbar a.button-calendar span.button-inner,
+.color-6dcfd3 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-6dcfd3 ul#planner_controls li a {
+  color: #16aac0; }
+
+/* color 4 - light */
+.color-6dcfd3 .uibox,
+.color-6dcfd3 #compose-content,
+.color-6dcfd3 #mailview-top,
+.color-6dcfd3 #mailview-bottom,
+.color-6dcfd3 #messagebody p.image-attachment,
+.color-6dcfd3 .records-table.fixedheader,
+.color-6dcfd3 #messagelistfooter,
+.color-6dcfd3 .moreheaderstoggle,
+.color-6dcfd3 #messageheader,
+.color-6dcfd3 #composeheaders,
+.color-6dcfd3 #composeoptions,
+.color-6dcfd3 #compose-attachments,
+.color-6dcfd3 #compose-contacts #directorylist,
+.color-6dcfd3 .listbox .boxfooter,
+.color-6dcfd3 #taskbar a,
+.color-6dcfd3 .minimal #taskbar a,
+.color-6dcfd3 ul#planner_controls li a,
+.color-6dcfd3 .boxtitle, .uibox .listing thead td,
+.color-6dcfd3 .boxtitle, .uibox .listing thead th,
+.color-6dcfd3.iframe h1.boxtitle,
+.color-6dcfd3 #vertical-preview {
+  border-color: #bfeef2; }
+
+.xmobile.color-6dcfd3 #messageheader .pagenav a.button.disabled {
+  color: #bfeef2; }
+
+/* color 5 - lighter */
+.color-6dcfd3 .listbox .listitem.selected,
+.color-6dcfd3 .listbox .tablink.selected,
+.color-6dcfd3 .listbox .listitem.selected > a,
+.color-6dcfd3 .listbox .tablink.selected > a,
+.color-6dcfd3 .listing tbody tr.unfocused td,
+.color-6dcfd3 .listing tbody tr.selected td,
+.color-6dcfd3 .listing li.selected,
+.color-6dcfd3 .listing li.selected > a,
+.color-6dcfd3 #mailboxlist li.mailbox .unreadcount,
+.xdesktop.color-6dcfd3 #composeoptionstoggle,
+.xmobile.color-6dcfd3 #main-menu a.active {
+  background-color: #d3f9ff; }
+
+.color-6dcfd3 input.button:hover,
+.color-6dcfd3 input[type=button]:hover,
+.color-6dcfd3 .records-table tr.selected,
+.color-6dcfd3 .records-table tr.unfocused,
+.color-6dcfd3 .records-table tr.selected td,
+.color-6dcfd3 .records-table tr.unfocused td,
+.color-6dcfd3 a.rowLink:hover,
+.color-6dcfd3 #xsidebar .boxtitle,
+.color-6dcfd3 #remote-objects-message a:hover,
+.color-6dcfd3.compact-message-list-always #mailview-top tr:hover,
+.color-6dcfd3.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+.xmobile.color-6dcfd3 #messagelist tr.selected,
+.xmobile.color-6dcfd3 #messagelist tr.unfocused,
+.xmobile.color-6dcfd3 #messagelist tr.selected td.date {
+  background-color: #d3f9ff !important; }
+
+.color-6dcfd3 #mailboxlist li.mailbox ul,
+.color-6dcfd3 .listbox .listitem,
+.color-6dcfd3 .listbox .tablink,
+.color-6dcfd3 .listing tbody td,
+.color-6dcfd3 .listing li {
+  border-color: #d3f9ff; }
+
+.color-6dcfd3.compact-message-list-always #mailview-top tr,
+.color-6dcfd3.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #d3f9ff !important; }
+
+/* color 6 - lightest */
+.color-6dcfd3 input.button,
+.color-6dcfd3 input[type=button] {
+  background-color: #e9fcff !important; }
+
+.color-6dcfd3 #composeheaders,
+.color-6dcfd3 #taskbar a,
+.color-6dcfd3 .minimal #taskbar a,
+.color-6dcfd3 .moreheaderstoggle,
+.color-6dcfd3 #messageheader,
+.color-6dcfd3 .records-table thead td,
+.color-6dcfd3 .records-table thead th,
+.color-6dcfd3 input[type=button],
+.color-6dcfd3 .uibox .listing thead td,
+.color-6dcfd3 .uibox .listing thead th,
+.color-6dcfd3 .uibox .boxtitle,
+.color-6dcfd3.xcalendar .ui-datepicker .ui-datepicker-header,
+.color-6dcfd3 .listbox,
+.color-6dcfd3 ul.listing li,
+.color-6dcfd3 ul#planner_controls li a,
+.color-6dcfd3 #messagelistfooter,
+.color-6dcfd3 #mailpreviewtoggle,
+.color-6dcfd3.iframe h1.boxtitle,
+.xmobile.color-6dcfd3 #main-menu a {
+  background-color: #e9fcff; }
+
+.color-6dcfd3 .popupmenu a:hover {
+  background-color: #e9fcff !important; }
+
+/* color 1 - dark */
+.xmobile.color-6dd374 .popup-close,
+.xmobile.color-6dd374 #mailboxlist li.mailbox a .unreadcount,
+.xmobile.color-6dd374 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-6dd374 #messagelistcontainer .pagenav a.button,
+.xmobile.color-6dd374 #messagestack div,
+.xmobile.color-6dd374 #message-objects div a.button,
+.xmobile.color-6dd374 .boxfooter .listbutton {
+  background-color: #6dd374; }
+
+.color-6dd374 input.switchbox-input:checked + label.switchbox {
+  background-color: #6dd374 !important; }
+
+.color-6dd374 .records-table td span:before,
+.color-6dd374 .records-table th span:before,
+.color-6dd374 .records-table th a:before,
+.color-6dd374 .records-table thead td div:before,
+.color-6dd374 .records-table thead th div:before,
+.color-6dd374 .records-table thead td a:after,
+.color-6dd374 .records-table thead th a:after,
+.color-6dd374 .records-table div.expanded,
+.color-6dd374 .records-table div.collapsed,
+.color-6dd374 .boxfooter .listbutton.groupactions:before,
+.color-6dd374 #rss a,
+.color-6dd374 a.iconbutton:before,
+.color-6dd374 .minmodetoggle:before,
+.color-6dd374 #mailpreviewtoggle,
+.color-6dd374 .toolbar a.button:before,
+.color-6dd374 .boxfooter .listbutton.groupactions,
+.color-6dd374 .boxfooter .listbutton.add,
+.color-6dd374 .boxfooter .listbutton.delete,
+.color-6dd374 .boxfooter .listbutton.removegroup,
+.color-6dd374 .boxfooter .listbutton.addto .inner,
+.color-6dd374 .boxfooter .listbutton.addcc .inner,
+.color-6dd374 .boxfooter .listbutton.addbcc .inner,
+.color-6dd374 .boxfooter .countdisplay,
+.xmobile.color-6dd374 #mailboxlist li.mailbox div.treetoggle,
+.xmobile.color-6dd374 #directorylist li.addressbook div.collapsed,
+.xmobile.color-6dd374 #directorylist li.addressbook div.expanded,
+.xmobile.color-6dd374 #main-menu a,
+.xmobile.color-6dd374 #full-headers .more-headers,
+.xmobile.color-6dd374 #attachment-list .delete,
+.xmobile.color-6dd374 #attachment-list .drop,
+.xmobile.color-6dd374 #messageheader .pagenav a.button,
+.xmobile.color-6dd374 #messagelist td.subject:before,
+.xmobile.color-6dd374 #messagelist tr.selected td.subject:before,
+.xmobile.color-6dd374 #messagelist tr.unfocused td.subject:before,
+.xmobile.color-6dd374 .folderlist li.mailbox div.treetoggle:before {
+  color: #6dd374; }
+
+.xmobile.color-6dd374 .popup-close a,
+.xmobile.color-6dd374 .popup-box h5,
+.xmobile.color-6dd374 #quicksearchbar .popup-close a {
+  color: #6dd374 !important; }
+
+.color-6dd374 input[type=button],
+.color-6dd374 input[type=button]:hover,
+.color-6dd374 fieldset,
+.color-6dd374 a.menuselector,
+.color-6dd374 #topnav,
+.color-6dd374.minimal #topnav,
+.color-6dd374 #taskbar a.button-selected,
+.color-6dd374 .popupmenu,
+.color-6dd374 #messagestack div,
+.color-6dd374 #maillistmode.selected,
+.color-6dd374 #mailthreadmode.selected,
+.color-6dd374 #rcmKSearchpane,
+.color-6dd374 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.xdesktop.color-6dd374 select,
+.xmobile.color-6dd374 #main-menu,
+.xmobile.color-6dd374 .popup-close,
+.xmobile.color-6dd374 #all-headers {
+  border-color: #6dd374; }
+
+.xdesktop.color-6dd374 input[type=text],
+.xdesktop.color-6dd374 input[type=password],
+.xdesktop.color-6dd374 input[type=email],
+.xdesktop.color-6dd374 textarea,
+.color-6dd374 input.button,
+.xmobile.color-6dd374 #settings-right div.uibox,
+.xmobile.color-6dd374 #main-menu a,
+.xmobile.color-6dd374 #addressview-left div.uibox,
+.xmobile.color-6dd374 #addressview-right div.uibox,
+.xmobile.color-6dd374 #settings-right div.uibox,
+.color-6dd374 input.switchbox-input:checked + label.switchbox {
+  border-color: #6dd374 !important; }
+
+/* color 2 - darker */
+.color-6dd374 body.mailbox #inboxButton a {
+  background-color: #1fcc2b; }
+
+.color-6dd374 .uibox .boxtitle,
+.color-6dd374.xcalendar .ui-datepicker .ui-datepicker-header select,
+.color-6dd374.xcalendar .ui-datepicker .ui-datepicker-header a,
+.color-6dd374.xcalendar .ui-datepicker .ui-datepicker-header span,
+.color-6dd374 .records-table thead tr .status span.status,
+.color-6dd374 .records-table thead tr .flag span.flagged,
+.color-6dd374 .records-table thead tr .attachment span.attachment,
+.color-6dd374 .records-table thead tr .priority span.priority,
+.color-6dd374 .records-table thead td a,
+.color-6dd374 .records-table thead th a {
+  color: #1fcc2b !important; }
+
+/* color 3 - darkest */
+.xdesktop.color-6dd374 a,
+.color-6dd374 input.button,
+.color-6dd374 .formbuttons input.button,
+.color-6dd374 input.button.mainaction,
+.color-6dd374 #login-form input.button,
+.color-6dd374 #topline .topleft a,
+.color-6dd374 #topline .topright a,
+.color-6dd374 #topline .topright span,
+.color-6dd374 .username select.deco,
+.color-6dd374 #taskbar a span.button-inner,
+.color-6dd374 .toolbar a.button,
+.color-6dd374 #topline,
+.color-6dd374 .minimal #topline,
+.color-6dd374 #main-menu a.active,
+.color-6dd374 #taskbar a.button-calendar span.button-inner,
+.color-6dd374 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-6dd374 ul#planner_controls li a {
+  color: #2fae50; }
+
+/* color 4 - light */
+.color-6dd374 .uibox,
+.color-6dd374 #compose-content,
+.color-6dd374 #mailview-top,
+.color-6dd374 #mailview-bottom,
+.color-6dd374 #messagebody p.image-attachment,
+.color-6dd374 .records-table.fixedheader,
+.color-6dd374 #messagelistfooter,
+.color-6dd374 .moreheaderstoggle,
+.color-6dd374 #messageheader,
+.color-6dd374 #composeheaders,
+.color-6dd374 #composeoptions,
+.color-6dd374 #compose-attachments,
+.color-6dd374 #compose-contacts #directorylist,
+.color-6dd374 .listbox .boxfooter,
+.color-6dd374 #taskbar a,
+.color-6dd374 .minimal #taskbar a,
+.color-6dd374 ul#planner_controls li a,
+.color-6dd374 .boxtitle, .uibox .listing thead td,
+.color-6dd374 .boxtitle, .uibox .listing thead th,
+.color-6dd374.iframe h1.boxtitle,
+.color-6dd374 #vertical-preview {
+  border-color: #bff2c3; }
+
+.xmobile.color-6dd374 #messageheader .pagenav a.button.disabled {
+  color: #bff2c3; }
+
+/* color 5 - lighter */
+.color-6dd374 .listbox .listitem.selected,
+.color-6dd374 .listbox .tablink.selected,
+.color-6dd374 .listbox .listitem.selected > a,
+.color-6dd374 .listbox .tablink.selected > a,
+.color-6dd374 .listing tbody tr.unfocused td,
+.color-6dd374 .listing tbody tr.selected td,
+.color-6dd374 .listing li.selected,
+.color-6dd374 .listing li.selected > a,
+.color-6dd374 #mailboxlist li.mailbox .unreadcount,
+.xdesktop.color-6dd374 #composeoptionstoggle,
+.xmobile.color-6dd374 #main-menu a.active {
+  background-color: #d3ffd5; }
+
+.color-6dd374 input.button:hover,
+.color-6dd374 input[type=button]:hover,
+.color-6dd374 .records-table tr.selected,
+.color-6dd374 .records-table tr.unfocused,
+.color-6dd374 .records-table tr.selected td,
+.color-6dd374 .records-table tr.unfocused td,
+.color-6dd374 a.rowLink:hover,
+.color-6dd374 #xsidebar .boxtitle,
+.color-6dd374 #remote-objects-message a:hover,
+.color-6dd374.compact-message-list-always #mailview-top tr:hover,
+.color-6dd374.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+.xmobile.color-6dd374 #messagelist tr.selected,
+.xmobile.color-6dd374 #messagelist tr.unfocused,
+.xmobile.color-6dd374 #messagelist tr.selected td.date {
+  background-color: #d3ffd5 !important; }
+
+.color-6dd374 #mailboxlist li.mailbox ul,
+.color-6dd374 .listbox .listitem,
+.color-6dd374 .listbox .tablink,
+.color-6dd374 .listing tbody td,
+.color-6dd374 .listing li {
+  border-color: #d3ffd5; }
+
+.color-6dd374.compact-message-list-always #mailview-top tr,
+.color-6dd374.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #d3ffd5 !important; }
+
+/* color 6 - lightest */
+.color-6dd374 input.button,
+.color-6dd374 input[type=button] {
+  background-color: #e9ffec !important; }
+
+.color-6dd374 #composeheaders,
+.color-6dd374 #taskbar a,
+.color-6dd374 .minimal #taskbar a,
+.color-6dd374 .moreheaderstoggle,
+.color-6dd374 #messageheader,
+.color-6dd374 .records-table thead td,
+.color-6dd374 .records-table thead th,
+.color-6dd374 input[type=button],
+.color-6dd374 .uibox .listing thead td,
+.color-6dd374 .uibox .listing thead th,
+.color-6dd374 .uibox .boxtitle,
+.color-6dd374.xcalendar .ui-datepicker .ui-datepicker-header,
+.color-6dd374 .listbox,
+.color-6dd374 ul.listing li,
+.color-6dd374 ul#planner_controls li a,
+.color-6dd374 #messagelistfooter,
+.color-6dd374 #mailpreviewtoggle,
+.color-6dd374.iframe h1.boxtitle,
+.xmobile.color-6dd374 #main-menu a {
+  background-color: #e9ffec; }
+
+.color-6dd374 .popupmenu a:hover {
+  background-color: #e9ffec !important; }
+
+/* color 1 - dark */
+.xmobile.color-b76dd3 .popup-close,
+.xmobile.color-b76dd3 #mailboxlist li.mailbox a .unreadcount,
+.xmobile.color-b76dd3 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-b76dd3 #messagelistcontainer .pagenav a.button,
+.xmobile.color-b76dd3 #messagestack div,
+.xmobile.color-b76dd3 #message-objects div a.button,
+.xmobile.color-b76dd3 .boxfooter .listbutton {
+  background-color: #b76dd3; }
+
+.color-b76dd3 input.switchbox-input:checked + label.switchbox {
+  background-color: #b76dd3 !important; }
+
+.color-b76dd3 .records-table td span:before,
+.color-b76dd3 .records-table th span:before,
+.color-b76dd3 .records-table th a:before,
+.color-b76dd3 .records-table thead td div:before,
+.color-b76dd3 .records-table thead th div:before,
+.color-b76dd3 .records-table thead td a:after,
+.color-b76dd3 .records-table thead th a:after,
+.color-b76dd3 .records-table div.expanded,
+.color-b76dd3 .records-table div.collapsed,
+.color-b76dd3 .boxfooter .listbutton.groupactions:before,
+.color-b76dd3 #rss a,
+.color-b76dd3 a.iconbutton:before,
+.color-b76dd3 .minmodetoggle:before,
+.color-b76dd3 #mailpreviewtoggle,
+.color-b76dd3 .toolbar a.button:before,
+.color-b76dd3 .boxfooter .listbutton.groupactions,
+.color-b76dd3 .boxfooter .listbutton.add,
+.color-b76dd3 .boxfooter .listbutton.delete,
+.color-b76dd3 .boxfooter .listbutton.removegroup,
+.color-b76dd3 .boxfooter .listbutton.addto .inner,
+.color-b76dd3 .boxfooter .listbutton.addcc .inner,
+.color-b76dd3 .boxfooter .listbutton.addbcc .inner,
+.color-b76dd3 .boxfooter .countdisplay,
+.xmobile.color-b76dd3 #mailboxlist li.mailbox div.treetoggle,
+.xmobile.color-b76dd3 #directorylist li.addressbook div.collapsed,
+.xmobile.color-b76dd3 #directorylist li.addressbook div.expanded,
+.xmobile.color-b76dd3 #main-menu a,
+.xmobile.color-b76dd3 #full-headers .more-headers,
+.xmobile.color-b76dd3 #attachment-list .delete,
+.xmobile.color-b76dd3 #attachment-list .drop,
+.xmobile.color-b76dd3 #messageheader .pagenav a.button,
+.xmobile.color-b76dd3 #messagelist td.subject:before,
+.xmobile.color-b76dd3 #messagelist tr.selected td.subject:before,
+.xmobile.color-b76dd3 #messagelist tr.unfocused td.subject:before,
+.xmobile.color-b76dd3 .folderlist li.mailbox div.treetoggle:before {
+  color: #b76dd3; }
+
+.xmobile.color-b76dd3 .popup-close a,
+.xmobile.color-b76dd3 .popup-box h5,
+.xmobile.color-b76dd3 #quicksearchbar .popup-close a {
+  color: #b76dd3 !important; }
+
+.color-b76dd3 input[type=button],
+.color-b76dd3 input[type=button]:hover,
+.color-b76dd3 fieldset,
+.color-b76dd3 a.menuselector,
+.color-b76dd3 #topnav,
+.color-b76dd3.minimal #topnav,
+.color-b76dd3 #taskbar a.button-selected,
+.color-b76dd3 .popupmenu,
+.color-b76dd3 #messagestack div,
+.color-b76dd3 #maillistmode.selected,
+.color-b76dd3 #mailthreadmode.selected,
+.color-b76dd3 #rcmKSearchpane,
+.color-b76dd3 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.xdesktop.color-b76dd3 select,
+.xmobile.color-b76dd3 #main-menu,
+.xmobile.color-b76dd3 .popup-close,
+.xmobile.color-b76dd3 #all-headers {
+  border-color: #b76dd3; }
+
+.xdesktop.color-b76dd3 input[type=text],
+.xdesktop.color-b76dd3 input[type=password],
+.xdesktop.color-b76dd3 input[type=email],
+.xdesktop.color-b76dd3 textarea,
+.color-b76dd3 input.button,
+.xmobile.color-b76dd3 #settings-right div.uibox,
+.xmobile.color-b76dd3 #main-menu a,
+.xmobile.color-b76dd3 #addressview-left div.uibox,
+.xmobile.color-b76dd3 #addressview-right div.uibox,
+.xmobile.color-b76dd3 #settings-right div.uibox,
+.color-b76dd3 input.switchbox-input:checked + label.switchbox {
+  border-color: #b76dd3 !important; }
+
+/* color 2 - darker */
+.color-b76dd3 body.mailbox #inboxButton a {
+  background-color: #a51fcc; }
+
+.color-b76dd3 .uibox .boxtitle,
+.color-b76dd3.xcalendar .ui-datepicker .ui-datepicker-header select,
+.color-b76dd3.xcalendar .ui-datepicker .ui-datepicker-header a,
+.color-b76dd3.xcalendar .ui-datepicker .ui-datepicker-header span,
+.color-b76dd3 .records-table thead tr .status span.status,
+.color-b76dd3 .records-table thead tr .flag span.flagged,
+.color-b76dd3 .records-table thead tr .attachment span.attachment,
+.color-b76dd3 .records-table thead tr .priority span.priority,
+.color-b76dd3 .records-table thead td a,
+.color-b76dd3 .records-table thead th a {
+  color: #a51fcc !important; }
+
+/* color 3 - darkest */
+.xdesktop.color-b76dd3 a,
+.color-b76dd3 input.button,
+.color-b76dd3 .formbuttons input.button,
+.color-b76dd3 input.button.mainaction,
+.color-b76dd3 #login-form input.button,
+.color-b76dd3 #topline .topleft a,
+.color-b76dd3 #topline .topright a,
+.color-b76dd3 #topline .topright span,
+.color-b76dd3 .username select.deco,
+.color-b76dd3 #taskbar a span.button-inner,
+.color-b76dd3 .toolbar a.button,
+.color-b76dd3 #topline,
+.color-b76dd3 .minimal #topline,
+.color-b76dd3 #main-menu a.active,
+.color-b76dd3 #taskbar a.button-calendar span.button-inner,
+.color-b76dd3 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-b76dd3 ul#planner_controls li a {
+  color: #9900cc; }
+
+/* color 4 - light */
+.color-b76dd3 .uibox,
+.color-b76dd3 #compose-content,
+.color-b76dd3 #mailview-top,
+.color-b76dd3 #mailview-bottom,
+.color-b76dd3 #messagebody p.image-attachment,
+.color-b76dd3 .records-table.fixedheader,
+.color-b76dd3 #messagelistfooter,
+.color-b76dd3 .moreheaderstoggle,
+.color-b76dd3 #messageheader,
+.color-b76dd3 #composeheaders,
+.color-b76dd3 #composeoptions,
+.color-b76dd3 #compose-attachments,
+.color-b76dd3 #compose-contacts #directorylist,
+.color-b76dd3 .listbox .boxfooter,
+.color-b76dd3 #taskbar a,
+.color-b76dd3 .minimal #taskbar a,
+.color-b76dd3 ul#planner_controls li a,
+.color-b76dd3 .boxtitle, .uibox .listing thead td,
+.color-b76dd3 .boxtitle, .uibox .listing thead th,
+.color-b76dd3.iframe h1.boxtitle,
+.color-b76dd3 #vertical-preview {
+  border-color: #e4bff2; }
+
+.xmobile.color-b76dd3 #messageheader .pagenav a.button.disabled {
+  color: #e4bff2; }
+
+/* color 5 - lighter */
+.color-b76dd3 .listbox .listitem.selected,
+.color-b76dd3 .listbox .tablink.selected,
+.color-b76dd3 .listbox .listitem.selected > a,
+.color-b76dd3 .listbox .tablink.selected > a,
+.color-b76dd3 .listing tbody tr.unfocused td,
+.color-b76dd3 .listing tbody tr.selected td,
+.color-b76dd3 .listing li.selected,
+.color-b76dd3 .listing li.selected > a,
+.color-b76dd3 #mailboxlist li.mailbox .unreadcount,
+.xdesktop.color-b76dd3 #composeoptionstoggle,
+.xmobile.color-b76dd3 #main-menu a.active {
+  background-color: #edd3ff; }
+
+.color-b76dd3 input.button:hover,
+.color-b76dd3 input[type=button]:hover,
+.color-b76dd3 .records-table tr.selected,
+.color-b76dd3 .records-table tr.unfocused,
+.color-b76dd3 .records-table tr.selected td,
+.color-b76dd3 .records-table tr.unfocused td,
+.color-b76dd3 a.rowLink:hover,
+.color-b76dd3 #xsidebar .boxtitle,
+.color-b76dd3 #remote-objects-message a:hover,
+.color-b76dd3.compact-message-list-always #mailview-top tr:hover,
+.color-b76dd3.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+.xmobile.color-b76dd3 #messagelist tr.selected,
+.xmobile.color-b76dd3 #messagelist tr.unfocused,
+.xmobile.color-b76dd3 #messagelist tr.selected td.date {
+  background-color: #edd3ff !important; }
+
+.color-b76dd3 #mailboxlist li.mailbox ul,
+.color-b76dd3 .listbox .listitem,
+.color-b76dd3 .listbox .tablink,
+.color-b76dd3 .listing tbody td,
+.color-b76dd3 .listing li {
+  border-color: #edd3ff; }
+
+.color-b76dd3.compact-message-list-always #mailview-top tr,
+.color-b76dd3.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #edd3ff !important; }
+
+/* color 6 - lightest */
+.color-b76dd3 input.button,
+.color-b76dd3 input[type=button] {
+  background-color: #fae9ff !important; }
+
+.color-b76dd3 #composeheaders,
+.color-b76dd3 #taskbar a,
+.color-b76dd3 .minimal #taskbar a,
+.color-b76dd3 .moreheaderstoggle,
+.color-b76dd3 #messageheader,
+.color-b76dd3 .records-table thead td,
+.color-b76dd3 .records-table thead th,
+.color-b76dd3 input[type=button],
+.color-b76dd3 .uibox .listing thead td,
+.color-b76dd3 .uibox .listing thead th,
+.color-b76dd3 .uibox .boxtitle,
+.color-b76dd3.xcalendar .ui-datepicker .ui-datepicker-header,
+.color-b76dd3 .listbox,
+.color-b76dd3 ul.listing li,
+.color-b76dd3 ul#planner_controls li a,
+.color-b76dd3 #messagelistfooter,
+.color-b76dd3 #mailpreviewtoggle,
+.color-b76dd3.iframe h1.boxtitle,
+.xmobile.color-b76dd3 #main-menu a {
+  background-color: #fae9ff; }
+
+.color-b76dd3 .popupmenu a:hover {
+  background-color: #fae9ff !important; }
+
+/* color 1 - dark */
+.xmobile.color-d3bc6d .popup-close,
+.xmobile.color-d3bc6d #mailboxlist li.mailbox a .unreadcount,
+.xmobile.color-d3bc6d #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-d3bc6d #messagelistcontainer .pagenav a.button,
+.xmobile.color-d3bc6d #messagestack div,
+.xmobile.color-d3bc6d #message-objects div a.button,
+.xmobile.color-d3bc6d .boxfooter .listbutton {
+  background-color: #d3bc6d; }
+
+.color-d3bc6d input.switchbox-input:checked + label.switchbox {
+  background-color: #d3bc6d !important; }
+
+.color-d3bc6d .records-table td span:before,
+.color-d3bc6d .records-table th span:before,
+.color-d3bc6d .records-table th a:before,
+.color-d3bc6d .records-table thead td div:before,
+.color-d3bc6d .records-table thead th div:before,
+.color-d3bc6d .records-table thead td a:after,
+.color-d3bc6d .records-table thead th a:after,
+.color-d3bc6d .records-table div.expanded,
+.color-d3bc6d .records-table div.collapsed,
+.color-d3bc6d .boxfooter .listbutton.groupactions:before,
+.color-d3bc6d #rss a,
+.color-d3bc6d a.iconbutton:before,
+.color-d3bc6d .minmodetoggle:before,
+.color-d3bc6d #mailpreviewtoggle,
+.color-d3bc6d .toolbar a.button:before,
+.color-d3bc6d .boxfooter .listbutton.groupactions,
+.color-d3bc6d .boxfooter .listbutton.add,
+.color-d3bc6d .boxfooter .listbutton.delete,
+.color-d3bc6d .boxfooter .listbutton.removegroup,
+.color-d3bc6d .boxfooter .listbutton.addto .inner,
+.color-d3bc6d .boxfooter .listbutton.addcc .inner,
+.color-d3bc6d .boxfooter .listbutton.addbcc .inner,
+.color-d3bc6d .boxfooter .countdisplay,
+.xmobile.color-d3bc6d #mailboxlist li.mailbox div.treetoggle,
+.xmobile.color-d3bc6d #directorylist li.addressbook div.collapsed,
+.xmobile.color-d3bc6d #directorylist li.addressbook div.expanded,
+.xmobile.color-d3bc6d #main-menu a,
+.xmobile.color-d3bc6d #full-headers .more-headers,
+.xmobile.color-d3bc6d #attachment-list .delete,
+.xmobile.color-d3bc6d #attachment-list .drop,
+.xmobile.color-d3bc6d #messageheader .pagenav a.button,
+.xmobile.color-d3bc6d #messagelist td.subject:before,
+.xmobile.color-d3bc6d #messagelist tr.selected td.subject:before,
+.xmobile.color-d3bc6d #messagelist tr.unfocused td.subject:before,
+.xmobile.color-d3bc6d .folderlist li.mailbox div.treetoggle:before {
+  color: #d3bc6d; }
+
+.xmobile.color-d3bc6d .popup-close a,
+.xmobile.color-d3bc6d .popup-box h5,
+.xmobile.color-d3bc6d #quicksearchbar .popup-close a {
+  color: #d3bc6d !important; }
+
+.color-d3bc6d input[type=button],
+.color-d3bc6d input[type=button]:hover,
+.color-d3bc6d fieldset,
+.color-d3bc6d a.menuselector,
+.color-d3bc6d #topnav,
+.color-d3bc6d.minimal #topnav,
+.color-d3bc6d #taskbar a.button-selected,
+.color-d3bc6d .popupmenu,
+.color-d3bc6d #messagestack div,
+.color-d3bc6d #maillistmode.selected,
+.color-d3bc6d #mailthreadmode.selected,
+.color-d3bc6d #rcmKSearchpane,
+.color-d3bc6d .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.xdesktop.color-d3bc6d select,
+.xmobile.color-d3bc6d #main-menu,
+.xmobile.color-d3bc6d .popup-close,
+.xmobile.color-d3bc6d #all-headers {
+  border-color: #d3bc6d; }
+
+.xdesktop.color-d3bc6d input[type=text],
+.xdesktop.color-d3bc6d input[type=password],
+.xdesktop.color-d3bc6d input[type=email],
+.xdesktop.color-d3bc6d textarea,
+.color-d3bc6d input.button,
+.xmobile.color-d3bc6d #settings-right div.uibox,
+.xmobile.color-d3bc6d #main-menu a,
+.xmobile.color-d3bc6d #addressview-left div.uibox,
+.xmobile.color-d3bc6d #addressview-right div.uibox,
+.xmobile.color-d3bc6d #settings-right div.uibox,
+.color-d3bc6d input.switchbox-input:checked + label.switchbox {
+  border-color: #d3bc6d !important; }
+
+/* color 2 - darker */
+.color-d3bc6d body.mailbox #inboxButton a {
+  background-color: #cca51f; }
+
+.color-d3bc6d .uibox .boxtitle,
+.color-d3bc6d.xcalendar .ui-datepicker .ui-datepicker-header select,
+.color-d3bc6d.xcalendar .ui-datepicker .ui-datepicker-header a,
+.color-d3bc6d.xcalendar .ui-datepicker .ui-datepicker-header span,
+.color-d3bc6d .records-table thead tr .status span.status,
+.color-d3bc6d .records-table thead tr .flag span.flagged,
+.color-d3bc6d .records-table thead tr .attachment span.attachment,
+.color-d3bc6d .records-table thead tr .priority span.priority,
+.color-d3bc6d .records-table thead td a,
+.color-d3bc6d .records-table thead th a {
+  color: #cca51f !important; }
+
+/* color 3 - darkest */
+.xdesktop.color-d3bc6d a,
+.color-d3bc6d input.button,
+.color-d3bc6d .formbuttons input.button,
+.color-d3bc6d input.button.mainaction,
+.color-d3bc6d #login-form input.button,
+.color-d3bc6d #topline .topleft a,
+.color-d3bc6d #topline .topright a,
+.color-d3bc6d #topline .topright span,
+.color-d3bc6d .username select.deco,
+.color-d3bc6d #taskbar a span.button-inner,
+.color-d3bc6d .toolbar a.button,
+.color-d3bc6d #topline,
+.color-d3bc6d .minimal #topline,
+.color-d3bc6d #main-menu a.active,
+.color-d3bc6d #taskbar a.button-calendar span.button-inner,
+.color-d3bc6d #taskbar a.button-calendar.button-selected span.button-inner,
+.color-d3bc6d ul#planner_controls li a {
+  color: #c09616; }
+
+/* color 4 - light */
+.color-d3bc6d .uibox,
+.color-d3bc6d #compose-content,
+.color-d3bc6d #mailview-top,
+.color-d3bc6d #mailview-bottom,
+.color-d3bc6d #messagebody p.image-attachment,
+.color-d3bc6d .records-table.fixedheader,
+.color-d3bc6d #messagelistfooter,
+.color-d3bc6d .moreheaderstoggle,
+.color-d3bc6d #messageheader,
+.color-d3bc6d #composeheaders,
+.color-d3bc6d #composeoptions,
+.color-d3bc6d #compose-attachments,
+.color-d3bc6d #compose-contacts #directorylist,
+.color-d3bc6d .listbox .boxfooter,
+.color-d3bc6d #taskbar a,
+.color-d3bc6d .minimal #taskbar a,
+.color-d3bc6d ul#planner_controls li a,
+.color-d3bc6d .boxtitle, .uibox .listing thead td,
+.color-d3bc6d .boxtitle, .uibox .listing thead th,
+.color-d3bc6d.iframe h1.boxtitle,
+.color-d3bc6d #vertical-preview {
+  border-color: #f2e4bf; }
+
+.xmobile.color-d3bc6d #messageheader .pagenav a.button.disabled {
+  color: #f2e4bf; }
+
+/* color 5 - lighter */
+.color-d3bc6d .listbox .listitem.selected,
+.color-d3bc6d .listbox .tablink.selected,
+.color-d3bc6d .listbox .listitem.selected > a,
+.color-d3bc6d .listbox .tablink.selected > a,
+.color-d3bc6d .listing tbody tr.unfocused td,
+.color-d3bc6d .listing tbody tr.selected td,
+.color-d3bc6d .listing li.selected,
+.color-d3bc6d .listing li.selected > a,
+.color-d3bc6d #mailboxlist li.mailbox .unreadcount,
+.xdesktop.color-d3bc6d #composeoptionstoggle,
+.xmobile.color-d3bc6d #main-menu a.active {
+  background-color: #fff5d3; }
+
+.color-d3bc6d input.button:hover,
+.color-d3bc6d input[type=button]:hover,
+.color-d3bc6d .records-table tr.selected,
+.color-d3bc6d .records-table tr.unfocused,
+.color-d3bc6d .records-table tr.selected td,
+.color-d3bc6d .records-table tr.unfocused td,
+.color-d3bc6d a.rowLink:hover,
+.color-d3bc6d #xsidebar .boxtitle,
+.color-d3bc6d #remote-objects-message a:hover,
+.color-d3bc6d.compact-message-list-always #mailview-top tr:hover,
+.color-d3bc6d.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+.xmobile.color-d3bc6d #messagelist tr.selected,
+.xmobile.color-d3bc6d #messagelist tr.unfocused,
+.xmobile.color-d3bc6d #messagelist tr.selected td.date {
+  background-color: #fff5d3 !important; }
+
+.color-d3bc6d #mailboxlist li.mailbox ul,
+.color-d3bc6d .listbox .listitem,
+.color-d3bc6d .listbox .tablink,
+.color-d3bc6d .listing tbody td,
+.color-d3bc6d .listing li {
+  border-color: #fff5d3; }
+
+.color-d3bc6d.compact-message-list-always #mailview-top tr,
+.color-d3bc6d.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #fff5d3 !important; }
+
+/* color 6 - lightest */
+.color-d3bc6d input.button,
+.color-d3bc6d input[type=button] {
+  background-color: #fffae9 !important; }
+
+.color-d3bc6d #composeheaders,
+.color-d3bc6d #taskbar a,
+.color-d3bc6d .minimal #taskbar a,
+.color-d3bc6d .moreheaderstoggle,
+.color-d3bc6d #messageheader,
+.color-d3bc6d .records-table thead td,
+.color-d3bc6d .records-table thead th,
+.color-d3bc6d input[type=button],
+.color-d3bc6d .uibox .listing thead td,
+.color-d3bc6d .uibox .listing thead th,
+.color-d3bc6d .uibox .boxtitle,
+.color-d3bc6d.xcalendar .ui-datepicker .ui-datepicker-header,
+.color-d3bc6d .listbox,
+.color-d3bc6d ul.listing li,
+.color-d3bc6d ul#planner_controls li a,
+.color-d3bc6d #messagelistfooter,
+.color-d3bc6d #mailpreviewtoggle,
+.color-d3bc6d.iframe h1.boxtitle,
+.xmobile.color-d3bc6d #main-menu a {
+  background-color: #fffae9; }
+
+.color-d3bc6d .popupmenu a:hover {
+  background-color: #fffae9 !important; }
+
+/* color 1 - dark */
+.xmobile.color-ce7070 .popup-close,
+.xmobile.color-ce7070 #mailboxlist li.mailbox a .unreadcount,
+.xmobile.color-ce7070 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-ce7070 #messagelistcontainer .pagenav a.button,
+.xmobile.color-ce7070 #messagestack div,
+.xmobile.color-ce7070 #message-objects div a.button,
+.xmobile.color-ce7070 .boxfooter .listbutton {
+  background-color: #ce7070; }
+
+.color-ce7070 input.switchbox-input:checked + label.switchbox {
+  background-color: #ce7070 !important; }
+
+.color-ce7070 .records-table td span:before,
+.color-ce7070 .records-table th span:before,
+.color-ce7070 .records-table th a:before,
+.color-ce7070 .records-table thead td div:before,
+.color-ce7070 .records-table thead th div:before,
+.color-ce7070 .records-table thead td a:after,
+.color-ce7070 .records-table thead th a:after,
+.color-ce7070 .records-table div.expanded,
+.color-ce7070 .records-table div.collapsed,
+.color-ce7070 .boxfooter .listbutton.groupactions:before,
+.color-ce7070 #rss a,
+.color-ce7070 a.iconbutton:before,
+.color-ce7070 .minmodetoggle:before,
+.color-ce7070 #mailpreviewtoggle,
+.color-ce7070 .toolbar a.button:before,
+.color-ce7070 .boxfooter .listbutton.groupactions,
+.color-ce7070 .boxfooter .listbutton.add,
+.color-ce7070 .boxfooter .listbutton.delete,
+.color-ce7070 .boxfooter .listbutton.removegroup,
+.color-ce7070 .boxfooter .listbutton.addto .inner,
+.color-ce7070 .boxfooter .listbutton.addcc .inner,
+.color-ce7070 .boxfooter .listbutton.addbcc .inner,
+.color-ce7070 .boxfooter .countdisplay,
+.xmobile.color-ce7070 #mailboxlist li.mailbox div.treetoggle,
+.xmobile.color-ce7070 #directorylist li.addressbook div.collapsed,
+.xmobile.color-ce7070 #directorylist li.addressbook div.expanded,
+.xmobile.color-ce7070 #main-menu a,
+.xmobile.color-ce7070 #full-headers .more-headers,
+.xmobile.color-ce7070 #attachment-list .delete,
+.xmobile.color-ce7070 #attachment-list .drop,
+.xmobile.color-ce7070 #messageheader .pagenav a.button,
+.xmobile.color-ce7070 #messagelist td.subject:before,
+.xmobile.color-ce7070 #messagelist tr.selected td.subject:before,
+.xmobile.color-ce7070 #messagelist tr.unfocused td.subject:before,
+.xmobile.color-ce7070 .folderlist li.mailbox div.treetoggle:before {
+  color: #ce7070; }
+
+.xmobile.color-ce7070 .popup-close a,
+.xmobile.color-ce7070 .popup-box h5,
+.xmobile.color-ce7070 #quicksearchbar .popup-close a {
+  color: #ce7070 !important; }
+
+.color-ce7070 input[type=button],
+.color-ce7070 input[type=button]:hover,
+.color-ce7070 fieldset,
+.color-ce7070 a.menuselector,
+.color-ce7070 #topnav,
+.color-ce7070.minimal #topnav,
+.color-ce7070 #taskbar a.button-selected,
+.color-ce7070 .popupmenu,
+.color-ce7070 #messagestack div,
+.color-ce7070 #maillistmode.selected,
+.color-ce7070 #mailthreadmode.selected,
+.color-ce7070 #rcmKSearchpane,
+.color-ce7070 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.xdesktop.color-ce7070 select,
+.xmobile.color-ce7070 #main-menu,
+.xmobile.color-ce7070 .popup-close,
+.xmobile.color-ce7070 #all-headers {
+  border-color: #ce7070; }
+
+.xdesktop.color-ce7070 input[type=text],
+.xdesktop.color-ce7070 input[type=password],
+.xdesktop.color-ce7070 input[type=email],
+.xdesktop.color-ce7070 textarea,
+.color-ce7070 input.button,
+.xmobile.color-ce7070 #settings-right div.uibox,
+.xmobile.color-ce7070 #main-menu a,
+.xmobile.color-ce7070 #addressview-left div.uibox,
+.xmobile.color-ce7070 #addressview-right div.uibox,
+.xmobile.color-ce7070 #settings-right div.uibox,
+.color-ce7070 input.switchbox-input:checked + label.switchbox {
+  border-color: #ce7070 !important; }
+
+/* color 2 - darker */
+.color-ce7070 body.mailbox #inboxButton a {
+  background-color: #970000; }
+
+.color-ce7070 .uibox .boxtitle,
+.color-ce7070.xcalendar .ui-datepicker .ui-datepicker-header select,
+.color-ce7070.xcalendar .ui-datepicker .ui-datepicker-header a,
+.color-ce7070.xcalendar .ui-datepicker .ui-datepicker-header span,
+.color-ce7070 .records-table thead tr .status span.status,
+.color-ce7070 .records-table thead tr .flag span.flagged,
+.color-ce7070 .records-table thead tr .attachment span.attachment,
+.color-ce7070 .records-table thead tr .priority span.priority,
+.color-ce7070 .records-table thead td a,
+.color-ce7070 .records-table thead th a {
+  color: #970000 !important; }
+
+/* color 3 - darkest */
+.xdesktop.color-ce7070 a,
+.color-ce7070 input.button,
+.color-ce7070 .formbuttons input.button,
+.color-ce7070 input.button.mainaction,
+.color-ce7070 #login-form input.button,
+.color-ce7070 #topline .topleft a,
+.color-ce7070 #topline .topright a,
+.color-ce7070 #topline .topright span,
+.color-ce7070 .username select.deco,
+.color-ce7070 #taskbar a span.button-inner,
+.color-ce7070 .toolbar a.button,
+.color-ce7070 #topline,
+.color-ce7070 .minimal #topline,
+.color-ce7070 #main-menu a.active,
+.color-ce7070 #taskbar a.button-calendar span.button-inner,
+.color-ce7070 #taskbar a.button-calendar.button-selected span.button-inner,
+.color-ce7070 ul#planner_controls li a {
+  color: #cc1f1f; }
+
+/* color 4 - light */
+.color-ce7070 .uibox,
+.color-ce7070 #compose-content,
+.color-ce7070 #mailview-top,
+.color-ce7070 #mailview-bottom,
+.color-ce7070 #messagebody p.image-attachment,
+.color-ce7070 .records-table.fixedheader,
+.color-ce7070 #messagelistfooter,
+.color-ce7070 .moreheaderstoggle,
+.color-ce7070 #messageheader,
+.color-ce7070 #composeheaders,
+.color-ce7070 #composeoptions,
+.color-ce7070 #compose-attachments,
+.color-ce7070 #compose-contacts #directorylist,
+.color-ce7070 .listbox .boxfooter,
+.color-ce7070 #taskbar a,
+.color-ce7070 .minimal #taskbar a,
+.color-ce7070 ul#planner_controls li a,
+.color-ce7070 .boxtitle, .uibox .listing thead td,
+.color-ce7070 .boxtitle, .uibox .listing thead th,
+.color-ce7070.iframe h1.boxtitle,
+.color-ce7070 #vertical-preview {
+  border-color: #f8d7d7; }
+
+.xmobile.color-ce7070 #messageheader .pagenav a.button.disabled {
+  color: #f8d7d7; }
+
+/* color 5 - lighter */
+.color-ce7070 .listbox .listitem.selected,
+.color-ce7070 .listbox .tablink.selected,
+.color-ce7070 .listbox .listitem.selected > a,
+.color-ce7070 .listbox .tablink.selected > a,
+.color-ce7070 .listing tbody tr.unfocused td,
+.color-ce7070 .listing tbody tr.selected td,
+.color-ce7070 .listing li.selected,
+.color-ce7070 .listing li.selected > a,
+.color-ce7070 #mailboxlist li.mailbox .unreadcount,
+.xdesktop.color-ce7070 #composeoptionstoggle,
+.xmobile.color-ce7070 #main-menu a.active {
+  background-color: #ffd3d3; }
+
+.color-ce7070 input.button:hover,
+.color-ce7070 input[type=button]:hover,
+.color-ce7070 .records-table tr.selected,
+.color-ce7070 .records-table tr.unfocused,
+.color-ce7070 .records-table tr.selected td,
+.color-ce7070 .records-table tr.unfocused td,
+.color-ce7070 a.rowLink:hover,
+.color-ce7070 #xsidebar .boxtitle,
+.color-ce7070 #remote-objects-message a:hover,
+.color-ce7070.compact-message-list-always #mailview-top tr:hover,
+.color-ce7070.compact-message-list-preview #mailview-top.preview-visible tr:hover,
+.xmobile.color-ce7070 #messagelist tr.selected,
+.xmobile.color-ce7070 #messagelist tr.unfocused,
+.xmobile.color-ce7070 #messagelist tr.selected td.date {
+  background-color: #ffd3d3 !important; }
+
+.color-ce7070 #mailboxlist li.mailbox ul,
+.color-ce7070 .listbox .listitem,
+.color-ce7070 .listbox .tablink,
+.color-ce7070 .listing tbody td,
+.color-ce7070 .listing li {
+  border-color: #ffd3d3; }
+
+.color-ce7070.compact-message-list-always #mailview-top tr,
+.color-ce7070.compact-message-list-preview #mailview-top.preview-visible tr {
+  border-color: #ffd3d3 !important; }
+
+/* color 6 - lightest */
+.color-ce7070 input.button,
+.color-ce7070 input[type=button] {
+  background-color: #feefef !important; }
+
+.color-ce7070 #composeheaders,
+.color-ce7070 #taskbar a,
+.color-ce7070 .minimal #taskbar a,
+.color-ce7070 .moreheaderstoggle,
+.color-ce7070 #messageheader,
+.color-ce7070 .records-table thead td,
+.color-ce7070 .records-table thead th,
+.color-ce7070 input[type=button],
+.color-ce7070 .uibox .listing thead td,
+.color-ce7070 .uibox .listing thead th,
+.color-ce7070 .uibox .boxtitle,
+.color-ce7070.xcalendar .ui-datepicker .ui-datepicker-header,
+.color-ce7070 .listbox,
+.color-ce7070 ul.listing li,
+.color-ce7070 ul#planner_controls li a,
+.color-ce7070 #messagelistfooter,
+.color-ce7070 #mailpreviewtoggle,
+.color-ce7070.iframe h1.boxtitle,
+.xmobile.color-ce7070 #main-menu a {
+  background-color: #feefef; }
+
+.color-ce7070 .popupmenu a:hover {
+  background-color: #feefef !important; }
+
+@font-face {
+  font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  src: url(fonts/JLrcxvhkM17op1c4raL9Fg.woff) format("woff"); }
+* {
+  border-radius: 0 !important; }
+
+body,
+select,
+input,
+textarea,
+.ui-widget,
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+  font: 12px NotoSans, sans-serif; }
+
+input.button.mainaction {
+  font-weight: bold; }
+
+.toolbarmenu.selectable li a.selected:before {
+  font-family: IconFont;
+  font-weight: normal; }
+
+.toolbarmenu.selectable li a.selected:before {
+  position: absolute;
+  left: 8px;
+  padding-top: 3px; }
+
+.toolbar a.button {
+  border: none; }
+
+.formbuttons input.button:active {
+  background-image: none !important; }
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="file"]::-webkit-file-upload-button,
+button {
+  color: #333; }
+
+/* layout */
+#topline,
+#topline, .minimal #topline,
+#topnav {
+  background: #fff; }
+
+#topnav,
+.minimal #topnav {
+  padding: 5px 0 0 0;
+  height: 34px;
+  margin: 0;
+  background: #fff;
+  border-bottom: 2px solid #ddd;
+  top: 0; }
+
+#topnav img {
+  position: absolute;
+  left: 8px;
+  top: -6px; }
+
+#taskbar {
+  float: none;
+  margin-left: 220px; }
+
+#taskbar a,
+.minimal #taskbar a {
+  display: inline-block;
+  height: 20px;
+  padding: 8px 8px 4px 0;
+  margin: 1px 5px 0 0;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  float: left; }
+
+#taskbar a.button-selected {
+  height: 22px;
+  background-color: #fff !important;
+  border: 2px solid #ddd;
+  border-bottom: none;
+  margin-top: 0; }
+
+#taskbar a:hover {
+  background-color: transparent; }
+
+#taskbar a span.button-inner {
+  font-size: 100%;
+  font-weight: bold;
+  text-shadow: none;
+  padding: 0 0 0 34px;
+  height: 19px;
+  color: #333; }
+
+#header {
+  min-height: 60px; }
+
+.minimal #taskbar a:hover .tooltip {
+  top: 32px; }
+
+select.deco {
+  font-size: 1em; }
+
+#mailboxlist li.mailbox .unreadcount,
+#mailboxlist li.mailbox.selected > a .unreadcount {
+  background: #fff;
+  border-radius: 5px !important;
+  color: #333;
+  font-weight: normal; }
+
+.boxfooter .listbutton {
+  padding: 0;
+  margin: 0; }
+
+#quotadisplay {
+  top: 8px; }
+
+.uibox .boxtitle,
+.uibox .listing thead td,
+.uibox .listing thead th {
+  color: #333 !important; }
+
+.iframebox {
+  border: none; }
+
+input.button,
+.formbuttons input.button,
+input.button.mainaction,
+#login-form input.button {
+  border: 1px solid #ddd;
+  color: #333;
+  background: #eee; }
+
+input[type=text],
+input[type=password],
+input[type=email]
+input[type=button],
+textarea {
+  border: 1px solid #ddd;
+  color: #333; }
+
+.contentbox .boxtitle,
+body.iframe .boxtitle,
+.contactfieldgroup legend {
+  background: #fff; }
+
+.records-table.fixedheader {
+  border-bottom: 1px solid #ddd; }
+
+.records-table thead td,
+.records-table thead th {
+  font-weight: normal;
+  color: #333; }
+
+.records-table tbody td {
+  border: none;
+  border-bottom: 1px solid #eee; }
+
+.records-table tbody tr td:first-child {
+  border-left: none !important; }
+
+.records-table tbody tr td:last-child {
+  border-right: none !important; }
+
+.records-table thead td a,
+.records-table thead th a,
+.records-table thead td span,
+.records-table thead th span,
+.records-table thead td div,
+.records-table thead th div,
+.records-table thead tr td.sortedASC a,
+.records-table thead tr th.sortedASC a,
+.records-table thead tr td.sortedDESC a,
+.records-table thead tr th.sortedDESC a {
+  color: #333 !important; }
+
+.boxpagenav a.icon:before {
+  color: #333; }
+
+#listselectors {
+  margin-top: 2px; }
+
+#messageheader {
+  border: none;
+  border-bottom: 1px solid #ddd; }
+
+.toolbar .spacer {
+  display: none; }
+
+#compose-attachments {
+  border-top: none;
+  border-bottom: none;
+  border-right: none; }
+
+#messagelistfooter,
+.searchbox input,
+#quicksearchbar input {
+  background: transparent; }
+
+.messagelist tbody td a,
+.messagelist tbody td {
+  color: #525252; }
+
+.boxfooter .listbutton {
+  border: none; }
+
+#mailboxlist .mailbox a:before {
+  display: none !important; }
+
+#vertical-preview {
+  border: 1px solid #ddd; }
+
+/* plugins */
+#taskbar a.button-calendar span.button-inner,
+#taskbar a.button-calendar.button-selected span.button-inner {
+  background-color: transparent; }
+
+#todaybutton input {
+  color: #333 !important;
+  padding-top: 2px;
+  padding-bottom: 2px; }
+
+ul#planner_controls li a {
+  color: #333;
+  border: 1px solid #ddd; }
+
+#taskviewmenu .toolbarmenu a.icon span {
+  background-image: none; }
+
+.googie_list td span, ul.toolbarmenu li a.active {
+  color: #000; }
+
+.googie_list td {
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #ddd; }
+
+.googie_list td.googie_list_onhover {
+  background: #E9E9E9; }
+
+.googie_list form {
+  padding: 6px !important; }
+
+.googie_list form img {
+  background: #6b6b6b;
+  padding: 1px 3px 2px 3px;
+  float: right; }
+
+/* fix background images to point to ours */
+#taskbar a.button-mail:before,
+#taskbar a.button-addressbook:before,
+#taskbar a.button-help:before,
+#taskbar a.button-nabble:before,
+#taskbar a.button-jappix4roundcube:before,
+#taskbar a.button-calendar:before,
+#taskbar a.button-planner:before,
+#taskbar a.button-sticky_notes:before,
+#taskbar a.button-settings:before,
+#taskbar a.button-xresell:before,
+#taskbar a.button-apps:before,
+#taskbar a.button-logout:before,
+#topnav a.button-interface-options:before,
+.toolbar a.button.checkmail:before,
+.toolbar a.button.compose:before,
+.toolbar a.button.reply:before,
+.toolbar a.button.reply-all:before,
+.toolbar a.button.forward:before,
+.toolbar a.button.delete:before,
+.toolbar a.button.archive:before,
+.toolbar a.button.junk:before,
+.toolbar a.button.markasjunk2:before,
+.toolbar a.button.markmessage:before,
+.toolbar a.button.more:before,
+.toolbar a.button.back:before,
+.toolbar a.button.download:before,
+.toolbar a.button.move:before,
+.toolbar a.button.print:before,
+.toolbar a.button.send:before,
+.toolbar a.button.savedraft:before,
+.toolbar a.button.spellcheck:before,
+.toolbar a.button.attach:before,
+.toolbar a.button.close:before,
+.toolbar a.button.insertsig:before,
+.toolbar a.button.responses:before,
+.toolbar a.button.vcard_send:before,
+.toolbar a.button.import:before,
+.toolbar a.button.export:before,
+.toolbar a.button.search:before,
+.toolbar a.button.calneweventbut:before,
+.toolbar a.button.calswitchbut:before,
+.toolbar a.button.calexportbut:before,
+.toolbar a.button.calimportbut:before,
+.toolbar a.button.calprintprevbut:before,
+.toolbar a.button.enigma:before,
+.toolbar a.button.encrypt:before,
+.toolbar a.button.message-list-sort:before,
+.dropbutton .dropbuttontip:before,
+#mailboxlist div.expanded:before,
+#mailboxlist div.collapsed:before,
+#subscription-table div.expanded:before,
+#subscription-table div.collapsed:before,
+.boxfooter .listbutton:before,
+.toolbar a.button.scheduled_sending:before,
+#calendartoolbar .addevent:before,
+#calendartoolbar .refresh:before,
+#taskstoolbar .button.newtask:before,
+#taskstoolbar .button.refresh:before,
+#helptoolbar a.button.help:before,
+#helptoolbar a.button.about:before,
+#helptoolbar a.button.license:before,
+#carddavsyncbut:before,
+#calendar .fc-button-agendaDay .fc-button-inner:before,
+#calendar .fc-button-agendaWeek .fc-button-inner:before,
+#calendar .fc-button-month .fc-button-inner:before,
+#calendar .fc-button-table .fc-button-inner:before {
+  content: "" !important;
+  display: none !important; }
+
+#taskbar a span.button-inner,
+#messagetoolbar.toolbar a.button,
+#addressbooktoolbar.toolbar a.button,
+.dropbutton .dropbuttontip,
+#taskbar .minmodetoggle,
+.boxfooter .listbutton .inner,
+.pagenav a.button span.inner,
+#mailpreviewtoggle,
+.toolbar a.button,
+a.iconbutton {
+  background-image: url(../assets/images/buttons.png); }
+
+#mailboxlist li.mailbox a,
+ul.treelist li div.treetoggle,
+#sections-table tbody td.section,
+#settings-sections span.listitem a,
+#settings-sections li.listitem a,
+#settings-sections span.tablink a,
+#settings-sections li.tablink a,
+#compose-contacts li a,
+.folderlist li.mailbox a,
+.messagelist tr td div.collapsed,
+.messagelist tr td div.expanded,
+.messagelist tr td.threads div.listmenu,
+.messagelist tr td.attachment span.attachment,
+.messagelist tr td.attachment span.report,
+.messagelist tr td.priority span.priority,
+.messagelist tr td.priority span.prio1,
+.messagelist tr td.priority span.prio2,
+.messagelist tr td.priority span.prio3,
+.messagelist tr td.priority span.prio4,
+.messagelist tr td.priority span.prio5,
+.messagelist tr td.flag span.flagged,
+.messagelist tr td.flag span.unflagged,
+.messagelist tr td.flag span.unflagged:hover,
+.messagelist tr td.status span.status,
+.messagelist tr td.status span.msgicon,
+.messagelist tr td.status span.deleted,
+.messagelist tr td.status span.unread,
+.messagelist tr td.status span.unreadchildren,
+.messagelist tr td.subject span.msgicon,
+.messagelist tr td.subject span.deleted,
+.messagelist tr td.subject span.unread,
+.messagelist tr td.subject span.replied,
+.messagelist tr td.subject span.forwarded,
+.messagelist tr td.subject span.unreadchildren,
+#folder-selector li a span,
+ul.toolbarmenu li span.icon,
+#directorylist li a,
+#contacts-table .contact td.name,
+#compose-contacts li a {
+  background-image: url(../assets/images/listicons.png); }
+
+a.menuselector .handle {
+  background-image: url(../assets/images/selector.png); }
+
+/*.splitter { background-image: url(../assets/images/splitter.png); }*/
+/* buttons included in the roundcube button sprite */
+#taskbar a.button-mail span.button-inner {
+  background-position: 0 2px !important; }
+
+/* we don't want to change images on hover, so !important */
+#taskbar a.button-addressbook span.button-inner {
+  background-position: 0 -48px !important; }
+
+#taskbar a.button-settings span.button-inner {
+  background-position: 0 -96px !important; }
+
+#taskbar a.button-calendar span.button-inner {
+  background-position: 0 -144px !important; }
+
+#messagetoolbar a.markasjunk2,
+#messagetoolbar a.markasjunk2Sel {
+  background-position: center -770px; }
+
+#taskbar a.button-sticky_notes,
+#taskbar a.button-planner,
+#taskbar a.button-nabble {
+  background: transparent; }
+
+#taskbar a.button-interface-options {
+  width: 24px;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+#interface-options {
+  color: #333; }
+
+/* buttons added as separate png images */
+#topline a.button-logout {
+  background: url(../assets/images/icon-logout-min.png) no-repeat !important; }
+
+#taskbar a.button-logout span.button-inner {
+  background: url(../assets/images/icon-logout.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-help span.button-inner {
+  background: url(../assets/images/icon-help.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-sticky_notes span.button-inner {
+  background: url(../assets/images/icon-notes.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-tasklist span.button-inner {
+  background: url(../assets/images/icon-tasks.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-planner span.button-inner {
+  background: url(../assets/images/icon-planner.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-nabble span.button-inner {
+  background: url(../assets/images/icon-nabble.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-jappix4roundcube span.button-inner {
+  background: url(../assets/images/icon-jappix.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-interface-options {
+  background-image: url(../assets/images/icon-interface.png) !important; }
+
+#taskbar a.button-xresell span.button-inner {
+  background: url(../assets/images/icon-apps.png) 8px 0 no-repeat !important; }
+
+#taskbar a.button-apps span.button-inner {
+  background: url(../assets/images/icon-apps.png) 8px 0 no-repeat !important; }
+
+#messagetoolbar a.vcard_send {
+  background: url(../assets/images/toolbar-vcard.png) center 5px no-repeat !important; }
+
+#calneweventbut {
+  background: url(../assets/images/toolbar-calendar-add.png) center 5px no-repeat !important; }
+
+#calswitchbut {
+  background: url(../assets/images/toolbar-calendar-users.png) center 5px no-repeat !important; }
+
+#calexportbut {
+  background: url(../assets/images/toolbar-calendar-export.png) center 5px no-repeat !important; }
+
+#calimportbut {
+  background: url(../assets/images/toolbar-calendar-import.png) center 5px no-repeat !important; }
+
+#calprintprevbut {
+  background: url(../assets/images/toolbar-calendar-print.png) center 5px no-repeat !important; }
+
+#message-list-sort {
+  background: url(../assets/images/toolbar-sort.png) center 5px no-repeat !important; }
+
+.toolbar a.button.enigma,
+.toolbar a.button.encrypt {
+  background: url(../assets/images/toolbar-enigma.png) 50% 4px no-repeat !important; }
+
+#keystoolbar a.button.import {
+  background: url(../assets/images/toolbar-key-import.png) 50% 4px no-repeat !important; }
+
+#keystoolbar a.button.export {
+  background: url(../assets/images/toolbar-key-export.png) 50% 4px no-repeat !important; }
+
+/* settings links */
+#sections-table #rcmrowcalendarlink td.section {
+  background: url(../assets/images/settings-calendar.png) 10px center no-repeat; }
+
+#sections-table #rcmrowmh_preferences td.section {
+  background: url(../assets/images/settings-highlights.png) 10px center no-repeat !important; }
+
+#sections-table #rcmrownabblelink td.section {
+  background: url(../assets/images/settings-nabble.png) 10px center no-repeat; }
+
+#sections-table #rcmrowplugin_manager td.section {
+  background: url(../assets/images/settings-plugins.png) 10px center no-repeat; }
+
+#sections-table #rcmrowaccountlink td.section {
+  background: url(../assets/images/settings-admin.png) 10px center no-repeat; }
+
+#sections-table #rcmrowapps td.section {
+  background: url(../assets/images/settings-apps.png) 10px center no-repeat; }
+
+#sections-table #rcmrowenigma td.section {
+  background: url(../assets/images/toolbar-enigma.png) 10px center no-repeat !important; }
+
+#settings-sections .enigma.keys a {
+  background: url(../assets/images/settings-pgp.png) 10px center no-repeat !important; }
+
+/* xsidebar */
+#xsidebar-button {
+  border: none; }
+
+#sections-table #rcmrowxsidebar td.section,
+#sections-table #rcmrowxsidebar.selected td.section {
+  background-image: url(../assets/images/settings-sidebar.png);
+  background-position: 8px 5px; }
+
+/* xweather */
+#sections-table #rcmrowxweather td.section,
+#sections-table #rcmrowxweather.selected td.section {
+  background: url(../assets/images/settings-weather.png) 10px center no-repeat; }
+
+/* xcalendar */
+.xcalendar .ui-datepicker .ui-datepicker-header {
+  background: #ddd; }
+
+.xcalendar .ui-datepicker .ui-datepicker-month,
+.xcalendar .ui-datepicker .ui-datepicker-year,
+.xcalendar .ui-datepicker .ui-datepicker-prev,
+.xcalendar .ui-datepicker .ui-datepicker-next,
+.xcalendar .fc-state-default,
+.xcalendar .boxtitle button {
+  color: #333 !important;
+  text-shadow: none; }
+
+/* xrss */
+#sections-table #rcmrowxnews_feed td.section,
+#sections-table #rcmrowxnews_feed.selected td.section {
+  background-image: url(../assets/images/settings-rss.png);
+  background-position: 8px 5px; }
+
+/* xbackground */
+body.xskin.xbg .folderlist li.mailbox a {
+  background-repeat: no-repeat; }
+body.xskin.xbg .uibox .boxtitle, body.xskin.xbg.iframe h1.boxtitle,
+body.xskin.xbg .records-table thead th a {
+  background: transparent !important; }
+body.xskin.xbg #taskbar a.button-selected {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  height: 20px; }
+
+body.login-page,
+body.logout-page {
+  background: #EFF9FF url(images/login_bg.png) repeat-x;
+  padding: 0;
+  margin: 0; }
+  body.login-page #login-form,
+  body.logout-page #login-form {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 155px 0 0 0;
+    background: url(images/login.png) no-repeat center top;
+    border: none; }
+    body.login-page #login-form .boxtitle,
+    body.logout-page #login-form .boxtitle {
+      color: #333 !important;
+      margin-top: 20px;
+      border: none; }
+    body.login-page #login-form .box-inner,
+    body.logout-page #login-form .box-inner {
+      margin: 0 auto 0 auto;
+      padding: 10px 0 10px 0;
+      width: 450px;
+      border: 1px solid #aaccee;
+      background: #e9f4ff;
+      box-shadow: 3px 3px 4px #c0dcee !important;
+      text-align: center; }
+    body.login-page #login-form h1,
+    body.logout-page #login-form h1 {
+      display: none; }
+    body.login-page #login-form form,
+    body.logout-page #login-form form {
+      padding: 30px 30px 10px 30px; }
+    body.login-page #login-form form[name=registerform],
+    body.logout-page #login-form form[name=registerform] {
+      padding-top: 0; }
+    body.login-page #login-form #rcmloginsubmit,
+    body.logout-page #login-form #rcmloginsubmit {
+      color: #2c7dcf;
+      padding: 5px 16px;
+      background: #f4fbff;
+      border: 1px solid #aaccee; }
+    body.login-page #login-form #rcmloginsubmit:hover,
+    body.logout-page #login-form #rcmloginsubmit:hover {
+      background: #ddf1fd !important; }
+    body.login-page #login-form .box-bottom,
+    body.logout-page #login-form .box-bottom {
+      margin: 0 auto;
+      width: 450px; }
+  body.login-page #logo,
+  body.logout-page #logo {
+    display: none; }
+  body.login-page #company-name,
+  body.logout-page #company-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-bottom: 1px solid #aaccee;
+    padding-bottom: 10px; }
+  body.login-page #header #topnav #taskbar,
+  body.logout-page #header #topnav #taskbar {
+    background: #E9F4FF !important;
+    border-bottom: 1px solid #ACE; }
+  body.login-page #header #topnav #taskbar a span,
+  body.logout-page #header #topnav #taskbar a span {
+    color: #333 !important;
+    font-weight: normal; }
+
+/*# sourceMappingURL=desktop.css.map */

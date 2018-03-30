@@ -1,0 +1,121 @@
+#login-form {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+#login-form {
+
+    #logo,
+    h1 {
+        display: none;
+    }
+
+    button {
+        border: none;
+    }
+
+    #message {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    #company-name {
+        font-size: 1.4em;
+        color: #333;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    #message div {
+        display: block;
+        border: none;
+        overflow: hidden;
+        background-image: none;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    div.box-inner {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-shadow: none !important;
+        background: transparent;
+    }
+
+    .box-bottom {
+        background: none;
+    }
+
+    form {
+        background: transparent;
+        padding: 10px;
+    }
+
+    form table {
+        width: 100%;
+    }
+
+    form > table:first-of-type > tbody > tr > td {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 0 0 0;
+        color: #333;
+        white-space: normal !important; /* fix problems caused by the vkeyboard plugin */
+    }
+
+    input[type='text'],
+    input[type='password'],
+    td select {
+        font-size: 1.2em;
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+        border: 1px solid #ccc;
+    }
+
+    input.button,
+    input.button:active {
+        border: none;
+        background: #aaa;
+        color: #fff;
+    }
+
+    p {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #bottomline {
+        position: static;
+        visibility: hidden;
+        text-align: right;
+        margin-top: 0;
+    }
+
+    #bottomline a {
+        display: block;
+        visibility: visible;
+        margin: 0 10px 10px 0;
+        color: #999;
+    }
+
+    #rcmloginsubmit {
+        font-size: 1.2em;
+        padding: 10px;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    #login-branding {
+        display: block;
+        margin: 10px auto 0 auto;
+    }
+}

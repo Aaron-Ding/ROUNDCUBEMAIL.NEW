@@ -1,0 +1,26 @@
+ROUNDCUBE PLUS FRAMEWORK PLUGIN
+===============================
+
+This plugin provides a framework for the Roundcube Plus plugins.
+
+REQUIREMENTS
+------------
+1. Roundcube 1.2.x
+
+INSTALLATION
+------------
+This plugin does not need to be installed. It simply needs to be present in the plugins directory and be available for
+the other plugins to use it.
+
+ATTRIBUTION
+-----------
+This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com.
+
+LICENSE
+-------
+This plugin is distributed under a commercial license. In order to use the plugin, you must purchase the license
+from Tecorama LLC. See the LICENSE file for details.
+
+COPYRIGHT
+---------
+Copyright (c) 2017, Tecorama LLC

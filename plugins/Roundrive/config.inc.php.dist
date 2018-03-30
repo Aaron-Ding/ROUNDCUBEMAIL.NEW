@@ -1,0 +1,11 @@
+<?php
+$rcmail_config['show_drive_task'] = true;
+
+// Configuration WebDAV
+$rcmail_config['driver_webdav_url_base'] = 'http://cloud.sinoramagroup.com/';
+$rcmail_config['driver_webdav_url'] = $rcmail_config['driver_webdav_url_base'] . 'remote.php/webdav/';
+
+// Prefix ex for owncloud : /remote.php/webdav/
+$rcmail_config['driver_webdav_prefix'] = '/remote.php/webdav/';
+
+$rcmail_config['max_message_size'] = "7MB";

@@ -1,0 +1,60 @@
+Roundcube Plus Skins
+====================
+
+Roundcube Plus skins add a new look and enable mobile functionality in the Roundcube program.
+
+Roundcube compatibility
+-----------------------
+The skins are compatible with Roundcube 1.2.x. They will not work properly with earlier versions or unreleased
+beta versions of Roundcube.
+
+Browser compatibility
+---------------------
+The skins are compatible with all modern browsers. Composing messages in html format is disabled in mobile skins due
+to the incompatibility of the Roundcube html editor with mobile devices.
+
+Plugin compatibility
+--------------------
+The skins do not support MyRoundcube plugins. MyRoundcube plugins have been discontinued and don't work properly with
+the latest versions of Roundcube. They should no longer be used in a production environment. If you need replacement
+plugins, visit http://roundcubeplus.com.
+
+Upgrading legacy skins
+----------------------
+If you're upgrading a legacy version of the skins (1.x - 4.x) to version 5.x, follow these steps:
+
+1. Delete the following skins from the skins directory: alpha, icloud, litecube, outlook, w21.
+2. Delete the plugin "rcs_skins" from the plugins directory.
+3. Remove the plugin "rcs_skins" from the plugin list in config/config.inc.php.
+4. Follow the installation steps in the next section.
+
+If you try to simply overwrite the older skin directories with version 5.x you may get unexpected results.
+
+Installation steps
+------------------
+1. Copy the directories 'skins' and 'plugins' to the directory where your Roundcube is installed.
+
+2. Edit the file 'config/config.inc.php', find the line that begins with $config['plugins'] and add 'xskin' to the
+array, like this:
+
+$config['plugins'] = array('xskin');
+
+If the $config['plugins'] line doesn't exist in your config file, add it at the end of the file.
+
+3. If you'd like to use Outlook on the Roundcube login screen and as the default skin for the newly
+created user accounts, edit 'config/config.inc.php', find the setting $config['skin'] and set it to 'outlook'.
+If this setting doesn't exist, add it at the end of the file, like this:
+
+$config['skin'] = 'outlook';
+
+4. If you'd like to use your own branding images or customize other skin settings, copy the file
+plugins/xskin/config.inc.php.dist to config.inc.php and follow the instructions given in that file.
+
+License
+-------
+The Roundcube Plus skins are covered by a commercial license agreement (see the file LICENSE for details). In order to
+use the skins you must purchase a license from Tecorama (http://roundcubeplus.com).
+
+Copyright and credits
+---------------------
+Copyright (c) 2011-2017, Tecorama, England (http://roundcubeplus.com)

@@ -1,0 +1,136 @@
+$map: (
+    //         1-bg      2-bg     3-bg     4-bg     5-accent 6-accent 7-accent 8-accent
+    //         normal    hot      light    text     normal   dark     light    text
+    ("F44336", (#F44336, #D32F2F, #EF5350, #FFFFFF, #2979FF, #236FEC, #5494FF, #FFFFFF)), // red
+    ("E91E63", (#E91E63, #C2185B, #EC407A, #FFFFFF, #0091EA, #0085DA, #33A7EE, #FFFFFF)), // pink
+    ("9C27B0", (#9C27B0, #7B1FA2, #AB47BC, #FFFFFF, #0091EA, #0085DA, #33A7EE, #FFFFFF)), // purple
+
+    ("673AB7", (#673AB7, #512DA8, #7E57C2, #FFFFFF, #F50057, #DF0355, #F73379, #FFFFFF)), // deep purple
+    ("3F51B5", (#3F51B5, #303F9F, #5C6BC0, #FFFFFF, #F50057, #DF0355, #F73379, #FFFFFF)), // indigo
+    ("1976D2", (#1976D2, #1565C0, #42A5F5, #FFFFFF, #FF1744, #F1183C, #FF4569, #FFFFFF)), // blue
+
+    ("039BE5", (#039BE5, #0288D1, #29B6F6, #FFFFFF, #FF1744, #F1183C, #FF4569, #FFFFFF)), // light blue
+    ("0097A7", (#0097A7, #00838F, #00ACC1, #FFFFFF, #FF1744, #F1183C, #FF4569, #FFFFFF)), // cyan
+    ("009688", (#009688, #00796B, #26A69A, #FFFFFF, #FF3D00, #DD2C00, #E45633, #FFFFFF)), // teal
+
+    ("43A047", (#43A047, #388E3C, #66BB6A, #FFFFFF, #FF3D00, #DD2C00, #E45633, #FFFFFF)), // green
+    ("689F38", (#689F38, #558B2F, #7CB342, #FFFFFF, #FF3D00, #DD2C00, #E45633, #FFFFFF)), // light green
+    ("AFB42B", (#AFB42B, #9E9D24, #C0CA33, #FFFFFF, #FF1744, #F1183C, #FF4569, #FFFFFF)), // lime
+
+    ("FBC02D", (#FBC02D, #F9A825, #FDD835, #FFFFFF, #FF1744, #F1183C, #FF4569, #FFFFFF)), // yellow
+    ("FFA000", (#FFA000, #FF8F00, #FFC107, #FFFFFF, #0091EA, #0085DA, #33A7EE, #FFFFFF)), // amber
+    ("EF6C00", (#EF6C00, #E65100, #FFA726, #FFFFFF, #0091EA, #0085DA, #33A7EE, #FFFFFF)), // orange
+
+    ("E64A19", (#E64A19, #D84315, #FF7043, #FFFFFF, #0091EA, #0085DA, #33A7EE, #FFFFFF)), // deep orange
+    ("795548", (#795548, #5D4037, #8D6E63, #FFFFFF, #0091EA, #0085DA, #33A7EE, #FFFFFF)), // brown
+    ("757575", (#757575, #616161, #BDBDBD, #FFFFFF, #0091EA, #0085DA, #33A7EE, #FFFFFF))  // grey
+);
+
+// #FF1744, #F1183C, #FF4569 red
+// #F50057, #DF0355, #F73379 pink
+// #FF9100, #FF6D00, #FF8A33 orange
+// #FF3D00, #DD2C00, #E45633 deep orange
+
+@each $row in $map {
+    $key: nth($row, 1);
+    $colors: nth($row, 2);
+
+    // normal
+
+    .color-#{$key} #topnav,
+    .color-#{$key} #topline {
+        background: #{nth($colors, 1)};
+    }
+
+    // dark
+
+    .xdesktop.color-#{$key} #taskbar > a:hover,
+    .xdesktop.color-#{$key} #taskbar > span:hover,
+    .xmobile.color-#{$key} #main-menu,
+    .xmobile.color-#{$key} .popup-close,
+    .xmobile.color-#{$key} #messagelistcontainer .boxpagenav a.icon,
+    .xmobile.color-#{$key} #messagelistcontainer .pagenav a.button,
+    .xmobile.color-#{$key} #messagestack div,
+    .xmobile.color-#{$key} #message-objects div a.button,
+    .xmobile.color-#{$key} .popup-box .popup-close,
+    .xmobile.color-#{$key} #contactphoto .formlinks a,
+    .xmobile.color-#{$key} .records-table thead tr th {
+        background-color: #{nth($colors, 2)} !important;
+    }
+
+    // text
+
+/*    .xdesktop.color-#{$key} #topnav,
+    .xdesktop.color-#{$key} #topline,
+    .xdesktop.color-#{$key} #topline .topleft a,
+    .xdesktop.color-#{$key} #topline .topright a,
+    .xdesktop.color-#{$key} #taskbar a,
+    .xdesktop.color-#{$key} #taskbar span {
+        color: #{nth($colors, 4)} !important;
+    }*/
+
+    // accent
+
+    .color-#{$key} input.material-input:checked + label.material,
+    .color-#{$key} input[type='button'],
+    .color-#{$key} input.button,
+    .color-#{$key} button,
+    .color-#{$key} .ui-button.ui-state-default,
+    .xmobile.color-#{$key} .boxfooter .listbutton {
+        background: #{nth($colors, 5)};
+    }
+
+    .color-#{$key} input.material-input:checked + label.material {
+        border-color: #{nth($colors, 5)} !important;
+    }
+
+    .color-#{$key} #mailboxlist li.selected > a,
+    .color-#{$key} .messagelist tr.flagged td,
+    .color-#{$key} .messagelist tr.flagged td a,
+    .color-#{$key} .records-table tr.flagged td span,
+    .color-#{$key} #messagelist tr td .flag span.flagged:before,
+    .color-#{$key} .listing .selected > td,
+    .color-#{$key} .listing .selected > a {
+        color: #{nth($colors, 5)} !important;
+    }
+
+    .color-#{$key} select:focus,
+    .color-#{$key} textarea:focus,
+    .color-#{$key} input[type='text']:focus,
+    .color-#{$key} input[type='password']:focus,
+    .color-#{$key} input[type='number']:focus,
+    .color-#{$key} input[type='email']:focus,
+    .color-#{$key} ul.tabsbar .ui-tabs-active a,
+    .color-#{$key} .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+        border-bottom: 2px solid #{nth($colors, 5)} !important;
+    }
+
+    // accent dark
+
+    .color-#{$key} input[type='button']:hover,
+    .color-#{$key} input.button:hover,
+    .color-#{$key} button:hover,
+    .color-#{$key} .ui-button:hover,
+    .color-#{$key} .ui-button.ui-state-default:hover {
+        background-color: #{nth($colors, 6)};
+    }
+
+    // accent light
+
+    .color-#{$key} label.material:before {
+        background: #{nth($colors, 7)};
+    }
+
+    // accent text
+
+/*    .color-#{$key} label.material:before,
+    .color-#{$key} input.material-input:checked + label.material,
+    .color-#{$key} input[type='button'],
+    .color-#{$key} input.button,
+    .color-#{$key} button,
+    .color-#{$key} .material.checkbox:after {
+        color: #{nth($colors, 8)} !important;
+    }*/
+
+
+}

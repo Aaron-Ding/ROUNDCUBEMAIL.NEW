@@ -1,0 +1,625 @@
+body {
+    background-color: #E5E5E5;
+    color: #262626;
+}
+
+body,
+ul, ol,
+.searchbox input,
+#quicksearchbar input {
+    font-size: 13px !important;
+    font-weight: normal;
+}
+
+:before {
+    font-size: 16px !important;
+}
+
+.boxfooter :before {
+    font-size: 22px !important;
+}
+
+ul, ol {
+    line-height: 1em !important;
+}
+
+a {
+    color: #262626;
+}
+
+#topline {
+    overflow: hidden;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#topline a {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#topnav {
+    top: 0 !important;
+}
+
+.topright a.button-logout {
+    display: none !important;
+}
+
+.topleft > span,
+.topright > span {
+    display: inline-block;
+    padding-top: 2px !important;
+}
+
+
+#taskbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: auto;
+    height: 46px;
+    padding-right: 30px !important;
+
+    .button-logout {
+        padding-right: 16px !important;
+    }
+
+    a.button-interface-options {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+        width: auto;
+        margin-right: 0;
+
+        &:before {
+            display: block;
+        }
+    }
+}
+
+#taskbar > a,
+#taskbar > span {
+    display: inline-block !important;
+    padding: 14px 16px 0 16px !important;
+    height: 46px !important;
+    background-color: transparent !important;
+    box-sizing: border-box;
+    margin: 0;
+    text-transform: uppercase;
+    transition: background-color 0.3s linear;
+}
+
+#taskbar > span {
+    padding: 14px 8px 0 8px !important;
+}
+
+#taskbar > a:hover,
+#taskbar > span:hover {
+
+}
+
+#taskbar a span {
+    padding: 0 !important;
+}
+
+#taskbar a:before {
+    display: none;
+}
+
+#taskbar .minmodetoggle {
+    padding-top: 14px !important;
+}
+
+.minimal {
+    #header {
+        min-height: 75px
+    }
+
+    #taskbar {
+        top: 0;
+        height: 42px;
+    }
+
+    #taskbar .minmodetoggle {
+        padding-top: 14px !important;
+    }
+
+    #taskbar > a,
+    #taskbar > span {
+        height: 42px !important;
+        padding-top: 10px !important;
+    }
+
+    #taskbar a:before {
+        display: block;
+        font-size: 22px !important;
+    }
+
+    #taskbar a .tooltip {
+        opacity: 0;
+        background-color: rgba(97, 97, 97, 0.9) !important;
+        border: none;
+        color: #fff !important;
+        padding: 6px !important;
+        font-size: 0.8em;
+        border-radius: 2px !important;
+        text-transform: none;
+        transition: opacity 0.3s linear;
+    }
+
+    #taskbar a:hover .tooltip {
+        top: 44px;
+        opacity: 1;
+    }
+
+    #taskbar a:hover .tooltip:after {
+        display: none;
+    }
+
+}
+
+body.iframe {
+    margin-top: 0;
+}
+
+body.iframe .boxtitle {
+    position: relative;
+    min-height: 38px;
+    box-sizing: border-box;
+}
+
+/* toolbar */
+
+.toolbar {
+    top: -2px !important;
+}
+
+.toolbar a.button,
+.xcalendar .toolbar a.button {
+    position: relative;
+    padding: 8px 12px 8px 28px !important;
+    text-align: left;
+    min-width: 0 !important;
+    max-width: none;
+    background-color: #fff !important;
+    font-size: 11px;
+}
+
+body.xskin .toolbar > a.button,
+body.xskin .toolbar > span.dropbutton {
+    display: block;
+    float: left;
+    margin-right: 6px;
+}
+
+.toolbar a.button:before {
+    position: absolute !important;
+    left: 8px;
+    top: 6px;
+    width: auto !important;
+    min-width: 0;
+}
+
+body.font-icons-toolbars .toolbar a.button:hover {
+    background: #f5f5f5 !important;
+}
+
+.toolbar span.dropbutton a.button {
+    padding-right: 20px !important;
+}
+
+.toolbar a.dropbuttontip {
+    color: #aaa;
+    padding: 6px 5px 0 5px !important;
+}
+
+body.font-icons-toolbars .toolbar a.button {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2) !important;
+    border-radius: 2px !important;
+    background: #fff;
+    padding: 5px 10px 2px 10px;
+    min-height: 0;
+    height: auto;
+}
+
+#searchfilter,
+#quicksearchbar {
+    top: -2px;
+    height: 27px;
+}
+
+#searchfilter select {
+    margin: 0;
+    border: none !important;
+}
+
+#searchfilter a.menuselector {
+    padding: 2px 0 0 0 !important;
+    margin: 0;
+    border: none !important;
+}
+
+#searchfilter a.menuselector:after {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    padding-right: 0;
+}
+
+.searchbox input,
+#quicksearchbar input {
+    padding-left: 36px !important;
+}
+
+.xsidebar-wrap #quicksearchbar {
+    right: 28px;
+}
+
+.xsidebar-wrap #searchfilter {
+    right: 276px;
+}
+
+#quicksearchbar form input {
+    background: transparent;
+    font-weight: normal;
+    border: none !important;
+}
+
+#searchmenu {
+    min-width: 200px;
+}
+
+#compact-message-list-header {
+    padding: 7px 20px;
+}
+
+/* boxes */
+
+#directorylist li a {
+    padding: 0;
+}
+
+.uibox,
+#xsidebar .box-wrap,
+#searchfilter,
+#quicksearchbar,
+#main-calendar-container {
+    background-color: #fff !important;
+    border-radius: 2px !important;
+    border: none !important;
+    box-shadow:
+        0 2px 2px 0 rgba(0,0,0,.1),
+        0 3px 1px -2px rgba(0,0,0,0.1),
+        0 1px 5px 0 rgba(0,0,0,0.1) !important;
+}
+
+.uibox .iframebox,
+#mailview-top {
+    border: none;
+}
+
+.uibox .listing a,
+body.font-icons-toolbars #directorylist li a {
+    /*padding: 0 !important;*/
+    background: transparent !important;
+    border: none !important;
+}
+
+body.font-icons-toolbars #contacts-table .contact td.name,
+.uibox .listing li,
+.uibox .listing td {
+    padding: 7px 10px !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+
+body.font-icons-toolbars #contacts-table .contact td.name:hover,
+.listing tbody tr:hover,
+.listing li:hover {
+    background-color: transparent !important;
+
+}
+
+.uibox .boxtitle,
+.uibox .listing thead td,
+.uibox .listing thead th,
+.contentbox .boxtitle,
+body.iframe .boxtitle,
+#xsidebar h2.boxtitle {
+    background-color: transparent;
+    border: none;
+    color: #262626 !important;
+    font-weight: normal;
+    font-size: 17px;
+    padding: 12px 5px 0 10px;
+}
+
+.boxtitle button {
+    padding-top: 0;
+    padding-right: 0;
+}
+
+.listbox {
+    background-color: #fff;
+}
+
+.listbox .boxtitle + .scroller {
+    top: 45px;
+}
+
+#settings-tabs ul li a {
+    padding: 0;
+}
+
+.records-table thead td,
+.records-table thead th {
+    background: #fff;
+}
+
+#preferences-details select,
+#preferences-details input[type='text'],
+#preferences-details input[type='number'],
+#preferences-details input[type='password'],
+#preferences-details input[type='email'],
+#preferences-details textarea {
+    width: 80%;
+}
+
+.boxfooter a.listbutton,
+.records-table thead th a:before {
+    color: #737373 !important;
+}
+
+.boxfooter a.listbutton {
+    padding-top: 8px !important;
+}
+
+.boxfooter a.listbutton:hover {
+    color: #464646 !important;
+}
+
+.popupmenu {
+    border: 1px solid #d6d6d6 !important;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2) !important;
+}
+
+.toolbarmenu li {
+    padding: 0 !important;
+}
+
+.splitter {
+    background-image: none;
+}
+
+#quotadisplay {
+    top: 11px;
+    padding-top: 4px;
+    color: #777777;
+}
+
+.contactfieldgroup {
+    background: transparent;
+}
+
+.boxpagenav {
+    top: 12px;
+}
+
+.listbox .treelist.listing > li {
+    //padding: 0 !important;
+/*    padding-left: 20px !important;
+
+    ul {
+        border: none;
+    }*/
+}
+
+/* sidebar */
+
+#xsidebar-button {
+    margin-top: 0;
+}
+
+#xsidebar {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    right: -5px;
+}
+
+#xsidebar .box-wrap {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+#xsidebar h2.boxtitle {
+    line-height: 1.1em;
+    padding: 12px 15px;
+}
+
+#xsidebar h2.boxtitle:before {
+    color: #a8a8a8;
+}
+
+#xsidebar h2.boxtitle:hover:before {
+    color: #777;
+}
+
+.box-xnews_feed h2.boxtitle img {
+    top: 2px;
+}
+
+#xsidebar .box-content {
+    padding: 10px 15px 15px 15px;
+}
+
+#xsidebar .box-content li {
+    padding: 4px 0;
+}
+
+/* folder list */
+
+#folderlist-content,   /* mail page */
+#folderslist-content,
+#mailboxcontainer { /* settings page */
+    padding-top: 7px;
+
+    .treetoggle {
+        top: 9px !important;
+        left: 8px !important;
+        color: #bbb;
+    }
+
+    ul {
+        border: none !important;
+    }
+
+    li {
+        padding: 0 !important;
+    }
+
+    li[area-expanded='true']:hover {
+        background-color: transparent !important;
+    }
+
+    li.selected > a {
+        font-weight: bold !important;
+    }
+
+    li a {
+        padding: 7px 0 7px 24px !important;
+    }
+
+    li li a {
+        padding-left: 34px !important;
+    }
+
+    li li li a {
+        padding-left: 44px !important;
+    }
+
+    li li li li a {
+        padding-left: 54px !important;
+    }
+
+    li li li li li a {
+        padding-left: 64px !important;
+    }
+
+    li li li li li li a {
+        padding-left: 74px !important;
+    }
+
+    li li li li li li li a {
+        padding-left: 84px !important;
+    }
+}
+
+#mailboxcontainer #mailboxlist li.mailbox span.unreadcount {
+    font-weight: normal;
+    font-size: 80%;
+}
+
+/* message list */
+
+#messagelist :before {
+    top: 1px !important;
+}
+
+#messagelistfooter,
+#messagelistfooter a.menuselector,
+.records-table thead td,
+.records-table thead th,
+.records-table thead th a,
+.records-table thead td a,
+.records-table thead td span,
+.records-table thead th span,
+.records-table thead tr td.sortedASC a,
+.records-table thead tr td.sortedDESC a {
+    color: #747474 !important;
+}
+
+.messagelist tr th.threads .listmenu {
+    padding-top: 4px;
+    padding-left: 8px;
+}
+
+.records-table thead th a,
+.records-table thead td a {
+    background: transparent !important;
+    font-size: 13px;
+}
+
+.records-table thead th {
+    border-bottom: 1px solid #ddd;
+}
+
+.records-table tbody tr:hover td {
+    /*background-color: #eee !important;*/
+}
+
+.records-table tr.selected td,
+.records-table tr.unfocused td {
+    /*background: #F5F5F5 !important;*/
+}
+
+.records-table tbody td {
+    border-left: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#messagelistcontainer {
+    bottom: 42px;
+}
+
+#mailpreviewtoggle {
+    /* let's make sure it covers the controls underneath */
+    right: 0;
+    top: 0;
+    padding: 12px 7px 7px 0;
+    background: #fff;
+}
+
+#messagelistfooter {
+    background: transparent !important;
+    height: 32px;
+    padding: 10px 10px 0 10px;
+}
+
+#messagelistfooter #listselectors a {
+    padding-top: 3px;
+    padding-bottom: 0;
+    border-bottom: none !important;
+}
+
+/* ui dialogs */
+
+.ui-dialog-buttonset {
+
+    button,
+    button span {
+        color: #fff;
+    }
+}
+
+/* xvertical_preview */
+
+#vertical-preview {
+    background: #fff;
+}
+
+/* xbackground */
+
+body.xskin.xbg {
+
+    #xsidebar .box-wrap {
+        background: rgba(255, 255, 255, 0.5) !important;
+    }
+
+    .ui-widget-header,
+    #main-calendar-container {
+        background: transparent !important;
+    }
+}

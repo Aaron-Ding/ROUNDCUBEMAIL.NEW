@@ -1,0 +1,28 @@
+ROUNDCUBE PLUS SKIN PLUGIN
+==========================
+
+This plugin is required to use the Roundcube Plus skins.
+
+REQUIREMENTS
+------------
+
+1. Roundcube 1.2.x
+
+INSTALLATION
+------------
+
+1. Copy the directories xskin and xframework to the plugins directory of your Roundcube installation.
+2. Copy the file plugins/xskin/config.inc.php.dist to config.inc.php
+3. Edit the file plugins/xskin/config.inc.php and modify the settings as needed.
+4. Edit the file config/config.inc.php and add xskin to the plugin array. (There's no need to add xframework.)
+
+LICENSE
+-------
+
+This plugin is distributed under a commercial license. In order to use the plugin, you must purchase the license
+from Tecorama LLC. See the LICENSE file for details.
+
+COPYRIGHT
+---------
+
+Copyright (c) 2017, Tecorama LLC

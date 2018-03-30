@@ -1,0 +1,9 @@
+// partial to be included in the skin css to load the ios icon font
+
+$range: 2;
+
+@import "icon_functions";
+@import "icon_map";
+@import "icon_style_desktop";
+@import "icon_style_mobile";
+

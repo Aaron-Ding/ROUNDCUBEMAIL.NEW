@@ -1,0 +1,113 @@
+// This file assigns unicode characters to variables that are used in the css. See the icon() function in icon_functions
+// to see how this works.
+
+$arrowLeft: icon(0);
+$arrowRight: icon(1);
+$arrowUp: icon(2);
+$arrowDown: icon(3);
+
+$arrowLeftCircle: icon(4);
+$arrowRightCircle: icon(5);
+$arrowUpCircle: icon(6);
+$arrowDownCircle: icon(7);
+
+$chevronLeft: icon(8);
+$chevronRight: icon(9);
+$chevronUp: icon(10);
+$chevronDown: icon(11);
+
+$chevronLeftCircle: icon(12);
+$chevronRightCircle: icon(13);
+$chevronUpCircle: icon(14);
+$chevronDownCircle: icon(15);
+
+$caretLeft: icon(16);
+$caretRight: icon(17);
+$caretUp: icon(18);
+$caretDown: icon(19);
+
+$firstPage: icon(20);
+$prevPage: icon(21);
+$nextPage: icon(22);
+$lastPage: icon(23);
+
+$times: icon(24);
+$timesCircle: icon(25);
+$plus: icon(26);
+$plusSquare: icon(27);
+$plusCircle: icon(28);
+$minus: icon(29);
+$minusSquare: icon(30);
+$minusCircle: icon(31);
+$check: icon(32);
+$checkSquare: icon(33);
+$sortAsc: icon(34);
+$sortDesc: icon(35);
+$exclamation: icon(36);
+$question: icon(37);
+$information: icon(38);
+$import: icon(39);
+$export: icon(40);
+$gridLarge: icon(41);
+$gridSmall: icon(42);
+$list: icon(43);
+
+$mail: icon(44);
+$user: icon(45);
+$wrench: icon(46);
+$gear: icon(47);
+$logout: icon(48);
+
+$refresh: icon(49);
+$reply: icon(50);
+$replyAll: icon(51);
+$forward: icon(52);
+$archive: icon(53);
+$trash: icon(54);
+$recycle: icon(55);
+$tag: icon(56);
+$more: icon(57);
+$download: icon(58);
+$folder: icon(59);
+$print: icon(60);
+$send: icon(61);
+$save: icon(62);
+$spellcheck: icon(63);
+$attachment: icon(64);
+$create: icon(65);
+$edit: icon(66);
+$signature: icon(67);
+$bookmark: icon(68);
+$vcard: icon(69);
+$search: icon(70);
+$bars: icon(71);
+$code: icon(72); // html/plain text
+$unlink: icon(73);
+$star: icon(74);
+$flag: icon(75);
+$flagEmpty: icon(76); // not flagged
+$textFile: icon(77);
+$repliedForwarded: icon(78); // two arrows
+$speechBubble: icon(79);
+$forbidden: icon(80);
+$clock: icon(81);
+$share: icon(82);
+$circleEmpty: icon(83);
+$calendar: icon(84);
+$calendarShort: icon(85);
+$calendarList: icon(86);
+$calendarDay: icon(87);
+$help: icon(88);
+$repeat: icon(89);
+$options: icon(90);
+$generic: icon(91);
+$lock: icon(92);
+$envelopeClosed: icon(93);
+$envelopeOpen: icon(94);
+$monitor: icon(95);
+$sortAsc: icon(96);
+$sortDesc: icon(97);
+
+// aliases: these can be changed in the icons font if need be (icons_ios, icons_awesome)
+
+$arrowBack: $arrowLeftCircle;

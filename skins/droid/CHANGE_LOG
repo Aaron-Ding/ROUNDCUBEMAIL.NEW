@@ -1,0 +1,37 @@
+5.0.8 (2016-12-20)
+==================
+- fixed jquery ui fonts
+
+5.0.7 (2016-11-30)
+==================
+- fixed compose textarea font size
+
+5.0.6 (2016-11-16)
+==================
+- fixed missing inclusion of larry css styles
+
+5.0.5 (2016-10-11)
+==================
+- made skin compatible with xbackground
+- added print logo
+
+5.0.4 (2016-10-04)
+==================
+- UI tweaks
+
+5.0.3 (2016-09-27)
+==================
+- UI fixes
+- updated logo image
+
+5.0.2 (2016-08-09)
+==================
+- fixed font loading from googleapi over http instead of https
+
+5.0.1 (2016-06-02)
+==================
+- fixed some text alignment problems
+
+5.0 (2016-06-01)
+================
+- initial release

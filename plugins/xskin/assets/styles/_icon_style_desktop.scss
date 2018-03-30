@@ -1,0 +1,143 @@
+
+.xdesktop {
+
+    #taskbar a:before { @include style($generic, 1.5); } // default icon and size for taskbar
+    #taskbar a.button-mail:before { @include style($mail); }
+    #taskbar a.button-addressbook:before { @include style($user); }
+    #taskbar a.button-calendar:before { @include style($calendar); }
+    #taskbar a.button-help:before { @include style($help); }
+    #taskbar a.button-xresell:before { @include style($plusSquare); }
+    #taskbar a.button-apps:before { @include style($plusSquare); }
+    #taskbar a.button-settings:before { @include style($wrench); }
+    #taskbar a.button-logout:before { @include style($logout); }
+    #topnav a.button-interface-options:before { @include style($monitor); }
+    #taskbar .minmodetoggle:before { @include style($caretUp); }
+
+    .toolbar a.button:before { @include style($generic, 2); } // default icon and size for toolbar
+    .toolbar a.button.checkmail:before { @include style($refresh); }
+    .toolbar a.button.compose:before { @include style($create); }
+    .toolbar a.button.reply:before { @include style($reply); }
+    .toolbar a.button.reply-all:before { @include style($replyAll); }
+    .toolbar a.button.forward:before { @include style($forward); }
+    .toolbar a.button.delete:before { @include style($trash); }
+    .toolbar a.button.archive:before { @include style($archive); }
+    .toolbar a.button.junk:before { @include style($recycle); }
+    .toolbar a.button.markmessage:before { @include style($tag); }
+    .toolbar a.button.more:before { @include style($more); }
+    .toolbar a.button.back:before { @include style($arrowBack); }
+    .toolbar a.button.close:before { @include style($arrowBack); }
+    .toolbar a.button.download:before { @include style($download); }
+    .toolbar a.button.move:before { @include style($folder); }
+    .toolbar a.button.print:before { @include style($print); }
+    .toolbar a.button.send:before { @include style($send); }
+    .toolbar a.button.savedraft:before { @include style($save); }
+    .toolbar a.button.spellcheck:before { @include style($spellcheck); }
+    .toolbar a.button.attach:before { @include style($attachment); }
+    .toolbar a.button.insertsig:before { @include style($signature); }
+    .toolbar a.button.responses:before { @include style($bookmark); }
+    .toolbar a.button.vcard_send:before { @include style($vcard); }
+    .toolbar a.button.import:before { @include style($import); }
+    .toolbar a.button.export:before { @include style($export); }
+    .toolbar a.button.search:before { @include style($search); }
+    .toolbar a.button.markasjunk2:before { @include style($recycle); }
+    .toolbar a.button.markasnotjunk2:before { @include style($recycle); }
+    .toolbar a.button.enigma:before { @include style($lock); }
+    .toolbar a.button.encrypt:before { @include style($lock); }
+    .toolbar a.button.message-list-sort:before { @include style($sortAsc); }
+
+    .toolbarmenu.selectable li a.selected:before { @include style($check); }
+    .dropbutton .dropbuttontip:before { @include style($caretDown); }
+    div.expanded:before { @include style($minus); }
+    div.collapsed:before { @include style($plus); }
+    a.menuselector:after { @include style($caretDown); }
+
+    $footerIconSize: 1.6; // not using default because some footer links don't have icons
+    .boxfooter .listbutton.groupactions:before { @include style($gear, $footerIconSize); }
+    .boxfooter .listbutton.add:before { @include style($plus, $footerIconSize); }
+    .boxfooter .listbutton.delete:before { @include style($times, $footerIconSize); }
+    .boxfooter .listbutton.removegroup:before { @include style($unlink, $footerIconSize); }
+
+    .boxpagenav a.icon.firstpage:before { @include style($firstPage); }
+    .boxpagenav a.icon.lastpage:before { @include style($lastPage); }
+    .boxpagenav a.icon.prevpage:before { @include style($prevPage); }
+    .boxpagenav a.icon.nextpage:before { @include style($nextPage); }
+    .compose-headers .iconbutton.cancel:before { @include style($times); }
+    .records-table tr td.threads div.listmenu:before,
+    .records-table tr th.threads a.listmenu:before { @include style($gear); }
+    .records-table thead tr .status span.status:before { @include style($star); }
+    .records-table thead tr .priority span.priority:before { @include style($exclamation); }
+    .messagelist tr:hover td.status span:before { @include style($star); color: #bbb !important; }
+    .messagelist tr:hover td.flag span:before { @include style($flag); color: #bbb; }
+    .messagelist tr .status span.unread:before { @include style($star); }
+    .messagelist tr .flag span.flagged:before { @include style($flag); }
+    .messagelist tr .attachment span.attachment:before { @include style($attachment); }
+    .messagelist tr .attachment span.report:before { @include style($textFile); }
+    // .messagelist tr .priority span.priority:before { @include style("\"); }
+    .messagelist tr .priority span.prio1:before { @include style($arrowUpCircle); }
+    .messagelist tr .priority span.prio2:before { @include style($arrowUpCircle); }
+    // .messagelist tr .priority span.prio3:before { @include style("\"); }
+    .messagelist tr .priority span.prio4:before { @include style($arrowDownCircle); }
+    .messagelist tr .priority span.prio5:before { @include style($arrowDownCircle); }
+    // .messagelist tr .status span.status:before { @include style("\"); }
+    // .messagelist tr .status span.msgicon:before { @include style("\"); }
+    .messagelist tr td.status span.deleted:before { @include style($times); }
+    .messagelist tr td.status span.unreadchildren:before { @include style($star); }
+    // .messagelist tr .subject span.msgicon:before { @include style("\"); }
+    .messagelist tr td.subject span.deleted:before { @include style($times); }
+    .messagelist tr td.subject span.unread:before { @include style($star); }
+    .messagelist tr td.subject span.replied:before { @include style($reply); }
+    .messagelist tr td.subject span.forwarded:before { @include style($forward); }
+    .messagelist tr td.subject span.unreadchildren:before { @include style($star); }
+    .records-table thead tr .sortedASC a:after { @include style($sortAsc); }
+    .records-table thead tr .sortedDESC a:after { @include style($sortDesc); }
+    #messagestack div:after { @include style($exclamation); }
+    #messagestack div.error:after { @include style($times); }
+    #messagestack div.warning:after { @include style($exclamation); }
+    #messagestack div.confirmation:after { @include style($check); }
+    #searchmenulink:before { @include style($search); }
+    #quicksearchbar #searchmenulink:before { @include style($search$caretDown); }
+    #searchreset:before { @include style($times); }
+    #maillistmode:before { @include style($bars "    "); }
+    #mailthreadmode:before { @include style($speechBubble); }
+    .fullheight #mailpreviewtoggle:before { @include style($arrowUp); }
+    #mailpreviewtoggle:before { @include style($arrowDown); }
+    #custom-login-submit:before { @include style($arrowRightCircle); }
+
+    #xsidebar-button:before { @include style($caretRight); }
+    #xsidebar-button.collapsed:before { @include style($caretLeft); }
+    #xsidebar h2.boxtitle:before { @include style($caretUp); }
+    #xsidebar .collapsed h2.boxtitle:before { @include style($caretDown); }
+
+    // plugins
+    .button.calendar-today:before { @include style($circleEmpty); }
+    .button.calendar-prev:before { @include style($chevronLeft); }
+    .button.calendar-next:before { @include style($chevronRight); }
+    #xcalendar-toolbar .button.calendar-day:before { @include style($calendarDay); }
+    #xcalendar-toolbar .button.calendar-week:before { @include style($gridLarge); }
+    #xcalendar-toolbar .button.calendar-month:before { @include style($gridSmall); }
+    #xcalendar-toolbar .button.calendar-agenda:before { @include style($list); }
+    #xcalendar-toolbar .button.calendar-add-event:before { @include style($plusSquare); }
+    #calendar-list-container .new-calendar:before { @include style($plusCircle); }
+    #calendar-list-container .calendar-item .edit:before { @include style($edit); }
+
+    #helptoolbar a.button.help:before { @include style($help); }
+    #helptoolbar a.button.about:before { @include style($question); }
+    #helptoolbar a.button.license:before { @include style($list); }
+
+}
+
+.xdesktop.minimal #taskbar .minmodetoggle:before { @include style($caretDown); }
+
+.xdesktop.xvertical-preview {
+    .fullheight #mailpreviewtoggle:before { @include style($arrowLeft); }
+    #mailpreviewtoggle:before { @include style($arrowRight); }
+}
+
+body.skin-icloud #login-form {
+    .support-link:after { @include style($question); }
+    .box-bottom #message div.warning:before { @include style($exclamation); }
+    .box-bottom #message div.error:before { @include style($exclamation); }
+    .box-bottom #message div.loading:before { @include style($information); }
+    .box-bottom #message div.notice:before { @include style($information); }
+}
+

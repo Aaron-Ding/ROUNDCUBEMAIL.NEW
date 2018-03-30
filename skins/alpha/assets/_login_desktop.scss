@@ -1,0 +1,63 @@
+#login-form {
+    width: 460px;
+    color: #fff;
+}
+
+#login-form legend {
+    color: #fff !important;
+}
+
+#login-form h1,
+#login-form #logo {
+    display: none;
+}
+
+#login-form #company-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding-bottom: 20px;
+}
+
+.login-page #login-form .box-inner {
+    border: 4px solid #1883cd;
+    border-radius: 15px !important;
+    background: #27272a;
+    padding: 20px 30px 20px 30px;
+}
+
+#login-form td.title,
+#ifplcontainer div label,
+#login-form #message div {
+    color: #ccc;
+}
+
+#login-form p.formbuttons {
+    margin-top: 1em;
+}
+
+#login-form input.button {
+    background: #1883cd;
+    padding: 8px 30px;
+    font-size: 1.2em;
+}
+
+#login-form input.button:hover,
+#login-form input.button:focus,
+#login-form input.button:active {
+    background-color: #1376bb !important;
+}
+
+#login-form .boxtitle {
+    color: #fff;
+    padding-bottom: 10px;
+    border-color: #fff;
+}
+
+#login-form #bottomline a {
+    color: #fff;
+}
+
+#login-form .box-bottom {
+    width: 460px;
+}

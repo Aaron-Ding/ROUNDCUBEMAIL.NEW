@@ -1,0 +1,30 @@
+{
+    "name": "mak/image_paster",
+    "replace": {"mat_krauser/image_paster": "self.version"},
+    "type": "roundcube-plugin",
+    "description": "Paste Images from Clipboard directly into new eMails",
+    "keywords": ["clipboard", "image", "mail"],
+    "homepage": "https://github.com/mkrauser/roundcube_image_paster",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Matthias Krauser",
+            "email": "matthias@krauser.eu",
+            "homepage": "https://github.com/mkrauser"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "roundcube/plugin-installer": ">=0.1.3"
+    },
+    "extra": {
+        "roundcube": {
+            "min-version": "0.9.0"
+        }
+    }
+}

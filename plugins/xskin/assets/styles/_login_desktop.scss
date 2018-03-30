@@ -1,0 +1,123 @@
+#login-form #logo {
+    display: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.login-page #topline {
+    display: none;
+}
+
+#login-form .box-inner {
+    background: none;
+    border-radius: none;
+    border: none;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#login-form table td {
+    padding: 5px;
+}
+
+#login-form table td input,
+#login-form table td select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 4px;
+    margin: 0;
+}
+
+#login-form #bottomline {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    visibility: hidden;
+}
+
+#login-form #bottomline a {
+    color: #333;
+    visibility: visible;
+    text-decoration: none;
+    float: left;
+}
+
+#login-form #bottomline a:hover {
+    text-decoration: underline;
+}
+
+#login-form #message div {
+    font-weight: normal;
+}
+
+#vendor-branding {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: block;
+    width: 19px;
+    height: 19px;
+    z-index: 1;
+
+    span {
+        position: absolute;
+        display: block;
+        width: 19px;
+        height: 19px;
+    }
+
+    span#vendor-icon-1 {
+        background: url(../images/logo_1.png) top left no-repeat;
+        -webkit-transition: opacity 0.5s ease-in-out;
+        -moz-transition: opacity 0.5 ease-in-out;
+        -o-transition: opacity 0.5 ease-in-out;
+        transition: opacity 0.5 ease-in-out;
+
+        &:hover {
+            opacity: 0;
+        }
+    }
+
+    span#vendor-icon-2 {
+        background: url(../images/logo_2.png) top left no-repeat;
+    }
+}
+
+#login-form .box-bottom {
+    background: none;
+}
+
+body.login-page #header {
+    overflow: hidden;
+}
+
+body.login-page #topnav {
+    position: static;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body.login-page #taskbar {
+    margin: 0 !important;
+    padding: 0;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+
+body.login-page #taskbar a {
+    padding: 0 0 0 10px;
+}
+
+#login-form td.title,
+#ifplcontainer {
+    color: #333;
+}
+
+#login-form table {
+    width: 100%;
+}

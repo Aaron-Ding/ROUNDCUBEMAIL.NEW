@@ -1,0 +1,133 @@
+.login-page #header #topnav #taskbar {
+    background: #0075C8 !important;
+}
+
+
+#login-form {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 750px !important;
+    height: 420px;
+    overflow: visible;
+    margin: 70px auto 0 auto !important;
+    background: #0075c8 url(images/login.jpg) no-repeat top left;
+    color: #333;
+
+    table {
+        width: 100% !important;
+        border-collapse: collapse;
+    }
+
+    .box-inner {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 0 0 40px;
+        background: #fff !important;
+        border: none;
+        width: 310px;
+        margin: 0;
+        min-height: 420px;
+        border-radius: 0;
+        box-sizing: content-box;
+    }
+
+    table td.title,
+    table td.input {
+        display: block;
+        text-align: left;
+        padding: 0;
+        width: 100%;
+    }
+
+    table td.title {
+        padding-bottom: 5px;
+    }
+
+    table td.input {
+        padding-bottom: 10px;
+    }
+
+    td select {
+        margin: 0;
+        width: 100%;
+        padding: 5px;
+        box-sizing: content-box;
+    }
+
+    p.formbuttons {
+        margin: 10px 0;
+    }
+
+    p,
+    p.formbuttons,
+    div {
+        text-align: left;
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0 0 20px 0;
+        color: #0075c8;
+        width: auto !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
+
+    #company-name {
+        position: absolute;
+        top: 350px;
+        left: -400px;
+        bottom: 40px;
+        width: 400px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.8em;
+        text-align: center;
+        display: block !important;
+    }
+
+    .formbuttons input {
+        width: 100%;
+    }
+
+    input.button,
+    .formbuttons input,
+    .formbuttons input:active {
+        background: #0075C8;
+        padding: 8px 20px;
+        color: #fff;
+        margin: 0 0 10px 0;
+    }
+
+    .formbuttons input:hover {
+        background-color: #138be1 !important;
+    }
+
+    .formbuttons input:disabled {
+        background-color: #ddd !important;
+        color: #aaa;
+    }
+
+    #bottomline a {
+        color: #333;
+    }
+
+    .box-bottom {
+        position: absolute;
+        top: 420px;
+        left: 0;
+        width: 400px;
+    }
+
+    .boxtitle {
+        color: #0075C8;
+    }
+
+    form[name=contactus] input[type=text] {
+        width: 200px;
+    }
+}

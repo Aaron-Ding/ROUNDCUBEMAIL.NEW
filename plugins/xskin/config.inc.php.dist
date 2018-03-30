@@ -1,0 +1,138 @@
+<?php
+/**
+ * Roundcube Plus Skin plugin.
+ *
+ * Copyright 2016, Tecorama LLC.
+ *
+ * @author Chris Kulbacki (http://chriskulbacki.com)
+ * @license Commercial. See the LICENSE file for details.
+ */
+
+// Specify the default skin that will be used on desktop devices. Users will be able to change this option by going to
+// Settings / User Interface.
+// If this option is set to null, the program will use the skin specified in $config['skin'] (config/config.inc.php.)
+// Example: $config['desktop_skin'] = 'outlook';
+$config['desktop_skin'] = null;
+
+// Specify the default skin that will be used on tablets. Users will be able to change this option by going to
+// Settings / User Interface.
+// If this option is set to null, the program will use the skin specified in $config['skin'] (config/config.inc.php.)
+// Example: $config['tablet_skin'] = 'outlook';
+$config['tablet_skin'] = null;
+
+// Specify the default skin that will be used on smartphones. Users will be able to change this option by going to
+// Settings / User Interface.
+// If this option is set to null, the program will use the skin specified in $config['skin'] (config/config.inc.php.)
+// Example: $config['phone_skin'] = 'outlook';
+$config['phone_skin'] = null;
+
+// Specify the urls to the branding images that should be displayed on the login page. By default the skins don't
+// display any branding on the login page. If you specify your branding here, the images will be inserted under the
+// company name or instead of the "Login" title (depending on the skin.) There are no specifications for the size for
+// the images; you should adjust their size and color to make sure your branding looks good in all the skins that you
+// use. To disable the branding, set these options to null.
+// Example: $config['login_branding_alpha'] = 'http://yourdomain.com/images/login_alpha.png';
+$config['login_branding_alpha'] = null;
+$config['login_branding_icloud'] = null;
+$config['login_branding_droid'] = null;
+$config['login_branding_litecube'] = null;
+$config['login_branding_outlook'] = null;
+$config['login_branding_w21'] = null;
+
+// Specify the urls to the branding images that should be displayed in the header of the main Roundcube page. If these
+// options are set to null, the skins will use their default branding images located here:
+// [roundcube]/skins/[skin_name]/assets/images/logo_header.png
+// The size of the branding images should be 200px x 50px.
+// Example: $config['header_branding_alpha'] = 'http://yourdomain.com/images/header_alpha.png';
+$config['header_branding_alpha'] = null;
+$config['header_branding_droid'] = null;
+$config['header_branding_icloud'] = null;
+$config['header_branding_litecube'] = null;
+$config['header_branding_outlook'] = null;
+$config['header_branding_w21'] = null;
+
+// Specify the urls to the branding images that should be used when printing a message. If these options are set to
+// null, the skins will use their default branding images located here:
+// [roundcube]/skins/[skin_name]/assets/images/logo_print.png
+// The size of the branding images should be 200px x 50px.
+// Example: $config['print_branding_alpha'] = 'http://yourdomain.com/images/print_alpha.png';
+$config['print_branding_alpha'] = null;
+$config['print_branding_droid'] = null;
+$config['print_branding_icloud'] = null;
+$config['print_branding_litecube'] = null;
+$config['print_branding_outlook'] = null;
+$config['print_branding_w21'] = null;
+
+// Specify the url to the branding image that should be displayed as the message preview watermark. If this option is
+// set to null, the skins will use the default watermark located here:
+// [roundcube]/plugins/xskin/assets/images/watermark.png
+// Example: $config['preview_branding'] = 'http://yourdomain.com/images/watermark.png';
+$config['preview_branding'] = null;
+
+// Set this option to true if you want to disable the skin color-changing menu. If you disable the menu, the skins will
+// use the color last selected by the user or if the user never changed the color, the default color specified in
+// [roundcube]/skins/[skin_name]/settings.php
+$config['disable_menu_colors'] = false;
+
+// Set this option to true if you want to remove the skin selection from the interface option dropdown menu.
+$config['disable_menu_skins'] = false;
+
+// Set this option to true if you want to remove the language selection from the interface option dropdown menu.
+$config['disable_menu_languages'] = false;
+
+// Set these options if you'd like to change the default colors of the skins. The users will be able to
+// set their own colors using the color menu (unless the 'disable_colors' option is set to true,) so these settings
+// will work only as defaults for new accounts or for the users who didn't save their personal color options yet.
+// The lists of available colors for each skin can be found in skins/[skin]/settings.php. When filling this option
+// use the color codes without the leading # character.
+// If these options are set to null, the program will use the default color as specified in skins/[skin]/settings.php.
+// Example: $config['default_color_alpha'] = '6bbb0d';
+$config['default_color_alpha'] = null;
+$config['default_color_droid'] = null;
+$config['default_color_icloud'] = null;
+$config['default_color_litecube'] = null;
+$config['default_color_outlook'] = null;
+$config['default_color_w21'] = null;
+
+// Specify the third-party plugins you use that don't function properly and should be disabled on mobile devices.
+$config['disable_plugins_on_mobile'] = array();
+
+// Html composition on mobilde devices is disabled by default because the Roundcube html editor doesn't fully support
+// mobile devices. To enable html composing on mobile devices, set this option to true. Use at your own risk.
+$config['allow_mobile_html_composing'] = false;
+
+// Specify the plugins that are don't follow the Roundcube plugin development guidelines regarding skin support.
+// Some developers don't account for the possibility of their plugins being used under different skins than the default
+// 'larry' and 'classic'. They hard-code those skin names into their code which effectively makes the plugins unusable
+// under any other skin. The xskin plugin can fix this problem by making those plugin believe they run under larry even
+// if in reality they run under a different skin. For this functionality to work, the xskin plugin must be included at
+// the very beginning of the plugin array in config/config.inc.php.
+$config['fix_plugins'] = array(
+    "calendar_plus",
+    "carddav",
+    "compose_in_taskbar",
+    "contactus",
+    "google_ads",
+    "impressum",
+    "jappix4roundcube",
+    "keyboard_shortcuts",
+    "message_highlight",
+    "moreuserinfo",
+    "myrc_sprites",
+    "nabble",
+    "persistent_login",
+    "planner",
+    "plugin_manager",
+    "pwtools",
+    "register",
+    "settings",
+    "sticky_notes",
+    "taskbar",
+    "tasklist",
+    "timepicker",
+    "threecol",
+    "scheduled_sending",
+    "summary",
+    "vcard_send",
+    "vkeyboard",
+);

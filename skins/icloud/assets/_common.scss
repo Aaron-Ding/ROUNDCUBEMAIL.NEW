@@ -1,0 +1,29 @@
+$fontTiny: 12px;
+$fontSmall: 13px;
+$fontNormal: 15px;
+$fontLarge: 17px;
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("fonts/sanfranciscodisplay-regular-webfont.woff2");
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+/* in chrome input and select don't inherit from body (?) so the font is not applied */
+body,
+select,
+input,
+textarea,
+.ui-widget,
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+    font: $fontNormal 'San Francisco', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    src: url(fonts/JLrcxvhkM17op1c4raL9Fg.woff) format('woff');
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+body,
+select,
+input,
+textarea,
+.ui-widget,
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+    font: 12px NotoSans, sans-serif;
+}

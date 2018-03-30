@@ -1,0 +1,22 @@
+{
+  "name":"public mail box",
+  "description":"many people can use one publicbox",
+  "license":"GPL-2.0",
+  "homepage":"http://git.sinoramagroup.com:7777/rcp_public_mailbox.git",
+  "type": "roundcube-plugin",
+  "authors": [
+          {
+              "name": "aaron  ",
+              "email": "aaron@sinoramagroup.com",
+              "homepage": "http://sinorama.ca",
+              "role": "Developer"
+          }
+      ],
+  "support": {
+          "email": "aaron@sinoramagroup.com",
+          "issues": "http://git.sinoramagroup.com:7777/rcp_public_mailbox.git"
+      },
+  "require": {
+          "curl/curl": "dev-master"
+  }
+}

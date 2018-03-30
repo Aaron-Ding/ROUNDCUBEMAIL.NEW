@@ -1,0 +1,3150 @@
+@font-face {
+  font-family: 'IconFont';
+  src: url("../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.eot");
+  src: url("../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.eot?#iefix") format("embedded-opentype"), url("../../../plugins/xskin/assets/fonts/roundcube_plus_icons/roundcube_plus_icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+.xdesktop #taskbar a:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.5em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC4B"; }
+.xdesktop #taskbar a.button-mail:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC1C"; }
+.xdesktop #taskbar a.button-addressbook:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC1D"; }
+.xdesktop #taskbar a.button-calendar:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC44"; }
+.xdesktop #taskbar a.button-help:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC48"; }
+.xdesktop #taskbar a.button-xresell:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC0B"; }
+.xdesktop #taskbar a.button-apps:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC0B"; }
+.xdesktop #taskbar a.button-settings:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC1E"; }
+.xdesktop #taskbar a.button-logout:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC20"; }
+.xdesktop #topnav a.button-interface-options:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC4F"; }
+.xdesktop #taskbar .minmodetoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC02"; }
+.xdesktop .toolbar a.button:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 2em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC4B"; }
+.xdesktop .toolbar a.button.checkmail:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC21"; }
+.xdesktop .toolbar a.button.compose:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC31"; }
+.xdesktop .toolbar a.button.reply:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC22"; }
+.xdesktop .toolbar a.button.reply-all:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC23"; }
+.xdesktop .toolbar a.button.forward:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC24"; }
+.xdesktop .toolbar a.button.delete:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC26"; }
+.xdesktop .toolbar a.button.archive:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC25"; }
+.xdesktop .toolbar a.button.junk:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC27"; }
+.xdesktop .toolbar a.button.markmessage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC28"; }
+.xdesktop .toolbar a.button.more:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC29"; }
+.xdesktop .toolbar a.button.back:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF4"; }
+.xdesktop .toolbar a.button.close:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF4"; }
+.xdesktop .toolbar a.button.download:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC2A"; }
+.xdesktop .toolbar a.button.move:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC2B"; }
+.xdesktop .toolbar a.button.print:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC2C"; }
+.xdesktop .toolbar a.button.send:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC2D"; }
+.xdesktop .toolbar a.button.savedraft:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC2E"; }
+.xdesktop .toolbar a.button.spellcheck:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC2F"; }
+.xdesktop .toolbar a.button.attach:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC30"; }
+.xdesktop .toolbar a.button.insertsig:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC33"; }
+.xdesktop .toolbar a.button.responses:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC34"; }
+.xdesktop .toolbar a.button.vcard_send:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC35"; }
+.xdesktop .toolbar a.button.import:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC17"; }
+.xdesktop .toolbar a.button.export:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC18"; }
+.xdesktop .toolbar a.button.search:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC36"; }
+.xdesktop .toolbar a.button.markasjunk2:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC27"; }
+.xdesktop .toolbar a.button.markasnotjunk2:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC27"; }
+.xdesktop .toolbar a.button.enigma:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC4C"; }
+.xdesktop .toolbar a.button.encrypt:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC4C"; }
+.xdesktop .toolbar a.button.message-list-sort:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC50"; }
+.xdesktop .toolbarmenu.selectable li a.selected:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC10"; }
+.xdesktop .dropbutton .dropbuttontip:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC03"; }
+.xdesktop div.expanded:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC0D"; }
+.xdesktop div.collapsed:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC0A"; }
+.xdesktop a.menuselector:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC03"; }
+.xdesktop .boxfooter .listbutton.groupactions:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC1F"; }
+.xdesktop .boxfooter .listbutton.add:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC0A"; }
+.xdesktop .boxfooter .listbutton.delete:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC08"; }
+.xdesktop .boxfooter .listbutton.removegroup:before {
+  font-family: IconFont;
+  font-weight: normal;
+  font-size: 1.6em;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC39"; }
+.xdesktop .boxpagenav a.icon.firstpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC04"; }
+.xdesktop .boxpagenav a.icon.lastpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC07"; }
+.xdesktop .boxpagenav a.icon.prevpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC05"; }
+.xdesktop .boxpagenav a.icon.nextpage:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC06"; }
+.xdesktop .compose-headers .iconbutton.cancel:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC08"; }
+.xdesktop .records-table tr td.threads div.listmenu:before,
+.xdesktop .records-table tr th.threads a.listmenu:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC1F"; }
+.xdesktop .records-table thead tr .status span.status:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC3A"; }
+.xdesktop .records-table thead tr .priority span.priority:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC14"; }
+.xdesktop .messagelist tr:hover td.status span:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC3A";
+  color: #bbb !important; }
+.xdesktop .messagelist tr:hover td.flag span:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC3B";
+  color: #bbb; }
+.xdesktop .messagelist tr .status span.unread:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC3A"; }
+.xdesktop .messagelist tr .flag span.flagged:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC3B"; }
+.xdesktop .messagelist tr .attachment span.attachment:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC30"; }
+.xdesktop .messagelist tr .attachment span.report:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC3D"; }
+.xdesktop .messagelist tr .priority span.prio1:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF6"; }
+.xdesktop .messagelist tr .priority span.prio2:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF6"; }
+.xdesktop .messagelist tr .priority span.prio4:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF7"; }
+.xdesktop .messagelist tr .priority span.prio5:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF7"; }
+.xdesktop .messagelist tr td.status span.deleted:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC08"; }
+.xdesktop .messagelist tr td.status span.unreadchildren:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC3A"; }
+.xdesktop .messagelist tr td.subject span.deleted:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC08"; }
+.xdesktop .messagelist tr td.subject span.unread:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC3A"; }
+.xdesktop .messagelist tr td.subject span.replied:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC22"; }
+.xdesktop .messagelist tr td.subject span.forwarded:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC24"; }
+.xdesktop .messagelist tr td.subject span.unreadchildren:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC3A"; }
+.xdesktop .records-table thead tr .sortedASC a:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC50"; }
+.xdesktop .records-table thead tr .sortedDESC a:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC51"; }
+.xdesktop #messagestack div:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC14"; }
+.xdesktop #messagestack div.error:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC08"; }
+.xdesktop #messagestack div.warning:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC14"; }
+.xdesktop #messagestack div.confirmation:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC10"; }
+.xdesktop #searchmenulink:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC36"; }
+.xdesktop #quicksearchbar #searchmenulink:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC36" "\EC03"; }
+.xdesktop #searchreset:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC08"; }
+.xdesktop #maillistmode:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC37" "    "; }
+.xdesktop #mailthreadmode:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC3F"; }
+.xdesktop .fullheight #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF2"; }
+.xdesktop #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF3"; }
+.xdesktop #custom-login-submit:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF5"; }
+.xdesktop #xsidebar-button:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC01"; }
+.xdesktop #xsidebar-button.collapsed:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC00"; }
+.xdesktop #xsidebar h2.boxtitle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC02"; }
+.xdesktop #xsidebar .collapsed h2.boxtitle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC03"; }
+.xdesktop .button.calendar-today:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC43"; }
+.xdesktop .button.calendar-prev:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF8"; }
+.xdesktop .button.calendar-next:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF9"; }
+.xdesktop #xcalendar-toolbar .button.calendar-day:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC47"; }
+.xdesktop #xcalendar-toolbar .button.calendar-week:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC19"; }
+.xdesktop #xcalendar-toolbar .button.calendar-month:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC1A"; }
+.xdesktop #xcalendar-toolbar .button.calendar-agenda:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC1B"; }
+.xdesktop #xcalendar-toolbar .button.calendar-add-event:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC0B"; }
+.xdesktop #calendar-list-container .new-calendar:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC0C"; }
+.xdesktop #calendar-list-container .calendar-item .edit:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC32"; }
+.xdesktop #helptoolbar a.button.help:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC48"; }
+.xdesktop #helptoolbar a.button.about:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC15"; }
+.xdesktop #helptoolbar a.button.license:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC1B"; }
+
+.xdesktop.minimal #taskbar .minmodetoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC03"; }
+
+.xdesktop.xvertical-preview .fullheight #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF0"; }
+.xdesktop.xvertical-preview #mailpreviewtoggle:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EBF1"; }
+
+body.skin-icloud #login-form .support-link:after {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC15"; }
+body.skin-icloud #login-form .box-bottom #message div.warning:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC14"; }
+body.skin-icloud #login-form .box-bottom #message div.error:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC14"; }
+body.skin-icloud #login-form .box-bottom #message div.loading:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC16"; }
+body.skin-icloud #login-form .box-bottom #message div.notice:before {
+  font-family: IconFont;
+  font-weight: normal;
+  position: relative;
+  background-image: none;
+  text-indent: 0;
+  content: "\EC16"; }
+
+.xmobile {
+  /* gestures */
+  /* plugins */
+  /* xcalendar */ }
+  .xmobile #main-menu a span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC4B"; }
+  .xmobile #main-menu #button-taskbar span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC37"; }
+  .xmobile #main-menu #button-mail-back span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBF4"; }
+  .xmobile #main-menu #button-compose-settings span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC1F"; }
+  .xmobile #main-menu #button-send span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC2D"; }
+  .xmobile #main-menu #button-reply span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC22"; }
+  .xmobile #main-menu #button-toolbar span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC4A"; }
+  .xmobile #main-menu #button-format span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC38"; }
+  .xmobile #main-menu #button-compose span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC31"; }
+  .xmobile #main-menu #button-users span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC1D"; }
+  .xmobile #main-menu #button-folders span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC2B"; }
+  .xmobile #main-menu #button-mail span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC4A"; }
+  .xmobile #main-menu #button-funnel span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC1F"; }
+  .xmobile .popup-close a:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBFC"; }
+  .xmobile .toolbarmenu.selectable li a.selected:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC10"; }
+  .xmobile #mailboxlist li div.collapsed:before,
+  .xmobile #directorylist li.addressbook div.collapsed:before,
+  .xmobile div.collapsed:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC01"; }
+  .xmobile #mailboxlist li div.expanded:before,
+  .xmobile #directorylist li.addressbook div.expanded:before,
+  .xmobile div.expanded:before {
+    font-family: IconFont;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC03"; }
+  .xmobile #messagelist td.subject:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC10"; }
+  .xmobile #messagelist td.flag span.flagged:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC3B"; }
+  .xmobile #messagelist td.status span.unread:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC3A"; }
+  .xmobile #messagelist td.attachment span.attachment:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC30"; }
+  .xmobile #messagelist td.attachment span.report:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC3D"; }
+  .xmobile #messagelist td.subject span.msgicon.replied:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC22"; }
+  .xmobile #messagelist td.subject span.msgicon.forwarded:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC24"; }
+  .xmobile #messagelist td.subject span.msgicon.replied.forwarded:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC3E"; }
+  .xmobile .moreheaderstoggle.remove .iconlink:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBFA"; }
+  .xmobile .moreheaderstoggle .iconlink:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBFB"; }
+  .xmobile #full-headers .more-headers.show-headers:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBFF"; }
+  .xmobile #full-headers .more-headers.hide-headers:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBFE"; }
+  .xmobile #attachment-list .delete:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC08"; }
+  .xmobile #attachment-list .drop:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBFF"; }
+  .xmobile .rcmaddcontact:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC1D"; }
+  .xmobile .settings-button:nth-child(3) span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC1E"; }
+  .xmobile .settings-button:nth-child(4) span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC19"; }
+  .xmobile #messagestack div:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC14"; }
+  .xmobile #messagestack div.error:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC08"; }
+  .xmobile #messagestack div.warning:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC14"; }
+  .xmobile #messagestack div.confirmation:after {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC10"; }
+  .xmobile #messagestack div.loading:after {
+    content: ""; }
+  .xmobile a.firstpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC04"; }
+  .xmobile a.prevpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC05"; }
+  .xmobile a.nextpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC06"; }
+  .xmobile a.lastpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC07"; }
+  .xmobile #messageheader .pagenav a.prevpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBF2"; }
+  .xmobile #messageheader .pagenav a.nextpage:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBF3"; }
+  .xmobile #login-menu-button:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC37"; }
+  .xmobile #custom-login-submit:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBF5"; }
+  .xmobile #groupoptionslink span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC1F"; }
+  .xmobile #keyoptionslink span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC1F"; }
+  .xmobile a.listbutton.add span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC0A"; }
+  .xmobile a.listbutton.delete span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC0D"; }
+  .xmobile a.listbutton.removegroup span.inner:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC39"; }
+  .xmobile .message-action-links a.mal-flag:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC3C"; }
+  .xmobile .message-action-links a.mal-unflag:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC3B"; }
+  .xmobile .message-action-links a.mal-more:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC37"; }
+  .xmobile .message-action-links a.mal-delete:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC08"; }
+  .xmobile .message-action-read:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC4D"; }
+  .xmobile .message-action-read.unread:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC4E"; }
+  .xmobile #mainscreen.refresh:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC21"; }
+  .xmobile #mainscreen.progress:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC21"; }
+  .xmobile #mailview-right.gesture-pan.prev:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBF0"; }
+  .xmobile #mailview-right.gesture-pan.next:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EBF1"; }
+  .xmobile #mailview-right.gesture-pan.disabled:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC40"; }
+  .xmobile #filtersetmenulink:before,
+  .xmobile #filtermenulink:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC1F"; }
+  .xmobile #main-menu #xcalendar-main span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC44"; }
+  .xmobile #main-menu #xcalendar-date span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC45"; }
+  .xmobile #main-menu #xcalendar-list span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC46"; }
+  .xmobile #main-menu #xcalendar-toolbar-button span:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC4A"; }
+  .xmobile a.tab-summary:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC1E"; }
+  .xmobile a.tab-recurrence:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC49"; }
+  .xmobile a.tab-alarms:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC41"; }
+  .xmobile a.tab-attachments:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC30"; }
+  .xmobile a.tab-sharing:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC42"; }
+  .xmobile #calendar-list-container .new-calendar:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC0C"; }
+  .xmobile #calendar-list-container .calendar-item .edit:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC32"; }
+  .xmobile #helptoolbar a.button.help:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC48"; }
+  .xmobile #helptoolbar a.button.about:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC15"; }
+  .xmobile #helptoolbar a.button.license:before {
+    font-family: IconFont;
+    font-weight: normal;
+    position: relative;
+    background-image: none;
+    text-indent: 0;
+    content: "\EC1B"; }
+
+.color-F44336 #topnav,
+.color-F44336 #topline {
+  background: #F44336; }
+
+.xdesktop.color-F44336 #taskbar > a:hover,
+.xdesktop.color-F44336 #taskbar > span:hover,
+.xmobile.color-F44336 #main-menu,
+.xmobile.color-F44336 .popup-close,
+.xmobile.color-F44336 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-F44336 #messagelistcontainer .pagenav a.button,
+.xmobile.color-F44336 #messagestack div,
+.xmobile.color-F44336 #message-objects div a.button,
+.xmobile.color-F44336 .popup-box .popup-close,
+.xmobile.color-F44336 #contactphoto .formlinks a,
+.xmobile.color-F44336 .records-table thead tr th {
+  background-color: #D32F2F !important; }
+
+/*    .xdesktop.color-F44336 #topnav,
+    .xdesktop.color-F44336 #topline,
+    .xdesktop.color-F44336 #topline .topleft a,
+    .xdesktop.color-F44336 #topline .topright a,
+    .xdesktop.color-F44336 #taskbar a,
+    .xdesktop.color-F44336 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-F44336 input.material-input:checked + label.material,
+.color-F44336 input[type='button'],
+.color-F44336 input.button,
+.color-F44336 button,
+.color-F44336 .ui-button.ui-state-default,
+.xmobile.color-F44336 .boxfooter .listbutton {
+  background: #2979FF; }
+
+.color-F44336 input.material-input:checked + label.material {
+  border-color: #2979FF !important; }
+
+.color-F44336 #mailboxlist li.selected > a,
+.color-F44336 .messagelist tr.flagged td,
+.color-F44336 .messagelist tr.flagged td a,
+.color-F44336 .records-table tr.flagged td span,
+.color-F44336 #messagelist tr td .flag span.flagged:before,
+.color-F44336 .listing .selected > td,
+.color-F44336 .listing .selected > a {
+  color: #2979FF !important; }
+
+.color-F44336 select:focus,
+.color-F44336 textarea:focus,
+.color-F44336 input[type='text']:focus,
+.color-F44336 input[type='password']:focus,
+.color-F44336 input[type='number']:focus,
+.color-F44336 input[type='email']:focus,
+.color-F44336 ul.tabsbar .ui-tabs-active a,
+.color-F44336 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #2979FF !important; }
+
+.color-F44336 input[type='button']:hover,
+.color-F44336 input.button:hover,
+.color-F44336 button:hover,
+.color-F44336 .ui-button:hover,
+.color-F44336 .ui-button.ui-state-default:hover {
+  background-color: #236FEC; }
+
+.color-F44336 label.material:before {
+  background: #5494FF; }
+
+/*    .color-F44336 label.material:before,
+    .color-F44336 input.material-input:checked + label.material,
+    .color-F44336 input[type='button'],
+    .color-F44336 input.button,
+    .color-F44336 button,
+    .color-F44336 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-E91E63 #topnav,
+.color-E91E63 #topline {
+  background: #E91E63; }
+
+.xdesktop.color-E91E63 #taskbar > a:hover,
+.xdesktop.color-E91E63 #taskbar > span:hover,
+.xmobile.color-E91E63 #main-menu,
+.xmobile.color-E91E63 .popup-close,
+.xmobile.color-E91E63 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-E91E63 #messagelistcontainer .pagenav a.button,
+.xmobile.color-E91E63 #messagestack div,
+.xmobile.color-E91E63 #message-objects div a.button,
+.xmobile.color-E91E63 .popup-box .popup-close,
+.xmobile.color-E91E63 #contactphoto .formlinks a,
+.xmobile.color-E91E63 .records-table thead tr th {
+  background-color: #C2185B !important; }
+
+/*    .xdesktop.color-E91E63 #topnav,
+    .xdesktop.color-E91E63 #topline,
+    .xdesktop.color-E91E63 #topline .topleft a,
+    .xdesktop.color-E91E63 #topline .topright a,
+    .xdesktop.color-E91E63 #taskbar a,
+    .xdesktop.color-E91E63 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-E91E63 input.material-input:checked + label.material,
+.color-E91E63 input[type='button'],
+.color-E91E63 input.button,
+.color-E91E63 button,
+.color-E91E63 .ui-button.ui-state-default,
+.xmobile.color-E91E63 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-E91E63 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-E91E63 #mailboxlist li.selected > a,
+.color-E91E63 .messagelist tr.flagged td,
+.color-E91E63 .messagelist tr.flagged td a,
+.color-E91E63 .records-table tr.flagged td span,
+.color-E91E63 #messagelist tr td .flag span.flagged:before,
+.color-E91E63 .listing .selected > td,
+.color-E91E63 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-E91E63 select:focus,
+.color-E91E63 textarea:focus,
+.color-E91E63 input[type='text']:focus,
+.color-E91E63 input[type='password']:focus,
+.color-E91E63 input[type='number']:focus,
+.color-E91E63 input[type='email']:focus,
+.color-E91E63 ul.tabsbar .ui-tabs-active a,
+.color-E91E63 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-E91E63 input[type='button']:hover,
+.color-E91E63 input.button:hover,
+.color-E91E63 button:hover,
+.color-E91E63 .ui-button:hover,
+.color-E91E63 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-E91E63 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-E91E63 label.material:before,
+    .color-E91E63 input.material-input:checked + label.material,
+    .color-E91E63 input[type='button'],
+    .color-E91E63 input.button,
+    .color-E91E63 button,
+    .color-E91E63 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-9C27B0 #topnav,
+.color-9C27B0 #topline {
+  background: #9C27B0; }
+
+.xdesktop.color-9C27B0 #taskbar > a:hover,
+.xdesktop.color-9C27B0 #taskbar > span:hover,
+.xmobile.color-9C27B0 #main-menu,
+.xmobile.color-9C27B0 .popup-close,
+.xmobile.color-9C27B0 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-9C27B0 #messagelistcontainer .pagenav a.button,
+.xmobile.color-9C27B0 #messagestack div,
+.xmobile.color-9C27B0 #message-objects div a.button,
+.xmobile.color-9C27B0 .popup-box .popup-close,
+.xmobile.color-9C27B0 #contactphoto .formlinks a,
+.xmobile.color-9C27B0 .records-table thead tr th {
+  background-color: #7B1FA2 !important; }
+
+/*    .xdesktop.color-9C27B0 #topnav,
+    .xdesktop.color-9C27B0 #topline,
+    .xdesktop.color-9C27B0 #topline .topleft a,
+    .xdesktop.color-9C27B0 #topline .topright a,
+    .xdesktop.color-9C27B0 #taskbar a,
+    .xdesktop.color-9C27B0 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-9C27B0 input.material-input:checked + label.material,
+.color-9C27B0 input[type='button'],
+.color-9C27B0 input.button,
+.color-9C27B0 button,
+.color-9C27B0 .ui-button.ui-state-default,
+.xmobile.color-9C27B0 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-9C27B0 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-9C27B0 #mailboxlist li.selected > a,
+.color-9C27B0 .messagelist tr.flagged td,
+.color-9C27B0 .messagelist tr.flagged td a,
+.color-9C27B0 .records-table tr.flagged td span,
+.color-9C27B0 #messagelist tr td .flag span.flagged:before,
+.color-9C27B0 .listing .selected > td,
+.color-9C27B0 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-9C27B0 select:focus,
+.color-9C27B0 textarea:focus,
+.color-9C27B0 input[type='text']:focus,
+.color-9C27B0 input[type='password']:focus,
+.color-9C27B0 input[type='number']:focus,
+.color-9C27B0 input[type='email']:focus,
+.color-9C27B0 ul.tabsbar .ui-tabs-active a,
+.color-9C27B0 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-9C27B0 input[type='button']:hover,
+.color-9C27B0 input.button:hover,
+.color-9C27B0 button:hover,
+.color-9C27B0 .ui-button:hover,
+.color-9C27B0 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-9C27B0 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-9C27B0 label.material:before,
+    .color-9C27B0 input.material-input:checked + label.material,
+    .color-9C27B0 input[type='button'],
+    .color-9C27B0 input.button,
+    .color-9C27B0 button,
+    .color-9C27B0 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-673AB7 #topnav,
+.color-673AB7 #topline {
+  background: #673AB7; }
+
+.xdesktop.color-673AB7 #taskbar > a:hover,
+.xdesktop.color-673AB7 #taskbar > span:hover,
+.xmobile.color-673AB7 #main-menu,
+.xmobile.color-673AB7 .popup-close,
+.xmobile.color-673AB7 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-673AB7 #messagelistcontainer .pagenav a.button,
+.xmobile.color-673AB7 #messagestack div,
+.xmobile.color-673AB7 #message-objects div a.button,
+.xmobile.color-673AB7 .popup-box .popup-close,
+.xmobile.color-673AB7 #contactphoto .formlinks a,
+.xmobile.color-673AB7 .records-table thead tr th {
+  background-color: #512DA8 !important; }
+
+/*    .xdesktop.color-673AB7 #topnav,
+    .xdesktop.color-673AB7 #topline,
+    .xdesktop.color-673AB7 #topline .topleft a,
+    .xdesktop.color-673AB7 #topline .topright a,
+    .xdesktop.color-673AB7 #taskbar a,
+    .xdesktop.color-673AB7 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-673AB7 input.material-input:checked + label.material,
+.color-673AB7 input[type='button'],
+.color-673AB7 input.button,
+.color-673AB7 button,
+.color-673AB7 .ui-button.ui-state-default,
+.xmobile.color-673AB7 .boxfooter .listbutton {
+  background: #F50057; }
+
+.color-673AB7 input.material-input:checked + label.material {
+  border-color: #F50057 !important; }
+
+.color-673AB7 #mailboxlist li.selected > a,
+.color-673AB7 .messagelist tr.flagged td,
+.color-673AB7 .messagelist tr.flagged td a,
+.color-673AB7 .records-table tr.flagged td span,
+.color-673AB7 #messagelist tr td .flag span.flagged:before,
+.color-673AB7 .listing .selected > td,
+.color-673AB7 .listing .selected > a {
+  color: #F50057 !important; }
+
+.color-673AB7 select:focus,
+.color-673AB7 textarea:focus,
+.color-673AB7 input[type='text']:focus,
+.color-673AB7 input[type='password']:focus,
+.color-673AB7 input[type='number']:focus,
+.color-673AB7 input[type='email']:focus,
+.color-673AB7 ul.tabsbar .ui-tabs-active a,
+.color-673AB7 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #F50057 !important; }
+
+.color-673AB7 input[type='button']:hover,
+.color-673AB7 input.button:hover,
+.color-673AB7 button:hover,
+.color-673AB7 .ui-button:hover,
+.color-673AB7 .ui-button.ui-state-default:hover {
+  background-color: #DF0355; }
+
+.color-673AB7 label.material:before {
+  background: #F73379; }
+
+/*    .color-673AB7 label.material:before,
+    .color-673AB7 input.material-input:checked + label.material,
+    .color-673AB7 input[type='button'],
+    .color-673AB7 input.button,
+    .color-673AB7 button,
+    .color-673AB7 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-3F51B5 #topnav,
+.color-3F51B5 #topline {
+  background: #3F51B5; }
+
+.xdesktop.color-3F51B5 #taskbar > a:hover,
+.xdesktop.color-3F51B5 #taskbar > span:hover,
+.xmobile.color-3F51B5 #main-menu,
+.xmobile.color-3F51B5 .popup-close,
+.xmobile.color-3F51B5 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-3F51B5 #messagelistcontainer .pagenav a.button,
+.xmobile.color-3F51B5 #messagestack div,
+.xmobile.color-3F51B5 #message-objects div a.button,
+.xmobile.color-3F51B5 .popup-box .popup-close,
+.xmobile.color-3F51B5 #contactphoto .formlinks a,
+.xmobile.color-3F51B5 .records-table thead tr th {
+  background-color: #303F9F !important; }
+
+/*    .xdesktop.color-3F51B5 #topnav,
+    .xdesktop.color-3F51B5 #topline,
+    .xdesktop.color-3F51B5 #topline .topleft a,
+    .xdesktop.color-3F51B5 #topline .topright a,
+    .xdesktop.color-3F51B5 #taskbar a,
+    .xdesktop.color-3F51B5 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-3F51B5 input.material-input:checked + label.material,
+.color-3F51B5 input[type='button'],
+.color-3F51B5 input.button,
+.color-3F51B5 button,
+.color-3F51B5 .ui-button.ui-state-default,
+.xmobile.color-3F51B5 .boxfooter .listbutton {
+  background: #F50057; }
+
+.color-3F51B5 input.material-input:checked + label.material {
+  border-color: #F50057 !important; }
+
+.color-3F51B5 #mailboxlist li.selected > a,
+.color-3F51B5 .messagelist tr.flagged td,
+.color-3F51B5 .messagelist tr.flagged td a,
+.color-3F51B5 .records-table tr.flagged td span,
+.color-3F51B5 #messagelist tr td .flag span.flagged:before,
+.color-3F51B5 .listing .selected > td,
+.color-3F51B5 .listing .selected > a {
+  color: #F50057 !important; }
+
+.color-3F51B5 select:focus,
+.color-3F51B5 textarea:focus,
+.color-3F51B5 input[type='text']:focus,
+.color-3F51B5 input[type='password']:focus,
+.color-3F51B5 input[type='number']:focus,
+.color-3F51B5 input[type='email']:focus,
+.color-3F51B5 ul.tabsbar .ui-tabs-active a,
+.color-3F51B5 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #F50057 !important; }
+
+.color-3F51B5 input[type='button']:hover,
+.color-3F51B5 input.button:hover,
+.color-3F51B5 button:hover,
+.color-3F51B5 .ui-button:hover,
+.color-3F51B5 .ui-button.ui-state-default:hover {
+  background-color: #DF0355; }
+
+.color-3F51B5 label.material:before {
+  background: #F73379; }
+
+/*    .color-3F51B5 label.material:before,
+    .color-3F51B5 input.material-input:checked + label.material,
+    .color-3F51B5 input[type='button'],
+    .color-3F51B5 input.button,
+    .color-3F51B5 button,
+    .color-3F51B5 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-1976D2 #topnav,
+.color-1976D2 #topline {
+  background: #1976D2; }
+
+.xdesktop.color-1976D2 #taskbar > a:hover,
+.xdesktop.color-1976D2 #taskbar > span:hover,
+.xmobile.color-1976D2 #main-menu,
+.xmobile.color-1976D2 .popup-close,
+.xmobile.color-1976D2 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-1976D2 #messagelistcontainer .pagenav a.button,
+.xmobile.color-1976D2 #messagestack div,
+.xmobile.color-1976D2 #message-objects div a.button,
+.xmobile.color-1976D2 .popup-box .popup-close,
+.xmobile.color-1976D2 #contactphoto .formlinks a,
+.xmobile.color-1976D2 .records-table thead tr th {
+  background-color: #1565C0 !important; }
+
+/*    .xdesktop.color-1976D2 #topnav,
+    .xdesktop.color-1976D2 #topline,
+    .xdesktop.color-1976D2 #topline .topleft a,
+    .xdesktop.color-1976D2 #topline .topright a,
+    .xdesktop.color-1976D2 #taskbar a,
+    .xdesktop.color-1976D2 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-1976D2 input.material-input:checked + label.material,
+.color-1976D2 input[type='button'],
+.color-1976D2 input.button,
+.color-1976D2 button,
+.color-1976D2 .ui-button.ui-state-default,
+.xmobile.color-1976D2 .boxfooter .listbutton {
+  background: #FF1744; }
+
+.color-1976D2 input.material-input:checked + label.material {
+  border-color: #FF1744 !important; }
+
+.color-1976D2 #mailboxlist li.selected > a,
+.color-1976D2 .messagelist tr.flagged td,
+.color-1976D2 .messagelist tr.flagged td a,
+.color-1976D2 .records-table tr.flagged td span,
+.color-1976D2 #messagelist tr td .flag span.flagged:before,
+.color-1976D2 .listing .selected > td,
+.color-1976D2 .listing .selected > a {
+  color: #FF1744 !important; }
+
+.color-1976D2 select:focus,
+.color-1976D2 textarea:focus,
+.color-1976D2 input[type='text']:focus,
+.color-1976D2 input[type='password']:focus,
+.color-1976D2 input[type='number']:focus,
+.color-1976D2 input[type='email']:focus,
+.color-1976D2 ul.tabsbar .ui-tabs-active a,
+.color-1976D2 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF1744 !important; }
+
+.color-1976D2 input[type='button']:hover,
+.color-1976D2 input.button:hover,
+.color-1976D2 button:hover,
+.color-1976D2 .ui-button:hover,
+.color-1976D2 .ui-button.ui-state-default:hover {
+  background-color: #F1183C; }
+
+.color-1976D2 label.material:before {
+  background: #FF4569; }
+
+/*    .color-1976D2 label.material:before,
+    .color-1976D2 input.material-input:checked + label.material,
+    .color-1976D2 input[type='button'],
+    .color-1976D2 input.button,
+    .color-1976D2 button,
+    .color-1976D2 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-039BE5 #topnav,
+.color-039BE5 #topline {
+  background: #039BE5; }
+
+.xdesktop.color-039BE5 #taskbar > a:hover,
+.xdesktop.color-039BE5 #taskbar > span:hover,
+.xmobile.color-039BE5 #main-menu,
+.xmobile.color-039BE5 .popup-close,
+.xmobile.color-039BE5 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-039BE5 #messagelistcontainer .pagenav a.button,
+.xmobile.color-039BE5 #messagestack div,
+.xmobile.color-039BE5 #message-objects div a.button,
+.xmobile.color-039BE5 .popup-box .popup-close,
+.xmobile.color-039BE5 #contactphoto .formlinks a,
+.xmobile.color-039BE5 .records-table thead tr th {
+  background-color: #0288D1 !important; }
+
+/*    .xdesktop.color-039BE5 #topnav,
+    .xdesktop.color-039BE5 #topline,
+    .xdesktop.color-039BE5 #topline .topleft a,
+    .xdesktop.color-039BE5 #topline .topright a,
+    .xdesktop.color-039BE5 #taskbar a,
+    .xdesktop.color-039BE5 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-039BE5 input.material-input:checked + label.material,
+.color-039BE5 input[type='button'],
+.color-039BE5 input.button,
+.color-039BE5 button,
+.color-039BE5 .ui-button.ui-state-default,
+.xmobile.color-039BE5 .boxfooter .listbutton {
+  background: #FF1744; }
+
+.color-039BE5 input.material-input:checked + label.material {
+  border-color: #FF1744 !important; }
+
+.color-039BE5 #mailboxlist li.selected > a,
+.color-039BE5 .messagelist tr.flagged td,
+.color-039BE5 .messagelist tr.flagged td a,
+.color-039BE5 .records-table tr.flagged td span,
+.color-039BE5 #messagelist tr td .flag span.flagged:before,
+.color-039BE5 .listing .selected > td,
+.color-039BE5 .listing .selected > a {
+  color: #FF1744 !important; }
+
+.color-039BE5 select:focus,
+.color-039BE5 textarea:focus,
+.color-039BE5 input[type='text']:focus,
+.color-039BE5 input[type='password']:focus,
+.color-039BE5 input[type='number']:focus,
+.color-039BE5 input[type='email']:focus,
+.color-039BE5 ul.tabsbar .ui-tabs-active a,
+.color-039BE5 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF1744 !important; }
+
+.color-039BE5 input[type='button']:hover,
+.color-039BE5 input.button:hover,
+.color-039BE5 button:hover,
+.color-039BE5 .ui-button:hover,
+.color-039BE5 .ui-button.ui-state-default:hover {
+  background-color: #F1183C; }
+
+.color-039BE5 label.material:before {
+  background: #FF4569; }
+
+/*    .color-039BE5 label.material:before,
+    .color-039BE5 input.material-input:checked + label.material,
+    .color-039BE5 input[type='button'],
+    .color-039BE5 input.button,
+    .color-039BE5 button,
+    .color-039BE5 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-0097A7 #topnav,
+.color-0097A7 #topline {
+  background: #0097A7; }
+
+.xdesktop.color-0097A7 #taskbar > a:hover,
+.xdesktop.color-0097A7 #taskbar > span:hover,
+.xmobile.color-0097A7 #main-menu,
+.xmobile.color-0097A7 .popup-close,
+.xmobile.color-0097A7 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-0097A7 #messagelistcontainer .pagenav a.button,
+.xmobile.color-0097A7 #messagestack div,
+.xmobile.color-0097A7 #message-objects div a.button,
+.xmobile.color-0097A7 .popup-box .popup-close,
+.xmobile.color-0097A7 #contactphoto .formlinks a,
+.xmobile.color-0097A7 .records-table thead tr th {
+  background-color: #00838F !important; }
+
+/*    .xdesktop.color-0097A7 #topnav,
+    .xdesktop.color-0097A7 #topline,
+    .xdesktop.color-0097A7 #topline .topleft a,
+    .xdesktop.color-0097A7 #topline .topright a,
+    .xdesktop.color-0097A7 #taskbar a,
+    .xdesktop.color-0097A7 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-0097A7 input.material-input:checked + label.material,
+.color-0097A7 input[type='button'],
+.color-0097A7 input.button,
+.color-0097A7 button,
+.color-0097A7 .ui-button.ui-state-default,
+.xmobile.color-0097A7 .boxfooter .listbutton {
+  background: #FF1744; }
+
+.color-0097A7 input.material-input:checked + label.material {
+  border-color: #FF1744 !important; }
+
+.color-0097A7 #mailboxlist li.selected > a,
+.color-0097A7 .messagelist tr.flagged td,
+.color-0097A7 .messagelist tr.flagged td a,
+.color-0097A7 .records-table tr.flagged td span,
+.color-0097A7 #messagelist tr td .flag span.flagged:before,
+.color-0097A7 .listing .selected > td,
+.color-0097A7 .listing .selected > a {
+  color: #FF1744 !important; }
+
+.color-0097A7 select:focus,
+.color-0097A7 textarea:focus,
+.color-0097A7 input[type='text']:focus,
+.color-0097A7 input[type='password']:focus,
+.color-0097A7 input[type='number']:focus,
+.color-0097A7 input[type='email']:focus,
+.color-0097A7 ul.tabsbar .ui-tabs-active a,
+.color-0097A7 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF1744 !important; }
+
+.color-0097A7 input[type='button']:hover,
+.color-0097A7 input.button:hover,
+.color-0097A7 button:hover,
+.color-0097A7 .ui-button:hover,
+.color-0097A7 .ui-button.ui-state-default:hover {
+  background-color: #F1183C; }
+
+.color-0097A7 label.material:before {
+  background: #FF4569; }
+
+/*    .color-0097A7 label.material:before,
+    .color-0097A7 input.material-input:checked + label.material,
+    .color-0097A7 input[type='button'],
+    .color-0097A7 input.button,
+    .color-0097A7 button,
+    .color-0097A7 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-009688 #topnav,
+.color-009688 #topline {
+  background: #009688; }
+
+.xdesktop.color-009688 #taskbar > a:hover,
+.xdesktop.color-009688 #taskbar > span:hover,
+.xmobile.color-009688 #main-menu,
+.xmobile.color-009688 .popup-close,
+.xmobile.color-009688 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-009688 #messagelistcontainer .pagenav a.button,
+.xmobile.color-009688 #messagestack div,
+.xmobile.color-009688 #message-objects div a.button,
+.xmobile.color-009688 .popup-box .popup-close,
+.xmobile.color-009688 #contactphoto .formlinks a,
+.xmobile.color-009688 .records-table thead tr th {
+  background-color: #00796B !important; }
+
+/*    .xdesktop.color-009688 #topnav,
+    .xdesktop.color-009688 #topline,
+    .xdesktop.color-009688 #topline .topleft a,
+    .xdesktop.color-009688 #topline .topright a,
+    .xdesktop.color-009688 #taskbar a,
+    .xdesktop.color-009688 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-009688 input.material-input:checked + label.material,
+.color-009688 input[type='button'],
+.color-009688 input.button,
+.color-009688 button,
+.color-009688 .ui-button.ui-state-default,
+.xmobile.color-009688 .boxfooter .listbutton {
+  background: #FF3D00; }
+
+.color-009688 input.material-input:checked + label.material {
+  border-color: #FF3D00 !important; }
+
+.color-009688 #mailboxlist li.selected > a,
+.color-009688 .messagelist tr.flagged td,
+.color-009688 .messagelist tr.flagged td a,
+.color-009688 .records-table tr.flagged td span,
+.color-009688 #messagelist tr td .flag span.flagged:before,
+.color-009688 .listing .selected > td,
+.color-009688 .listing .selected > a {
+  color: #FF3D00 !important; }
+
+.color-009688 select:focus,
+.color-009688 textarea:focus,
+.color-009688 input[type='text']:focus,
+.color-009688 input[type='password']:focus,
+.color-009688 input[type='number']:focus,
+.color-009688 input[type='email']:focus,
+.color-009688 ul.tabsbar .ui-tabs-active a,
+.color-009688 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF3D00 !important; }
+
+.color-009688 input[type='button']:hover,
+.color-009688 input.button:hover,
+.color-009688 button:hover,
+.color-009688 .ui-button:hover,
+.color-009688 .ui-button.ui-state-default:hover {
+  background-color: #DD2C00; }
+
+.color-009688 label.material:before {
+  background: #E45633; }
+
+/*    .color-009688 label.material:before,
+    .color-009688 input.material-input:checked + label.material,
+    .color-009688 input[type='button'],
+    .color-009688 input.button,
+    .color-009688 button,
+    .color-009688 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-43A047 #topnav,
+.color-43A047 #topline {
+  background: #43A047; }
+
+.xdesktop.color-43A047 #taskbar > a:hover,
+.xdesktop.color-43A047 #taskbar > span:hover,
+.xmobile.color-43A047 #main-menu,
+.xmobile.color-43A047 .popup-close,
+.xmobile.color-43A047 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-43A047 #messagelistcontainer .pagenav a.button,
+.xmobile.color-43A047 #messagestack div,
+.xmobile.color-43A047 #message-objects div a.button,
+.xmobile.color-43A047 .popup-box .popup-close,
+.xmobile.color-43A047 #contactphoto .formlinks a,
+.xmobile.color-43A047 .records-table thead tr th {
+  background-color: #388E3C !important; }
+
+/*    .xdesktop.color-43A047 #topnav,
+    .xdesktop.color-43A047 #topline,
+    .xdesktop.color-43A047 #topline .topleft a,
+    .xdesktop.color-43A047 #topline .topright a,
+    .xdesktop.color-43A047 #taskbar a,
+    .xdesktop.color-43A047 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-43A047 input.material-input:checked + label.material,
+.color-43A047 input[type='button'],
+.color-43A047 input.button,
+.color-43A047 button,
+.color-43A047 .ui-button.ui-state-default,
+.xmobile.color-43A047 .boxfooter .listbutton {
+  background: #FF3D00; }
+
+.color-43A047 input.material-input:checked + label.material {
+  border-color: #FF3D00 !important; }
+
+.color-43A047 #mailboxlist li.selected > a,
+.color-43A047 .messagelist tr.flagged td,
+.color-43A047 .messagelist tr.flagged td a,
+.color-43A047 .records-table tr.flagged td span,
+.color-43A047 #messagelist tr td .flag span.flagged:before,
+.color-43A047 .listing .selected > td,
+.color-43A047 .listing .selected > a {
+  color: #FF3D00 !important; }
+
+.color-43A047 select:focus,
+.color-43A047 textarea:focus,
+.color-43A047 input[type='text']:focus,
+.color-43A047 input[type='password']:focus,
+.color-43A047 input[type='number']:focus,
+.color-43A047 input[type='email']:focus,
+.color-43A047 ul.tabsbar .ui-tabs-active a,
+.color-43A047 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF3D00 !important; }
+
+.color-43A047 input[type='button']:hover,
+.color-43A047 input.button:hover,
+.color-43A047 button:hover,
+.color-43A047 .ui-button:hover,
+.color-43A047 .ui-button.ui-state-default:hover {
+  background-color: #DD2C00; }
+
+.color-43A047 label.material:before {
+  background: #E45633; }
+
+/*    .color-43A047 label.material:before,
+    .color-43A047 input.material-input:checked + label.material,
+    .color-43A047 input[type='button'],
+    .color-43A047 input.button,
+    .color-43A047 button,
+    .color-43A047 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-689F38 #topnav,
+.color-689F38 #topline {
+  background: #689F38; }
+
+.xdesktop.color-689F38 #taskbar > a:hover,
+.xdesktop.color-689F38 #taskbar > span:hover,
+.xmobile.color-689F38 #main-menu,
+.xmobile.color-689F38 .popup-close,
+.xmobile.color-689F38 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-689F38 #messagelistcontainer .pagenav a.button,
+.xmobile.color-689F38 #messagestack div,
+.xmobile.color-689F38 #message-objects div a.button,
+.xmobile.color-689F38 .popup-box .popup-close,
+.xmobile.color-689F38 #contactphoto .formlinks a,
+.xmobile.color-689F38 .records-table thead tr th {
+  background-color: #558B2F !important; }
+
+/*    .xdesktop.color-689F38 #topnav,
+    .xdesktop.color-689F38 #topline,
+    .xdesktop.color-689F38 #topline .topleft a,
+    .xdesktop.color-689F38 #topline .topright a,
+    .xdesktop.color-689F38 #taskbar a,
+    .xdesktop.color-689F38 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-689F38 input.material-input:checked + label.material,
+.color-689F38 input[type='button'],
+.color-689F38 input.button,
+.color-689F38 button,
+.color-689F38 .ui-button.ui-state-default,
+.xmobile.color-689F38 .boxfooter .listbutton {
+  background: #FF3D00; }
+
+.color-689F38 input.material-input:checked + label.material {
+  border-color: #FF3D00 !important; }
+
+.color-689F38 #mailboxlist li.selected > a,
+.color-689F38 .messagelist tr.flagged td,
+.color-689F38 .messagelist tr.flagged td a,
+.color-689F38 .records-table tr.flagged td span,
+.color-689F38 #messagelist tr td .flag span.flagged:before,
+.color-689F38 .listing .selected > td,
+.color-689F38 .listing .selected > a {
+  color: #FF3D00 !important; }
+
+.color-689F38 select:focus,
+.color-689F38 textarea:focus,
+.color-689F38 input[type='text']:focus,
+.color-689F38 input[type='password']:focus,
+.color-689F38 input[type='number']:focus,
+.color-689F38 input[type='email']:focus,
+.color-689F38 ul.tabsbar .ui-tabs-active a,
+.color-689F38 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF3D00 !important; }
+
+.color-689F38 input[type='button']:hover,
+.color-689F38 input.button:hover,
+.color-689F38 button:hover,
+.color-689F38 .ui-button:hover,
+.color-689F38 .ui-button.ui-state-default:hover {
+  background-color: #DD2C00; }
+
+.color-689F38 label.material:before {
+  background: #E45633; }
+
+/*    .color-689F38 label.material:before,
+    .color-689F38 input.material-input:checked + label.material,
+    .color-689F38 input[type='button'],
+    .color-689F38 input.button,
+    .color-689F38 button,
+    .color-689F38 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-AFB42B #topnav,
+.color-AFB42B #topline {
+  background: #AFB42B; }
+
+.xdesktop.color-AFB42B #taskbar > a:hover,
+.xdesktop.color-AFB42B #taskbar > span:hover,
+.xmobile.color-AFB42B #main-menu,
+.xmobile.color-AFB42B .popup-close,
+.xmobile.color-AFB42B #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-AFB42B #messagelistcontainer .pagenav a.button,
+.xmobile.color-AFB42B #messagestack div,
+.xmobile.color-AFB42B #message-objects div a.button,
+.xmobile.color-AFB42B .popup-box .popup-close,
+.xmobile.color-AFB42B #contactphoto .formlinks a,
+.xmobile.color-AFB42B .records-table thead tr th {
+  background-color: #9E9D24 !important; }
+
+/*    .xdesktop.color-AFB42B #topnav,
+    .xdesktop.color-AFB42B #topline,
+    .xdesktop.color-AFB42B #topline .topleft a,
+    .xdesktop.color-AFB42B #topline .topright a,
+    .xdesktop.color-AFB42B #taskbar a,
+    .xdesktop.color-AFB42B #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-AFB42B input.material-input:checked + label.material,
+.color-AFB42B input[type='button'],
+.color-AFB42B input.button,
+.color-AFB42B button,
+.color-AFB42B .ui-button.ui-state-default,
+.xmobile.color-AFB42B .boxfooter .listbutton {
+  background: #FF1744; }
+
+.color-AFB42B input.material-input:checked + label.material {
+  border-color: #FF1744 !important; }
+
+.color-AFB42B #mailboxlist li.selected > a,
+.color-AFB42B .messagelist tr.flagged td,
+.color-AFB42B .messagelist tr.flagged td a,
+.color-AFB42B .records-table tr.flagged td span,
+.color-AFB42B #messagelist tr td .flag span.flagged:before,
+.color-AFB42B .listing .selected > td,
+.color-AFB42B .listing .selected > a {
+  color: #FF1744 !important; }
+
+.color-AFB42B select:focus,
+.color-AFB42B textarea:focus,
+.color-AFB42B input[type='text']:focus,
+.color-AFB42B input[type='password']:focus,
+.color-AFB42B input[type='number']:focus,
+.color-AFB42B input[type='email']:focus,
+.color-AFB42B ul.tabsbar .ui-tabs-active a,
+.color-AFB42B .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF1744 !important; }
+
+.color-AFB42B input[type='button']:hover,
+.color-AFB42B input.button:hover,
+.color-AFB42B button:hover,
+.color-AFB42B .ui-button:hover,
+.color-AFB42B .ui-button.ui-state-default:hover {
+  background-color: #F1183C; }
+
+.color-AFB42B label.material:before {
+  background: #FF4569; }
+
+/*    .color-AFB42B label.material:before,
+    .color-AFB42B input.material-input:checked + label.material,
+    .color-AFB42B input[type='button'],
+    .color-AFB42B input.button,
+    .color-AFB42B button,
+    .color-AFB42B .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-FBC02D #topnav,
+.color-FBC02D #topline {
+  background: #FBC02D; }
+
+.xdesktop.color-FBC02D #taskbar > a:hover,
+.xdesktop.color-FBC02D #taskbar > span:hover,
+.xmobile.color-FBC02D #main-menu,
+.xmobile.color-FBC02D .popup-close,
+.xmobile.color-FBC02D #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-FBC02D #messagelistcontainer .pagenav a.button,
+.xmobile.color-FBC02D #messagestack div,
+.xmobile.color-FBC02D #message-objects div a.button,
+.xmobile.color-FBC02D .popup-box .popup-close,
+.xmobile.color-FBC02D #contactphoto .formlinks a,
+.xmobile.color-FBC02D .records-table thead tr th {
+  background-color: #F9A825 !important; }
+
+/*    .xdesktop.color-FBC02D #topnav,
+    .xdesktop.color-FBC02D #topline,
+    .xdesktop.color-FBC02D #topline .topleft a,
+    .xdesktop.color-FBC02D #topline .topright a,
+    .xdesktop.color-FBC02D #taskbar a,
+    .xdesktop.color-FBC02D #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-FBC02D input.material-input:checked + label.material,
+.color-FBC02D input[type='button'],
+.color-FBC02D input.button,
+.color-FBC02D button,
+.color-FBC02D .ui-button.ui-state-default,
+.xmobile.color-FBC02D .boxfooter .listbutton {
+  background: #FF1744; }
+
+.color-FBC02D input.material-input:checked + label.material {
+  border-color: #FF1744 !important; }
+
+.color-FBC02D #mailboxlist li.selected > a,
+.color-FBC02D .messagelist tr.flagged td,
+.color-FBC02D .messagelist tr.flagged td a,
+.color-FBC02D .records-table tr.flagged td span,
+.color-FBC02D #messagelist tr td .flag span.flagged:before,
+.color-FBC02D .listing .selected > td,
+.color-FBC02D .listing .selected > a {
+  color: #FF1744 !important; }
+
+.color-FBC02D select:focus,
+.color-FBC02D textarea:focus,
+.color-FBC02D input[type='text']:focus,
+.color-FBC02D input[type='password']:focus,
+.color-FBC02D input[type='number']:focus,
+.color-FBC02D input[type='email']:focus,
+.color-FBC02D ul.tabsbar .ui-tabs-active a,
+.color-FBC02D .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #FF1744 !important; }
+
+.color-FBC02D input[type='button']:hover,
+.color-FBC02D input.button:hover,
+.color-FBC02D button:hover,
+.color-FBC02D .ui-button:hover,
+.color-FBC02D .ui-button.ui-state-default:hover {
+  background-color: #F1183C; }
+
+.color-FBC02D label.material:before {
+  background: #FF4569; }
+
+/*    .color-FBC02D label.material:before,
+    .color-FBC02D input.material-input:checked + label.material,
+    .color-FBC02D input[type='button'],
+    .color-FBC02D input.button,
+    .color-FBC02D button,
+    .color-FBC02D .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-FFA000 #topnav,
+.color-FFA000 #topline {
+  background: #FFA000; }
+
+.xdesktop.color-FFA000 #taskbar > a:hover,
+.xdesktop.color-FFA000 #taskbar > span:hover,
+.xmobile.color-FFA000 #main-menu,
+.xmobile.color-FFA000 .popup-close,
+.xmobile.color-FFA000 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-FFA000 #messagelistcontainer .pagenav a.button,
+.xmobile.color-FFA000 #messagestack div,
+.xmobile.color-FFA000 #message-objects div a.button,
+.xmobile.color-FFA000 .popup-box .popup-close,
+.xmobile.color-FFA000 #contactphoto .formlinks a,
+.xmobile.color-FFA000 .records-table thead tr th {
+  background-color: #FF8F00 !important; }
+
+/*    .xdesktop.color-FFA000 #topnav,
+    .xdesktop.color-FFA000 #topline,
+    .xdesktop.color-FFA000 #topline .topleft a,
+    .xdesktop.color-FFA000 #topline .topright a,
+    .xdesktop.color-FFA000 #taskbar a,
+    .xdesktop.color-FFA000 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-FFA000 input.material-input:checked + label.material,
+.color-FFA000 input[type='button'],
+.color-FFA000 input.button,
+.color-FFA000 button,
+.color-FFA000 .ui-button.ui-state-default,
+.xmobile.color-FFA000 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-FFA000 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-FFA000 #mailboxlist li.selected > a,
+.color-FFA000 .messagelist tr.flagged td,
+.color-FFA000 .messagelist tr.flagged td a,
+.color-FFA000 .records-table tr.flagged td span,
+.color-FFA000 #messagelist tr td .flag span.flagged:before,
+.color-FFA000 .listing .selected > td,
+.color-FFA000 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-FFA000 select:focus,
+.color-FFA000 textarea:focus,
+.color-FFA000 input[type='text']:focus,
+.color-FFA000 input[type='password']:focus,
+.color-FFA000 input[type='number']:focus,
+.color-FFA000 input[type='email']:focus,
+.color-FFA000 ul.tabsbar .ui-tabs-active a,
+.color-FFA000 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-FFA000 input[type='button']:hover,
+.color-FFA000 input.button:hover,
+.color-FFA000 button:hover,
+.color-FFA000 .ui-button:hover,
+.color-FFA000 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-FFA000 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-FFA000 label.material:before,
+    .color-FFA000 input.material-input:checked + label.material,
+    .color-FFA000 input[type='button'],
+    .color-FFA000 input.button,
+    .color-FFA000 button,
+    .color-FFA000 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-EF6C00 #topnav,
+.color-EF6C00 #topline {
+  background: #EF6C00; }
+
+.xdesktop.color-EF6C00 #taskbar > a:hover,
+.xdesktop.color-EF6C00 #taskbar > span:hover,
+.xmobile.color-EF6C00 #main-menu,
+.xmobile.color-EF6C00 .popup-close,
+.xmobile.color-EF6C00 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-EF6C00 #messagelistcontainer .pagenav a.button,
+.xmobile.color-EF6C00 #messagestack div,
+.xmobile.color-EF6C00 #message-objects div a.button,
+.xmobile.color-EF6C00 .popup-box .popup-close,
+.xmobile.color-EF6C00 #contactphoto .formlinks a,
+.xmobile.color-EF6C00 .records-table thead tr th {
+  background-color: #E65100 !important; }
+
+/*    .xdesktop.color-EF6C00 #topnav,
+    .xdesktop.color-EF6C00 #topline,
+    .xdesktop.color-EF6C00 #topline .topleft a,
+    .xdesktop.color-EF6C00 #topline .topright a,
+    .xdesktop.color-EF6C00 #taskbar a,
+    .xdesktop.color-EF6C00 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-EF6C00 input.material-input:checked + label.material,
+.color-EF6C00 input[type='button'],
+.color-EF6C00 input.button,
+.color-EF6C00 button,
+.color-EF6C00 .ui-button.ui-state-default,
+.xmobile.color-EF6C00 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-EF6C00 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-EF6C00 #mailboxlist li.selected > a,
+.color-EF6C00 .messagelist tr.flagged td,
+.color-EF6C00 .messagelist tr.flagged td a,
+.color-EF6C00 .records-table tr.flagged td span,
+.color-EF6C00 #messagelist tr td .flag span.flagged:before,
+.color-EF6C00 .listing .selected > td,
+.color-EF6C00 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-EF6C00 select:focus,
+.color-EF6C00 textarea:focus,
+.color-EF6C00 input[type='text']:focus,
+.color-EF6C00 input[type='password']:focus,
+.color-EF6C00 input[type='number']:focus,
+.color-EF6C00 input[type='email']:focus,
+.color-EF6C00 ul.tabsbar .ui-tabs-active a,
+.color-EF6C00 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-EF6C00 input[type='button']:hover,
+.color-EF6C00 input.button:hover,
+.color-EF6C00 button:hover,
+.color-EF6C00 .ui-button:hover,
+.color-EF6C00 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-EF6C00 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-EF6C00 label.material:before,
+    .color-EF6C00 input.material-input:checked + label.material,
+    .color-EF6C00 input[type='button'],
+    .color-EF6C00 input.button,
+    .color-EF6C00 button,
+    .color-EF6C00 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-E64A19 #topnav,
+.color-E64A19 #topline {
+  background: #E64A19; }
+
+.xdesktop.color-E64A19 #taskbar > a:hover,
+.xdesktop.color-E64A19 #taskbar > span:hover,
+.xmobile.color-E64A19 #main-menu,
+.xmobile.color-E64A19 .popup-close,
+.xmobile.color-E64A19 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-E64A19 #messagelistcontainer .pagenav a.button,
+.xmobile.color-E64A19 #messagestack div,
+.xmobile.color-E64A19 #message-objects div a.button,
+.xmobile.color-E64A19 .popup-box .popup-close,
+.xmobile.color-E64A19 #contactphoto .formlinks a,
+.xmobile.color-E64A19 .records-table thead tr th {
+  background-color: #D84315 !important; }
+
+/*    .xdesktop.color-E64A19 #topnav,
+    .xdesktop.color-E64A19 #topline,
+    .xdesktop.color-E64A19 #topline .topleft a,
+    .xdesktop.color-E64A19 #topline .topright a,
+    .xdesktop.color-E64A19 #taskbar a,
+    .xdesktop.color-E64A19 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-E64A19 input.material-input:checked + label.material,
+.color-E64A19 input[type='button'],
+.color-E64A19 input.button,
+.color-E64A19 button,
+.color-E64A19 .ui-button.ui-state-default,
+.xmobile.color-E64A19 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-E64A19 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-E64A19 #mailboxlist li.selected > a,
+.color-E64A19 .messagelist tr.flagged td,
+.color-E64A19 .messagelist tr.flagged td a,
+.color-E64A19 .records-table tr.flagged td span,
+.color-E64A19 #messagelist tr td .flag span.flagged:before,
+.color-E64A19 .listing .selected > td,
+.color-E64A19 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-E64A19 select:focus,
+.color-E64A19 textarea:focus,
+.color-E64A19 input[type='text']:focus,
+.color-E64A19 input[type='password']:focus,
+.color-E64A19 input[type='number']:focus,
+.color-E64A19 input[type='email']:focus,
+.color-E64A19 ul.tabsbar .ui-tabs-active a,
+.color-E64A19 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-E64A19 input[type='button']:hover,
+.color-E64A19 input.button:hover,
+.color-E64A19 button:hover,
+.color-E64A19 .ui-button:hover,
+.color-E64A19 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-E64A19 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-E64A19 label.material:before,
+    .color-E64A19 input.material-input:checked + label.material,
+    .color-E64A19 input[type='button'],
+    .color-E64A19 input.button,
+    .color-E64A19 button,
+    .color-E64A19 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-795548 #topnav,
+.color-795548 #topline {
+  background: #795548; }
+
+.xdesktop.color-795548 #taskbar > a:hover,
+.xdesktop.color-795548 #taskbar > span:hover,
+.xmobile.color-795548 #main-menu,
+.xmobile.color-795548 .popup-close,
+.xmobile.color-795548 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-795548 #messagelistcontainer .pagenav a.button,
+.xmobile.color-795548 #messagestack div,
+.xmobile.color-795548 #message-objects div a.button,
+.xmobile.color-795548 .popup-box .popup-close,
+.xmobile.color-795548 #contactphoto .formlinks a,
+.xmobile.color-795548 .records-table thead tr th {
+  background-color: #5D4037 !important; }
+
+/*    .xdesktop.color-795548 #topnav,
+    .xdesktop.color-795548 #topline,
+    .xdesktop.color-795548 #topline .topleft a,
+    .xdesktop.color-795548 #topline .topright a,
+    .xdesktop.color-795548 #taskbar a,
+    .xdesktop.color-795548 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-795548 input.material-input:checked + label.material,
+.color-795548 input[type='button'],
+.color-795548 input.button,
+.color-795548 button,
+.color-795548 .ui-button.ui-state-default,
+.xmobile.color-795548 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-795548 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-795548 #mailboxlist li.selected > a,
+.color-795548 .messagelist tr.flagged td,
+.color-795548 .messagelist tr.flagged td a,
+.color-795548 .records-table tr.flagged td span,
+.color-795548 #messagelist tr td .flag span.flagged:before,
+.color-795548 .listing .selected > td,
+.color-795548 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-795548 select:focus,
+.color-795548 textarea:focus,
+.color-795548 input[type='text']:focus,
+.color-795548 input[type='password']:focus,
+.color-795548 input[type='number']:focus,
+.color-795548 input[type='email']:focus,
+.color-795548 ul.tabsbar .ui-tabs-active a,
+.color-795548 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-795548 input[type='button']:hover,
+.color-795548 input.button:hover,
+.color-795548 button:hover,
+.color-795548 .ui-button:hover,
+.color-795548 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-795548 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-795548 label.material:before,
+    .color-795548 input.material-input:checked + label.material,
+    .color-795548 input[type='button'],
+    .color-795548 input.button,
+    .color-795548 button,
+    .color-795548 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+.color-757575 #topnav,
+.color-757575 #topline {
+  background: #757575; }
+
+.xdesktop.color-757575 #taskbar > a:hover,
+.xdesktop.color-757575 #taskbar > span:hover,
+.xmobile.color-757575 #main-menu,
+.xmobile.color-757575 .popup-close,
+.xmobile.color-757575 #messagelistcontainer .boxpagenav a.icon,
+.xmobile.color-757575 #messagelistcontainer .pagenav a.button,
+.xmobile.color-757575 #messagestack div,
+.xmobile.color-757575 #message-objects div a.button,
+.xmobile.color-757575 .popup-box .popup-close,
+.xmobile.color-757575 #contactphoto .formlinks a,
+.xmobile.color-757575 .records-table thead tr th {
+  background-color: #616161 !important; }
+
+/*    .xdesktop.color-757575 #topnav,
+    .xdesktop.color-757575 #topline,
+    .xdesktop.color-757575 #topline .topleft a,
+    .xdesktop.color-757575 #topline .topright a,
+    .xdesktop.color-757575 #taskbar a,
+    .xdesktop.color-757575 #taskbar span {
+        color: #FFFFFF !important;
+    }*/
+.color-757575 input.material-input:checked + label.material,
+.color-757575 input[type='button'],
+.color-757575 input.button,
+.color-757575 button,
+.color-757575 .ui-button.ui-state-default,
+.xmobile.color-757575 .boxfooter .listbutton {
+  background: #0091EA; }
+
+.color-757575 input.material-input:checked + label.material {
+  border-color: #0091EA !important; }
+
+.color-757575 #mailboxlist li.selected > a,
+.color-757575 .messagelist tr.flagged td,
+.color-757575 .messagelist tr.flagged td a,
+.color-757575 .records-table tr.flagged td span,
+.color-757575 #messagelist tr td .flag span.flagged:before,
+.color-757575 .listing .selected > td,
+.color-757575 .listing .selected > a {
+  color: #0091EA !important; }
+
+.color-757575 select:focus,
+.color-757575 textarea:focus,
+.color-757575 input[type='text']:focus,
+.color-757575 input[type='password']:focus,
+.color-757575 input[type='number']:focus,
+.color-757575 input[type='email']:focus,
+.color-757575 ul.tabsbar .ui-tabs-active a,
+.color-757575 .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  border-bottom: 2px solid #0091EA !important; }
+
+.color-757575 input[type='button']:hover,
+.color-757575 input.button:hover,
+.color-757575 button:hover,
+.color-757575 .ui-button:hover,
+.color-757575 .ui-button.ui-state-default:hover {
+  background-color: #0085DA; }
+
+.color-757575 label.material:before {
+  background: #33A7EE; }
+
+/*    .color-757575 label.material:before,
+    .color-757575 input.material-input:checked + label.material,
+    .color-757575 input[type='button'],
+    .color-757575 input.button,
+    .color-757575 button,
+    .color-757575 .material.checkbox:after {
+        color: #FFFFFF !important;
+    }*/
+body,
+select,
+input,
+textarea,
+.ui-widget,
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+  font-family: Roboto !important;
+  font-size: 12px; }
+
+/* ui dialog */
+.ui-dialog {
+  padding: 0;
+  border-radius: 0 !important; }
+
+.ui-widget-header {
+  background: #fff !important;
+  border-radius: 0 !important; }
+
+.ui-widget-content {
+  background-color: #fff;
+  border: none; }
+
+/* inputs */
+select,
+input[type='text'],
+input[type='password'],
+input[type='number'],
+input[type='email'],
+textarea,
+.searchbox input,
+a.menuselector {
+  border: none !important;
+  border-bottom: 1px solid #ddd !important;
+  background: transparent;
+  padding: 5px 0 6px 0 !important;
+  font-weight: normal;
+  -webkit-transition: border-color 1s linear;
+  -moz-transition: border-color 1s linear;
+  -o-transition: border-color 1s linear;
+  transition: border-color 1s linear; }
+
+select:focus,
+textarea:focus,
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='number']:focus,
+input[type='email']:focus {
+  padding-bottom: 5px !important; }
+
+/* buttons */
+input[type='button'],
+input.button,
+button,
+.ui-button,
+.ui-button.ui-state-default {
+  text-transform: uppercase;
+  background-color: #aaa;
+  border: none;
+  font-weight: normal;
+  font-size: 1em !important;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 0 10px 0 0 !important;
+  border-radius: 2px !important;
+  transition: background 0.3s linear; }
+
+.ui-button span.ui-button-text {
+  padding: 0 !important; }
+
+body.iframe .footerleft,
+#composeview-bottom .formbuttons {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  box-sizing: border-box;
+  z-index: 110;
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-top: 1px solid #ddd;
+  text-align: right; }
+
+body.iframe .footerleft:before {
+  display: none; }
+
+#xresell-buy-now p {
+  text-align: left; }
+
+/* tabs */
+ul.tabsbar,
+ul.tabsbar li,
+ul.tabsbar a {
+  background: #fff !important; }
+
+.ui-tabs .ui-tabs-nav {
+  height: auto;
+  padding-bottom: 2px; }
+
+ul.tabsbar a,
+.xtabs.ui-tabs-nav a,
+.xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  text-transform: uppercase;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 2px solid #fff;
+  min-height: 0 !important;
+  padding: 10px 12px 15px 12px !important;
+  font-weight: normal; }
+
+.xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  font-weight: normal; }
+
+ul.tabsbar li {
+  position: static;
+  border: none !important;
+  border-image: none;
+  padding: 0 !important; }
+
+.xtabs.ui-tabs .ui-tabs-nav {
+  border-bottom: none; }
+
+/* other */
+.contentbox .boxtitle,
+body.iframe .boxtitle,
+.contactfieldgroup legend {
+  background: transparent;
+  border: none;
+  margin: 0; }
+
+#calendar-grid .fc-toolbar .fc-button {
+  color: #fff; }
+
+#main-calendar-container h2 {
+  font-weight: normal; }
+
+.xcalendar .ui-datepicker .ui-datepicker-header {
+  background: #666666; }
+
+.xcalendar .ui-datepicker .ui-datepicker-month,
+.xcalendar .ui-datepicker .ui-datepicker-year,
+.xcalendar .ui-datepicker .ui-datepicker-prev,
+.xcalendar .ui-datepicker .ui-datepicker-next,
+.xcalendar .fc-state-default,
+.xcalendar .boxtitle button {
+  color: #555 !important;
+  text-shadow: none;
+  font-weight: normal;
+  height: auto; }
+
+.xcalendar .fc-list-view {
+  border: 1px solid #ddd;
+  border-top: none; }
+
+#sidebar-calendar .ui-datepicker select.ui-datepicker-month,
+#sidebar-calendar .ui-datepicker select.ui-datepicker-year {
+  text-decoration: none !important;
+  margin: 0 2px !important;
+  padding: 0 !important; }
+
+.xcalendar .editor .content-box {
+  border: none; }
+
+.xcalendar .editor .formbuttons {
+  border-left: none;
+  border-right: none; }
+
+#xcalendar-categories .category-item input[type='button'] {
+  position: relative;
+  height: 18px;
+  padding-top: 1px !important;
+  padding-bottom: 0 !important;
+  font-size: 10px !important; }
+
+.fc th:first-child,
+.fc td:first-child {
+  border-left: none; }
+
+.fc th:last-child,
+.fc td:last-child {
+  border-right: none; }
+
+.ui-datepicker .ui-datepicker-title {
+  line-height: 1em; }
+
+.xcalendar #sidebar-calendar a.ui-datepicker-prev,
+.xcalendar #sidebar-calendar a.ui-datepicker-next {
+  top: 6px; }
+
+#sidebar-calendar .ui-datepicker-header {
+  padding-top: 6px; }
+
+.fc-icon-left-single-arrow:after,
+.fc-icon-right-single-arrow:after {
+  font-weight: 300;
+  font-size: 1.4em; }
+
+.xcalendar #calendar-grid .fc-icon-today {
+  top: -2px; }
+
+.xcalendar #sidebar-calendar .selected-range td a {
+  background: #eee !important; }
+
+.xcalendar .ui-datepicker-calendar td a,
+.listbox .listitem,
+.listbox .tablink,
+.listing tbody td,
+.listing li {
+  font-weight: normal !important; }
+
+body .listing .selected td {
+  font-weight: bold !important; }
+
+.listing tbody td a {
+  color: #333; }
+
+.xcalendar-sun-data:before {
+  font-size: 10px !important; }
+
+#xcalendar-categories input[type='text'] {
+  width: 200px !important; }
+
+.mh_preferences input[type='text'],
+.mh_preferences select {
+  width: auto !important; }
+
+#filter-form select,
+#filter-form input,
+#filter-form textarea {
+  font-size: 1em; }
+#filter-form label.material.radio {
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  position: relative;
+  top: 3px; }
+
+#filterslist tbody tr.disabled td,
+#filtersetslist tbody tr.disabled td {
+  color: #333; }
+
+#password-form .boxcontent {
+  border: 0; }
+
+#password-form .boxcontent .title {
+  padding-right: 20px; }
+
+#password-form .boxcontent p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 8px 0 12px 0;
+  border-top: 1px solid #ddd;
+  text-align: right; }
+
+.minicolors input[type='text'] {
+  padding-left: 24px !important; }
+
+.minicolors-theme-bootstrap .minicolors-swatch {
+  left: 0;
+  border-radius: 2px !important;
+  width: 16px;
+  height: 16px;
+  cursor: pointer; }
+
+.xformatting label.ui-button {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 1px 4px !important;
+  color: #333 !important;
+  background: transparent !important;
+  margin-right: 4px !important;
+  transition: none !important; }
+
+#xsignature-settings-controller .xformatting label.ui-button:hover {
+  background: transparent !important; }
+
+#xsignature-settings-controller #signature-tabs div.xformatting label.ui-state-active {
+  background: #ddd !important; }
+
+.contactfieldgroup legend {
+  padding-left: 0; }
+
+.contactfieldlabel.label {
+  left: 0; }
+
+.ui-button.ui-state-default {
+  background-image: none; }
+
+/* material checkboxes */
+input.material-input {
+  display: none;
+  opacity: 0 !important;
+  position: absolute !important; }
+
+label.material {
+  font-size: 1em;
+  background: transparent;
+  position: relative;
+  display: inline-block !important;
+  padding: 0 !important;
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.54) !important;
+  border-radius: 2px !important;
+  vertical-align: -0.15em !important;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+  text-align: center;
+  margin: 0 !important;
+  -webkit-transition: background-color 0.1s linear;
+  -moz-transition: background-color 0.1s linear;
+  -o-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear; }
+
+label.material.radio {
+  border-radius: 50% !important; }
+
+input.material-input:checked + label.material {
+  background: #aaa;
+  border-color: #aaa; }
+
+input.material-input:checked + label.material.radio:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  content: '' !important; }
+
+input.material-input:checked + label.material.checkbox:after {
+  position: absolute;
+  top: -1px;
+  left: 1px;
+  font-family: IconFont;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  content: '\ec10' !important; }
+
+body.xskin input.material-input:disabled + label.material,
+body.xskin input.material-input:checked:disabled + label.material {
+  background: #cdcdcd !important;
+  border-color: #cdcdcd !important;
+  cursor: not-allowed; }
+
+label.material:before {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  display: block;
+  background: #aaa;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  content: "";
+  opacity: 0;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear; }
+
+label.material.flash:before {
+  opacity: 1; }
+
+/* material wave */
+.wave-container {
+  position: relative;
+  overflow: hidden; }
+
+.wave {
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  animation: ripple 0.6s; }
+
+@keyframes ripple {
+  100% {
+    transform: scale(100);
+    opacity: 0; } }
+#interface-options {
+  color: #333 !important; }
+
+select {
+  background: transparent !important; }
+
+#settings-right .uibox.listbox {
+  background: #fff; }
+
+.footerleft, .footerright {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.footerleft input.button {
+  width: 100%; }
+
+.formbuttons input.button {
+  margin-bottom: 10px !important; }
+
+.mh_preferences input.button {
+  width: auto; }
+
+#taskbar > a,
+#taskbar > span {
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  overflow: hidden; }
+
+#main-menu a.active {
+  color: #333; }
+
+.popup-box h5, .popup-box h2.boxtitle {
+  top: 17px;
+  font-weight: normal; }
+
+#login-form #company-name,
+#login-form input.button {
+  background: #3F51B5;
+  border: none; }
+#login-form #company-name {
+  padding-left: 10px;
+  color: #fff; }
+#login-form .box-inner {
+  padding: 0; }
+#login-form .box-inner form {
+  padding: 10px; }
+#login-form #login-menu-button {
+  color: #fff;
+  background: #3F51B5; }
+#login-form select,
+#login-form input[type='text'],
+#login-form input[type='password'] {
+  box-sizing: border-box;
+  width: 100% !important;
+  border: none !important;
+  border-bottom: 1px solid #ddd !important;
+  padding: 5px !important; }
+
+/*# sourceMappingURL=mobile.css.map */

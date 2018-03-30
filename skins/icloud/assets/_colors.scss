@@ -1,0 +1,194 @@
+$map: (
+    //          1        2        3        4        5        6        7        8
+    //          text     text     colorbg  colorbg  colorbg  colorbg  whitebg  message
+    //          normal   hot      light    dark     border   text     border   highlight
+    ("007aff", (#007aff, #0a70de, #dceefb, #cae8fb, #cde3f1, #4b6274, #a9c7de, #2b91e3)),
+    ("7200ff", (#7200ff, #640ade, #e8dcfb, #dccafb, #cab1f9, #72319b, #c7a9de, #b15ade)),
+    ("00afa1", (#00afa1, #009a8d, #e2f8f6, #c5ece9, #b7e2de, #276b66, #5dbeb6, #1a8279)),
+    ("009e13", (#009e13, #008910, #ebfced, #caefce, #b0dfb5, #307738, #67be71, #1b9229)),
+    ("518901", (#518901, #437200, #e8f7d1, #d3e8b1, #c9e1a2, #5a861c, #a7cb73, #628b27)),
+    ("878901", (#878901, #6e6f00, #fefeef, #efefcc, #e7e8b8, #858634, #c0c16e, #959620)),
+    ("f92d30", (#f92d30, #cc2f27, #ffdfdf, #ffbebe, #f9b1b1, #7f5858, #e5aca9, #ff3b30)),
+    ("ef0087", (#ef0087, #c90072, #fbdcef, #fbcae9, #f9b1e0, #730c6f, #b42b8c, #e32ba9)),
+    ("ff8400", (#ff8400, #de7d0a, #fbeddc, #fbe3ca, #f9d3b1, #7c4c27, #debfa9, #e38a2b)),
+    ("d66f00", (#d66f00, #c06300, #fadace, #f0c4b3, #dca894, #9c3d17, #ebb9a6, #b8552d)),
+    ("895401", (#895401, #6b4100, #fff7eb, #e4d2b5, #d5c09e, #795722, #ddc194, #a0783a)),
+    ("000000", (#000000, #4d4d4d, #efefef, #d4d4d4, #cacaca, #626262, #b1b1b1, #626262))
+);
+
+@each $row in $map {
+    $key: nth($row, 1);
+    $colors: nth($row, 2);
+
+    .color-#{$key} ul#planner_controls li a,
+    .color-#{$key} #addButton,
+    .color-#{$key} #reassembleButton,
+    .color-#{$key} input.button,
+    .color-#{$key} input[type='button'],
+    .color-#{$key} .formbuttons input.button,
+    .color-#{$key} input.button.mainaction,
+    .color-#{$key} #login-form input.button,
+    .color-#{$key} .username select.deco,
+    //.color-#{$key} #mailboxlist li.selected>a,
+    //.color-#{$key} #mailboxlist li.mailbox.selected .unreadcount,
+    //.color-#{$key} #mailboxlist li.mailbox.selected .treetoggle,
+    .color-#{$key} .headers-table td a,
+   // .color-#{$key} #xsidebar-button,
+   // .color-#{$key} #xsidebar .boxtitle:before,
+   .xmobile.color-#{$key} .sidebar-title-text,
+    .xmobile.color-#{$key} .boxpagenav a.icon,
+    .xmobile.color-#{$key} #countcontrols a.button,
+    .xmobile.color-#{$key} #full-headers .more-headers,
+    .xmobile.color-#{$key} #message-objects div a.button,
+    .xmobile.color-#{$key} .headers-table td.header a,
+    .xmobile.color-#{$key} .ui-dialog-content.popup span.adr a,
+    .xmobile.color-#{$key} .boxfooter .listbutton span,
+    .xmobile.color-#{$key} .boxfooter .listbutton,
+    .xmobile.color-#{$key} #messagestack div,
+    .xmobile.color-#{$key}.xcalendar .editor .xtabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        color: #{nth($colors, 1)};
+    }
+
+    .color-#{$key} #taskbar,
+    //.color-#{$key} #topline,
+    //.color-#{$key} #topline a,
+    .color-#{$key} #taskbar a,
+    .color-#{$key} #taskbar a span,
+    .color-#{$key} #taskbar a:before,
+    .color-#{$key} #taskbar .minmodetoggle,
+    .color-#{$key} .toolbar a.button,
+    .color-#{$key} .toolbar .dropbutton span.dropbuttontip,
+    .color-#{$key} #taskbar a.button-calendar span.button-inner,
+    .color-#{$key} #taskbar a.button-calendar.button-selected span.button-inner,
+    .color-#{$key} #calendar .fc-button,
+    .xmobile.color-#{$key} #main-menu a,
+    .xmobile.color-#{$key} .popup-close a,
+    .xmobile.color-#{$key} .popup-box h5,
+    .xmobile.color-#{$key} #quicksearchbar .popup-close a,
+    .xmobile.color-#{$key} .popup-box #sections-table td,
+    .xmobile.color-#{$key} #mailFoldersBox a,
+    .xmobile.color-#{$key} #addressList a,
+    .xmobile.color-#{$key} .contactfieldbutton.deletebutton,
+    .xmobile.color-#{$key} .iframe a.disabled,
+    .xmobile.color-#{$key} .iframe a.active,
+    .xmobile.color-#{$key} #subscriptionTable td.name,
+    .xmobile.color-#{$key} div.buttonBox a,
+    .xmobile.color-#{$key} #mailboxlist li.mailbox a,
+    .xmobile.color-#{$key} .googie_list td span,
+    .xmobile.color-#{$key} ul.toolbarmenu li a,
+    .xmobile.color-#{$key} #taskbar a,
+    .xmobile.color-#{$key} #taskbar a.button-selected,
+    .xmobile.color-#{$key} .minimal #taskbar a,
+    .xmobile.color-#{$key} .popupmenu a,
+    .xmobile.color-#{$key} #mailboxmenulink,
+    .xmobile.color-#{$key} #quicksearchbar a.search-apply,
+    .xmobile.color-#{$key} #quicksearchbar a.search-reset,
+    .xmobile.color-#{$key} #composeheaders a.iconlink.edit,
+    .xmobile.color-#{$key} #attachment-list .delete,
+    .xmobile.color-#{$key} #attachment-list .drop {
+        color: #{nth($colors, 1)} !important;
+    }
+
+    .xmobile.color-#{$key} .xtabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+        border-color: #{nth($colors, 1)};
+    }
+
+    .color-#{$key} input.switchbox-input:checked + label.switchbox {
+        border-color: #{nth($colors, 1)} !important;
+    }
+
+    .color-#{$key} input.switchbox-input:checked + label.switchbox {
+        background-color: #{nth($colors, 1)} !important;
+    }
+
+    .color-#{$key} #taskbar a:hover:before,
+    .color-#{$key} #taskbar a:hover span {
+        color: #{nth($colors, 2)} !important;
+    }
+
+    .xdesktop.color-#{$key} .listbox,
+    .xdesktop.color-#{$key} ul.listing li,
+    .xmobile.color-#{$key} #main-menu a.active {
+        background-color: #{nth($colors, 3)};
+    }
+
+    .color-#{$key} .uibox .boxtitle,
+    .color-#{$key} .uibox .listing thead td,
+    .color-#{$key} .uibox .listing thead th,
+    .color-#{$key} .popupmenu a:hover,
+    .color-#{$key}.iframe h1.boxtitle,
+    .color-#{$key} #sidebar-calendar .selected-range td a {
+        background-color: #{nth($colors, 3)} !important;
+    }
+
+    .color-#{$key} .listbox .listitem.selected,
+    .color-#{$key} .listbox .tablink.selected,
+    .color-#{$key} .listbox .listitem.selected > a,
+    .color-#{$key} .listbox .tablink.selected > a,
+    .color-#{$key} .listing tbody tr.unfocused td,
+    .color-#{$key} .listing tbody tr.selected td,
+    .color-#{$key} .listing li.selected,
+    .color-#{$key} .listing li.selected > a {
+        background-color: #{nth($colors, 4)};
+    }
+
+//    .color-#{$key} #xsidebar .boxtitle {
+//        background-color: #{nth($colors, 4)} !important;
+//    }
+
+    .color-#{$key} .listbox .listitem,
+    .color-#{$key} .listbox .tablink,
+    .color-#{$key} .listing tbody td,
+    .color-#{$key} .listing li,
+    .color-#{$key} #mailboxlist li.mailbox ul,
+    .color-#{$key} .boxtitle,
+    .color-#{$key} .uibox .listing thead td,
+    .color-#{$key} .uibox .listing thead th,
+    .color-#{$key} .listbox .boxfooter,
+    .color-#{$key} #compose-contacts #directorylist,
+    .color-#{$key} #compose-contacts .scroller,
+    .color-#{$key} ul.listing li ul,
+    .color-#{$key} .uibox.listbox,
+    .color-#{$key}.iframe h1.boxtitle {
+        border-color: #{nth($colors, 5)};
+    }
+
+    .color-#{$key} .boxfooter a:before,
+    .color-#{$key} ul.listing li a,
+    .color-#{$key} .boxfooter .countdisplay,
+    .color-#{$key} #rss a
+    .color-#{$key} .listbox .listitem a,
+    .color-#{$key} .listbox .tablink a,
+    .color-#{$key} .listing tbody td,
+    .color-#{$key} .listing li a,
+    .color-#{$key} .boxpagenav a.icon {
+        color: #{nth($colors, 6)};
+    }
+
+    .xmobile.color-#{$key} #messagestack div,
+    .xmobile.color-#{$key} #messagestack div:after {
+        color: #{nth($colors, 6)} !important;
+    }
+
+    .color-#{$key} #quota-box {
+        border-color: #{nth($colors, 6)};
+    }
+
+    .color-#{$key} #quota-bar {
+        background-color: #{nth($colors, 6)};
+    }
+
+    //.color-#{$key} #topnav,
+    //.xmobile.color-#{$key} #main-menu,
+    .xmobile.color-#{$key} #messagestack div {
+        border-color: #{nth($colors, 7)};
+    }
+
+    .color-#{$key} .records-table tr.selected td,
+    .color-#{$key} .records-table tr.unfocused td,
+    .xmobile.color-#{$key} #messagelist tr.selected,
+    .xmobile.color-#{$key} #messagelist tr.unfocused,
+    .xmobile.color-#{$key}  #messagelist tr.selected td.date {
+        background-color: #{nth($colors, 8)} !important;
+    }
+}

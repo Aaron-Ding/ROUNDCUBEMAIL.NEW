@@ -1,0 +1,7 @@
+{
+    "name": "w21",
+    "author": "Roundcube Plus (http://roundcubeplus.com)",
+    "license": "Commercial",
+    "license-url": "",
+    "extends": "larry"
+}
