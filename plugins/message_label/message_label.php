@@ -60,7 +60,7 @@ class message_label extends rcube_plugin {
      */
     function startup($args) {
         $search = get_input_value('_search', RCUBE_INPUT_GET);
-        //echo ($search);
+        echo ($search);
         if (!isset($search))
             $search = get_input_value('_search', RCUBE_INPUT_POST);
 
