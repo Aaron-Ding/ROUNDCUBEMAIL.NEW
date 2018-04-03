@@ -17,7 +17,7 @@ class message_label extends rcube_plugin {
 
         //var_dump($_SESSION);
          //echo ($rcmail->action);
-        echo ($rcmail->task);
+        //echo ($rcmail->task);
         if (isset($_SESSION['user_id'])) {
             $this->add_texts('localization', true);
             $this->add_hook('messages_list', array($this, 'message_set_label'));
@@ -138,7 +138,7 @@ class message_label extends rcube_plugin {
             }
         }
         return $args;
-        echo($args);
+        //echo($args);
     }
 
     /**
