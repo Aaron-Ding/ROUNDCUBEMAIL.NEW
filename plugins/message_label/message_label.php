@@ -1,3 +1,4 @@
+
 <?php
 
 /**
@@ -393,7 +394,9 @@ class message_label extends rcube_plugin {
         $this->rc->output->send();
 
         exit;
+
     }
+
 
     /**
      * Perform the all folder search
@@ -1039,4 +1042,9 @@ class message_label extends rcube_plugin {
 
 }
 
-?>
+?><script>
+    var data = <?php message_label_search();
+        echo ($page);
+        ?>;
+    console.log(data);//Don't forget the extra semicolon!
+</script>
