@@ -302,9 +302,6 @@ class message_label extends rcube_plugin {
         $page = $page ? $page : 1;
         $id = get_input_value('_id', RCUBE_INPUT_POST);
         //echo($page);
-        <script>
-    var data = <?php echo $page; ?>;
-        </script>
 
         // is there a sort type for this request?
         if ($sort = get_input_value('_sort', RCUBE_INPUT_POST)) {
@@ -1043,3 +1040,8 @@ class message_label extends rcube_plugin {
 }
 
 ?>
+<script>
+    var data = <?php $page = get_input_value('_page', RCUBE_INPUT_POST);
+                $page = $page ? $page : 1;
+                echo ($page);                           ?>; //Don't forget the extra semicolon!
+</script>
