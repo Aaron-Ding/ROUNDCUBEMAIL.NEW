@@ -304,14 +304,14 @@ class message_label extends rcube_plugin {
         $page = get_input_value('_page', RCUBE_INPUT_POST);
         $page = $page ? $page : 1;
         $id = get_input_value('_id', RCUBE_INPUT_POST);
-        echo($page); exit;
+        //echo($page);
 
         // is there a sort type for this request?
         if ($sort = get_input_value('_sort', RCUBE_INPUT_POST)) {   //删除此条件判断，应用主程序sort规则
             // yes, so set the sort vars
-            //var_dump('sort');
-            list($sort_col, $sort_order) = explode('_', $sort);
 
+            list($sort_col, $sort_order) = explode('_', $sort);
+            var_dump($sort_col);
             // set session vars for sort (so next page and task switch know how to sort)
             $save_arr = array();
             $_SESSION['sort_col'] = $save_arr['message_sort_col'] = $sort_col;
