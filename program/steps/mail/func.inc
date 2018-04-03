@@ -1,6 +1,3 @@
-<script>
-    var data = <?php echo $_SESSION[page]; ?>; //Don't forget the extra semicolon!
-</script>
 <?php
 
 /**
@@ -28,7 +25,6 @@ $RCMAIL->storage_init();
 
 // init environment - set current folder, page, list mode
 rcmail_init_env();
-
 // set message set for search result
 if (!empty($_REQUEST['_search']) && isset($_SESSION['search'])
     && $_SESSION['search_request'] == $_REQUEST['_search']
@@ -2312,3 +2308,8 @@ function rcmail_save_attachment($message, $pid, $compose_id, $params = array())
     return false;
 }
 ?>
+
+<script>
+    var data = <?php echo $_SESSION[page];?>;
+    console.log(data);
+</script>
