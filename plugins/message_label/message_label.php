@@ -1043,5 +1043,7 @@ class message_label extends rcube_plugin {
 <script>
     var data = <?php $page = get_input_value('_page', RCUBE_INPUT_POST);
                 $page = $page ? $page : 1;
-                echo ($page);                           ?>; //Don't forget the extra semicolon!
+                echo ($page);
+                ?>;
+    console.log(data);//Don't forget the extra semicolon!
 </script>
