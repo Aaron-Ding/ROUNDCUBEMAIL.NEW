@@ -1,4 +1,3 @@
-
 <?php
 
 /**
@@ -1042,14 +1041,4 @@ class message_label extends rcube_plugin {
 
 }
 
-?><script>
-    var data = <?php  $this->rc->imap->set_page(1);
-        $this->rc->imap->set_search_set(NULL);
-        $_SESSION['page'] = 1;
-        $page = get_input_value('_page', RCUBE_INPUT_POST);
-        $page = $page ? $page : 1;
-        $id = get_input_value('_id', RCUBE_INPUT_POST);
-        //echo($page);
-        ?>;
-    console.log(data);//Don't forget the extra semicolon!
-</script>
+?>
