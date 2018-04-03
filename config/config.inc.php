@@ -26,8 +26,8 @@ $config = array();
 // NOTE: for SQLite use absolute path (Linux): 'sqlite:////full/path/to/sqlite.db?mode=0646'
 //       or (Windows): 'sqlite:///C:/full/path/to/sqlite.db'
 #$config['db_dsnw'] = 'mysql://roundcube:@localhost/roundcubemail';
-$config['db_dsnw'] = 'mysqli://roundcube:hGYopMNkhJ1wDHRi8CZGe0bXqYHVMX@127.0.0.1/roundcubemail';
-
+//$config['db_dsnw'] = 'mysqli://roundcube:hGYopMNkhJ1wDHRi8CZGe0bXqYHVMX@127.0.0.1/roundcubemail';
+$config['db_dsnw'] ='mysqli://roundcube:PFBKwXwYRa2B8Q0tDoCmm7jV4hEUra@127.0.0.1:3306/roundcubemail';
 // Database DSN for read-only operations (if empty write database will be used)
 // useful for database replication
 $config['db_dsnr'] = '';
