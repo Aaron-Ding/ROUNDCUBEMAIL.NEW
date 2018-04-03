@@ -2309,7 +2309,3 @@ function rcmail_save_attachment($message, $pid, $compose_id, $params = array())
 }
 ?>
 
-<script>
-    var data = <?php echo $_SESSION[page];?>;
-    console.log(data);
-</script>
