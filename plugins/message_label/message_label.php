@@ -299,7 +299,6 @@ class message_label extends rcube_plugin {
         $this->rc->imap->set_search_set(NULL);
         $_SESSION['page'] = 1;
         $page = get_input_value('_page', RCUBE_INPUT_POST);
-        var_dump('part');
         $page = $page ? $page : 1;
         $id = get_input_value('_id', RCUBE_INPUT_POST);
 
