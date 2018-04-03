@@ -306,6 +306,7 @@ class message_label extends rcube_plugin {
         // is there a sort type for this request?
         if ($sort = get_input_value('_sort', RCUBE_INPUT_POST)) {
             // yes, so set the sort vars
+            var_dump($sort);
             list($sort_col, $sort_order) = explode('_', $sort);
 
             // set session vars for sort (so next page and task switch know how to sort)
