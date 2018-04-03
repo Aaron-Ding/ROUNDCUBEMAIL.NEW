@@ -14,8 +14,8 @@ class message_label extends rcube_plugin {
         $rcmail = rcmail::get_instance();
         $this->rc = $rcmail;
         //var_dump($_SESSION);
-        echo ($rcmail->action);
-        echo ($rcmail->task);
+        //echo ($rcmail->action);
+        //echo ($rcmail->task);
         if (isset($_SESSION['user_id'])) {
             $this->add_texts('localization', true);
             $this->add_hook('messages_list', array($this, 'message_set_label'));
@@ -60,6 +60,7 @@ class message_label extends rcube_plugin {
      */
     function startup($args) {
         $search = get_input_value('_search', RCUBE_INPUT_GET);
+        echo ($search);
         if (!isset($search))
             $search = get_input_value('_search', RCUBE_INPUT_POST);
 
