@@ -13,7 +13,7 @@ class message_label extends rcube_plugin {
     public function init() {
         $rcmail = rcmail::get_instance();
         $this->rc = $rcmail;
-
+    var_dump($_SESSION['user_id']);
         if (isset($_SESSION['user_id'])) {
             $this->add_texts('localization', true);
             $this->add_hook('messages_list', array($this, 'message_set_label'));
@@ -317,7 +317,7 @@ class message_label extends rcube_plugin {
         }
 
         isset($id) ? $_SESSION['label_id'] = $id : $id = $_SESSION['label_id'];
-            var_dump('hahhahahahahahalalal');
+
         $prefs = $this->rc->config->get('message_label', array());
 
         // get search string
