@@ -311,7 +311,7 @@ class message_label extends rcube_plugin {
             // yes, so set the sort vars
 
             list($sort_col, $sort_order) = explode('_', $sort);
-            var_dump($sort_col);
+            //var_dump($sort_col);
             // set session vars for sort (so next page and task switch know how to sort)
             $save_arr = array();
             $_SESSION['sort_col'] = $save_arr['message_sort_col'] = $sort_col;

@@ -161,6 +161,7 @@ function rcmail_init_env()
         else {
             $message_sort_col = $RCMAIL->config->get('message_sort_col');
             $message_sort_order = $RCMAIL->config->get('message_sort_order');
+            var_dump($message_sort_col);
         }
    // $message_sort_col   = $RCMAIL->config->get('message_sort_col');
    // $message_sort_order = $RCMAIL->config->get('message_sort_order');
