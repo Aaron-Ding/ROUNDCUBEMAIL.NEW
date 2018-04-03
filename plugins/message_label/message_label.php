@@ -312,7 +312,7 @@ class message_label extends rcube_plugin {
             $save_arr = array();
             $_SESSION['sort_col'] = $save_arr['message_sort_col'] = $sort_col;
             $_SESSION['sort_order'] = $save_arr['message_sort_order'] = $sort_order;
-            var_dump($_SESSION['sort_col']);
+            echo('part');
         } else {
             // use session settings if set, defaults if not
             $sort_col = isset($_SESSION['sort_col']) ? $_SESSION['sort_col'] : $this->rc->config->get('message_sort_col');
