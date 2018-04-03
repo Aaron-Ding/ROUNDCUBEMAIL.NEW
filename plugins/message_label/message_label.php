@@ -60,7 +60,7 @@ class message_label extends rcube_plugin {
      */
     function startup($args) {
         $search = get_input_value('_search', RCUBE_INPUT_GET);
-        var_dump ($args);
+        //var_dump ($args);
         if (!isset($search))
             $search = get_input_value('_search', RCUBE_INPUT_POST);
 
@@ -301,7 +301,7 @@ class message_label extends rcube_plugin {
         $page = get_input_value('_page', RCUBE_INPUT_POST);
 
         $page = $page ? $page : 1;
-
+        var_dumo($page);
         $id = get_input_value('_id', RCUBE_INPUT_POST);
 
         // is there a sort type for this request?
