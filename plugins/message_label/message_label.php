@@ -299,14 +299,14 @@ class message_label extends rcube_plugin {
         $this->rc->imap->set_search_set(NULL);
         $_SESSION['page'] = 1;
         $page = get_input_value('_page', RCUBE_INPUT_POST);
-
+        var_dump('part');
         $page = $page ? $page : 1;
         $id = get_input_value('_id', RCUBE_INPUT_POST);
 
         // is there a sort type for this request?
         if ($sort = get_input_value('_sort', RCUBE_INPUT_POST)) {
             // yes, so set the sort vars
-            var_dump('sort');
+            //var_dump('sort');
             list($sort_col, $sort_order) = explode('_', $sort);
 
             // set session vars for sort (so next page and task switch know how to sort)
