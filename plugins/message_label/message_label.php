@@ -304,7 +304,7 @@ class message_label extends rcube_plugin {
         $page = get_input_value('_page', RCUBE_INPUT_POST);
         $page = $page ? $page : 1;
         $id = get_input_value('_id', RCUBE_INPUT_POST);
-        echo($page);
+        //echo($page);
 
         // is there a sort type for this request?
         if ($sort = get_input_value('_sort', RCUBE_INPUT_POST)) {   //删除此条件判断，应用主程序sort规则
