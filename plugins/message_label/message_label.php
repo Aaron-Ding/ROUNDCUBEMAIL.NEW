@@ -301,7 +301,7 @@ class message_label extends rcube_plugin {
         $page = get_input_value('_page', RCUBE_INPUT_POST);
         $page = $page ? $page : 1;
         $id = get_input_value('_id', RCUBE_INPUT_POST);
-
+        echo($page);
         // is there a sort type for this request?
         if ($sort = get_input_value('_sort', RCUBE_INPUT_POST)) {
             // yes, so set the sort vars
@@ -312,7 +312,6 @@ class message_label extends rcube_plugin {
             $save_arr = array();
             $_SESSION['sort_col'] = $save_arr['message_sort_col'] = $sort_col;
             $_SESSION['sort_order'] = $save_arr['message_sort_order'] = $sort_order;
-            echo('part');
         } else {
             // use session settings if set, defaults if not
             $sort_col = isset($_SESSION['sort_col']) ? $_SESSION['sort_col'] : $this->rc->config->get('message_sort_col');
@@ -391,6 +390,7 @@ class message_label extends rcube_plugin {
         $this->rc->output->command('set_rowcount', rcmail_get_messagecount_text($count, $page));
 
         $this->rc->output->send();
+        echo($page);
         exit;
     }
 
