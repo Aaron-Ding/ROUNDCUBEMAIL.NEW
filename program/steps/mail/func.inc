@@ -25,7 +25,7 @@ $RCMAIL->storage_init();
 
 // init environment - set current folder, page, list mode
 rcmail_init_env();
-
+var_dump($_SESSION['page']);
 // set message set for search result
 if (!empty($_REQUEST['_search']) && isset($_SESSION['search'])
     && $_SESSION['search_request'] == $_REQUEST['_search']
