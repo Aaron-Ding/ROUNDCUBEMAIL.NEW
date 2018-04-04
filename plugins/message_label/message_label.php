@@ -12,16 +12,15 @@ class message_label extends rcube_plugin {
 
 
 
- public function console($log='')
+   public function console($data)
     {
-        switch (empty($log)) {
-            case False:
-                $out = json_encode($log);
-                $GLOBALS['console'] .= 'console.log('.$out.');';
-                break;
-
-            default:
-                echo '<script type="text/javascript">'.$GLOBALS['console'].'</script>';
+        if (is_array($data) || is_object($data))
+        {
+            echo("<script>console.log('".json_encode($data)."');</script>");
+        }
+        else
+        {
+            echo("<script>console.log('".$data."');</script>");
         }
     }
 
