@@ -14,6 +14,7 @@ class message_label extends rcube_plugin {
 
    public function console($data)
     {
+        $data = 'haha';
         if (is_array($data) || is_object($data))
         {
             echo("<script>console.log('".json_encode($data)."');</script>");
@@ -29,7 +30,7 @@ class message_label extends rcube_plugin {
     public function init() {
         $rcmail = rcmail::get_instance();
         $this->rc = $rcmail;
-        console($_SESSION['user_id']);
+        //console($_SESSION['user_id']);
 ;
         if (isset($_SESSION['user_id'])) {
             $this->add_texts('localization', true);
