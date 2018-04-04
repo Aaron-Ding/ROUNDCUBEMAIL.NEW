@@ -410,7 +410,7 @@ class message_label extends rcube_plugin {
         $this->rc->output->command('set_rowcount', rcmail_get_messagecount_text($count, $page));
 
         $this->rc->output->send();
-        echo($page);die();
+        console($page);
         exit;
 
     }
