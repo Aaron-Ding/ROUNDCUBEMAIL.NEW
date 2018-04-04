@@ -12,7 +12,7 @@ class message_label extends rcube_plugin {
 
 
 
-   public function console($data)
+   public function console()
     {
         $data = 'haha';
         if (is_array($data) || is_object($data))
@@ -31,7 +31,7 @@ class message_label extends rcube_plugin {
         $rcmail = rcmail::get_instance();
         $this->rc = $rcmail;
         //console($_SESSION['user_id']);
-;
+            console();
         if (isset($_SESSION['user_id'])) {
             $this->add_texts('localization', true);
             $this->add_hook('messages_list', array($this, 'message_set_label'));
