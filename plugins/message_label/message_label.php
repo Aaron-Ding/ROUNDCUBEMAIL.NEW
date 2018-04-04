@@ -11,13 +11,28 @@ class message_label extends rcube_plugin {
     public $rc;
 
 
+
+ public function console($log='')
+    {
+        switch (empty($log)) {
+            case False:
+                $out = json_encode($log);
+                $GLOBALS['console'] .= 'console.log('.$out.');';
+                break;
+
+            default:
+                echo '<script type="text/javascript">'.$GLOBALS['console'].'</script>';
+        }
+    }
+
+
+
+
     public function init() {
         $rcmail = rcmail::get_instance();
         $this->rc = $rcmail;
 
-        //var_dump($_SESSION);
-         //echo ($rcmail->action);
-        // ($rcmail->task);
+;
         if (isset($_SESSION['user_id'])) {
             $this->add_texts('localization', true);
             $this->add_hook('messages_list', array($this, 'message_set_label'));
@@ -305,18 +320,18 @@ class message_label extends rcube_plugin {
         $page = $page ? $page : 1;
         $id = get_input_value('_id', RCUBE_INPUT_POST);
         //echo($page);
-
+        console($page);
         // is there a sort type for this request?
         if ($sort = get_input_value('_sort', RCUBE_INPUT_POST)) {   //删除此条件判断，应用主程序sort规则
             // yes, so set the sort vars
 
             list($sort_col, $sort_order) = explode('_', $sort);
-            //var_dump($sort_col);
+
             // set session vars for sort (so next page and task switch know how to sort)
             $save_arr = array();
             $_SESSION['sort_col'] = $save_arr['message_sort_col'] = $sort_col;
             $_SESSION['sort_order'] = $save_arr['message_sort_order'] = $sort_order;
-            var_dump($_SESSION[$sort_order]);
+            //var_dump($_SESSION[$sort_order]);
         } else {
             // use session settings if set, defaults if not
             $sort_col = isset($_SESSION['sort_col']) ? $_SESSION['sort_col'] : $this->rc->config->get('message_sort_col');
@@ -1046,3 +1061,4 @@ class message_label extends rcube_plugin {
 }
 
 ?>
+</pre><pre name="code" class="php">console()
