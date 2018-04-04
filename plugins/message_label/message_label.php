@@ -30,10 +30,7 @@ class message_label extends rcube_plugin {
     public function init() {
         $rcmail = rcmail::get_instance();
         $this->rc = $rcmail;
-        console($_SESSION);
-        $_SESSION[page] = '2';
-        //var_dump($_SESSION[page]);
-            //console();
+
         if (isset($_SESSION['user_id'])) {
             $this->add_texts('localization', true);
             $this->add_hook('messages_list', array($this, 'message_set_label'));
@@ -316,7 +313,7 @@ class message_label extends rcube_plugin {
         // reset list_page and old search results
         $this->rc->imap->set_page(1);
         $this->rc->imap->set_search_set(NULL);
-        $_SESSION['page'] = 1;
+        //$_SESSION['page'] = 1;
         $page = get_input_value('_page', RCUBE_INPUT_POST);
         $page = $page ? $page : 1;
         $id = get_input_value('_id', RCUBE_INPUT_POST);
