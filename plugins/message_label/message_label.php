@@ -26,11 +26,10 @@ class message_label extends rcube_plugin {
 
 
 
-
     public function init() {
         $rcmail = rcmail::get_instance();
         $this->rc = $rcmail;
-
+        console($_SESSION['user_id']);
 ;
         if (isset($_SESSION['user_id'])) {
             $this->add_texts('localization', true);
@@ -319,7 +318,7 @@ class message_label extends rcube_plugin {
         $page = $page ? $page : 1;
         $id = get_input_value('_id', RCUBE_INPUT_POST);
         //echo($page);die();
-        console($page);
+        //console($page);
         // is there a sort type for this request?
         if ($sort = get_input_value('_sort', RCUBE_INPUT_POST)) {   //删除此条件判断，应用主程序sort规则
             // yes, so set the sort vars
