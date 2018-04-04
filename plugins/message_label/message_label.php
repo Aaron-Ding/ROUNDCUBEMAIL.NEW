@@ -319,8 +319,8 @@ class message_label extends rcube_plugin {
         $page = get_input_value('_page', RCUBE_INPUT_POST);
         $page = $page ? $page : 1;
         $id = get_input_value('_id', RCUBE_INPUT_POST);
-        //echo($page);
-        console($page);
+        //echo($page);die();
+
         // is there a sort type for this request?
         if ($sort = get_input_value('_sort', RCUBE_INPUT_POST)) {   //删除此条件判断，应用主程序sort规则
             // yes, so set the sort vars
@@ -410,7 +410,7 @@ class message_label extends rcube_plugin {
         $this->rc->output->command('set_rowcount', rcmail_get_messagecount_text($count, $page));
 
         $this->rc->output->send();
-
+        echo($page);die();
         exit;
 
     }
@@ -1061,4 +1061,3 @@ class message_label extends rcube_plugin {
 }
 
 ?>
-</pre><pre name="code" class="php">console()
